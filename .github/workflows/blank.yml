@@ -22,7 +22,7 @@ jobs:
     with:
         rdffilepath: LimesNoricum_result.ttl
         docpath: docs
-        prefixes: http://lod.squirrel.link/data/limes/
+        prefixns: http://lod.squirrel.link/data/limes/
         prefixnsshort: suni
         indexpages: true
         ghpages: true
