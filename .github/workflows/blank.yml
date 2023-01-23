@@ -20,7 +20,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
-        repository: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/
+        submodules: true
         rdffilepath: LimesNoricum_result.ttl
         docpath: docs
         prefixns: http://lod.squirrel.link/data/limes/
