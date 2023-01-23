@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+    uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@v1
     with:
         rdffilepath: LimesNoricum_result.ttl
         docpath: docs
