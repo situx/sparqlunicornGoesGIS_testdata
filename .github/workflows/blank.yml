@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/blob/462d3f9b073c512390f709032925fd0ab221c433/.github/workflows/udoc.yml@main
+      - uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         with:
           rdffilepath: LimesNoricum_result.ttl
           docpath: docs
