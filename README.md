@@ -10,7 +10,7 @@ Included in this repository is a showcase for the standalone (https://github.com
 
 The script is used in a Github Action, as an external workflow to generate HTML documentation for the two TTL files in this repository.
 
-`
+```
 uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with: 
         rdffilepath: LimesNoricum_result.ttl LimesDaicus_result.ttl
@@ -19,7 +19,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         prefixnsshort: limes
         indexpages: true
         ghpages: true
-`
+```
 
 The workflow may be called using the following paramters:
 * rdffilepath: A whitespace-separated list of RDF files
