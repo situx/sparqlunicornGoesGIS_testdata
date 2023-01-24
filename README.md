@@ -1,4 +1,4 @@
-# SPARQLing Unicorn QGIS Plugin Testdata
+# SPARQLing Unicorn QGIS Plugin Testdata 
 
 Sample data for using the SPARQLing Unicorn QGIS Plugin
 
