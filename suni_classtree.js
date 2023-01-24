@@ -523,7 +523,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://onto.squirrel.link/ontology#Burgus": 1
+              "http://lod.squirrel.link/data/limes/noricum/Kleinkastell": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
