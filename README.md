@@ -23,9 +23,11 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
 
 The workflow may be called using the following paramters:
 * rdffilepath: A whitespace-separated list of RDF files
-* docpath: The path where the HTML documentation should be stored
+* docpath: The path where the HTML documentation should be stored, optionally also a list of paths
 * prefixns: The prefix of the RDF data which should be documented with HTML
 * prefixnsshort: The short name of the data prefix as it should appear in the HTML documentation
 * indexpages: If true, generates index pages for navigation
 * ghpages: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
+
+
 
