@@ -49,7 +49,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "FeatureCollection [1]",
+        "text": "FeatureCollection [2]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -84,7 +84,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "GeometryCollection [1]",
+        "text": "GeometryCollection [2]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -505,8 +505,8 @@ var tree={
       {
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
-        "type": "geoclass",
-        "text": "Point [40]",
+        "type": "halfgeoclass",
+        "text": "Point [144]",
         "data": {
           "to": {
             "http://www.opengis.net/ont/geosparql#asWKT": {
@@ -523,11 +523,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://onto.squirrel.link/ontology#MilitaryCamp": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
+              "http://onto.squirrel.link/ontology#Watchtower": 1
             }
           }
         },
@@ -888,6 +884,1490 @@ var tree={
         "parent": "#",
         "type": "collectionclass",
         "text": "SpatialObjectCollection",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "instance",
+        "text": "LimesDaicusFeatures",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries",
+        "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "type": "instance",
+        "text": "LimesDaicusGeometries",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "a6ec226a-3c2a-444a-9221-839201e1135f",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "aadec8db-70f9-4c40-833a-2a7c39c631d2",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "ae458e0d-85d0-4756-b265-db4db5bb7fe2",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "af909713-68f5-4b6d-89d5-03f7fc7fd5c1",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "b0524f84-a9d2-45fa-9f69-d8164ad73440",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "b0cccdd1-2478-40bc-add2-a0e1bad88feb",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "b5cf0c45-ec51-4710-a03a-75e7dc30a7a3",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "b6e369cd-722a-4a1c-a984-538bb26f3777",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "bd14e9f3-dd38-4329-a655-60b00fd8d5b7",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "c3451d14-c4ee-42be-b918-af9735167f5f",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "c3a471a8-ab67-4e9c-b127-1eff017b0cb4",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "c8ecf3da-c535-41df-b06e-298cd8542633",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "cba75304-f136-465d-90fb-56dff3acc018",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "d2adbbd5-f4a7-471d-a817-b28e37bcbfb1",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "d92ef45f-91c4-442e-b279-61f17fbccb7c",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "e0423dfe-4fdf-4bf6-8453-97d7bee4d031",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "e2573931-d743-40c3-a6b7-08ffeb244daa",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "e3899f66-1234-4a44-b16e-2ead1e0bf696",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "e69e6cb2-cded-446c-b159-daec78476f43",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "e811fe5a-92d2-43a0-a572-51bc5942e242",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "ec646e12-636f-4c8c-96c2-0f46833adf1c",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "ed79872f-dcb1-48d0-a008-5a3c65432a67",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "f35f2d3f-8925-4139-9e9b-cf07ee5aaecb",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "f42bb013-afeb-4044-9886-ece53cc813d4",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "f81e10af-8e41-447d-b601-dcba5311199b",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "f8305d66-9429-43c0-b6e3-73721df9986b",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "0ab5e10e-4fb0-4854-835b-389043840ee0",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "0ccd99fd-62d1-4978-873a-106b1f5e3880",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "0e91c0e7-3991-4a45-89ed-382f7c74731a",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "0f25c729-a3c7-4cb4-b063-ff72c0124b4f",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "000d5176-6b9e-4065-a44f-d7b8f75b1199",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "01189de6-024d-4022-96ff-eec7e4efee0c",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "0203af0b-bc52-4f9f-b490-b2bc3fe431fc",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "06eb8de4-750e-4ed9-ad04-9bf16d61c975",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "096a9a4c-020f-4ce0-a4a6-993d50d08fea",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "1b4b9c1f-cb64-4c02-976d-61c2147b0705",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "1c936059-6af8-4f03-8e18-cc61f529c5f3",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "1d8f65a8-c30b-40f1-9676-2e1145691ac3",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "1e218e82-f264-4241-a8e0-5efd9a1ec8a4",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "10b043a5-bb2b-48af-a168-84046185d6f7",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "120e3991-1f39-4359-b810-37bb24aff05c",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "1795d125-e071-4153-b07e-e147bb19ad65",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "19360a61-a15a-4d56-a100-f3be57e93ff1",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "2c2fb600-f249-469e-a025-1961edf5132d",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "22bf9a4e-a715-43f7-9fd0-4a60b8b77288",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "3af3a2c4-8038-482d-9fa9-a0e90584ef6d",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "3b51185a-d7ca-4c22-b85d-a021b3727c4d",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "3f7e0b8c-1a5f-423f-85da-536d87bbdcc8",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "322e89c0-f571-4be4-a08c-84b35efb69e5",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "34d0d768-2d4d-42b3-82ae-e29bad5c1eed",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "340738ca-7444-4896-a0fd-cd9e6806eb30",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "3680e065-f377-4f4d-a9d6-84523dcb1727",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "4df4edbc-facd-42bd-b05e-076f94ae693b",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "4e013c45-7445-4ea6-8356-2c9cc9e7ac6e",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "4198c975-e14a-4fb3-9b2e-7be9e145ecac",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "42d9c007-47e1-4b2a-ab2c-c381f93cac96",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "47a7d25e-6315-4256-b257-c2dfaea5e42f",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "5a43030f-b985-4444-8cf9-3e4a0b132d79",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "5b90b8d5-ba6e-4789-94d2-db823824acbf",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "5d0fac8e-53ae-4ae7-92a2-dd419eee0dce",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "5e33b468-4135-46b4-babc-99f5c423f966",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "5e6a65c9-32dd-4581-b6ab-a95afdc4d061",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "5ea0f057-026f-4556-97f5-3e0e3a9471c3",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "50320dbe-929c-40e3-aebd-f8f257d6472a",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "64ae9ea8-9dca-4e22-b32b-c2f95fd80b44",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "6689fc0e-01ff-4dbc-b3ed-49e35a3d397a",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "7aa137c0-3763-4bd3-a1ec-bd8a88b3d786",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "7b05b48b-cd48-4c66-916e-6ea581179843",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "7c3bf06c-8f79-457e-b56f-77da98c7a69b",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "7cadca30-bfd9-4628-9916-c20eecafa356",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "7cb289bf-4a31-467d-9c9d-4271a8dc55c9",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "7dd1742c-a3a5-4494-b148-1d435d754d5d",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "70d51242-571e-43ce-bd01-3bffca8cb4be",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "707cb61a-d04e-4c7b-a620-6587db82f116",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "7422f9df-da23-450f-8eac-db2d8dfca42e",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "8c5f1f84-f11a-48f0-8e9a-c629c7d346e2",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "8f823c04-d42b-49ec-879d-2c446d575885",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "8fa245f8-ffe5-4e74-b259-410c7be91afd",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "80ce787b-1ab0-42e7-b03c-c641d3767774",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "815f5c63-8478-4aac-bafb-11eaafa9a923",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "86dae60a-c827-480d-bb38-04a480b9ea01",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "9a084d40-bf5c-42fa-8aa7-8c678524c631",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "9a118e00-be2c-4c2d-a9f9-8cb86170e3d1",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "9ac48ee9-00b6-46ab-a597-b6aa5f2d784a",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "9b62118c-9936-42f2-a6e7-49f649c937f2",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "9ba7d74c-175e-48c8-9403-dbbdd650ed22",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "9d1c0c0d-98f5-4728-86ee-4288dde6d0fa",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "9f76d5fd-4ee3-4985-9fb6-c22bfdf43436",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "918ef494-4408-4a91-8ee0-61f6087ffee7",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79",
+        "parent": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "type": "instance",
+        "text": "986efe66-cf8a-4b64-a488-ad95d0f2dd79",
+        "data": {}
+      },
+      {
+        "id": "http://archaeoinformatics.link/ontology#MilitaryCamp",
+        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "type": "class",
+        "text": "MilitaryCamp [98]",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "a6ec226a-3c2a-444a-9221-839201e1135f_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "aadec8db-70f9-4c40-833a-2a7c39c631d2_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "b0524f84-a9d2-45fa-9f69-d8164ad73440_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "b6e369cd-722a-4a1c-a984-538bb26f3777_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "c3451d14-c4ee-42be-b918-af9735167f5f_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "c8ecf3da-c535-41df-b06e-298cd8542633_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "cba75304-f136-465d-90fb-56dff3acc018_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "d92ef45f-91c4-442e-b279-61f17fbccb7c_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "e2573931-d743-40c3-a6b7-08ffeb244daa_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "e3899f66-1234-4a44-b16e-2ead1e0bf696_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "e69e6cb2-cded-446c-b159-daec78476f43_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "e811fe5a-92d2-43a0-a572-51bc5942e242_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "ec646e12-636f-4c8c-96c2-0f46833adf1c_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "ed79872f-dcb1-48d0-a008-5a3c65432a67_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "f42bb013-afeb-4044-9886-ece53cc813d4_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "f81e10af-8e41-447d-b601-dcba5311199b_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "f8305d66-9429-43c0-b6e3-73721df9986b_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "ffd99607-0513-4fa5-8073-c80bddbfab84_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "0ab5e10e-4fb0-4854-835b-389043840ee0_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "0ccd99fd-62d1-4978-873a-106b1f5e3880_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "0e91c0e7-3991-4a45-89ed-382f7c74731a_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "000d5176-6b9e-4065-a44f-d7b8f75b1199_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "01189de6-024d-4022-96ff-eec7e4efee0c_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "1c936059-6af8-4f03-8e18-cc61f529c5f3_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "10b043a5-bb2b-48af-a168-84046185d6f7_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "120e3991-1f39-4359-b810-37bb24aff05c_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "1795d125-e071-4153-b07e-e147bb19ad65_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "19360a61-a15a-4d56-a100-f3be57e93ff1_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "2c2fb600-f249-469e-a025-1961edf5132d_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "322e89c0-f571-4be4-a08c-84b35efb69e5_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "340738ca-7444-4896-a0fd-cd9e6806eb30_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "3680e065-f377-4f4d-a9d6-84523dcb1727_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "4df4edbc-facd-42bd-b05e-076f94ae693b_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "47a7d25e-6315-4256-b257-c2dfaea5e42f_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "497eff64-e309-4704-b5f0-3e2872ff379d_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "5a43030f-b985-4444-8cf9-3e4a0b132d79_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "5b90b8d5-ba6e-4789-94d2-db823824acbf_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "5e33b468-4135-46b4-babc-99f5c423f966_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "50320dbe-929c-40e3-aebd-f8f257d6472a_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "5709a2bb-8d86-44af-b582-19151b918068_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7b05b48b-cd48-4c66-916e-6ea581179843_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7cadca30-bfd9-4628-9916-c20eecafa356_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7dd1742c-a3a5-4494-b148-1d435d754d5d_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7e6b0abd-392e-48da-a973-52db57e43459_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "70d51242-571e-43ce-bd01-3bffca8cb4be_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "707cb61a-d04e-4c7b-a620-6587db82f116_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "7422f9df-da23-450f-8eac-db2d8dfca42e_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "8f823c04-d42b-49ec-879d-2c446d575885_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "8fa245f8-ffe5-4e74-b259-410c7be91afd_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "80ce787b-1ab0-42e7-b03c-c641d3767774_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "815f5c63-8478-4aac-bafb-11eaafa9a923_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "86dae60a-c827-480d-bb38-04a480b9ea01_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "9a084d40-bf5c-42fa-8aa7-8c678524c631_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "9b62118c-9936-42f2-a6e7-49f649c937f2_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "918ef494-4408-4a91-8ee0-61f6087ffee7_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom",
+        "parent": "http://www.opengis.net/ont/sf#Point",
+        "type": "instance",
+        "text": "986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e",
+        "parent": "http://archaeoinformatics.link/ontology#LegionaryCamp",
+        "type": "instance",
+        "text": "fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84",
+        "parent": "http://archaeoinformatics.link/ontology#LegionaryCamp",
+        "type": "instance",
+        "text": "ffd99607-0513-4fa5-8073-c80bddbfab84",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d",
+        "parent": "http://archaeoinformatics.link/ontology#LegionaryCamp",
+        "type": "instance",
+        "text": "497eff64-e309-4704-b5f0-3e2872ff379d",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068",
+        "parent": "http://archaeoinformatics.link/ontology#LegionaryCamp",
+        "type": "instance",
+        "text": "5709a2bb-8d86-44af-b582-19151b918068",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459",
+        "parent": "http://archaeoinformatics.link/ontology#LegionaryCamp",
+        "type": "instance",
+        "text": "7e6b0abd-392e-48da-a973-52db57e43459",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6",
+        "parent": "http://archaeoinformatics.link/ontology#LegionaryCamp",
+        "type": "instance",
+        "text": "87009579-c2cc-4c7a-9b02-901bf75a0ee6",
+        "data": {}
+      },
+      {
+        "id": "http://archaeoinformatics.link/ontology#LegionaryCamp",
+        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "type": "class",
+        "text": "LegionaryCamp [6]",
         "data": {}
       }
     ]
