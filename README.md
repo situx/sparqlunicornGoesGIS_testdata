@@ -32,4 +32,3 @@ The workflow may be called using the following paramters:
 * createcollections: If true, generates SKOS collections for items of the same class for navigation purposes
 * preferredlang: Defines the preferred label language for multilingual graphs (default: en)
 * ghpages: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
-
