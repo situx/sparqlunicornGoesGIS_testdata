@@ -18,6 +18,8 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         prefixns: http://lod.squirrel.link/data/limes/
         prefixnsshort: limes
         indexpages: true
+        createcollections: false
+        preferredlang: en
         ghpages: true
 ```
 
@@ -27,4 +29,7 @@ The workflow may be called using the following paramters:
 * prefixns: The prefix of the RDF data which should be documented with HTML
 * prefixnsshort: The short name of the data prefix as it should appear in the HTML documentation
 * indexpages: If true, generates index pages for navigation
+* createcollections: If true, generates SKOS collections for items of the same class for navigation purposes
+* preferredlang: Defines the preferred label language for multilingual graphs
 * ghpages: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
+
