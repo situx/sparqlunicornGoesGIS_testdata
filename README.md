@@ -30,6 +30,6 @@ The workflow may be called using the following paramters:
 * prefixnsshort: The short name of the data prefix as it should appear in the HTML documentation
 * indexpages: If true, generates index pages for navigation
 * createcollections: If true, generates SKOS collections for items of the same class for navigation purposes
-* preferredlang: Defines the preferred label language for multilingual graphs
+* preferredlang: Defines the preferred label language for multilingual graphs (default: en)
 * ghpages: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
 
