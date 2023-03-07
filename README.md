@@ -28,6 +28,3 @@ The workflow may be called using the following paramters:
 * prefixnsshort: The short name of the data prefix as it should appear in the HTML documentation
 * indexpages: If true, generates index pages for navigation
 * ghpages: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
-
-
-
