@@ -20,6 +20,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         indexpages: true
         createcollections: false
         preferredlang: en
+        license: CC-BY-SA 4.0
         ghpages: true
 ```
  
@@ -31,5 +32,6 @@ The workflow may be called using the following paramters:
 * indexpages: If true, generates index pages for navigation
 * createcollections: If true, generates SKOS collections for items of the same class for navigation purposes
 * preferredlang: Defines the preferred label language for multilingual graphs (default: en)
+* license: One of the following licenses or leave empty for no license All rights reserved | CC BY 4.0 | CC BY-SA 4.0 | CC BY-NC 4.0 | CC BY-NC-SA 4.0 | CC BY-ND 4.0 | CC BY-NC-ND 4.0 | CC0
 * ghpages: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
 
