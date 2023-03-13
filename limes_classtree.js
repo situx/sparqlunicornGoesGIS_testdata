@@ -74,6 +74,13 @@ var tree={
         "instancecount": 52
       },
       {
+        "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
+        "data": {}
+      },
+      {
         "id": "http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries",
         "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "type": "geocollection",
@@ -811,14 +818,16 @@ var tree={
               "instancecount": 1
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
-            }
-          }
+          "from": {}
         },
         "instancecount": 4
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#Feature",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
+        "type": "class",
+        "text": "Feature (gsp:Feature)",
+        "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom",
@@ -1580,6 +1589,13 @@ var tree={
         "instancecount": 3
       },
       {
+        "id": "http://www.opengis.net/ont/geosparql#Geometry",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
+        "type": "class",
+        "text": "Geometry (gsp:Geometry)",
+        "data": {}
+      },
+      {
         "id": "http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e",
         "parent": "http://archaeoinformatics.link/ontology#LegionaryCamp",
         "type": "geoinstance",
@@ -1648,31 +1664,10 @@ var tree={
         "instancecount": 4
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#Feature",
-        "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
-        "type": "class",
-        "text": "Feature (gsp:Feature)",
-        "data": {}
-      },
-      {
-        "id": "http://www.opengis.net/ont/geosparql#Geometry",
-        "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
-        "type": "class",
-        "text": "Geometry (gsp:Geometry)",
-        "data": {}
-      },
-      {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "parent": "#",
         "type": "class",
         "text": "SpatialObject (gsp:SpatialObject)",
-        "data": {}
-      },
-      {
-        "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
-        "parent": "#",
-        "type": "collectionclass",
-        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
         "data": {}
       },
       {
@@ -1803,6 +1798,33 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 3
+      },
+      {
+        "id": "http://archaeoinformatics.link/ontology#Limes",
+        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "type": "geoclass",
+        "text": "Limes [3]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 0,
+              "http://lod.squirrel.link/data/limes/noricum/Kleinkastell": 3
             }
           }
         },
@@ -2304,33 +2326,6 @@ var tree={
         "type": "geoinstance",
         "text": "Milit\u00e4rziegelei Sankt Marienkirchen (7e23ed9a-8efc-48ec-a294-a7cc9b8285dc)",
         "data": {}
-      },
-      {
-        "id": "http://archaeoinformatics.link/ontology#Limes",
-        "parent": "http://www.opengis.net/ont/geosparql#Feature",
-        "type": "geoclass",
-        "text": "Limes [3]",
-        "data": {
-          "to": {
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
-            }
-          },
-          "from": {
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 0,
-              "http://lod.squirrel.link/data/limes/noricum/Kleinkastell": 3
-            }
-          }
-        },
-        "instancecount": 3
       },
       {
         "id": "http://lod.squirrel.link/data/limes/noricum/203478fb-4a78-48c7-bd75-97b667f6e707",
