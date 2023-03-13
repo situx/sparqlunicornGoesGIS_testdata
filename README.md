@@ -42,4 +42,3 @@ The workflow may be called using the following paramters:
   * CC BY-NC-ND 4.0 
   * CC0
 * ghpages: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
-
