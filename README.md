@@ -22,12 +22,14 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         preferredlang: en
         license: CC-BY-SA 4.0
         ghpages: true
+        ghpagesbranch: gh-pages
+        ghpagesfolder: /
 ```
  
 The workflow may be called using the following paramters:
-* rdffilepath: A whitespace-separated list of RDF files
+* rdffilepath (required): A whitespace-separated list of RDF files
 * docpath: The path where the HTML documentation should be stored, optionally also a list of paths
-* prefixns: The prefix of the RDF data which should be documented with HTML
+* prefixns (required): The prefix of the RDF data which should be documented with HTML
 * prefixnsshort: The short name of the data prefix as it should appear in the HTML documentation
 * indexpages: If true, generates index pages for navigation
 * createcollections: If true, generates SKOS collections for items of the same class for navigation purposes
@@ -42,4 +44,5 @@ The workflow may be called using the following paramters:
   * CC BY-NC-ND 4.0 
   * CC0
 * ghpages: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
-
+* ghpagesbranch: The branch in which Github pages should be deployed
+* ghpagesfolder: The folder in the given ghpages branch in which the documentation should be deployed
