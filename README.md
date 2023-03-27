@@ -19,10 +19,11 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         prefixnsshort: limes
         indexpages: true
         createcollections: false
+        createnonNSPages: false
+        metadatatable: false
         preferredlang: en
         license: CC-BY-SA 4.0
         logourl: http://mylogo.png
-        metadatatable: false
         ghpages: true
         ghpagesbranch: gh-pages
         ghpagesfolder: /
@@ -35,6 +36,8 @@ The workflow may be called using the following paramters:
 * **prefixnsshort**: The short name of the data prefix as it should appear in the HTML documentation
 * **indexpages**: If true, generates index pages for navigation
 * **createcollections**: If true, generates SKOS collections for items of the same class for navigation purposes
+* **createnonNSPages**: If true, generates pages for object URIs which are not in the **prefixns**
+* **metadatatable**: If true, creates a second table per page which includes only triples in predefined metadata namespaces
 * **preferredlang**: Defines the preferred label language for multilingual graphs (default: en)
 * **license**: One of the following licenses or leave empty for no license 
   * All rights reserved 
@@ -46,7 +49,6 @@ The workflow may be called using the following paramters:
   * CC BY-NC-ND 4.0 
   * CC0
 * **logourl**: A url pointing to a logo which will be displayed on its designated area in the HTML template
-* **metadatatable**: If true, creates a second table per page which includes only triples in predefined metadata namespaces
 * **ghpages**: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
 * **ghpagesbranch**: An alternative branch name in which Github pages should be deployed
 * **ghpagesfolder**: The folder in the given ghpages branch in which the documentation should be deployed
