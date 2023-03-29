@@ -28,5 +28,6 @@ jobs:
         metadatatable: true
         createcollections: false
         createnonNSPages: true
+        createVOWL: true
         preferredlang: en
         ghpages: true
