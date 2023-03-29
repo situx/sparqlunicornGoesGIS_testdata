@@ -54,4 +54,3 @@ The workflow may be called using the following paramters:
 * **ghpages**: If true, publishes the results of the HTML documentation to a branch gh-pages, which may be published as a Github Page
 * **ghpagesbranch**: An alternative branch name in which Github pages should be deployed
 * **ghpagesfolder**: The folder in the given ghpages branch in which the documentation should be deployed
- 
