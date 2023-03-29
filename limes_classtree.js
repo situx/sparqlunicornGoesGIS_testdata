@@ -1579,10 +1579,6 @@ var tree={
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
               "http://archaeoinformatics.link/ontology#MilitaryCamp": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
             }
           }
         },
