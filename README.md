@@ -20,6 +20,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         indexpages: true
         createcollections: false
         createnonNSPages: false
+        createVOWL: false
         metadatatable: false
         preferredlang: en
         license: CC-BY-SA 4.0
