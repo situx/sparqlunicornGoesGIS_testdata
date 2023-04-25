@@ -29,7 +29,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         ghpagesbranch: gh-pages
         ghpagesfolder: /
 ```
- 
+  
 The workflow may be called using the following paramters:
 * **rdffilepath (required)**: A whitespace-separated list of RDF files
 * **docpath**: The path where the HTML documentation should be stored, optionally also a list of paths
