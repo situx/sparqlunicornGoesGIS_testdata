@@ -1,7 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label "Kastell Borosneu Mare Geometry" ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.016986 45.843861)"^^geo:wktLiteral .
-

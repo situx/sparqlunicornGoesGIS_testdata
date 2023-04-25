@@ -1,8 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
-    rdfs:label "Kastell Voineşti" ;
-    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom> ;
-    rdfs:comment "nan" .
-

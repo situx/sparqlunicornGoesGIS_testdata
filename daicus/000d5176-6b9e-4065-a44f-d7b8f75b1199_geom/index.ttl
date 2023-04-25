@@ -1,7 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label "Kastell Orăştioara de Sus Geometry" ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.166667 45.733333)"^^geo:wktLiteral .
-
