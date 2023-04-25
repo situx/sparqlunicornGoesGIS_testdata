@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastelle von Porolissum" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom> ;
+    rdfs:comment "Auxiliarkastelle" .
+
