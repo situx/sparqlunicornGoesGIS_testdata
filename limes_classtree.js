@@ -1805,10 +1805,10 @@ var tree={
         "instancecount": 3
       },
       {
-        "id": "http://archaeoinformatics.link/ontology#Limes",
+        "id": "http://lod.squirrel.link/data/limes/nonns_Limes.html",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "geoclass",
-        "text": "Limes [3]",
+        "text": "Limes (Limes)",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
