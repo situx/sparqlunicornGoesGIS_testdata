@@ -1,1 +1,1 @@
-{}
+{"openapi": "3.0.1", "info": {"title": "https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata Feature Collections", "description": "Feature Collections of https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata"}, "servers": [{"url": "https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata"}], "paths": {}}
