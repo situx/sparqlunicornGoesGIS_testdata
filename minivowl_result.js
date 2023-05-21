@@ -78,14 +78,14 @@ var minivowlresult={
   },
   {
    "source": 7,
-   "target": 9,
+   "target": 8,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
   },
   {
    "source": 7,
-   "target": 8,
+   "target": 9,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -99,14 +99,14 @@ var minivowlresult={
   },
   {
    "source": 6,
-   "target": 9,
+   "target": 8,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
   },
   {
    "source": 6,
-   "target": 8,
+   "target": 9,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
