@@ -818,12 +818,7 @@ var tree={
               "instancecount": 1
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
-            }
-          }
+          "from": {}
         },
         "instancecount": 4
       },
@@ -1815,21 +1810,22 @@ var tree={
         "text": "Limes (Limes)",
         "data": {
           "to": {
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
             }
           },
           "from": {
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://lod.squirrel.link/data/limes/noricum/Kleinkastell": 3
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
             }
           }
         },
