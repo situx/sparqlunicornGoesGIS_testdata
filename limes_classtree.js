@@ -78,13 +78,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 7,
-              "http://archaeoinformatics.link/ontology#LegionaryCamp": 6
+              "instancecount": 110,
+              "http://archaeoinformatics.link/ontology#MilitaryCamp": 98
             }
           },
           "from": {}
         },
-        "instancecount": 10
+        "instancecount": 113
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
