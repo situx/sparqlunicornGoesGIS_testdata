@@ -21,6 +21,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         createcollections: false
         createnonNSPages: false
         createVOWL: false
+        ogcapifeatures: true
         metadatatable: false
         preferredlang: en
         license: CC-BY-SA 4.0
@@ -39,6 +40,7 @@ The workflow may be called using the following paramters:
 * **createcollections**: If true, generates SKOS collections for items of the same class for navigation purposes
 * **createnonNSPages**: If true, generates pages for object URIs which are not in the **prefixns**
 * **createVOWL**: If true, generates a visual owl representation of the class structure on the main index page
+* **ogcapifeatures**: If true, generates OGC API Features compatible JSON files
 * **metadatatable**: If true, creates a second table per page which includes only triples in predefined metadata namespaces
 * **preferredlang**: Defines the preferred label language for multilingual graphs (default: en)
 * **license**: One of the following licenses or leave empty for no license 
