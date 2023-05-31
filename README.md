@@ -22,6 +22,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         createnonNSPages: false
         createVOWL: false
         ogcapifeatures: true
+        iiif: true
         metadatatable: false
         preferredlang: en
         license: CC-BY-SA 4.0
@@ -41,6 +42,7 @@ The workflow may be called using the following paramters:
 * **createnonNSPages**: If true, generates pages for object URIs which are not in the **prefixns**
 * **createVOWL**: If true, generates a visual owl representation of the class structure on the main index page
 * **ogcapifeatures**: If true, generates OGC API Features compatible JSON files
+* **iiif**: If true, generates IIIF manifests for connected media files
 * **metadatatable**: If true, creates a second table per page which includes only triples in predefined metadata namespaces
 * **preferredlang**: Defines the preferred label language for multilingual graphs (default: en)
 * **license**: One of the following licenses or leave empty for no license 
@@ -62,3 +64,4 @@ The workflow may be called using the following paramters:
 Data can be accessed:
 * In the webbrowser using the Github Page of this repository in HTML, JSON and TTL
 * In QGIS as FeatureCollections using the links GithubPage/index.json
+* Using a IIIF viewer using the link GithubPage/iiif
