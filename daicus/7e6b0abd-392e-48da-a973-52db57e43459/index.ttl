@@ -1,8 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459> a <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
-    rdfs:label "Kastell Berzovia " ;
-    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom> ;
-    rdfs:comment "Legionslager" .
-

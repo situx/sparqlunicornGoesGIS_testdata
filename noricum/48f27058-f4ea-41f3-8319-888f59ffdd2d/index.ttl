@@ -1,7 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d> a <http://onto.squirrel.link/ontology#Burgus> ;
-    rdfs:label "Burgus Au-Rotte Hof" ;
-    geo:hasGeometry <http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d_geom> .
-

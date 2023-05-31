@@ -1,9 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/Limes_collection> a geo:FeatureCollection ;
-    rdfs:label "Limes Instances Collection" ;
-    rdfs:member <http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7>,
-        <http://lod.squirrel.link/data/limes/noricum/32371ca3-a871-475e-8d85-49ca8c26da3d>,
-        <http://lod.squirrel.link/data/limes/noricum/7e23ed9a-8efc-48ec-a294-a7cc9b8285dc> .
-

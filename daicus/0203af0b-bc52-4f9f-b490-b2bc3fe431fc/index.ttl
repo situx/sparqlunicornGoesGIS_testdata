@@ -1,8 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
-    rdfs:label "Kastell Cigmău " ;
-    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom> ;
-    rdfs:comment "Auxiliarkastell" .
-

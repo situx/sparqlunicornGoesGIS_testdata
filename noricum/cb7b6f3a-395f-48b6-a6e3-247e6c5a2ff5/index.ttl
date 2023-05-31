@@ -1,7 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5> a <http://onto.squirrel.link/ontology#Watchtower> ;
-    rdfs:label "Wachturm Maria Ponsee Süd" ;
-    geo:hasGeometry <http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5_geom> .
-

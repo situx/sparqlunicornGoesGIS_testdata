@@ -1,7 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb> a <http://onto.squirrel.link/ontology#MilitaryCamp> ;
-    rdfs:label "Kastell Wallsee" ;
-    geo:hasGeometry <http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb_geom> .
-

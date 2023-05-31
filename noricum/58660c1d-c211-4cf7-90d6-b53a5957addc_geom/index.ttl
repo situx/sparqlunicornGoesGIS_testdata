@@ -1,7 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/noricum/58660c1d-c211-4cf7-90d6-b53a5957addc_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label "Burgus St. Lorenz Geometry" ;
-    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.445069 48.369328)"^^geo:wktLiteral .
-

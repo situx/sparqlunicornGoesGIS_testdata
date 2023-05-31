@@ -1,8 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
-    rdfs:label "Kastell Cătunele" ;
-    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom> ;
-    rdfs:comment "nan" .
-

@@ -1,8 +1,0 @@
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
-    rdfs:label "Kastell Enoşeşti (Acidava)" ;
-    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom> ;
-    rdfs:comment "nan" .
-
