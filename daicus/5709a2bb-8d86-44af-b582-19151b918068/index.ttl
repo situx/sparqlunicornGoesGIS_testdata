@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068> a <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
+    rdfs:label "Kastell Sarmizegetusa (Ulpia Traiana)" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom> ;
+    rdfs:comment "nan" .
+

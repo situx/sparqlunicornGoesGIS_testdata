@@ -274,6 +274,7 @@ var search={
   "Legionslager Albing Geometry": "http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f_geom",
   "Legionslager Potaissa": "http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d",
   "Legionslager Potaissa Geometry": "http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom",
+  "Limes": "http://lod.squirrel.link/data/limes/nonns_Limes.html",
   "Limes Daicus Features": "http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures",
   "Limes Daicus Geometries": "http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries",
   "Limes Instances Collection": "http://lod.squirrel.link/data/limes/Limes_collection",
