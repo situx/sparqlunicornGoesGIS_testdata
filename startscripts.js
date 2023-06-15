@@ -211,6 +211,76 @@ function exportCSV(){
     }
 }
 
+function exportGDF(){
+    resgdf="nodedef>name VARCHAR,label VARCHAR"
+    uritoNodeId={}
+    nodecounter=0
+    nodes=""
+    edges=""
+    if(typeof(featurecolls)!=="undefined"){
+        for(feature of featurecolls){
+            if("features" in feature){
+                for(feat of feature["features"]){
+                    featid=nodecounter
+                    uritoNodeId[feat["id"]]=nodecounter
+                    nodes+=nodecounter+","+feat["id"]+"\n"
+                    nodecounter+=1
+                    if("properties" in feat){
+                        for(prop in feat["properties"]){
+                            if(Array.isArray(feat["properties"][prop])){
+                                    for(arritem of feat["properties"][prop]){
+                                            if(!(arritem in uritoNodeId)){
+                                                uritoNodeId[arritem]=nodecounter
+                                                nodes+=nodecounter+","+arritem+"\n"
+                                                nodecounter+=1
+                                            }
+                                            edges+=featid+","+uritoNodeId[arritem]+","+prop+"\n"
+                                    }
+                            }else{
+                                 if(!(feat["properties"][prop] in uritoNodeId)){
+                                    uritoNodeId[feat["properties"][prop]]=nodecounter
+                                    nodecounter+=1
+                                 }
+                                 edges+=featid+","+uritoNodeId[feat["properties"][prop]]+","+prop+"\n"
+                            }
+                        }
+                    }
+                }
+            }else if("type" in feature && feature["type"]=="Feature"){
+                    featid=nodecounter
+                    feat=feature
+                    uritoNodeId[feat["id"]]=nodecounter
+                    nodes+=nodecounter+","+feat["id"]+"\n"
+                    nodecounter+=1
+                    if("properties" in feat){
+                        for(prop in feat["properties"]){
+                            if(Array.isArray(feat["properties"][prop])){
+                                    for(arritem of feat["properties"][prop]){
+                                            if(!(arritem in uritoNodeId)){
+                                                uritoNodeId[arritem]=nodecounter
+                                                nodes+=nodecounter+","+arritem+"\n"
+                                                nodecounter+=1
+                                            }
+                                            edges+=featid+","+uritoNodeId[arritem]+","+prop+"\n"
+                                    }
+                            }else{
+                                 if(!(feat["properties"][prop] in uritoNodeId)){
+                                    uritoNodeId[feat["properties"][prop]]=nodecounter
+                                    nodecounter+=1
+                                 }
+                                 edges+=featid+","+uritoNodeId[feat["properties"][prop]]+","+prop+"\n"
+                            }
+                      }
+                }
+            }
+        }
+    }
+    resgdf+=nodes
+    resgdf+="\nedgedef>node1 VARCHAR,node2 VARCHAR,label VARCHAR"
+    resgdf+=edges
+    saveTextAsFile(resgdf,".gdf")
+}
+
 function exportTGF(){
     restgf=""
     uritoNodeId={}
@@ -332,6 +402,13 @@ function setSVGDimensions(){
     });
 }
 
+function exportGeoURI(){
+    resuri=""
+    for(point of centerpoints){
+        resuri+="geo:"+point[0]+","+point[1]";crs=EPSG:4326\n"
+    }
+    saveTextAsFile(reswkt,".txt")
+}
 
 
 function exportWKT(){
@@ -357,6 +434,29 @@ function exportWKT(){
                     reswkt+=")\n"
             }
             saveTextAsFile(reswkt,".wkt")
+        }
+    }
+}
+
+function exportXYZASCII(){
+    if(typeof(featurecolls)!=="undefined"){
+        reswkt=""
+        for(feature of featurecolls){
+            if("features" in feature){
+                for(feat of feature["features"]){
+                    feat["geometry"].coordinates.forEach(function(p,i){
+                    //	console.log(p)
+                        reswkt =  reswkt + p[0] + ' ' + p[1] + '\n';
+                    })
+                    reswkt+="\n"
+                }
+            }else if("geometry" in feature){
+                    feature["geometry"].coordinates.forEach(function(p,i){
+                        reswkt =  reswkt + p[0] + ' ' + p[1] + '\n';
+                    })
+                    reswkt+="\n"
+            }
+            saveTextAsFile(reswkt,".xyz")
         }
     }
 }
@@ -396,8 +496,14 @@ function download(){
         exportWKT()
     }else if(format=="csv"){
         exportCSV()
+    }else if(format=="gdf"){
+        exportGDF()
+    }else if(format=="geouri"){
+        exportGeoURI()
     }else if(format=="tgf"){
         exportTGF()
+    }else if(format=="xyz"){
+        exportXYZASCII()
     }
 }
 
@@ -1099,6 +1205,8 @@ function fetchLayersFromList(thelist){
 	return fcolls
 }
 
+var centerpoints=[]
+
 function setupLeaflet(baselayers,epsg,baseMaps,overlayMaps,map,featurecolls,dateatt="",ajax=true){
 	if(ajax){
 		featurecolls=fetchLayersFromList(featurecolls)
@@ -1170,6 +1278,7 @@ function setupLeaflet(baselayers,epsg,baseMaps,overlayMaps,map,featurecolls,date
             map.fitBounds(bounds);
             first = false
         }
+        centerpoints.push(layerr.getBounds().getCenter());
     }
 	layercontrol=L.control.layers(baseMaps,overlayMaps).addTo(map)
 	if(dateatt!=null && dateatt!=""){
