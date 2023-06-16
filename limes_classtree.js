@@ -78,13 +78,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 110,
-              "http://archaeoinformatics.link/ontology#MilitaryCamp": 98
+              "instancecount": 7,
+              "http://archaeoinformatics.link/ontology#LegionaryCamp": 6
             }
           },
           "from": {}
         },
-        "instancecount": 113
+        "instancecount": 10
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -122,18 +122,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 49,
-              "http://www.opengis.net/ont/sf#Point": 49
+              "instancecount": 144,
+              "http://www.opengis.net/ont/sf#Point": 104
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
-            }
-          }
+          "from": {}
         },
-        "instancecount": 52
+        "instancecount": 147
       },
       {
         "id": "http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f",
