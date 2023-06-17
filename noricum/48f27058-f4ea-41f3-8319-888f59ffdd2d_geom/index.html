@@ -15,6 +15,7 @@ var relativedepth=2</script><body><div id="header"><h1 id="title"><a href="http:
 <option value="graphml">Graph Markup Language (GraphML)</option>
 <option value="geojson">(Geo)JSON</option>
 <option value="geouri">GeoURI</option>
+<option value="kml">Keyhole Markup Language (KML)</option>
 <option value="latlon">LatLonText</option>
 <option value="tgf">Trivial Graph Format (TGF)</option>
 <option value="ttl" selected>Turtle (TTL)</option>
@@ -36,9 +37,9 @@ var relativedepth=2</script><body><div id="header"><h1 id="title"><a href="http:
 var rangesByAttribute={}
 var overlayMaps={}
 var baselayers={"OpenStreetMap (OSM)": {"url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", "default": true, "type": "tile"}}
-var featurecolls = [{"type": "Feature", "id": "http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d_geom", "name": "Burgus Au-Rotte Hof Geometry", "dateprops": [], "properties": {"http://www.opengis.net/ont/geosparql#asWKT": ["<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.716667 48.166667)"], "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.opengis.net/ont/sf#Point"], "http://www.w3.org/2000/01/rdf-schema#label": ["Burgus Au-Rotte Hof Geometry"]}, "geometry": {"type": "Point", "coordinates": [14.716667, 48.166667], "crs": "/4326"}}]
+var featurecolls = [{"type": "Feature", "id": "http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d_geom", "name": "Burgus Au-Rotte Hof Geometry", "dateprops": [], "properties": {"http://www.opengis.net/ont/geosparql#asWKT": ["<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.716667 48.166667)"], "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.opengis.net/ont/sf#Point"], "http://www.w3.org/2000/01/rdf-schema#label": ["Burgus Au-Rotte Hof Geometry"]}, "geometry": {"type": "Point", "coordinates": [14.716667, 48.166667], "crs": "4326"}}]
 var ajax=false
-var epsg="EPSG:/4326"
+var epsg="EPSG:4326"
 var dateatt=""
 var map = L.map('map',{fullscreenControl: true,fullscreenControlOptions: {position: 'topleft'}}).setView([51.505, -0.09], 13);
 var baseMaps = {};
@@ -50,6 +51,7 @@ setupLeaflet(baselayers,epsg,baseMaps,overlayMaps,map,featurecolls,dateatt,ajax)
 <option value="graphml">Graph Markup Language (GraphML)</option>
 <option value="geojson">(Geo)JSON</option>
 <option value="geouri">GeoURI</option>
+<option value="kml">Keyhole Markup Language (KML)</option>
 <option value="latlon">LatLonText</option>
 <option value="tgf">Trivial Graph Format (TGF)</option>
 <option value="ttl" selected>Turtle (TTL)</option>
