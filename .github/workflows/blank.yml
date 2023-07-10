@@ -26,6 +26,7 @@ jobs:
         prefixnsshort: limes
         indexpages: true
         metadatatable: true
+        offlinecompat: true
         createcollections: true
         createnonNSPages: true
         createVOWL: true
