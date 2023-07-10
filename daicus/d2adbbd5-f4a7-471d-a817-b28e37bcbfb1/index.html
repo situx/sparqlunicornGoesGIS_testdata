@@ -27,13 +27,16 @@ var relativedepth=2</script><body><div id="header"><h1 id="title"><a href="http:
 <button id="downloadButton" onclick="download()">Download</button><br/></div></div><dialog id="classrelationdialog" width="500" height="500" modal="true"></dialog><dialog id="dataschemadialog" width="500" height="500" modal="true"></dialog>
 <div class="container-fluid"><div class="row-fluid" id="main-wrapper">
 <p class="comment"><b>Description:</b> comment:Kohortenkastell / Alenkastell</p><script src="../../js/leaflet.js"></script><script src="../../js/leaflet.markercluster-src.js"></script>
-<script src="../../js/leaflet.markercluster.layersupport.js"></script><script src="../../js/leaflet.featuregroup.subgroup.js"></script><script src="../../js/Leaflet.fullscreen.min.js"></script>
+<script src="../../js/leaflet.markercluster.layersupport.js"></script>
+<script src="../../js/leaflet.featuregroup.subgroup.js"></script>
+<script src="../../js/Leaflet.fullscreen.min.js"></script>
 <script src="../../js/leaflet.SliderControl.min.js"></script>
 <script src="../../js/proj4.min.js"></script><script src="../../js/leaflet.geojsoncss.min.js"></script>
 <script src="../../epsgdefs.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"><link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+<link href="../../css/MarkerCluster.css" rel="stylesheet" />
+<link href="../../css/MarkerCluster.Default.css" rel="stylesheet" />
+<link href="../../css/leaflet.css" rel="stylesheet" >
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
 <div id="map" style="height:500px;z-index: 0;"></div><script>
 var rangesByAttribute={}
 var overlayMaps={}
