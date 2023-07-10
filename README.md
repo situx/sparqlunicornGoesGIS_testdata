@@ -5,7 +5,7 @@ This repository contains sample data for the SPARQLing Unicorn QGIS plugin.
 This data may be loaded in the plugin dialog and queried for its contents.  
                                
 ## SPARQLing Unicorn QGIS Plugin Ontology Documentation: Github Action 
-                 
+                  
 Included in this repository is a showcase for the standalone [SPARQLing Unicorn Ontology Documentation Script](https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc).
        
 The script is used in a Github Action, as an external workflow to generate HTML documentation for the two TTL files in this repository. 
@@ -22,6 +22,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         createnonNSPages: false
         createVOWL: false
         ogcapifeatures: true
+        offlinecompat: false
         iiif: true
         metadatatable: false
         preferredlang: en
@@ -42,6 +43,7 @@ The workflow may be called using the following paramters:
 * **createnonNSPages**: If true, generates pages for object URIs which are not in the **prefixns**
 * **createVOWL**: If true, generates a visual owl representation of the class structure on the main index page
 * **ogcapifeatures**: If true, generates OGC API Features compatible JSON files
+* **offlinecompat**: If true, generates a version of the documentation that works offline
 * **iiif**: If true, generates IIIF manifests for connected media files
 * **metadatatable**: If true, creates a second table per page which includes only triples in predefined metadata namespaces
 * **preferredlang**: Defines the preferred label language for multilingual graphs (default: en)
