@@ -23,6 +23,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         createVOWL: false
         ogcapifeatures: true
         offlinecompat: false
+        exports: graphml json ttl
         iiif: true
         metadatatable: false
         preferredlang: en
@@ -44,6 +45,7 @@ The workflow may be called using the following paramters:
 * **createVOWL**: If true, generates a visual owl representation of the class structure on the main index page
 * **ogcapifeatures**: If true, generates OGC API Features compatible JSON files
 * **offlinecompat**: If true, generates a version of the documentation that works offline
+* **exports**: A list of export formats the script generates besides HTML. Eligible formats: *graphml*, *json*, *tgf*, *ttl*, defaults to *ttl* and *json*
 * **iiif**: If true, generates IIIF manifests for connected media files
 * **metadatatable**: If true, creates a second table per page which includes only triples in predefined metadata namespaces
 * **preferredlang**: Defines the preferred label language for multilingual graphs (default: en)
