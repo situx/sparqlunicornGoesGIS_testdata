@@ -27,7 +27,7 @@ jobs:
         indexpages: true
         metadatatable: true
         offlinecompat: true
-        exports: graphml tgf json ttl
+        exports: graphml nt n3 tgf json ttl
         createcollections: true
         createnonNSPages: true
         createVOWL: true
