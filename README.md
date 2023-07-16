@@ -45,6 +45,7 @@ The workflow may be called using the following paramters:
 * **createVOWL**: If true, generates a visual owl representation of the class structure on the main index page
 * **ogcapifeatures**: If true, generates OGC API Features compatible JSON files
 * **offlinecompat**: If true, generates a version of the documentation that works offline
+* **datasettitle**: A title of the dataset which can be used as a variable in the HTML template
 * **exports**: A list of export formats the script generates besides HTML.
     Eligible formats: *graphml*, *json*, *n3*, *nq*, *tgf*, *trig*, *trix*, *ttl*, defaults to *ttl* and *json*
 * **iiif**: If true, generates IIIF manifests for connected media files
