@@ -1,1488 +1,1450 @@
-0 http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd
-1 http://archaeoinformatics.link/ontology#MilitaryCamp
-2 http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom
-3 Kohortenkastell
-4 Kastell Vărădia
-5 http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom
-6 http://www.opengis.net/ont/sf#Point
-7 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.847883 45.486656)
-8 Kastell Aizis Geometry
-9 http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac
-10 http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom
-11 nan
-12 Kastell Jiblea
-13 http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures
-14 http://www.opengis.net/ont/geosparql#FeatureCollection
-15 http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2
-16 http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2
-17 http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777
-18 http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4
-19 http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018
-20 http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1
-21 http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c
-22 http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031
-23 http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696
-24 http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43
-25 http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242
-26 http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67
-27 http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb
-28 http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0
-29 http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace
-30 http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc
-31 http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea
-32 http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3
-33 http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4
-34 http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65
-35 http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d
-36 http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d
-37 http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed
-38 http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727
-39 http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa
-40 http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b
-41 http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e
-42 http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf
-43 http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce
-44 http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061
-45 http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3
-46 http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a
-47 http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0
-48 http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44
-49 http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a
-50 http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786
-51 http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843
-52 http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b
-53 http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9
-54 http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459
-55 http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be
-56 http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e
-57 http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2
-58 http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923
-59 http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01
-60 http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a
-61 http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2
-62 http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22
-63 Limes Daicus Features
-64 http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom
-65 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360675 45.105944)
-66 Kastell Stolniceni Geometry
-67 http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc
-68 http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom
-69 Auxiliarkastell
-70 Kastell Cigmău 
-71 http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843
-72 http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom
-73 Kastell Islaz-Verdea
-74 http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom
-75 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8375 44.771389)
-76 Kastell Albota Geometry
-77 http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f
-78 http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom
-79 Kohortenkastell (?)
-80 Kastell Sânnicolau Mare
-81 http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c
-82 http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom
-83 Kastell Ilişua (Arcobara)
-84 http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79
-85 http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom
-86 Kastell Tihău
-87 http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom
-88 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571847 44.514)
-89 Kastell Răcarii de Jos Geometry
-90 http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01
-91 http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom
-92 Kastell Cenad
-93 http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom
-94 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.266011 45.635769)
-95 Kastell Boiţa (Caput Stenarum) Geometry
-96 http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa
-97 http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom
-98 Kastell Valea Urluii
-99 http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4
-100 Kastell Albota
-101 http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa
-102 http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom
-103 Kastell Râșnov 
-104 http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b
-105 http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom
-106 Kastell Urluieni II
-107 http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom
-108 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.866611 45.842519)
-109 Kastell Cincsor Geometry
-110 http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880
-111 http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom
-112 Kastell Rucăr
-113 http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom
-114 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.528969 44.081789)
-115 Kastell Slăveni Geometry
-116 http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom
-117 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.752103 46.239431)
-118 Kastell Sighisoara Geometry
-119 http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4
-120 http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom
-121 Kastell Islaz-Razovica
-122 http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom
-123 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.37 45.18)
-124 Kastell Plesa Geometry
-125 http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom
-126 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.016986 45.843861)
-127 Kastell Borosneu Mare Geometry
-128 http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e
-129 http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom
-130 Kastell Gilău
-131 http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom
-132 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.849619 45.970939)
-133 Kastell Olteni Geometry
-134 http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d
-135 http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom
-136 Vexillationskastell /  Kohortenkastell /  Alenkastell
-137 Kastell Vršac
-138 http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696
-139 Kastell Cincsor
-140 http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43
-141 http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom
-142 Kastell Căciulătești
-143 http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom
-144 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.016667 44.116667)
-145 Kastell Castranova Geometry
-146 http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b
-147 http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom
-148 Kastell IIoneștii Govorii (Pons Aluti)
-149 http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774_geom
-150 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 45.370833)
-151 Kastell Perisani Geometry
-152 http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2
-153 http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom
-154 Kastell Bumbeşti
-155 http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e
-156 http://archaeoinformatics.link/ontology#LegionaryCamp
-157 http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom
-158 Legionslager
-159 Legionslager Alba Julia
-160 http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be
-161 http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be_geom
-162 Kastell Feldioara
-163 http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b_geom
-164 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 44.166667)
-165 Kastell Reşca (Romula/Malva) Geometry
-166 http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom
-167 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.592319 47.096014)
-168 Kastell Orheiul Bistriţei Geometry
-169 http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a
-170 Kastell Castranova
-171 http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631
-172 http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom
-173 Kastell Racoviţa (Praetorium II)
-174 http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e
-175 http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom
-176 Kastell Livezile
-177 http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom
-178 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.300194 45.122669)
-179 Kastell Vršac Geometry
-180 http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom
-181 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.394444 45.409722)
-182 Kastell Titeşti Geometry
-183 http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom
-184 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.327689 47.227733)
-185 Kastell Tihău Geometry
-186 http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom
-187 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.3002 46.3131)
-188 Kastell Odorheiul Secuiesc Geometry
-189 http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed
-190 http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom
-191 Kastell Gresia
-192 http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b
-193 http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom
-194 Kastell Băneasa II
-195 http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1
-196 http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom
-197 Kastell Sămbotin (Castra Traiana)
-198 http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb
-199 Kastell Borosneu Mare
-200 http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom
-201 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.312389 45.309667)
-202 Kastell Bivolari (Arutela) Geometry
-203 http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a
-204 Kastell Bivolari (Arutela)
-205 http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom
-206 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.57075 47.186869)
-207 Kastell Livezile Geometry
-208 http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf
-209 http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom
-210 Kastell Căineni (Pons Vetus ?)
-211 http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom
-212 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.4 45.166667)
-213 Kastell Bumbeşti Geometry
-214 http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom
-215 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360556 45.231944)
-216 Kastell Jiblea Geometry
-217 http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom
-218 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.837639 47.186222)
-219 Kastell Căşeiu (Samum) Geometry
-220 http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7
-221 http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7_geom
-222 Kastell Pinoasa
-223 http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom
-224 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.315097 46.146819)
-225 Kastell Aradul Nou Geometry
-226 http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom
-227 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.96525 43.937806)
-228 Kastell Băneasa I Geometry
-229 http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1
-230 http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom
-231 Kohortenkastell / Alenkastell
-232 Kastell Banatska Palanka
-233 http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84
-234 http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom
-235 Kastell Tibiscum
-236 http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885
-237 http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom
-238 Kastell Voineşti
-239 http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a
-240 http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom
-241 Kastell Bologa (Resculum)
-242 http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom
-243 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.877311 46.628978)
-244 Kastell Călugăreni Geometry
-245 http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633
-246 http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom
-247 Kastell Teregova (Ad Pannonios)
-248 http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2
-249 http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom
-250 Kastell Câmpulung Muscel II
-251 http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459
-252 http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom
-253 Kastell Berzovia 
-254 http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom
-255 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.937389 44.061333)
-256 Kastell Valea Urluii Geometry
-257 http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975
-258 http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom
-259 Kastell Momoteşti (Rusidava)
-260 http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4_geom
-261 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.251667 46.986086)
-262 Kastell Sutoru Geometry
-263 http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436
-264 http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom
-265 Kastell Putineiu
-266 http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923_geom
-267 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.275078 44.927103)
-268 Kastell Dupljaja Geometry
-269 http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c
-270 Kastell Răcarii de Jos
-271 http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom
-272 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.651389 43.866389)
-273 Kastell Tia Mare Geometry
-274 http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom
-275 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012694 45.221)
-276 Kastell Câmpulung Muscel II Geometry
-277 http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7
-278 http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom
-279 Kastell Surducul Mare
-280 http://lod.squirrel.link/data/limes/LegionaryCamp_collection
-281 http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3
-282 http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom
-283 Auxiliarkastelle
-284 Kastelle von Porolissum
-285 http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom
-286 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.306831 45.168611)
-287 Kastell Teregova (Ad Pannonios) Geometry
-288 http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242
-289 Kastell Aizis
-290 http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1
-291 http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom
-292 Kastell Rădăcineşti
-293 http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom
-294 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.476111 46.510556)
-295 Kastell Cristeşti Geometry
-296 http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom
-297 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.4076 44.7382)
-298 Kastell Orșova (Dierna) Geometry
-299 http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom
-300 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.391764 46.754058)
-301 Kastell Gilău Geometry
-302 http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom
-303 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.166667 45.733333)
-304 Kastell Orăştioara de Sus Geometry
-305 http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2
-306 http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom
-307 Kastell Cătunele
-308 http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom
-309 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.441581 45.618708)
-310 Kastell Râșnov Geometry
-311 http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966_geom
-312 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.145953 46.253697)
-313 Kastell Szeged Geometry
-314 http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom
-315 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.924444 44.838889)
-316 Kastell Cătunele Geometry
-317 http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom
-318 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.157319 47.179167)
-319 Kastelle von Porolissum Geometry
-320 http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce
-321 http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom
-322 Kastell Hoghiz
-323 http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom
-324 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.331111 44.845)
-325 Kastell Banatska Palanka Geometry
-326 http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3
-327 http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom
-328 Alenkastell
-329 Kastell Gherla
-330 http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries
-331 http://www.opengis.net/ont/geosparql#GeometryCollection
-332 http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom
-333 http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom
-334 http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom
-335 http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom
-336 http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom
-337 http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom
-338 http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom
-339 http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom
-340 http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom
-341 http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom
-342 http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom
-343 http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom
-344 http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom
-345 http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom
-346 Limes Daicus Geometries
-347 http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom
-348 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.965361 43.897806)
-349 Kastell Putineiu Geometry
-350 http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c
-351 http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom
-352 Kastell Romita
-353 http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom
-354 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.757222 43.733056)
-355 Kastell Racoviţa (Praetorium II) Geometry
-356 http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom
-357 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.870833 43.751667)
-358 Kastell Islaz-Razovica Geometry
-359 http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f
-360 http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom
-361 Kastell Zăvoi (Acmonia ?)
-362 http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f
-363 http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom
-364 Kastell Urluieni I
-365 http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c
-366 Kastell Orșova (Dierna)
-367 http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018
-368 Kastell Enoşeşti (Acidava)
-369 http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom
-370 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.121806 46.431319)
-371 Kastell Inlăceni Geometry
-372 http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom
-373 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.917722 44.172583)
-374 Kastell Gresia Geometry
-375 http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774
-376 Kastell Perisani
-377 http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom
-378 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.947028 44.074472)
-379 Kastell Roșiorii de Vede Geometry
-380 http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom
-381 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.899911 47.019833)
-382 Kastell Gherla Geometry
-383 http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom
-384 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.232794 44.897786)
-385 Kastell Grebenac Geometry
-386 http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom
-387 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.272806 45.523639)
-388 Kastell Râul Vadului Geometry
-389 http://lod.squirrel.link/data/limes/GeometryCollection_collection
-390 http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom
-391 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.373611 45.173611)
-392 Kastell Sămbotin (Castra Traiana) Geometry
-393 http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6
-394 http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom
-395 Kastell Vețel
-396 http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom
-397 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.308611 45.495)
-398 Kastell Căineni (Pons Vetus ?) Geometry
-399 http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom
-400 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.410833 45.525278)
-401 Kastell Zăvoi (Acmonia ?) Geometry
-402 http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom
-403 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012472 45.22075)
-404 Kastell Câmpulung Muscel I Geometry
-405 http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd
-406 Kastell Titeşti
-407 http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67
-408 Kastell Aradul Nou
-409 http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom
-410 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.983333 43.7345)
-411 Kastell Flămănda (Poiana) Geometry
-412 http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d
-413 http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom
-414 Kastell Războieni
-415 http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f_geom
-416 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.008889 46.562222)
-417 Kastell Sarateni Geometry
-418 http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990
-419 Kastell Plesa
-420 http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom
-421 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763694 44.707917)
-422 Kastell Săpata de Jos II Geometry
-423 http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom
-424 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.785111 44.603278)
-425 Kastell Fâlfani Geometry
-426 http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30
-427 http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom
-428 Kastell Mehadia (Praetorium)
-429 http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom
-430 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.884611 46.885694)
-431 Kastell Bologa (Resculum) Geometry
-432 http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44
-433 Kastell Fâlfani
-434 http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom
-435 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.572314 46.066694)
-436 Legionslager Alba Julia Geometry
-437 http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116
-438 http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116_geom
-439 Kastell Purcăreni
-440 http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom
-441 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.786822 45.51665)
-442 Kastell Sarmizegetusa (Ulpia Traiana) Geometry
-443 http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom
-444 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.178583 45.398444)
-445 Kastell Rucăr Geometry
-446 http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom
-447 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.441944 45.281528)
-448 Kastell Rădăcineşti Geometry
-449 http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom
-450 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.300011 45.983367)
-451 Kastell Hoghiz Geometry
-452 http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom
-453 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.629444 46.072222)
-454 Kastell Sânnicolau Mare Geometry
-455 http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0
-456 Kastell Lişteava
-457 http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom
-458 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761417 44.485833)
-459 Kastell Urluieni I Geometry
-460 http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f
-461 http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom
-462 Kastell Săpata de Jos I
-463 http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom
-464 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.1895 45.4663)
-465 Kastell Tibiscum Geometry
-466 http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom
-467 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761056 44.307778)
-468 Kastell Ghioca Geometry
-469 http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be_geom
-470 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.591561 45.816419)
-471 Kastell Feldioara Geometry
-472 http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031
-473 Kastell Ghioca
-474 http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom
-475 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.868333 46.417222)
-476 Kastell Războieni Geometry
-477 http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2
-478 Kastell Inlăceni
-479 http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705
-480 Kastell Râul Vadului
-481 http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa
-482 Kastell Flămănda (Poiana)
-483 http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom
-484 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.181678 47.113403)
-485 Kastell Romanasi (Largiana) Geometry
-486 http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom
-487 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.900222 45.844172)
-488 Kastell Comalău Geometry
-489 http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom
-490 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.379472 46.194833)
-491 Kastell Sânpaul Geometry
-492 http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom
-493 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.27 44.650306)
-494 Kastell Momoteşti (Rusidava) Geometry
-495 http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace
-496 Kastell Căşeiu (Samum)
-497 http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061
-498 Kastell Câmpulung Muscel I
-499 http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777
-500 Kastell Buciumi
-501 http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom
-502 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.172444 47.106944)
-503 Kastell Romita Geometry
-504 http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d
-505 Kastell Bulci
-506 http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom
-507 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.92 43.834167)
-508 Kastell Lişteava Geometry
-509 http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22
-510 Kastell Cristeşti
-511 http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom
-512 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.164364 45.897053)
-513 Kastell Cigmău Geometry
-514 http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0
-515 Kastell Băneasa I
-516 http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb
-517 Kastell Slăveni
-518 http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom
-519 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762222 43.710278)
-520 Kastell Islaz-Verdea Geometry
-521 http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96
-522 Kastell Grebenac
-523 http://lod.squirrel.link/data/limes/Point_collection
-524 http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d
-525 http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom
-526 Legionslager Potaissa
-527 http://lod.squirrel.link/data/limes/FeatureCollection_collection
-528 http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199
-529 Kastell Orăştioara de Sus
-530 http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786
-531 Kastell Călugăreni
-532 http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3
-533 Kastell Romanasi (Largiana)
-534 http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom
-535 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.372222 45.1825)
-536 Kastell Vârtop Geometry
-537 http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom
-538 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.587219 45.265)
-539 Kastell Surducul Mare Geometry
-540 http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom
-541 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762111 44.484583)
-542 Kastell Urluieni II Geometry
-543 http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3
-544 Kastell Abrud (Alburnus Maior)
-545 http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5
-546 Kastell Sânpaul
-547 http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79
-548 Kastell Vârtop
-549 http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4
-550 Kastell Odorheiul Secuiesc
-551 http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440
-552 Kastell Olteni
-553 http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom
-554 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.236111 44.883333)
-555 Kastell IIoneștii Govorii (Pons Aluti) Geometry
-556 http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288
-557 Kastell Tia Mare
-558 http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1
-559 http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom
-560 Kastell Mofleni (Pelendava)
-561 http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom
-562 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571889 44.514111)
-563 Kastell Mofleni (Pelendava) Geometry
-564 http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f
-565 Kastell Sarateni
-566 http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc
-567 Kastell Roșiorii de Vede
-568 http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom
-569 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.3522 44.9229)
-570 Kastell Mehadia (Praetorium) Geometry
-571 http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068
-572 Kastell Sarmizegetusa (Ulpia Traiana)
-573 http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom
-574 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.551161 45.079397)
-575 Kastell Vărădia Geometry
-576 http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923
-577 Kastell Dupljaja
-578 http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom
-579 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.961889 43.935889)
-580 Kastell Băneasa II Geometry
-581 http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d
-582 Kastell Brâncoveneşti
-583 http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65
-584 Kastell Comalău
-585 http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea
-586 Kastell Copăceni (Praetorium I)
-587 http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4
-588 Kastell Sutoru
-589 http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356
-590 Kastell Stolniceni
-591 http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7
-592 Kastell Sighisoara
-593 http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9
-594 Kastell Boiţa (Caput Stenarum) 
-595 http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b
-596 Kastell Reşca (Romula/Malva)
-597 http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom
-598 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.095361 47.210528)
-599 Kastell Ilişua (Arcobara) Geometry
-600 http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom
-601 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763556 44.707333)
-602 Kastell Săpata de Jos I Geometry
-603 http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom
-604 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.044569 47.048264)
-605 Kastell Buciumi Geometry
-606 http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom
-607 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.629394 45.426539)
-608 Kastell Berzovia Geometry
-609 http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom
-610 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.814906 45.914594)
-611 Kastell Vețel Geometry
-612 http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116_geom
-613 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8945 44.958083)
-614 Kastell Purcăreni Geometry
-615 http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom
-616 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.949167 43.938056)
-617 Kastell Căciulătești Geometry
-618 http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom
-619 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.112283 46.006539)
-620 Kastell Bulci Geometry
-621 http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom
-622 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.585819 46.138106)
-623 Kastell Cenad Geometry
-624 http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom
-625 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.30325 44.374806)
-626 Kastell Enoşeşti (Acidava) Geometry
-627 http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8
-628 Kastell Orheiul Bistriţei
-629 http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a
-630 Kastell Săpata de Jos II
-631 http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966
-632 Kastell Szeged
-633 http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom
-634 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.068611 46.272222)
-635 Kastell Abrud (Alburnus Maior) Geometry
-636 http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom
-637 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.076083 45.297833)
-638 Kastell Voineşti Geometry
-639 http://lod.squirrel.link/data/limes/MilitaryCamp_collection
-640 http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom
-641 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.309861 45.395903)
-642 Kastell Copăceni (Praetorium I) Geometry
-643 http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727
-644 Kastell Brețcu 
-645 http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7_geom
-646 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.098056 44.9075)
-647 Kastell Pinoasa Geometry
-648 http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom
-649 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.312836 46.050994)
-650 Kastell Brețcu Geometry
-651 http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom
-652 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.766042 46.861514)
-653 Kastell Brâncoveneşti Geometry
-654 http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom
-655 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.772733 46.570536)
-656 Legionslager Potaissa Geometry
+0 http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be_geom
+1 http://www.opengis.net/ont/sf#Point
+2 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.591561 45.816419)
+3 Kastell Feldioara Geometry
+4 http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries
+5 http://www.opengis.net/ont/geosparql#GeometryCollection
+6 http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom
+7 http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom
+8 http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom
+9 http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom
+10 http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom
+11 http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom
+12 http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom
+13 http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom
+14 http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom
+15 http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom
+16 http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom
+17 http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom
+18 http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom
+19 http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom
+20 http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom
+21 http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom
+22 http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom
+23 http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom
+24 http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom
+25 http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom
+26 http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom
+27 http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom
+28 http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom
+29 http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom
+30 http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom
+31 http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom
+32 http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom
+33 http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom
+34 http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom
+35 http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom
+36 http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom
+37 http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom
+38 http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom
+39 http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom
+40 http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom
+41 http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom
+42 http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom
+43 http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom
+44 http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom
+45 http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom
+46 http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom
+47 http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom
+48 http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom
+49 http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923_geom
+50 http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom
+51 http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom
+52 http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom
+53 http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom
+54 Limes Daicus Geometries
+55 http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom
+56 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.528969 44.081789)
+57 Kastell Slăveni Geometry
+58 http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966_geom
+59 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.145953 46.253697)
+60 Kastell Szeged Geometry
+61 http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace
+62 http://archaeoinformatics.link/ontology#MilitaryCamp
+63 nan
+64 Kastell Căşeiu (Samum)
+65 http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4
+66 http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom
+67 Kastell Odorheiul Secuiesc
+68 http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom
+69 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.837639 47.186222)
+70 Kastell Căşeiu (Samum) Geometry
+71 http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b
+72 http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom
+73 Kastell Urluieni II
+74 http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6
+75 http://archaeoinformatics.link/ontology#LegionaryCamp
+76 http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom
+77 Legionslager
+78 Kastell Vețel
+79 http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786
+80 Kohortenkastell
+81 Kastell Călugăreni
+82 http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3
+83 http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom
+84 Auxiliarkastelle
+85 Kastelle von Porolissum
+86 http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom
+87 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.232794 44.897786)
+88 Kastell Grebenac Geometry
+89 http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975
+90 http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom
+91 Kastell Momoteşti (Rusidava)
+92 http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom
+93 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.772733 46.570536)
+94 Legionslager Potaissa Geometry
+95 http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5
+96 http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom
+97 Kastell Sânpaul
+98 http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom
+99 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.961889 43.935889)
+100 Kastell Băneasa II Geometry
+101 http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom
+102 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.937389 44.061333)
+103 Kastell Valea Urluii Geometry
+104 http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom
+105 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.308611 45.495)
+106 Kastell Căineni (Pons Vetus ?) Geometry
+107 http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631
+108 http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom
+109 Kastell Racoviţa (Praetorium II)
+110 http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774_geom
+111 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 45.370833)
+112 Kastell Perisani Geometry
+113 http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce
+114 Auxiliarkastell
+115 Kastell Hoghiz
+116 http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843
+117 Kastell Islaz-Verdea
+118 http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom
+119 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.076083 45.297833)
+120 Kastell Voineşti Geometry
+121 http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b
+122 Kastell Băneasa II
+123 http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom
+124 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.178583 45.398444)
+125 Kastell Rucăr Geometry
+126 http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d
+127 http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom
+128 Vexillationskastell /  Kohortenkastell /  Alenkastell
+129 Kastell Vršac
+130 http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f
+131 http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f_geom
+132 Kastell Sarateni
+133 http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01
+134 Kohortenkastell (?)
+135 Kastell Cenad
+136 http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom
+137 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.272806 45.523639)
+138 Kastell Râul Vadului Geometry
+139 http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb
+140 Kastell Slăveni
+141 http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1
+142 Kohortenkastell / Alenkastell
+143 Kastell Banatska Palanka
+144 http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom
+145 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.924444 44.838889)
+146 Kastell Cătunele Geometry
+147 http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2
+148 Kastell Bumbeşti
+149 http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom
+150 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.172444 47.106944)
+151 Kastell Romita Geometry
+152 http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061
+153 Kastell Câmpulung Muscel I
+154 http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43
+155 Kastell Căciulătești
+156 http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom
+157 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.592319 47.096014)
+158 Kastell Orheiul Bistriţei Geometry
+159 http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom
+160 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762111 44.484583)
+161 Kastell Urluieni II Geometry
+162 http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705
+163 Kastell Râul Vadului
+164 http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom
+165 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.1895 45.4663)
+166 Kastell Tibiscum Geometry
+167 http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2
+168 Kastell Câmpulung Muscel II
+169 http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727
+170 Kastell Brețcu 
+171 http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7
+172 http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom
+173 Kastell Sighisoara
+174 http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f
+175 http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom
+176 Kastell Zăvoi (Acmonia ?)
+177 http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom
+178 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.236111 44.883333)
+179 Kastell IIoneștii Govorii (Pons Aluti) Geometry
+180 http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199
+181 http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom
+182 Kastell Orăştioara de Sus
+183 http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923_geom
+184 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.275078 44.927103)
+185 Kastell Dupljaja Geometry
+186 http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom
+187 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.166667 45.733333)
+188 Kastell Orăştioara de Sus Geometry
+189 http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom
+190 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.585819 46.138106)
+191 Kastell Cenad Geometry
+192 http://lod.squirrel.link/data/limes/GeometryCollection_collection
+193 http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f_geom
+194 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.008889 46.562222)
+195 Kastell Sarateni Geometry
+196 http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom
+197 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.300194 45.122669)
+198 Kastell Vršac Geometry
+199 http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom
+200 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761417 44.485833)
+201 Kastell Urluieni I Geometry
+202 http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom
+203 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.651389 43.866389)
+204 Kastell Tia Mare Geometry
+205 http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22
+206 Kastell Cristeşti
+207 http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc
+208 http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom
+209 Kastell Roșiorii de Vede
+210 http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2
+211 Kastell Inlăceni
+212 http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068
+213 http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom
+214 Kastell Sarmizegetusa (Ulpia Traiana)
+215 http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b_geom
+216 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 44.166667)
+217 Kastell Reşca (Romula/Malva) Geometry
+218 http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96
+219 Kastell Grebenac
+220 http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3
+221 http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom
+222 Kastell Romanasi (Largiana)
+223 http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom
+224 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.095361 47.210528)
+225 Kastell Ilişua (Arcobara) Geometry
+226 http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom
+227 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012694 45.221)
+228 Kastell Câmpulung Muscel II Geometry
+229 http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom
+230 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.4 45.166667)
+231 Kastell Bumbeşti Geometry
+232 http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774
+233 Kastell Perisani
+234 http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom
+235 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.112283 46.006539)
+236 Kastell Bulci Geometry
+237 http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0
+238 Kastell Lişteava
+239 http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom
+240 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.847883 45.486656)
+241 Kastell Aizis Geometry
+242 http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1
+243 http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom
+244 Kastell Rădăcineşti
+245 http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom
+246 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.900222 45.844172)
+247 Kastell Comalău Geometry
+248 http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom
+249 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.157319 47.179167)
+250 Kastelle von Porolissum Geometry
+251 http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288
+252 Kastell Tia Mare
+253 http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a
+254 Kastell Bivolari (Arutela)
+255 http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom
+256 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.164364 45.897053)
+257 Kastell Cigmău Geometry
+258 http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4
+259 http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4_geom
+260 Kastell Sutoru
+261 http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom
+262 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.899911 47.019833)
+263 Kastell Gherla Geometry
+264 http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom
+265 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571847 44.514)
+266 Kastell Răcarii de Jos Geometry
+267 http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e
+268 Kastell Gilău
+269 http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd
+270 http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom
+271 Kastell Vărădia
+272 http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom
+273 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.917722 44.172583)
+274 Kastell Gresia Geometry
+275 http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea
+276 Kastell Copăceni (Praetorium I)
+277 http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom
+278 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.306831 45.168611)
+279 Kastell Teregova (Ad Pannonios) Geometry
+280 http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom
+281 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.410833 45.525278)
+282 Kastell Zăvoi (Acmonia ?) Geometry
+283 http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom
+284 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.877311 46.628978)
+285 Kastell Călugăreni Geometry
+286 http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031
+287 Kastell Ghioca
+288 http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67
+289 Kastell Aradul Nou
+290 http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom
+291 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.965361 43.897806)
+292 Kastell Putineiu Geometry
+293 http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom
+294 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.327689 47.227733)
+295 Kastell Tihău Geometry
+296 http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom
+297 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.947028 44.074472)
+298 Kastell Roșiorii de Vede Geometry
+299 http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom
+300 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.372222 45.1825)
+301 Kastell Vârtop Geometry
+302 http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696
+303 Kastell Cincsor
+304 http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom
+305 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.30325 44.374806)
+306 Kastell Enoşeşti (Acidava) Geometry
+307 http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom
+308 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.866611 45.842519)
+309 Kastell Cincsor Geometry
+310 http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom
+311 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.373611 45.173611)
+312 Kastell Sămbotin (Castra Traiana) Geometry
+313 http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d
+314 http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom
+315 Kastell Războieni
+316 http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e
+317 http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom
+318 Legionslager Alba Julia
+319 http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom
+320 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.814906 45.914594)
+321 Kastell Vețel Geometry
+322 http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242
+323 Kastell Aizis
+324 http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom
+325 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.391764 46.754058)
+326 Kastell Gilău Geometry
+327 http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom
+328 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012472 45.22075)
+329 Kastell Câmpulung Muscel I Geometry
+330 http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116_geom
+331 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8945 44.958083)
+332 Kastell Purcăreni Geometry
+333 http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1
+334 http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom
+335 Kastell Mofleni (Pelendava)
+336 http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7
+337 http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom
+338 Kastell Surducul Mare
+339 http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom
+340 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.016986 45.843861)
+341 Kastell Borosneu Mare Geometry
+342 http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom
+343 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.394444 45.409722)
+344 Kastell Titeşti Geometry
+345 http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb
+346 Kastell Borosneu Mare
+347 http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa
+348 Kastell Flămănda (Poiana)
+349 http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7_geom
+350 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.098056 44.9075)
+351 Kastell Pinoasa Geometry
+352 http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923
+353 Kastell Dupljaja
+354 http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79
+355 Kastell Tihău
+356 http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30
+357 http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom
+358 Kastell Mehadia (Praetorium)
+359 http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom
+360 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.786822 45.51665)
+361 Kastell Sarmizegetusa (Ulpia Traiana) Geometry
+362 http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom
+363 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.757222 43.733056)
+364 Kastell Racoviţa (Praetorium II) Geometry
+365 http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom
+366 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.92 43.834167)
+367 Kastell Lişteava Geometry
+368 http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom
+369 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.629444 46.072222)
+370 Kastell Sânnicolau Mare Geometry
+371 http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880
+372 Kastell Rucăr
+373 http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom
+374 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762222 43.710278)
+375 Kastell Islaz-Verdea Geometry
+376 http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d
+377 Legionslager Potaissa
+378 http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom
+379 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.4076 44.7382)
+380 Kastell Orșova (Dierna) Geometry
+381 http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885
+382 Kastell Voineşti
+383 http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c
+384 Kastell Ilişua (Arcobara)
+385 http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom
+386 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.181678 47.113403)
+387 Kastell Romanasi (Largiana) Geometry
+388 http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom
+389 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.849619 45.970939)
+390 Kastell Olteni Geometry
+391 http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79
+392 Kastell Vârtop
+393 http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44
+394 Kastell Fâlfani
+395 http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd
+396 Kastell Titeşti
+397 http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf
+398 Kastell Căineni (Pons Vetus ?)
+399 http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c
+400 Kastell Romita
+401 http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7
+402 Kastell Pinoasa
+403 http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom
+404 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763694 44.707917)
+405 Kastell Săpata de Jos II Geometry
+406 http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be
+407 Kastell Feldioara
+408 http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom
+409 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.629394 45.426539)
+410 Kastell Berzovia Geometry
+411 http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom
+412 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.312389 45.309667)
+413 Kastell Bivolari (Arutela) Geometry
+414 http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom
+415 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.57075 47.186869)
+416 Kastell Livezile Geometry
+417 http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom
+418 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.121806 46.431319)
+419 Kastell Inlăceni Geometry
+420 http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom
+421 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571889 44.514111)
+422 Kastell Mofleni (Pelendava) Geometry
+423 http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom
+424 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.752103 46.239431)
+425 Kastell Sighisoara Geometry
+426 http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom
+427 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.476111 46.510556)
+428 Kastell Cristeşti Geometry
+429 http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom
+430 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.868333 46.417222)
+431 Kastell Războieni Geometry
+432 http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65
+433 Kastell Comalău
+434 http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom
+435 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.551161 45.079397)
+436 Kastell Vărădia Geometry
+437 http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3
+438 Alenkastell
+439 Kastell Gherla
+440 http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436
+441 Kastell Putineiu
+442 http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom
+443 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763556 44.707333)
+444 Kastell Săpata de Jos I Geometry
+445 http://lod.squirrel.link/data/limes/Point_collection
+446 http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f
+447 Kastell Urluieni I
+448 http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa
+449 Kastell Valea Urluii
+450 http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990
+451 http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom
+452 Kastell Plesa
+453 http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a
+454 Kastell Săpata de Jos II
+455 http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom
+456 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8375 44.771389)
+457 Kastell Albota Geometry
+458 http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966
+459 Kastell Szeged
+460 http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom
+461 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360556 45.231944)
+462 Kastell Jiblea Geometry
+463 http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom
+464 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.315097 46.146819)
+465 Kastell Aradul Nou Geometry
+466 http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8
+467 Kastell Orheiul Bistriţei
+468 http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom
+469 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.870833 43.751667)
+470 Kastell Islaz-Razovica Geometry
+471 http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom
+472 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.884611 46.885694)
+473 Kastell Bologa (Resculum) Geometry
+474 http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018
+475 Kastell Enoşeşti (Acidava)
+476 http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4
+477 Kastell Albota
+478 http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116
+479 Kastell Purcăreni
+480 http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c
+481 Kastell Orșova (Dierna)
+482 http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom
+483 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.27 44.650306)
+484 Kastell Momoteşti (Rusidava) Geometry
+485 http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom
+486 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.331111 44.845)
+487 Kastell Banatska Palanka Geometry
+488 http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom
+489 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.766042 46.861514)
+490 Kastell Brâncoveneşti Geometry
+491 http://lod.squirrel.link/data/limes/FeatureCollection_collection
+492 http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4_geom
+493 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.251667 46.986086)
+494 Kastell Sutoru Geometry
+495 http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633
+496 Kastell Teregova (Ad Pannonios)
+497 http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f
+498 Kastell Sânnicolau Mare
+499 http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom
+500 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.312836 46.050994)
+501 Kastell Brețcu Geometry
+502 http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1
+503 Kastell Sămbotin (Castra Traiana)
+504 http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom
+505 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.266011 45.635769)
+506 Kastell Boiţa (Caput Stenarum) Geometry
+507 http://lod.squirrel.link/data/limes/LegionaryCamp_collection
+508 http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom
+509 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.3522 44.9229)
+510 Kastell Mehadia (Praetorium) Geometry
+511 http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom
+512 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.379472 46.194833)
+513 Kastell Sânpaul Geometry
+514 http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356
+515 http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom
+516 Kastell Stolniceni
+517 http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9
+518 Kastell Boiţa (Caput Stenarum) 
+519 http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom
+520 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.785111 44.603278)
+521 Kastell Fâlfani Geometry
+522 http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a
+523 Kastell Castranova
+524 http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777
+525 Kastell Buciumi
+526 http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac
+527 Kastell Jiblea
+528 http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom
+529 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.587219 45.265)
+530 Kastell Surducul Mare Geometry
+531 http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440
+532 Kastell Olteni
+533 http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom
+534 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.96525 43.937806)
+535 Kastell Băneasa I Geometry
+536 http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84
+537 Kastell Tibiscum
+538 http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0
+539 Kastell Băneasa I
+540 http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459
+541 Kastell Berzovia 
+542 http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom
+543 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.044569 47.048264)
+544 Kastell Buciumi Geometry
+545 http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed
+546 Kastell Gresia
+547 http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom
+548 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.309861 45.395903)
+549 Kastell Copăceni (Praetorium I) Geometry
+550 http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d
+551 Kastell Brâncoveneşti
+552 http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom
+553 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.068611 46.272222)
+554 Kastell Abrud (Alburnus Maior) Geometry
+555 http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom
+556 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.016667 44.116667)
+557 Kastell Castranova Geometry
+558 http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a
+559 Kastell Bologa (Resculum)
+560 http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom
+561 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.300011 45.983367)
+562 Kastell Hoghiz Geometry
+563 http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e
+564 Kastell Livezile
+565 http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom
+566 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.441581 45.618708)
+567 Kastell Râșnov Geometry
+568 http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom
+569 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.983333 43.7345)
+570 Kastell Flămănda (Poiana) Geometry
+571 http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom
+572 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761056 44.307778)
+573 Kastell Ghioca Geometry
+574 http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c
+575 Kastell Răcarii de Jos
+576 http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom
+577 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.572314 46.066694)
+578 Legionslager Alba Julia Geometry
+579 http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom
+580 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360675 45.105944)
+581 Kastell Stolniceni Geometry
+582 http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4
+583 Kastell Islaz-Razovica
+584 http://lod.squirrel.link/data/limes/MilitaryCamp_collection
+585 http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc
+586 Kastell Cigmău 
+587 http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b
+588 Kastell IIoneștii Govorii (Pons Aluti)
+589 http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom
+590 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.949167 43.938056)
+591 Kastell Căciulătești Geometry
+592 http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f
+593 Kastell Săpata de Jos I
+594 http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures
+595 http://www.opengis.net/ont/geosparql#FeatureCollection
+596 http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2
+597 http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3
+598 http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d
+599 Limes Daicus Features
+600 http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom
+601 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.441944 45.281528)
+602 Kastell Rădăcineşti Geometry
+603 http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3
+604 Kastell Abrud (Alburnus Maior)
+605 http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2
+606 Kastell Cătunele
+607 http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom
+608 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.3002 46.3131)
+609 Kastell Odorheiul Secuiesc Geometry
+610 http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom
+611 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.37 45.18)
+612 Kastell Plesa Geometry
+613 http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa
+614 Kastell Râșnov 
+615 http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d
+616 Kastell Bulci
+617 http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b
+618 Kastell Reşca (Romula/Malva)
 #
 0 1 type
-0 2 hasGeometry
-0 3 comment
-0 4 label
-5 6 type
-5 7 asWKT
-5 8 label
-9 1 type
-9 10 hasGeometry
-9 11 comment
-9 12 label
-13 14 type
-13 15 member
-13 16 member
-13 17 member
-13 18 member
-13 19 member
-13 20 member
-13 21 member
-13 22 member
-13 23 member
-13 24 member
-13 25 member
-13 26 member
-13 27 member
-13 28 member
-13 29 member
-13 30 member
-13 31 member
-13 32 member
-13 33 member
-13 34 member
-13 35 member
-13 36 member
-13 37 member
-13 38 member
-13 39 member
-13 40 member
-13 41 member
-13 9 member
-13 42 member
-13 43 member
-13 44 member
-13 45 member
-13 46 member
-13 47 member
-13 48 member
-13 49 member
-13 50 member
-13 51 member
-13 52 member
-13 53 member
-13 54 member
-13 55 member
-13 56 member
-13 57 member
-13 58 member
-13 59 member
-13 60 member
-13 61 member
-13 62 member
-13 63 label
-64 6 type
-64 65 asWKT
-64 66 label
-67 1 type
-67 68 hasGeometry
-67 69 comment
-67 70 label
-71 1 type
+0 2 asWKT
+0 3 label
+4 5 type
+4 6 member
+4 7 member
+4 8 member
+4 9 member
+4 10 member
+4 11 member
+4 12 member
+4 13 member
+4 14 member
+4 15 member
+4 16 member
+4 17 member
+4 18 member
+4 19 member
+4 20 member
+4 21 member
+4 22 member
+4 23 member
+4 24 member
+4 25 member
+4 26 member
+4 27 member
+4 28 member
+4 29 member
+4 30 member
+4 31 member
+4 32 member
+4 33 member
+4 34 member
+4 35 member
+4 36 member
+4 37 member
+4 38 member
+4 39 member
+4 40 member
+4 41 member
+4 42 member
+4 43 member
+4 44 member
+4 45 member
+4 46 member
+4 0 member
+4 47 member
+4 48 member
+4 49 member
+4 50 member
+4 51 member
+4 52 member
+4 53 member
+4 54 label
+55 1 type
+55 56 asWKT
+55 57 label
+58 1 type
+58 59 asWKT
+58 60 label
+61 62 type
+61 20 hasGeometry
+61 63 comment
+61 64 label
+65 62 type
+65 66 hasGeometry
+65 63 comment
+65 67 label
+68 1 type
+68 69 asWKT
+68 70 label
+71 62 type
 71 72 hasGeometry
-71 11 comment
+71 63 comment
 71 73 label
-74 6 type
-74 75 asWKT
-74 76 label
-77 1 type
-77 78 hasGeometry
-77 79 comment
-77 80 label
-81 1 type
-81 82 hasGeometry
-81 11 comment
-81 83 label
-84 1 type
-84 85 hasGeometry
-84 3 comment
-84 86 label
-87 6 type
-87 88 asWKT
-87 89 label
-90 1 type
-90 91 hasGeometry
-90 79 comment
-90 92 label
-93 6 type
-93 94 asWKT
-93 95 label
-96 1 type
-96 97 hasGeometry
-96 11 comment
-96 98 label
-99 1 type
-99 74 hasGeometry
-99 11 comment
-99 100 label
+74 75 type
+74 76 hasGeometry
+74 77 comment
+74 78 label
+79 62 type
+79 42 hasGeometry
+79 80 comment
+79 81 label
+82 62 type
+82 83 hasGeometry
+82 84 comment
+82 85 label
+86 1 type
+86 87 asWKT
+86 88 label
+89 62 type
+89 90 hasGeometry
+89 63 comment
+89 91 label
+92 1 type
+92 93 asWKT
+92 94 label
+95 62 type
+95 96 hasGeometry
+95 63 comment
+95 97 label
+98 1 type
+98 99 asWKT
+98 100 label
 101 1 type
-101 102 hasGeometry
-101 3 comment
+101 102 asWKT
 101 103 label
 104 1 type
-104 105 hasGeometry
-104 11 comment
+104 105 asWKT
 104 106 label
-107 6 type
-107 108 asWKT
+107 62 type
+107 108 hasGeometry
+107 63 comment
 107 109 label
 110 1 type
-110 111 hasGeometry
-110 11 comment
+110 111 asWKT
 110 112 label
-113 6 type
-113 114 asWKT
+113 62 type
+113 35 hasGeometry
+113 114 comment
 113 115 label
-116 6 type
-116 117 asWKT
-116 118 label
-119 1 type
-119 120 hasGeometry
-119 11 comment
-119 121 label
-122 6 type
-122 123 asWKT
-122 124 label
-125 6 type
-125 126 asWKT
-125 127 label
-128 1 type
-128 129 hasGeometry
-128 69 comment
-128 130 label
-131 6 type
-131 132 asWKT
-131 133 label
-134 1 type
-134 135 hasGeometry
-134 136 comment
-134 137 label
-138 1 type
-138 107 hasGeometry
-138 11 comment
-138 139 label
-140 1 type
-140 141 hasGeometry
-140 11 comment
-140 142 label
-143 6 type
-143 144 asWKT
-143 145 label
-146 1 type
-146 147 hasGeometry
-146 11 comment
-146 148 label
-149 6 type
+116 62 type
+116 43 hasGeometry
+116 63 comment
+116 117 label
+118 1 type
+118 119 asWKT
+118 120 label
+121 62 type
+121 98 hasGeometry
+121 63 comment
+121 122 label
+123 1 type
+123 124 asWKT
+123 125 label
+126 62 type
+126 127 hasGeometry
+126 128 comment
+126 129 label
+130 62 type
+130 131 hasGeometry
+130 63 comment
+130 132 label
+133 62 type
+133 50 hasGeometry
+133 134 comment
+133 135 label
+136 1 type
+136 137 asWKT
+136 138 label
+139 62 type
+139 55 hasGeometry
+139 63 comment
+139 140 label
+141 62 type
+141 11 hasGeometry
+141 142 comment
+141 143 label
+144 1 type
+144 145 asWKT
+144 146 label
+147 62 type
+147 52 hasGeometry
+147 63 comment
+147 148 label
+149 1 type
 149 150 asWKT
 149 151 label
-152 1 type
-152 153 hasGeometry
-152 11 comment
-152 154 label
-155 156 type
-155 157 hasGeometry
-155 158 comment
-155 159 label
-160 1 type
-160 161 hasGeometry
-160 3 comment
-160 162 label
-163 6 type
-163 164 asWKT
-163 165 label
-166 6 type
-166 167 asWKT
-166 168 label
-169 1 type
-169 143 hasGeometry
-169 11 comment
+152 62 type
+152 36 hasGeometry
+152 63 comment
+152 153 label
+154 62 type
+154 15 hasGeometry
+154 63 comment
+154 155 label
+156 1 type
+156 157 asWKT
+156 158 label
+159 1 type
+159 160 asWKT
+159 161 label
+162 62 type
+162 136 hasGeometry
+162 63 comment
+162 163 label
+164 1 type
+164 165 asWKT
+164 166 label
+167 62 type
+167 48 hasGeometry
+167 63 comment
+167 168 label
+169 62 type
+169 29 hasGeometry
+169 80 comment
 169 170 label
-171 1 type
+171 62 type
 171 172 hasGeometry
-171 11 comment
+171 63 comment
 171 173 label
-174 1 type
+174 62 type
 174 175 hasGeometry
-174 11 comment
+174 63 comment
 174 176 label
-177 6 type
+177 1 type
 177 178 asWKT
 177 179 label
-180 6 type
-180 181 asWKT
+180 62 type
+180 181 hasGeometry
+180 63 comment
 180 182 label
-183 6 type
+183 1 type
 183 184 asWKT
 183 185 label
-186 6 type
+186 1 type
 186 187 asWKT
 186 188 label
 189 1 type
-189 190 hasGeometry
-189 11 comment
+189 190 asWKT
 189 191 label
-192 1 type
-192 193 hasGeometry
-192 11 comment
-192 194 label
-195 1 type
-195 196 hasGeometry
-195 11 comment
-195 197 label
-198 1 type
-198 125 hasGeometry
-198 11 comment
-198 199 label
-200 6 type
-200 201 asWKT
-200 202 label
-203 1 type
-203 200 hasGeometry
-203 11 comment
-203 204 label
-205 6 type
-205 206 asWKT
-205 207 label
-208 1 type
-208 209 hasGeometry
-208 11 comment
-208 210 label
-211 6 type
-211 212 asWKT
-211 213 label
-214 6 type
-214 215 asWKT
-214 216 label
-217 6 type
-217 218 asWKT
-217 219 label
-220 1 type
+193 1 type
+193 194 asWKT
+193 195 label
+196 1 type
+196 197 asWKT
+196 198 label
+199 1 type
+199 200 asWKT
+199 201 label
+202 1 type
+202 203 asWKT
+202 204 label
+205 62 type
+205 53 hasGeometry
+205 63 comment
+205 206 label
+207 62 type
+207 208 hasGeometry
+207 63 comment
+207 209 label
+210 62 type
+210 7 hasGeometry
+210 80 comment
+210 211 label
+212 75 type
+212 213 hasGeometry
+212 63 comment
+212 214 label
+215 1 type
+215 216 asWKT
+215 217 label
+218 62 type
+218 86 hasGeometry
+218 114 comment
+218 219 label
+220 62 type
 220 221 hasGeometry
-220 11 comment
+220 80 comment
 220 222 label
-223 6 type
+223 1 type
 223 224 asWKT
 223 225 label
-226 6 type
+226 1 type
 226 227 asWKT
 226 228 label
 229 1 type
-229 230 hasGeometry
-229 231 comment
-229 232 label
-233 156 type
-233 234 hasGeometry
-233 158 comment
-233 235 label
-236 1 type
-236 237 hasGeometry
-236 11 comment
-236 238 label
+229 230 asWKT
+229 231 label
+232 62 type
+232 110 hasGeometry
+232 63 comment
+232 233 label
+234 1 type
+234 235 asWKT
+234 236 label
+237 62 type
+237 19 hasGeometry
+237 63 comment
+237 238 label
 239 1 type
-239 240 hasGeometry
-239 11 comment
+239 240 asWKT
 239 241 label
-242 6 type
-242 243 asWKT
+242 62 type
+242 243 hasGeometry
+242 63 comment
 242 244 label
 245 1 type
-245 246 hasGeometry
-245 11 comment
+245 246 asWKT
 245 247 label
 248 1 type
-248 249 hasGeometry
-248 11 comment
+248 249 asWKT
 248 250 label
-251 156 type
-251 252 hasGeometry
-251 158 comment
-251 253 label
-254 6 type
-254 255 asWKT
-254 256 label
-257 1 type
-257 258 hasGeometry
-257 11 comment
-257 259 label
-260 6 type
-260 261 asWKT
-260 262 label
-263 1 type
-263 264 hasGeometry
-263 11 comment
-263 265 label
-266 6 type
-266 267 asWKT
-266 268 label
-269 1 type
-269 87 hasGeometry
-269 69 comment
-269 270 label
-271 6 type
-271 272 asWKT
-271 273 label
-274 6 type
-274 275 asWKT
-274 276 label
+251 62 type
+251 202 hasGeometry
+251 63 comment
+251 252 label
+253 62 type
+253 51 hasGeometry
+253 63 comment
+253 254 label
+255 1 type
+255 256 asWKT
+255 257 label
+258 62 type
+258 259 hasGeometry
+258 114 comment
+258 260 label
+261 1 type
+261 262 asWKT
+261 263 label
+264 1 type
+264 265 asWKT
+264 266 label
+267 62 type
+267 32 hasGeometry
+267 114 comment
+267 268 label
+269 62 type
+269 270 hasGeometry
+269 80 comment
+269 271 label
+272 1 type
+272 273 asWKT
+272 274 label
+275 62 type
+275 22 hasGeometry
+275 63 comment
+275 276 label
 277 1 type
-277 278 hasGeometry
-277 11 comment
+277 278 asWKT
 277 279 label
-281 1 type
-281 282 hasGeometry
-281 283 comment
-281 284 label
-285 6 type
-285 286 asWKT
-285 287 label
-288 1 type
-288 5 hasGeometry
-288 11 comment
+280 1 type
+280 281 asWKT
+280 282 label
+283 1 type
+283 284 asWKT
+283 285 label
+286 62 type
+286 13 hasGeometry
+286 63 comment
+286 287 label
+288 62 type
+288 17 hasGeometry
+288 134 comment
 288 289 label
 290 1 type
-290 291 hasGeometry
-290 11 comment
+290 291 asWKT
 290 292 label
-293 6 type
+293 1 type
 293 294 asWKT
 293 295 label
-296 6 type
+296 1 type
 296 297 asWKT
 296 298 label
-299 6 type
+299 1 type
 299 300 asWKT
 299 301 label
-302 6 type
-302 303 asWKT
-302 304 label
-305 1 type
-305 306 hasGeometry
-305 11 comment
-305 307 label
-308 6 type
-308 309 asWKT
-308 310 label
-311 6 type
-311 312 asWKT
-311 313 label
-314 6 type
-314 315 asWKT
-314 316 label
-317 6 type
-317 318 asWKT
-317 319 label
-320 1 type
-320 321 hasGeometry
-320 69 comment
-320 322 label
-323 6 type
-323 324 asWKT
-323 325 label
-326 1 type
-326 327 hasGeometry
-326 328 comment
-326 329 label
-330 331 type
-330 314 member
-330 332 member
-330 333 member
-330 74 member
-330 334 member
-330 323 member
-330 82 member
-330 335 member
-330 107 member
-330 141 member
-330 5 member
-330 223 member
-330 125 member
-330 336 member
-330 217 member
-330 68 member
-330 337 member
-330 338 member
-330 120 member
-330 339 member
-330 340 member
-330 341 member
-330 190 member
-330 342 member
-330 343 member
-330 147 member
-330 299 member
-330 214 member
-330 209 member
-330 321 member
-330 344 member
-330 327 member
-330 143 member
-330 226 member
-330 345 member
-330 240 member
-330 242 member
-330 72 member
-330 193 member
-330 93 member
-330 252 member
-330 161 member
-330 205 member
-330 274 member
-330 266 member
-330 91 member
-330 200 member
-330 211 member
-330 293 member
-330 346 label
-347 6 type
-347 348 asWKT
-347 349 label
-350 1 type
-350 351 hasGeometry
-350 3 comment
-350 352 label
-353 6 type
-353 354 asWKT
-353 355 label
-356 6 type
-356 357 asWKT
+302 62 type
+302 14 hasGeometry
+302 63 comment
+302 303 label
+304 1 type
+304 305 asWKT
+304 306 label
+307 1 type
+307 308 asWKT
+307 309 label
+310 1 type
+310 311 asWKT
+310 312 label
+313 62 type
+313 314 hasGeometry
+313 63 comment
+313 315 label
+316 75 type
+316 317 hasGeometry
+316 77 comment
+316 318 label
+319 1 type
+319 320 asWKT
+319 321 label
+322 62 type
+322 239 hasGeometry
+322 63 comment
+322 323 label
+324 1 type
+324 325 asWKT
+324 326 label
+327 1 type
+327 328 asWKT
+327 329 label
+330 1 type
+330 331 asWKT
+330 332 label
+333 62 type
+333 334 hasGeometry
+333 63 comment
+333 335 label
+336 62 type
+336 337 hasGeometry
+336 63 comment
+336 338 label
+339 1 type
+339 340 asWKT
+339 341 label
+342 1 type
+342 343 asWKT
+342 344 label
+345 62 type
+345 339 hasGeometry
+345 63 comment
+345 346 label
+347 62 type
+347 30 hasGeometry
+347 63 comment
+347 348 label
+349 1 type
+349 350 asWKT
+349 351 label
+352 62 type
+352 183 hasGeometry
+352 114 comment
+352 353 label
+354 62 type
+354 293 hasGeometry
+354 80 comment
+354 355 label
+356 62 type
+356 357 hasGeometry
+356 63 comment
 356 358 label
 359 1 type
-359 360 hasGeometry
-359 11 comment
+359 360 asWKT
 359 361 label
 362 1 type
-362 363 hasGeometry
-362 11 comment
+362 363 asWKT
 362 364 label
 365 1 type
-365 296 hasGeometry
-365 11 comment
-365 366 label
-367 1 type
-367 334 hasGeometry
-367 11 comment
-367 368 label
-369 6 type
-369 370 asWKT
-369 371 label
-372 6 type
-372 373 asWKT
-372 374 label
-375 1 type
-375 149 hasGeometry
-375 11 comment
-375 376 label
-377 6 type
-377 378 asWKT
-377 379 label
-380 6 type
-380 381 asWKT
-380 382 label
-383 6 type
-383 384 asWKT
-383 385 label
-386 6 type
-386 387 asWKT
-386 388 label
-390 6 type
-390 391 asWKT
-390 392 label
-393 156 type
-393 394 hasGeometry
-393 158 comment
-393 395 label
-396 6 type
-396 397 asWKT
-396 398 label
-399 6 type
-399 400 asWKT
-399 401 label
-402 6 type
-402 403 asWKT
-402 404 label
-405 1 type
-405 180 hasGeometry
-405 11 comment
-405 406 label
-407 1 type
-407 223 hasGeometry
-407 79 comment
-407 408 label
-409 6 type
-409 410 asWKT
-409 411 label
-412 1 type
-412 413 hasGeometry
-412 11 comment
-412 414 label
-415 6 type
-415 416 asWKT
-415 417 label
-418 1 type
-418 122 hasGeometry
-418 11 comment
-418 419 label
-420 6 type
+365 366 asWKT
+365 367 label
+368 1 type
+368 369 asWKT
+368 370 label
+371 62 type
+371 123 hasGeometry
+371 63 comment
+371 372 label
+373 1 type
+373 374 asWKT
+373 375 label
+376 75 type
+376 92 hasGeometry
+376 77 comment
+376 377 label
+378 1 type
+378 379 asWKT
+378 380 label
+381 62 type
+381 118 hasGeometry
+381 63 comment
+381 382 label
+383 62 type
+383 223 hasGeometry
+383 63 comment
+383 384 label
+385 1 type
+385 386 asWKT
+385 387 label
+388 1 type
+388 389 asWKT
+388 390 label
+391 62 type
+391 299 hasGeometry
+391 63 comment
+391 392 label
+393 62 type
+393 40 hasGeometry
+393 63 comment
+393 394 label
+395 62 type
+395 342 hasGeometry
+395 63 comment
+395 396 label
+397 62 type
+397 104 hasGeometry
+397 63 comment
+397 398 label
+399 62 type
+399 149 hasGeometry
+399 80 comment
+399 400 label
+401 62 type
+401 349 hasGeometry
+401 63 comment
+401 402 label
+403 1 type
+403 404 asWKT
+403 405 label
+406 62 type
+406 0 hasGeometry
+406 80 comment
+406 407 label
+408 1 type
+408 409 asWKT
+408 410 label
+411 1 type
+411 412 asWKT
+411 413 label
+414 1 type
+414 415 asWKT
+414 416 label
+417 1 type
+417 418 asWKT
+417 419 label
+420 1 type
 420 421 asWKT
 420 422 label
-423 6 type
+423 1 type
 423 424 asWKT
 423 425 label
 426 1 type
-426 427 hasGeometry
-426 11 comment
+426 427 asWKT
 426 428 label
-429 6 type
+429 1 type
 429 430 asWKT
 429 431 label
-432 1 type
-432 423 hasGeometry
-432 11 comment
+432 62 type
+432 245 hasGeometry
+432 63 comment
 432 433 label
-434 6 type
+434 1 type
 434 435 asWKT
 434 436 label
-437 1 type
-437 438 hasGeometry
-437 11 comment
+437 62 type
+437 261 hasGeometry
+437 438 comment
 437 439 label
-440 6 type
-440 441 asWKT
-440 442 label
-443 6 type
-443 444 asWKT
-443 445 label
-446 6 type
-446 447 asWKT
-446 448 label
-449 6 type
-449 450 asWKT
-449 451 label
-452 6 type
-452 453 asWKT
-452 454 label
+440 62 type
+440 290 hasGeometry
+440 63 comment
+440 441 label
+442 1 type
+442 443 asWKT
+442 444 label
+446 62 type
+446 199 hasGeometry
+446 63 comment
+446 447 label
+448 62 type
+448 101 hasGeometry
+448 63 comment
+448 449 label
+450 62 type
+450 451 hasGeometry
+450 63 comment
+450 452 label
+453 62 type
+453 403 hasGeometry
+453 63 comment
+453 454 label
 455 1 type
-455 336 hasGeometry
-455 11 comment
-455 456 label
-457 6 type
-457 458 asWKT
-457 459 label
+455 456 asWKT
+455 457 label
+458 62 type
+458 58 hasGeometry
+458 134 comment
+458 459 label
 460 1 type
-460 461 hasGeometry
-460 11 comment
+460 461 asWKT
 460 462 label
-463 6 type
+463 1 type
 463 464 asWKT
 463 465 label
-466 6 type
-466 467 asWKT
-466 468 label
-469 6 type
-469 470 asWKT
-469 471 label
-472 1 type
-472 466 hasGeometry
-472 11 comment
-472 473 label
-474 6 type
-474 475 asWKT
-474 476 label
-477 1 type
-477 369 hasGeometry
-477 3 comment
-477 478 label
-479 1 type
-479 386 hasGeometry
-479 11 comment
-479 480 label
-481 1 type
-481 409 hasGeometry
-481 11 comment
-481 482 label
-483 6 type
-483 484 asWKT
-483 485 label
-486 6 type
-486 487 asWKT
-486 488 label
-489 6 type
-489 490 asWKT
-489 491 label
-492 6 type
+466 62 type
+466 156 hasGeometry
+466 63 comment
+466 467 label
+468 1 type
+468 469 asWKT
+468 470 label
+471 1 type
+471 472 asWKT
+471 473 label
+474 62 type
+474 304 hasGeometry
+474 63 comment
+474 475 label
+476 62 type
+476 455 hasGeometry
+476 63 comment
+476 477 label
+478 62 type
+478 330 hasGeometry
+478 63 comment
+478 479 label
+480 62 type
+480 378 hasGeometry
+480 63 comment
+480 481 label
+482 1 type
+482 483 asWKT
+482 484 label
+485 1 type
+485 486 asWKT
+485 487 label
+488 1 type
+488 489 asWKT
+488 490 label
+492 1 type
 492 493 asWKT
 492 494 label
-495 1 type
-495 217 hasGeometry
-495 11 comment
+495 62 type
+495 277 hasGeometry
+495 63 comment
 495 496 label
-497 1 type
-497 402 hasGeometry
-497 11 comment
+497 62 type
+497 368 hasGeometry
+497 134 comment
 497 498 label
 499 1 type
-499 333 hasGeometry
-499 3 comment
-499 500 label
-501 6 type
-501 502 asWKT
-501 503 label
+499 500 asWKT
+499 501 label
+502 62 type
+502 310 hasGeometry
+502 63 comment
+502 503 label
 504 1 type
-504 340 hasGeometry
-504 79 comment
-504 505 label
-506 6 type
-506 507 asWKT
-506 508 label
-509 1 type
-509 293 hasGeometry
-509 11 comment
-509 510 label
-511 6 type
+504 505 asWKT
+504 506 label
+508 1 type
+508 509 asWKT
+508 510 label
+511 1 type
 511 512 asWKT
 511 513 label
-514 1 type
-514 226 hasGeometry
-514 11 comment
-514 515 label
-516 1 type
-516 113 hasGeometry
-516 11 comment
-516 517 label
-518 6 type
-518 519 asWKT
-518 520 label
-521 1 type
-521 383 hasGeometry
-521 69 comment
-521 522 label
-524 156 type
-524 525 hasGeometry
-524 158 comment
-524 526 label
+514 62 type
+514 515 hasGeometry
+514 80 comment
+514 516 label
+517 62 type
+517 504 hasGeometry
+517 63 comment
+517 518 label
+519 1 type
+519 520 asWKT
+519 521 label
+522 62 type
+522 38 hasGeometry
+522 63 comment
+522 523 label
+524 62 type
+524 8 hasGeometry
+524 80 comment
+524 525 label
+526 62 type
+526 460 hasGeometry
+526 63 comment
+526 527 label
 528 1 type
-528 302 hasGeometry
-528 11 comment
-528 529 label
-530 1 type
-530 242 hasGeometry
-530 3 comment
-530 531 label
-532 1 type
-532 483 hasGeometry
-532 3 comment
-532 533 label
-534 6 type
-534 535 asWKT
-534 536 label
-537 6 type
-537 538 asWKT
-537 539 label
-540 6 type
-540 541 asWKT
-540 542 label
-543 1 type
-543 338 hasGeometry
-543 11 comment
-543 544 label
-545 1 type
-545 489 hasGeometry
-545 11 comment
+528 529 asWKT
+528 530 label
+531 62 type
+531 388 hasGeometry
+531 80 comment
+531 532 label
+533 1 type
+533 534 asWKT
+533 535 label
+536 75 type
+536 164 hasGeometry
+536 77 comment
+536 537 label
+538 62 type
+538 533 hasGeometry
+538 63 comment
+538 539 label
+540 75 type
+540 408 hasGeometry
+540 77 comment
+540 541 label
+542 1 type
+542 543 asWKT
+542 544 label
+545 62 type
+545 272 hasGeometry
+545 63 comment
 545 546 label
 547 1 type
-547 534 hasGeometry
-547 11 comment
-547 548 label
-549 1 type
-549 186 hasGeometry
-549 11 comment
-549 550 label
-551 1 type
-551 131 hasGeometry
-551 3 comment
-551 552 label
-553 6 type
-553 554 asWKT
-553 555 label
-556 1 type
-556 271 hasGeometry
-556 11 comment
-556 557 label
-558 1 type
-558 559 hasGeometry
-558 11 comment
-558 560 label
-561 6 type
-561 562 asWKT
-561 563 label
-564 1 type
-564 415 hasGeometry
-564 11 comment
-564 565 label
-566 1 type
-566 377 hasGeometry
-566 11 comment
-566 567 label
-568 6 type
+547 548 asWKT
+547 549 label
+550 62 type
+550 488 hasGeometry
+550 63 comment
+550 551 label
+552 1 type
+552 553 asWKT
+552 554 label
+555 1 type
+555 556 asWKT
+555 557 label
+558 62 type
+558 471 hasGeometry
+558 63 comment
+558 559 label
+560 1 type
+560 561 asWKT
+560 562 label
+563 62 type
+563 414 hasGeometry
+563 63 comment
+563 564 label
+565 1 type
+565 566 asWKT
+565 567 label
+568 1 type
 568 569 asWKT
 568 570 label
-571 156 type
-571 440 hasGeometry
-571 11 comment
-571 572 label
-573 6 type
-573 574 asWKT
-573 575 label
+571 1 type
+571 572 asWKT
+571 573 label
+574 62 type
+574 264 hasGeometry
+574 114 comment
+574 575 label
 576 1 type
-576 266 hasGeometry
-576 69 comment
-576 577 label
-578 6 type
-578 579 asWKT
-578 580 label
-581 1 type
-581 341 hasGeometry
-581 11 comment
-581 582 label
-583 1 type
-583 486 hasGeometry
-583 11 comment
-583 584 label
-585 1 type
-585 337 hasGeometry
-585 11 comment
+576 577 asWKT
+576 578 label
+579 1 type
+579 580 asWKT
+579 581 label
+582 62 type
+582 468 hasGeometry
+582 63 comment
+582 583 label
+585 62 type
+585 255 hasGeometry
+585 114 comment
 585 586 label
-587 1 type
-587 260 hasGeometry
-587 69 comment
+587 62 type
+587 177 hasGeometry
+587 63 comment
 587 588 label
 589 1 type
-589 64 hasGeometry
-589 3 comment
-589 590 label
-591 1 type
-591 116 hasGeometry
-591 11 comment
-591 592 label
-593 1 type
-593 93 hasGeometry
-593 11 comment
-593 594 label
-595 1 type
-595 163 hasGeometry
-595 11 comment
-595 596 label
-597 6 type
-597 598 asWKT
-597 599 label
-600 6 type
+589 590 asWKT
+589 591 label
+592 62 type
+592 442 hasGeometry
+592 63 comment
+592 593 label
+594 595 type
+594 596 member
+594 210 member
+594 524 member
+594 476 member
+594 474 member
+594 141 member
+594 383 member
+594 286 member
+594 302 member
+594 154 member
+594 322 member
+594 288 member
+594 345 member
+594 237 member
+594 61 member
+594 585 member
+594 275 member
+594 597 member
+594 582 member
+594 432 member
+594 598 member
+594 550 member
+594 545 member
+594 169 member
+594 347 member
+594 587 member
+594 267 member
+594 526 member
+594 397 member
+594 113 member
+594 152 member
+594 437 member
+594 522 member
+594 538 member
+594 393 member
+594 558 member
+594 79 member
+594 116 member
+594 121 member
+594 517 member
+594 540 member
+594 406 member
+594 563 member
+594 167 member
+594 352 member
+594 133 member
+594 253 member
+594 147 member
+594 205 member
+594 599 label
+600 1 type
 600 601 asWKT
 600 602 label
-603 6 type
-603 604 asWKT
-603 605 label
-606 6 type
-606 607 asWKT
-606 608 label
-609 6 type
-609 610 asWKT
-609 611 label
-612 6 type
-612 613 asWKT
-612 614 label
-615 6 type
-615 616 asWKT
-615 617 label
-618 6 type
-618 619 asWKT
-618 620 label
-621 6 type
-621 622 asWKT
-621 623 label
-624 6 type
-624 625 asWKT
-624 626 label
-627 1 type
-627 166 hasGeometry
-627 11 comment
-627 628 label
-629 1 type
-629 420 hasGeometry
-629 11 comment
-629 630 label
-631 1 type
-631 311 hasGeometry
-631 79 comment
-631 632 label
-633 6 type
-633 634 asWKT
-633 635 label
-636 6 type
-636 637 asWKT
-636 638 label
-640 6 type
-640 641 asWKT
-640 642 label
-643 1 type
-643 342 hasGeometry
-643 3 comment
-643 644 label
-645 6 type
-645 646 asWKT
-645 647 label
-648 6 type
-648 649 asWKT
-648 650 label
-651 6 type
-651 652 asWKT
-651 653 label
-654 6 type
-654 655 asWKT
-654 656 label
+603 62 type
+603 552 hasGeometry
+603 63 comment
+603 604 label
+605 62 type
+605 144 hasGeometry
+605 63 comment
+605 606 label
+607 1 type
+607 608 asWKT
+607 609 label
+610 1 type
+610 611 asWKT
+610 612 label
+613 62 type
+613 565 hasGeometry
+613 80 comment
+613 614 label
+615 62 type
+615 234 hasGeometry
+615 134 comment
+615 616 label
+617 62 type
+617 215 hasGeometry
+617 63 comment
+617 618 label
