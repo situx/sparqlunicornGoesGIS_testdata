@@ -47,7 +47,7 @@ The workflow may be called using the following paramters:
 * **offlinecompat**: If true, generates a version of the documentation that works offline
 * **datasettitle**: A title of the dataset which can be used as a variable in the HTML template
 * **exports**: A list of export formats the script generates besides HTML.
-    Eligible formats: *cipher*, *graphml*, *json*, *n3*, *nq*, *nt*, *tgf*, *trig*, *trix*, *ttl*, defaults to *ttl* and *json*
+    Eligible formats: *cypher*, *graphml*, *json*, *n3*, *nq*, *nt*, *tgf*, *trig*, *trix*, *ttl*, defaults to *ttl* and *json*
 * **iiif**: If true, generates IIIF manifests for connected media files
 * **metadatatable**: If true, creates a second table per page which includes only triples in predefined metadata namespaces
 * **preferredlang**: Defines the preferred label language for multilingual graphs (default: en)
