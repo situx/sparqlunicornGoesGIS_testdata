@@ -6,6 +6,24 @@
 </head>
 <body>
   <div id="yasgui"></div>
+  <script src="https://rdf.js.org/comunica-browser/versions/v2/engines/query-sparql/comunica-browser.js"></script>
+<script language="JavaScript">
+  console.log("COMMUNICA!!!!")
+  new Comunica.QueryEngine().queryBindings(`
+  SELECT * {
+    ?s ?p <http://dbpedia.org/resource/Belgium>.
+    ?s ?p ?o
+  } LIMIT 100
+`, {
+  sources: ['https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl'],
+}).then(function (bindingsStream) {
+  bindingsStream.on('data', function (data) {
+	console.log("STREEEEEAM")
+    // Each variable binding is an RDFJS term
+    console.log(data.get('s').value + ' ' + data.get('p').value + ' ' + data.get('o').value);
+  });
+});
+</script>
   <script>
     
   var store = $rdf.graph()
@@ -21,7 +39,12 @@ fetcher.nowOrWhenFetched("https://sparqlunicorn.github.io/sparqlunicornGoesGIS_t
 		 console.log("---data loaded---")
 		 console.log("LOADING YASGUI")
 		 const yasgui = new Yasgui(document.getElementById("yasgui"));
+		 //yasgui.getTab().yasqe.on("query", (instance: yasgui.getTab().yasqe, req: superagent.SuperAgentRequest) => { queryFile(yasgui.getTab().yasqe.getValue())});		 
 }})
+
+/*function queryFile(thequery){
+	store.
+}*/
   </script>
 </body>
 </html>
