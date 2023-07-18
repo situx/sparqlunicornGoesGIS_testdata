@@ -7,7 +7,7 @@
 <body>
   <div id="yasgui"></div>
   <script>
-    const yasgui = new Yasgui(document.getElementById("yasgui"));
+    
   var store = $rdf.graph()
 var timeout = 5000 // 5000 ms timeout
 var fetcher = new $rdf.Fetcher(store, timeout)
@@ -19,6 +19,8 @@ fetcher.nowOrWhenFetched("https://sparqlunicorn.github.io/sparqlunicornGoesGIS_t
 		console.log('    Non-HTTP error reloading data! onErrorWasCalled=' + response.onErrorWasCalled + ' status: ' + response.status)
 	} else {
 		 console.log("---data loaded---")
+		 console.log("LOADING YASGUI")
+		 const yasgui = new Yasgui(document.getElementById("yasgui"));
 }})
   </script>
 </body>
