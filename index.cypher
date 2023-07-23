@@ -1,501 +1,287 @@
-CREATE ( 0f25c729-a3c7-4cb4-b063-ff72c0124b4f{ _id:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f', _uri:'http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f', rdfs_label:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f' })
-CREATE ( MilitaryCamp{ _id:'MilitaryCamp', _uri:'http://archaeoinformatics.link/ontology#MilitaryCamp', rdfs_label:'MilitaryCamp' })
-CREATE ( 0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom{ _id:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom', rdfs_label:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom' })
-CREATE ( nan{ _id:'nan', _uri:'nan', rdfs_label:'nan' })
-CREATE ( Kastell Urluieni I{ _id:'Kastell Urluieni I', _uri:'Kastell Urluieni I', rdfs_label:'Kastell Urluieni I' })
-CREATE ( 340738ca-7444-4896-a0fd-cd9e6806eb30_geom{ _id:'340738ca-7444-4896-a0fd-cd9e6806eb30_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom', rdfs_label:'340738ca-7444-4896-a0fd-cd9e6806eb30_geom' })
-CREATE ( Point{ _id:'Point', _uri:'http://www.opengis.net/ont/sf#Point', rdfs_label:'Point' })
-CREATE ( 4326> POINT (22.3522 44.9229){ _id:'4326> POINT (22.3522 44.9229)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.3522 44.9229)', rdfs_label:'4326> POINT (22.3522 44.9229)' })
-CREATE ( Kastell Mehadia (Praetorium) Geometry{ _id:'Kastell Mehadia (Praetorium) Geometry', _uri:'Kastell Mehadia (Praetorium) Geometry', rdfs_label:'Kastell Mehadia (Praetorium) Geometry' })
-CREATE ( 0ab5e10e-4fb0-4854-835b-389043840ee0{ _id:'0ab5e10e-4fb0-4854-835b-389043840ee0', _uri:'http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0', rdfs_label:'0ab5e10e-4fb0-4854-835b-389043840ee0' })
-CREATE ( 0ab5e10e-4fb0-4854-835b-389043840ee0_geom{ _id:'0ab5e10e-4fb0-4854-835b-389043840ee0_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom', rdfs_label:'0ab5e10e-4fb0-4854-835b-389043840ee0_geom' })
-CREATE ( Kastell Lişteava{ _id:'Kastell Lişteava', _uri:'Kastell Lişteava', rdfs_label:'Kastell Lişteava' })
-CREATE ( af909713-68f5-4b6d-89d5-03f7fc7fd5c1{ _id:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1', _uri:'http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1', rdfs_label:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1' })
-CREATE ( af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom{ _id:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom', rdfs_label:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom' })
-CREATE ( Kastell Sămbotin (Castra Traiana){ _id:'Kastell Sămbotin (Castra Traiana)', _uri:'Kastell Sămbotin (Castra Traiana)', rdfs_label:'Kastell Sămbotin (Castra Traiana)' })
-CREATE ( 5e33b468-4135-46b4-babc-99f5c423f966{ _id:'5e33b468-4135-46b4-babc-99f5c423f966', _uri:'http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966', rdfs_label:'5e33b468-4135-46b4-babc-99f5c423f966' })
-CREATE ( 5e33b468-4135-46b4-babc-99f5c423f966_geom{ _id:'5e33b468-4135-46b4-babc-99f5c423f966_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966_geom', rdfs_label:'5e33b468-4135-46b4-babc-99f5c423f966_geom' })
-CREATE ( Kohortenkastell (?){ _id:'Kohortenkastell (?)', _uri:'Kohortenkastell (?)', rdfs_label:'Kohortenkastell (?)' })
-CREATE ( Kastell Szeged{ _id:'Kastell Szeged', _uri:'Kastell Szeged', rdfs_label:'Kastell Szeged' })
-CREATE ( 7422f9df-da23-450f-8eac-db2d8dfca42e_geom{ _id:'7422f9df-da23-450f-8eac-db2d8dfca42e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom', rdfs_label:'7422f9df-da23-450f-8eac-db2d8dfca42e_geom' })
-CREATE ( 4326> POINT (24.57075 47.186869){ _id:'4326> POINT (24.57075 47.186869)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.57075 47.186869)', rdfs_label:'4326> POINT (24.57075 47.186869)' })
-CREATE ( Kastell Livezile Geometry{ _id:'Kastell Livezile Geometry', _uri:'Kastell Livezile Geometry', rdfs_label:'Kastell Livezile Geometry' })
-CREATE ( 707cb61a-d04e-4c7b-a620-6587db82f116_geom{ _id:'707cb61a-d04e-4c7b-a620-6587db82f116_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116_geom', rdfs_label:'707cb61a-d04e-4c7b-a620-6587db82f116_geom' })
-CREATE ( 4326> POINT (24.8945 44.958083){ _id:'4326> POINT (24.8945 44.958083)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8945 44.958083)', rdfs_label:'4326> POINT (24.8945 44.958083)' })
-CREATE ( Kastell Purcăreni Geometry{ _id:'Kastell Purcăreni Geometry', _uri:'Kastell Purcăreni Geometry', rdfs_label:'Kastell Purcăreni Geometry' })
-CREATE ( 59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom{ _id:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom', rdfs_label:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom' })
-CREATE ( 4326> POINT (20.629444 46.072222){ _id:'4326> POINT (20.629444 46.072222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.629444 46.072222)', rdfs_label:'4326> POINT (20.629444 46.072222)' })
-CREATE ( Kastell Sânnicolau Mare Geometry{ _id:'Kastell Sânnicolau Mare Geometry', _uri:'Kastell Sânnicolau Mare Geometry', rdfs_label:'Kastell Sânnicolau Mare Geometry' })
-CREATE ( 9a084d40-bf5c-42fa-8aa7-8c678524c631{ _id:'9a084d40-bf5c-42fa-8aa7-8c678524c631', _uri:'http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631', rdfs_label:'9a084d40-bf5c-42fa-8aa7-8c678524c631' })
-CREATE ( 9a084d40-bf5c-42fa-8aa7-8c678524c631_geom{ _id:'9a084d40-bf5c-42fa-8aa7-8c678524c631_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom', rdfs_label:'9a084d40-bf5c-42fa-8aa7-8c678524c631_geom' })
-CREATE ( Kastell Racoviţa (Praetorium II){ _id:'Kastell Racoviţa (Praetorium II)', _uri:'Kastell Racoviţa (Praetorium II)', rdfs_label:'Kastell Racoviţa (Praetorium II)' })
-CREATE ( 7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom{ _id:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom', rdfs_label:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom' })
-CREATE ( 4326> POINT (24.877311 46.628978){ _id:'4326> POINT (24.877311 46.628978)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.877311 46.628978)', rdfs_label:'4326> POINT (24.877311 46.628978)' })
-CREATE ( Kastell Călugăreni Geometry{ _id:'Kastell Călugăreni Geometry', _uri:'Kastell Călugăreni Geometry', rdfs_label:'Kastell Călugăreni Geometry' })
-CREATE ( d92ef45f-91c4-442e-b279-61f17fbccb7c_geom{ _id:'d92ef45f-91c4-442e-b279-61f17fbccb7c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom', rdfs_label:'d92ef45f-91c4-442e-b279-61f17fbccb7c_geom' })
-CREATE ( 4326> POINT (24.095361 47.210528){ _id:'4326> POINT (24.095361 47.210528)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.095361 47.210528)', rdfs_label:'4326> POINT (24.095361 47.210528)' })
-CREATE ( Kastell Ilişua (Arcobara) Geometry{ _id:'Kastell Ilişua (Arcobara) Geometry', _uri:'Kastell Ilişua (Arcobara) Geometry', rdfs_label:'Kastell Ilişua (Arcobara) Geometry' })
-CREATE ( 8f823c04-d42b-49ec-879d-2c446d575885_geom{ _id:'8f823c04-d42b-49ec-879d-2c446d575885_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom', rdfs_label:'8f823c04-d42b-49ec-879d-2c446d575885_geom' })
-CREATE ( 4326> POINT (25.076083 45.297833){ _id:'4326> POINT (25.076083 45.297833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.076083 45.297833)', rdfs_label:'4326> POINT (25.076083 45.297833)' })
-CREATE ( Kastell Voineşti Geometry{ _id:'Kastell Voineşti Geometry', _uri:'Kastell Voineşti Geometry', rdfs_label:'Kastell Voineşti Geometry' })
-CREATE ( 4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom{ _id:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom', rdfs_label:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom' })
-CREATE ( 4326> POINT (24.983333 43.7345){ _id:'4326> POINT (24.983333 43.7345)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.983333 43.7345)', rdfs_label:'4326> POINT (24.983333 43.7345)' })
-CREATE ( Kastell Flămănda (Poiana) Geometry{ _id:'Kastell Flămănda (Poiana) Geometry', _uri:'Kastell Flămănda (Poiana) Geometry', rdfs_label:'Kastell Flămănda (Poiana) Geometry' })
-CREATE ( d2adbbd5-f4a7-471d-a817-b28e37bcbfb1{ _id:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1', _uri:'http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1', rdfs_label:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1' })
-CREATE ( d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom{ _id:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom', rdfs_label:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom' })
-CREATE (  Alenkastell{ _id:' Alenkastell', _uri:'Kohortenkastell / Alenkastell', rdfs_label:' Alenkastell' })
-CREATE ( Kastell Banatska Palanka{ _id:'Kastell Banatska Palanka', _uri:'Kastell Banatska Palanka', rdfs_label:'Kastell Banatska Palanka' })
-CREATE ( f81e10af-8e41-447d-b601-dcba5311199b_geom{ _id:'f81e10af-8e41-447d-b601-dcba5311199b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b_geom', rdfs_label:'f81e10af-8e41-447d-b601-dcba5311199b_geom' })
-CREATE ( 4326> POINT (24.400833 44.166667){ _id:'4326> POINT (24.400833 44.166667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 44.166667)', rdfs_label:'4326> POINT (24.400833 44.166667)' })
-CREATE ( Malva) Geometry{ _id:'Malva) Geometry', _uri:'Kastell Reşca (Romula/Malva) Geometry', rdfs_label:'Malva) Geometry' })
-CREATE ( 4198c975-e14a-4fb3-9b2e-7be9e145ecac{ _id:'4198c975-e14a-4fb3-9b2e-7be9e145ecac', _uri:'http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac', rdfs_label:'4198c975-e14a-4fb3-9b2e-7be9e145ecac' })
-CREATE ( 4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom{ _id:'4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom', rdfs_label:'4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom' })
-CREATE ( Kastell Jiblea{ _id:'Kastell Jiblea', _uri:'Kastell Jiblea', rdfs_label:'Kastell Jiblea' })
-CREATE ( 340738ca-7444-4896-a0fd-cd9e6806eb30{ _id:'340738ca-7444-4896-a0fd-cd9e6806eb30', _uri:'http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30', rdfs_label:'340738ca-7444-4896-a0fd-cd9e6806eb30' })
-CREATE ( Kastell Mehadia (Praetorium){ _id:'Kastell Mehadia (Praetorium)', _uri:'Kastell Mehadia (Praetorium)', rdfs_label:'Kastell Mehadia (Praetorium)' })
-CREATE ( 64ae9ea8-9dca-4e22-b32b-c2f95fd80b44{ _id:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44', _uri:'http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44', rdfs_label:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44' })
-CREATE ( 64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom{ _id:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom', rdfs_label:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom' })
-CREATE ( Kastell Fâlfani{ _id:'Kastell Fâlfani', _uri:'Kastell Fâlfani', rdfs_label:'Kastell Fâlfani' })
-CREATE ( 5d0fac8e-53ae-4ae7-92a2-dd419eee0dce{ _id:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce', _uri:'http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce', rdfs_label:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce' })
-CREATE ( 5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom{ _id:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom', rdfs_label:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom' })
-CREATE ( Auxiliarkastell{ _id:'Auxiliarkastell', _uri:'Auxiliarkastell', rdfs_label:'Auxiliarkastell' })
-CREATE ( Kastell Hoghiz{ _id:'Kastell Hoghiz', _uri:'Kastell Hoghiz', rdfs_label:'Kastell Hoghiz' })
-CREATE ( 707cb61a-d04e-4c7b-a620-6587db82f116{ _id:'707cb61a-d04e-4c7b-a620-6587db82f116', _uri:'http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116', rdfs_label:'707cb61a-d04e-4c7b-a620-6587db82f116' })
-CREATE ( Kastell Purcăreni{ _id:'Kastell Purcăreni', _uri:'Kastell Purcăreni', rdfs_label:'Kastell Purcăreni' })
-CREATE ( a6ec226a-3c2a-444a-9221-839201e1135f{ _id:'a6ec226a-3c2a-444a-9221-839201e1135f', _uri:'http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f', rdfs_label:'a6ec226a-3c2a-444a-9221-839201e1135f' })
-CREATE ( a6ec226a-3c2a-444a-9221-839201e1135f_geom{ _id:'a6ec226a-3c2a-444a-9221-839201e1135f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom', rdfs_label:'a6ec226a-3c2a-444a-9221-839201e1135f_geom' })
-CREATE ( Kastell Săpata de Jos I{ _id:'Kastell Săpata de Jos I', _uri:'Kastell Săpata de Jos I', rdfs_label:'Kastell Săpata de Jos I' })
-CREATE ( bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4{ _id:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4', _uri:'http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4', rdfs_label:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4' })
-CREATE ( bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom{ _id:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom', rdfs_label:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom' })
-CREATE ( Kastell Odorheiul Secuiesc{ _id:'Kastell Odorheiul Secuiesc', _uri:'Kastell Odorheiul Secuiesc', rdfs_label:'Kastell Odorheiul Secuiesc' })
-CREATE ( 1d8f65a8-c30b-40f1-9676-2e1145691ac3{ _id:'1d8f65a8-c30b-40f1-9676-2e1145691ac3', _uri:'http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3', rdfs_label:'1d8f65a8-c30b-40f1-9676-2e1145691ac3' })
-CREATE ( 1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom{ _id:'1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom', rdfs_label:'1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom' })
-CREATE ( Kastell Abrud (Alburnus Maior){ _id:'Kastell Abrud (Alburnus Maior)', _uri:'Kastell Abrud (Alburnus Maior)', rdfs_label:'Kastell Abrud (Alburnus Maior)' })
-CREATE ( 4df4edbc-facd-42bd-b05e-076f94ae693b_geom{ _id:'4df4edbc-facd-42bd-b05e-076f94ae693b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom', rdfs_label:'4df4edbc-facd-42bd-b05e-076f94ae693b_geom' })
-CREATE ( 4326> POINT (24.236111 44.883333){ _id:'4326> POINT (24.236111 44.883333)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.236111 44.883333)', rdfs_label:'4326> POINT (24.236111 44.883333)' })
-CREATE ( Kastell IIoneștii Govorii (Pons Aluti) Geometry{ _id:'Kastell IIoneștii Govorii (Pons Aluti) Geometry', _uri:'Kastell IIoneștii Govorii (Pons Aluti) Geometry', rdfs_label:'Kastell IIoneștii Govorii (Pons Aluti) Geometry' })
-CREATE ( 3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom{ _id:'3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom', rdfs_label:'3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom' })
-CREATE ( 4326> POINT (24.592319 47.096014){ _id:'4326> POINT (24.592319 47.096014)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.592319 47.096014)', rdfs_label:'4326> POINT (24.592319 47.096014)' })
-CREATE ( Kastell Orheiul Bistriţei Geometry{ _id:'Kastell Orheiul Bistriţei Geometry', _uri:'Kastell Orheiul Bistriţei Geometry', rdfs_label:'Kastell Orheiul Bistriţei Geometry' })
-CREATE ( 5709a2bb-8d86-44af-b582-19151b918068_geom{ _id:'5709a2bb-8d86-44af-b582-19151b918068_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom', rdfs_label:'5709a2bb-8d86-44af-b582-19151b918068_geom' })
-CREATE ( 4326> POINT (22.786822 45.51665){ _id:'4326> POINT (22.786822 45.51665)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.786822 45.51665)', rdfs_label:'4326> POINT (22.786822 45.51665)' })
-CREATE ( Kastell Sarmizegetusa (Ulpia Traiana) Geometry{ _id:'Kastell Sarmizegetusa (Ulpia Traiana) Geometry', _uri:'Kastell Sarmizegetusa (Ulpia Traiana) Geometry', rdfs_label:'Kastell Sarmizegetusa (Ulpia Traiana) Geometry' })
-CREATE ( f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom{ _id:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom', rdfs_label:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom' })
-CREATE ( 4326> POINT (26.016986 45.843861){ _id:'4326> POINT (26.016986 45.843861)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.016986 45.843861)', rdfs_label:'4326> POINT (26.016986 45.843861)' })
-CREATE ( Kastell Borosneu Mare Geometry{ _id:'Kastell Borosneu Mare Geometry', _uri:'Kastell Borosneu Mare Geometry', rdfs_label:'Kastell Borosneu Mare Geometry' })
-CREATE ( 9b62118c-9936-42f2-a6e7-49f649c937f2{ _id:'9b62118c-9936-42f2-a6e7-49f649c937f2', _uri:'http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2', rdfs_label:'9b62118c-9936-42f2-a6e7-49f649c937f2' })
-CREATE ( 9b62118c-9936-42f2-a6e7-49f649c937f2_geom{ _id:'9b62118c-9936-42f2-a6e7-49f649c937f2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom', rdfs_label:'9b62118c-9936-42f2-a6e7-49f649c937f2_geom' })
-CREATE ( Kastell Bumbeşti{ _id:'Kastell Bumbeşti', _uri:'Kastell Bumbeşti', rdfs_label:'Kastell Bumbeşti' })
-CREATE ( 50320dbe-929c-40e3-aebd-f8f257d6472a_geom{ _id:'50320dbe-929c-40e3-aebd-f8f257d6472a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom', rdfs_label:'50320dbe-929c-40e3-aebd-f8f257d6472a_geom' })
-CREATE ( 4326> POINT (24.016667 44.116667){ _id:'4326> POINT (24.016667 44.116667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.016667 44.116667)', rdfs_label:'4326> POINT (24.016667 44.116667)' })
-CREATE ( Kastell Castranova Geometry{ _id:'Kastell Castranova Geometry', _uri:'Kastell Castranova Geometry', rdfs_label:'Kastell Castranova Geometry' })
-CREATE ( e2573931-d743-40c3-a6b7-08ffeb244daa_geom{ _id:'e2573931-d743-40c3-a6b7-08ffeb244daa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom', rdfs_label:'e2573931-d743-40c3-a6b7-08ffeb244daa_geom' })
-CREATE ( 4326> POINT (24.937389 44.061333){ _id:'4326> POINT (24.937389 44.061333)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.937389 44.061333)', rdfs_label:'4326> POINT (24.937389 44.061333)' })
-CREATE ( Kastell Valea Urluii Geometry{ _id:'Kastell Valea Urluii Geometry', _uri:'Kastell Valea Urluii Geometry', rdfs_label:'Kastell Valea Urluii Geometry' })
-CREATE ( e0423dfe-4fdf-4bf6-8453-97d7bee4d031{ _id:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031', _uri:'http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031', rdfs_label:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031' })
-CREATE ( e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom{ _id:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom', rdfs_label:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom' })
-CREATE ( Kastell Ghioca{ _id:'Kastell Ghioca', _uri:'Kastell Ghioca', rdfs_label:'Kastell Ghioca' })
-CREATE ( b0cccdd1-2478-40bc-add2-a0e1bad88feb{ _id:'b0cccdd1-2478-40bc-add2-a0e1bad88feb', _uri:'http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb', rdfs_label:'b0cccdd1-2478-40bc-add2-a0e1bad88feb' })
-CREATE ( b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom{ _id:'b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom', rdfs_label:'b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom' })
-CREATE ( Kastell Slăveni{ _id:'Kastell Slăveni', _uri:'Kastell Slăveni', rdfs_label:'Kastell Slăveni' })
-CREATE ( 7dd1742c-a3a5-4494-b148-1d435d754d5d_geom{ _id:'7dd1742c-a3a5-4494-b148-1d435d754d5d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom', rdfs_label:'7dd1742c-a3a5-4494-b148-1d435d754d5d_geom' })
-CREATE ( 4326> POINT (21.300194 45.122669){ _id:'4326> POINT (21.300194 45.122669)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.300194 45.122669)', rdfs_label:'4326> POINT (21.300194 45.122669)' })
-CREATE ( Kastell Vršac Geometry{ _id:'Kastell Vršac Geometry', _uri:'Kastell Vršac Geometry', rdfs_label:'Kastell Vršac Geometry' })
-CREATE ( f42bb013-afeb-4044-9886-ece53cc813d4_geom{ _id:'f42bb013-afeb-4044-9886-ece53cc813d4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4_geom', rdfs_label:'f42bb013-afeb-4044-9886-ece53cc813d4_geom' })
-CREATE ( 4326> POINT (23.251667 46.986086){ _id:'4326> POINT (23.251667 46.986086)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.251667 46.986086)', rdfs_label:'4326> POINT (23.251667 46.986086)' })
-CREATE ( Kastell Sutoru Geometry{ _id:'Kastell Sutoru Geometry', _uri:'Kastell Sutoru Geometry', rdfs_label:'Kastell Sutoru Geometry' })
-CREATE ( 9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom{ _id:'9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom', rdfs_label:'9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom' })
-CREATE ( 4326> POINT (24.476111 46.510556){ _id:'4326> POINT (24.476111 46.510556)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.476111 46.510556)', rdfs_label:'4326> POINT (24.476111 46.510556)' })
-CREATE ( Kastell Cristeşti Geometry{ _id:'Kastell Cristeşti Geometry', _uri:'Kastell Cristeşti Geometry', rdfs_label:'Kastell Cristeşti Geometry' })
-CREATE ( FeatureCollection_collection{ _id:'FeatureCollection_collection', _uri:'http://lod.squirrel.link/data/limes/FeatureCollection_collection', rdfs_label:'FeatureCollection_collection' })
-CREATE ( Collection{ _id:'Collection', _uri:'http://www.w3.org/2004/02/skos/core#Collection', rdfs_label:'Collection' })
-CREATE ( FeatureCollection Instances Collection{ _id:'FeatureCollection Instances Collection', _uri:'FeatureCollection Instances Collection', rdfs_label:'FeatureCollection Instances Collection' })
-CREATE ( LimesDaicusFeatures{ _id:'LimesDaicusFeatures', _uri:'http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures', rdfs_label:'LimesDaicusFeatures' })
-CREATE ( LimesNoricumFeatures{ _id:'LimesNoricumFeatures', _uri:'http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures', rdfs_label:'LimesNoricumFeatures' })
-CREATE ( ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom{ _id:'ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom', rdfs_label:'ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom' })
-CREATE ( 4326> POINT (25.121806 46.431319){ _id:'4326> POINT (25.121806 46.431319)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.121806 46.431319)', rdfs_label:'4326> POINT (25.121806 46.431319)' })
-CREATE ( Kastell Inlăceni Geometry{ _id:'Kastell Inlăceni Geometry', _uri:'Kastell Inlăceni Geometry', rdfs_label:'Kastell Inlăceni Geometry' })
-CREATE ( 42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom{ _id:'42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom', rdfs_label:'42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom' })
-CREATE ( 4326> POINT (21.232794 44.897786){ _id:'4326> POINT (21.232794 44.897786)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.232794 44.897786)', rdfs_label:'4326> POINT (21.232794 44.897786)' })
-CREATE ( Kastell Grebenac Geometry{ _id:'Kastell Grebenac Geometry', _uri:'Kastell Grebenac Geometry', rdfs_label:'Kastell Grebenac Geometry' })
-CREATE ( 986efe66-cf8a-4b64-a488-ad95d0f2dd79{ _id:'986efe66-cf8a-4b64-a488-ad95d0f2dd79', _uri:'http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79', rdfs_label:'986efe66-cf8a-4b64-a488-ad95d0f2dd79' })
-CREATE ( 986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom{ _id:'986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom', rdfs_label:'986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom' })
-CREATE ( Kohortenkastell{ _id:'Kohortenkastell', _uri:'Kohortenkastell', rdfs_label:'Kohortenkastell' })
-CREATE ( Kastell Tihău{ _id:'Kastell Tihău', _uri:'Kastell Tihău', rdfs_label:'Kastell Tihău' })
-CREATE ( fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom{ _id:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom', rdfs_label:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom' })
-CREATE ( 4326> POINT (21.551161 45.079397){ _id:'4326> POINT (21.551161 45.079397)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.551161 45.079397)', rdfs_label:'4326> POINT (21.551161 45.079397)' })
-CREATE ( Kastell Vărădia Geometry{ _id:'Kastell Vărădia Geometry', _uri:'Kastell Vărădia Geometry', rdfs_label:'Kastell Vărădia Geometry' })
-CREATE ( 19360a61-a15a-4d56-a100-f3be57e93ff1{ _id:'19360a61-a15a-4d56-a100-f3be57e93ff1', _uri:'http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1', rdfs_label:'19360a61-a15a-4d56-a100-f3be57e93ff1' })
-CREATE ( 19360a61-a15a-4d56-a100-f3be57e93ff1_geom{ _id:'19360a61-a15a-4d56-a100-f3be57e93ff1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom', rdfs_label:'19360a61-a15a-4d56-a100-f3be57e93ff1_geom' })
-CREATE ( Kastell Mofleni (Pelendava){ _id:'Kastell Mofleni (Pelendava)', _uri:'Kastell Mofleni (Pelendava)', rdfs_label:'Kastell Mofleni (Pelendava)' })
-CREATE ( 1e218e82-f264-4241-a8e0-5efd9a1ec8a4{ _id:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4', _uri:'http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4', rdfs_label:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4' })
-CREATE ( 1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom{ _id:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom', rdfs_label:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom' })
-CREATE ( Kastell Islaz-Razovica{ _id:'Kastell Islaz-Razovica', _uri:'Kastell Islaz-Razovica', rdfs_label:'Kastell Islaz-Razovica' })
-CREATE ( 10b043a5-bb2b-48af-a168-84046185d6f7_geom{ _id:'10b043a5-bb2b-48af-a168-84046185d6f7_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7_geom', rdfs_label:'10b043a5-bb2b-48af-a168-84046185d6f7_geom' })
-CREATE ( 4326> POINT (23.098056 44.9075){ _id:'4326> POINT (23.098056 44.9075)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.098056 44.9075)', rdfs_label:'4326> POINT (23.098056 44.9075)' })
-CREATE ( Kastell Pinoasa Geometry{ _id:'Kastell Pinoasa Geometry', _uri:'Kastell Pinoasa Geometry', rdfs_label:'Kastell Pinoasa Geometry' })
-CREATE ( MilitaryCamp_collection{ _id:'MilitaryCamp_collection', _uri:'http://lod.squirrel.link/data/limes/MilitaryCamp_collection', rdfs_label:'MilitaryCamp_collection' })
-CREATE ( FeatureCollection{ _id:'FeatureCollection', _uri:'http://www.opengis.net/ont/geosparql#FeatureCollection', rdfs_label:'FeatureCollection' })
-CREATE ( MilitaryCamp Instances Collection{ _id:'MilitaryCamp Instances Collection', _uri:'MilitaryCamp Instances Collection', rdfs_label:'MilitaryCamp Instances Collection' })
-CREATE ( c3a471a8-ab67-4e9c-b127-1eff017b0cb4{ _id:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4', _uri:'http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4', rdfs_label:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4' })
-CREATE ( 6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0{ _id:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0', _uri:'http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0', rdfs_label:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0' })
-CREATE ( b0524f84-a9d2-45fa-9f69-d8164ad73440{ _id:'b0524f84-a9d2-45fa-9f69-d8164ad73440', _uri:'http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440', rdfs_label:'b0524f84-a9d2-45fa-9f69-d8164ad73440' })
-CREATE ( 5a43030f-b985-4444-8cf9-3e4a0b132d79{ _id:'5a43030f-b985-4444-8cf9-3e4a0b132d79', _uri:'http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79', rdfs_label:'5a43030f-b985-4444-8cf9-3e4a0b132d79' })
-CREATE ( e2573931-d743-40c3-a6b7-08ffeb244daa{ _id:'e2573931-d743-40c3-a6b7-08ffeb244daa', _uri:'http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa', rdfs_label:'e2573931-d743-40c3-a6b7-08ffeb244daa' })
-CREATE ( ae458e0d-85d0-4756-b265-db4db5bb7fe2{ _id:'ae458e0d-85d0-4756-b265-db4db5bb7fe2', _uri:'http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2', rdfs_label:'ae458e0d-85d0-4756-b265-db4db5bb7fe2' })
-CREATE ( f42bb013-afeb-4044-9886-ece53cc813d4{ _id:'f42bb013-afeb-4044-9886-ece53cc813d4', _uri:'http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4', rdfs_label:'f42bb013-afeb-4044-9886-ece53cc813d4' })
-CREATE ( 34d0d768-2d4d-42b3-82ae-e29bad5c1eed{ _id:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed', _uri:'http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed', rdfs_label:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed' })
-CREATE ( 5ea0f057-026f-4556-97f5-3e0e3a9471c3{ _id:'5ea0f057-026f-4556-97f5-3e0e3a9471c3', _uri:'http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3', rdfs_label:'5ea0f057-026f-4556-97f5-3e0e3a9471c3' })
-CREATE ( 322e89c0-f571-4be4-a08c-84b35efb69e5{ _id:'322e89c0-f571-4be4-a08c-84b35efb69e5', _uri:'http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5', rdfs_label:'322e89c0-f571-4be4-a08c-84b35efb69e5' })
-CREATE ( 10b043a5-bb2b-48af-a168-84046185d6f7{ _id:'10b043a5-bb2b-48af-a168-84046185d6f7', _uri:'http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7', rdfs_label:'10b043a5-bb2b-48af-a168-84046185d6f7' })
-CREATE ( 70d51242-571e-43ce-bd01-3bffca8cb4be{ _id:'70d51242-571e-43ce-bd01-3bffca8cb4be', _uri:'http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be', rdfs_label:'70d51242-571e-43ce-bd01-3bffca8cb4be' })
-CREATE ( 4e013c45-7445-4ea6-8356-2c9cc9e7ac6e{ _id:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e', _uri:'http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e', rdfs_label:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e' })
-CREATE ( 7b05b48b-cd48-4c66-916e-6ea581179843{ _id:'7b05b48b-cd48-4c66-916e-6ea581179843', _uri:'http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843', rdfs_label:'7b05b48b-cd48-4c66-916e-6ea581179843' })
-CREATE ( d92ef45f-91c4-442e-b279-61f17fbccb7c{ _id:'d92ef45f-91c4-442e-b279-61f17fbccb7c', _uri:'http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c', rdfs_label:'d92ef45f-91c4-442e-b279-61f17fbccb7c' })
-CREATE ( 9ac48ee9-00b6-46ab-a597-b6aa5f2d784a{ _id:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a', _uri:'http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a', rdfs_label:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a' })
-CREATE ( 5b90b8d5-ba6e-4789-94d2-db823824acbf{ _id:'5b90b8d5-ba6e-4789-94d2-db823824acbf', _uri:'http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf', rdfs_label:'5b90b8d5-ba6e-4789-94d2-db823824acbf' })
-CREATE ( 000d5176-6b9e-4065-a44f-d7b8f75b1199{ _id:'000d5176-6b9e-4065-a44f-d7b8f75b1199', _uri:'http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199', rdfs_label:'000d5176-6b9e-4065-a44f-d7b8f75b1199' })
 CREATE ( 7422f9df-da23-450f-8eac-db2d8dfca42e{ _id:'7422f9df-da23-450f-8eac-db2d8dfca42e', _uri:'http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e', rdfs_label:'7422f9df-da23-450f-8eac-db2d8dfca42e' })
-CREATE ( 86dae60a-c827-480d-bb38-04a480b9ea01{ _id:'86dae60a-c827-480d-bb38-04a480b9ea01', _uri:'http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01', rdfs_label:'86dae60a-c827-480d-bb38-04a480b9ea01' })
-CREATE ( 0e91c0e7-3991-4a45-89ed-382f7c74731a{ _id:'0e91c0e7-3991-4a45-89ed-382f7c74731a', _uri:'http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a', rdfs_label:'0e91c0e7-3991-4a45-89ed-382f7c74731a' })
-CREATE ( aadec8db-70f9-4c40-833a-2a7c39c631d2{ _id:'aadec8db-70f9-4c40-833a-2a7c39c631d2', _uri:'http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2', rdfs_label:'aadec8db-70f9-4c40-833a-2a7c39c631d2' })
-CREATE ( 3f7e0b8c-1a5f-423f-85da-536d87bbdcc8{ _id:'3f7e0b8c-1a5f-423f-85da-536d87bbdcc8', _uri:'http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8', rdfs_label:'3f7e0b8c-1a5f-423f-85da-536d87bbdcc8' })
-CREATE ( ed79872f-dcb1-48d0-a008-5a3c65432a67{ _id:'ed79872f-dcb1-48d0-a008-5a3c65432a67', _uri:'http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67', rdfs_label:'ed79872f-dcb1-48d0-a008-5a3c65432a67' })
-CREATE ( bd14e9f3-dd38-4329-a655-60b00fd8d5b7{ _id:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7', _uri:'http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7', rdfs_label:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7' })
-CREATE ( c8ecf3da-c535-41df-b06e-298cd8542633{ _id:'c8ecf3da-c535-41df-b06e-298cd8542633', _uri:'http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633', rdfs_label:'c8ecf3da-c535-41df-b06e-298cd8542633' })
-CREATE ( 06eb8de4-750e-4ed9-ad04-9bf16d61c975{ _id:'06eb8de4-750e-4ed9-ad04-9bf16d61c975', _uri:'http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975', rdfs_label:'06eb8de4-750e-4ed9-ad04-9bf16d61c975' })
-CREATE ( 01189de6-024d-4022-96ff-eec7e4efee0c{ _id:'01189de6-024d-4022-96ff-eec7e4efee0c', _uri:'http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c', rdfs_label:'01189de6-024d-4022-96ff-eec7e4efee0c' })
-CREATE ( 7dd1742c-a3a5-4494-b148-1d435d754d5d{ _id:'7dd1742c-a3a5-4494-b148-1d435d754d5d', _uri:'http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d', rdfs_label:'7dd1742c-a3a5-4494-b148-1d435d754d5d' })
-CREATE ( e811fe5a-92d2-43a0-a572-51bc5942e242{ _id:'e811fe5a-92d2-43a0-a572-51bc5942e242', _uri:'http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242', rdfs_label:'e811fe5a-92d2-43a0-a572-51bc5942e242' })
-CREATE ( e3899f66-1234-4a44-b16e-2ead1e0bf696{ _id:'e3899f66-1234-4a44-b16e-2ead1e0bf696', _uri:'http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696', rdfs_label:'e3899f66-1234-4a44-b16e-2ead1e0bf696' })
-CREATE ( 50320dbe-929c-40e3-aebd-f8f257d6472a{ _id:'50320dbe-929c-40e3-aebd-f8f257d6472a', _uri:'http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a', rdfs_label:'50320dbe-929c-40e3-aebd-f8f257d6472a' })
+CREATE ( MilitaryCamp{ _id:'MilitaryCamp', _uri:'http://archaeoinformatics.link/ontology#MilitaryCamp', rdfs_label:'MilitaryCamp' })
+CREATE ( 7422f9df-da23-450f-8eac-db2d8dfca42e_geom{ _id:'7422f9df-da23-450f-8eac-db2d8dfca42e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom', rdfs_label:'7422f9df-da23-450f-8eac-db2d8dfca42e_geom' })
+CREATE ( nan{ _id:'nan', _uri:'nan', rdfs_label:'nan' })
+CREATE ( Kastell Livezile{ _id:'Kastell Livezile', _uri:'Kastell Livezile', rdfs_label:'Kastell Livezile' })
+CREATE ( 47a7d25e-6315-4256-b257-c2dfaea5e42f_geom{ _id:'47a7d25e-6315-4256-b257-c2dfaea5e42f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom', rdfs_label:'47a7d25e-6315-4256-b257-c2dfaea5e42f_geom' })
+CREATE ( Point{ _id:'Point', _uri:'http://www.opengis.net/ont/sf#Point', rdfs_label:'Point' })
+CREATE ( 4326> POINT (22.410833 45.525278){ _id:'4326> POINT (22.410833 45.525278)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.410833 45.525278)', rdfs_label:'4326> POINT (22.410833 45.525278)' })
+CREATE ( Kastell Zăvoi (Acmonia ?) Geometry{ _id:'Kastell Zăvoi (Acmonia ?) Geometry', _uri:'Kastell Zăvoi (Acmonia ?) Geometry', rdfs_label:'Kastell Zăvoi (Acmonia ?) Geometry' })
 CREATE ( 80ce787b-1ab0-42e7-b03c-c641d3767774{ _id:'80ce787b-1ab0-42e7-b03c-c641d3767774', _uri:'http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774', rdfs_label:'80ce787b-1ab0-42e7-b03c-c641d3767774' })
-CREATE ( f8305d66-9429-43c0-b6e3-73721df9986b{ _id:'f8305d66-9429-43c0-b6e3-73721df9986b', _uri:'http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b', rdfs_label:'f8305d66-9429-43c0-b6e3-73721df9986b' })
-CREATE ( 42d9c007-47e1-4b2a-ab2c-c381f93cac96{ _id:'42d9c007-47e1-4b2a-ab2c-c381f93cac96', _uri:'http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96', rdfs_label:'42d9c007-47e1-4b2a-ab2c-c381f93cac96' })
-CREATE ( 4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa{ _id:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa', _uri:'http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa', rdfs_label:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa' })
-CREATE ( 9ba7d74c-175e-48c8-9403-dbbdd650ed22{ _id:'9ba7d74c-175e-48c8-9403-dbbdd650ed22', _uri:'http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22', rdfs_label:'9ba7d74c-175e-48c8-9403-dbbdd650ed22' })
-CREATE ( 0ccd99fd-62d1-4978-873a-106b1f5e3880{ _id:'0ccd99fd-62d1-4978-873a-106b1f5e3880', _uri:'http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880', rdfs_label:'0ccd99fd-62d1-4978-873a-106b1f5e3880' })
-CREATE ( fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd{ _id:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd', _uri:'http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd', rdfs_label:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd' })
-CREATE ( 096a9a4c-020f-4ce0-a4a6-993d50d08fea{ _id:'096a9a4c-020f-4ce0-a4a6-993d50d08fea', _uri:'http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea', rdfs_label:'096a9a4c-020f-4ce0-a4a6-993d50d08fea' })
-CREATE ( 9f76d5fd-4ee3-4985-9fb6-c22bfdf43436{ _id:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436', _uri:'http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436', rdfs_label:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436' })
-CREATE ( 7cadca30-bfd9-4628-9916-c20eecafa356{ _id:'7cadca30-bfd9-4628-9916-c20eecafa356', _uri:'http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356', rdfs_label:'7cadca30-bfd9-4628-9916-c20eecafa356' })
-CREATE ( c3451d14-c4ee-42be-b918-af9735167f5f{ _id:'c3451d14-c4ee-42be-b918-af9735167f5f', _uri:'http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f', rdfs_label:'c3451d14-c4ee-42be-b918-af9735167f5f' })
-CREATE ( 1795d125-e071-4153-b07e-e147bb19ad65{ _id:'1795d125-e071-4153-b07e-e147bb19ad65', _uri:'http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65', rdfs_label:'1795d125-e071-4153-b07e-e147bb19ad65' })
-CREATE ( 8c5f1f84-f11a-48f0-8e9a-c629c7d346e2{ _id:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2', _uri:'http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2', rdfs_label:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2' })
-CREATE ( f81e10af-8e41-447d-b601-dcba5311199b{ _id:'f81e10af-8e41-447d-b601-dcba5311199b', _uri:'http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b', rdfs_label:'f81e10af-8e41-447d-b601-dcba5311199b' })
-CREATE ( 47a7d25e-6315-4256-b257-c2dfaea5e42f{ _id:'47a7d25e-6315-4256-b257-c2dfaea5e42f', _uri:'http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f', rdfs_label:'47a7d25e-6315-4256-b257-c2dfaea5e42f' })
-CREATE ( 7aa137c0-3763-4bd3-a1ec-bd8a88b3d786{ _id:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786', _uri:'http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786', rdfs_label:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786' })
-CREATE ( b6e369cd-722a-4a1c-a984-538bb26f3777{ _id:'b6e369cd-722a-4a1c-a984-538bb26f3777', _uri:'http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777', rdfs_label:'b6e369cd-722a-4a1c-a984-538bb26f3777' })
-CREATE ( 0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace{ _id:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace', _uri:'http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace', rdfs_label:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace' })
-CREATE ( 3af3a2c4-8038-482d-9fa9-a0e90584ef6d{ _id:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d', _uri:'http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d', rdfs_label:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d' })
-CREATE ( 1c936059-6af8-4f03-8e18-cc61f529c5f3{ _id:'1c936059-6af8-4f03-8e18-cc61f529c5f3', _uri:'http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3', rdfs_label:'1c936059-6af8-4f03-8e18-cc61f529c5f3' })
-CREATE ( 59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f{ _id:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f', _uri:'http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f', rdfs_label:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f' })
-CREATE ( 8fa245f8-ffe5-4e74-b259-410c7be91afd{ _id:'8fa245f8-ffe5-4e74-b259-410c7be91afd', _uri:'http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd', rdfs_label:'8fa245f8-ffe5-4e74-b259-410c7be91afd' })
-CREATE ( 8f823c04-d42b-49ec-879d-2c446d575885{ _id:'8f823c04-d42b-49ec-879d-2c446d575885', _uri:'http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885', rdfs_label:'8f823c04-d42b-49ec-879d-2c446d575885' })
-CREATE ( 7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc{ _id:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc', _uri:'http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc', rdfs_label:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc' })
-CREATE ( 7cb289bf-4a31-467d-9c9d-4271a8dc55c9{ _id:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9', _uri:'http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9', rdfs_label:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9' })
-CREATE ( 4df4edbc-facd-42bd-b05e-076f94ae693b{ _id:'4df4edbc-facd-42bd-b05e-076f94ae693b', _uri:'http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b', rdfs_label:'4df4edbc-facd-42bd-b05e-076f94ae693b' })
-CREATE ( cba75304-f136-465d-90fb-56dff3acc018{ _id:'cba75304-f136-465d-90fb-56dff3acc018', _uri:'http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018', rdfs_label:'cba75304-f136-465d-90fb-56dff3acc018' })
-CREATE ( 0203af0b-bc52-4f9f-b490-b2bc3fe431fc{ _id:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc', _uri:'http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc', rdfs_label:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc' })
-CREATE ( 815f5c63-8478-4aac-bafb-11eaafa9a923{ _id:'815f5c63-8478-4aac-bafb-11eaafa9a923', _uri:'http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923', rdfs_label:'815f5c63-8478-4aac-bafb-11eaafa9a923' })
-CREATE ( ec646e12-636f-4c8c-96c2-0f46833adf1c{ _id:'ec646e12-636f-4c8c-96c2-0f46833adf1c', _uri:'http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c', rdfs_label:'ec646e12-636f-4c8c-96c2-0f46833adf1c' })
-CREATE ( 918ef494-4408-4a91-8ee0-61f6087ffee7{ _id:'918ef494-4408-4a91-8ee0-61f6087ffee7', _uri:'http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7', rdfs_label:'918ef494-4408-4a91-8ee0-61f6087ffee7' })
-CREATE ( 1b4b9c1f-cb64-4c02-976d-61c2147b0705{ _id:'1b4b9c1f-cb64-4c02-976d-61c2147b0705', _uri:'http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705', rdfs_label:'1b4b9c1f-cb64-4c02-976d-61c2147b0705' })
-CREATE ( b5cf0c45-ec51-4710-a03a-75e7dc30a7a3{ _id:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3', _uri:'http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3', rdfs_label:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3' })
-CREATE ( 120e3991-1f39-4359-b810-37bb24aff05c{ _id:'120e3991-1f39-4359-b810-37bb24aff05c', _uri:'http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c', rdfs_label:'120e3991-1f39-4359-b810-37bb24aff05c' })
-CREATE ( f35f2d3f-8925-4139-9e9b-cf07ee5aaecb{ _id:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb', _uri:'http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb', rdfs_label:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb' })
-CREATE ( 9d1c0c0d-98f5-4728-86ee-4288dde6d0fa{ _id:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa', _uri:'http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa', rdfs_label:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa' })
-CREATE ( 2c2fb600-f249-469e-a025-1961edf5132d{ _id:'2c2fb600-f249-469e-a025-1961edf5132d', _uri:'http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d', rdfs_label:'2c2fb600-f249-469e-a025-1961edf5132d' })
-CREATE ( 22bf9a4e-a715-43f7-9fd0-4a60b8b77288{ _id:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288', _uri:'http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288', rdfs_label:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288' })
-CREATE ( 9a118e00-be2c-4c2d-a9f9-8cb86170e3d1{ _id:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1', _uri:'http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1', rdfs_label:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1' })
-CREATE ( 5e6a65c9-32dd-4581-b6ab-a95afdc4d061{ _id:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061', _uri:'http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061', rdfs_label:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061' })
-CREATE ( 46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990{ _id:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990', _uri:'http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990', rdfs_label:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990' })
-CREATE ( e69e6cb2-cded-446c-b159-daec78476f43{ _id:'e69e6cb2-cded-446c-b159-daec78476f43', _uri:'http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43', rdfs_label:'e69e6cb2-cded-446c-b159-daec78476f43' })
-CREATE ( 3b51185a-d7ca-4c22-b85d-a021b3727c4d{ _id:'3b51185a-d7ca-4c22-b85d-a021b3727c4d', _uri:'http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d', rdfs_label:'3b51185a-d7ca-4c22-b85d-a021b3727c4d' })
-CREATE ( 7c3bf06c-8f79-457e-b56f-77da98c7a69b{ _id:'7c3bf06c-8f79-457e-b56f-77da98c7a69b', _uri:'http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b', rdfs_label:'7c3bf06c-8f79-457e-b56f-77da98c7a69b' })
-CREATE ( 3680e065-f377-4f4d-a9d6-84523dcb1727{ _id:'3680e065-f377-4f4d-a9d6-84523dcb1727', _uri:'http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727', rdfs_label:'3680e065-f377-4f4d-a9d6-84523dcb1727' })
-CREATE ( 6689fc0e-01ff-4dbc-b3ed-49e35a3d397a{ _id:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a', _uri:'http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a', rdfs_label:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a' })
-CREATE ( 0e8a5ba3-887e-4540-92c3-d35fef2bd579{ _id:'0e8a5ba3-887e-4540-92c3-d35fef2bd579', _uri:'http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579', rdfs_label:'0e8a5ba3-887e-4540-92c3-d35fef2bd579' })
-CREATE ( 0f5c8dda-88a9-48ad-bf8f-e72f216a4066{ _id:'0f5c8dda-88a9-48ad-bf8f-e72f216a4066', _uri:'http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066', rdfs_label:'0f5c8dda-88a9-48ad-bf8f-e72f216a4066' })
-CREATE ( 13572025-f4dc-4503-8aad-72050202752b{ _id:'13572025-f4dc-4503-8aad-72050202752b', _uri:'http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b', rdfs_label:'13572025-f4dc-4503-8aad-72050202752b' })
-CREATE ( 2bf44917-dd67-4ec8-9240-513476cdb60c{ _id:'2bf44917-dd67-4ec8-9240-513476cdb60c', _uri:'http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c', rdfs_label:'2bf44917-dd67-4ec8-9240-513476cdb60c' })
-CREATE ( 78b044f5-8a10-47ed-acf0-74658affbf22{ _id:'78b044f5-8a10-47ed-acf0-74658affbf22', _uri:'http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22', rdfs_label:'78b044f5-8a10-47ed-acf0-74658affbf22' })
-CREATE ( 8f964055-7a95-4e88-bcef-5bd3a5824de9{ _id:'8f964055-7a95-4e88-bcef-5bd3a5824de9', _uri:'http://lod.squirrel.link/data/limes/noricum/8f964055-7a95-4e88-bcef-5bd3a5824de9', rdfs_label:'8f964055-7a95-4e88-bcef-5bd3a5824de9' })
-CREATE ( 9f8f4e96-12d9-449b-b9ab-6e6080e34c9f{ _id:'9f8f4e96-12d9-449b-b9ab-6e6080e34c9f', _uri:'http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f', rdfs_label:'9f8f4e96-12d9-449b-b9ab-6e6080e34c9f' })
-CREATE ( b3e7d110-127b-45a7-9195-5e8a694e4862{ _id:'b3e7d110-127b-45a7-9195-5e8a694e4862', _uri:'http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862', rdfs_label:'b3e7d110-127b-45a7-9195-5e8a694e4862' })
-CREATE ( cfcfa4b0-501f-4563-8157-3c76054014a4{ _id:'cfcfa4b0-501f-4563-8157-3c76054014a4', _uri:'http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4', rdfs_label:'cfcfa4b0-501f-4563-8157-3c76054014a4' })
-CREATE ( d0ef2a62-6c85-44ce-a995-65ab6d5a5f43{ _id:'d0ef2a62-6c85-44ce-a995-65ab6d5a5f43', _uri:'http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43', rdfs_label:'d0ef2a62-6c85-44ce-a995-65ab6d5a5f43' })
-CREATE ( d151609e-cb90-4faf-a74b-54d2f52e01a1{ _id:'d151609e-cb90-4faf-a74b-54d2f52e01a1', _uri:'http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1', rdfs_label:'d151609e-cb90-4faf-a74b-54d2f52e01a1' })
-CREATE ( d8bcb543-3948-43fd-937b-2782138b9deb{ _id:'d8bcb543-3948-43fd-937b-2782138b9deb', _uri:'http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb', rdfs_label:'d8bcb543-3948-43fd-937b-2782138b9deb' })
-CREATE ( c3a471a8-ab67-4e9c-b127-1eff017b0cb4{ _id:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4', _uri:'http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4', rdfs_label:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4' })
-CREATE ( c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom{ _id:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom', rdfs_label:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom' })
-CREATE ( Kastell Albota{ _id:'Kastell Albota', _uri:'Kastell Albota', rdfs_label:'Kastell Albota' })
-CREATE ( bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom{ _id:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom', rdfs_label:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom' })
-CREATE ( 4326> POINT (25.3002 46.3131){ _id:'4326> POINT (25.3002 46.3131)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.3002 46.3131)', rdfs_label:'4326> POINT (25.3002 46.3131)' })
-CREATE ( Kastell Odorheiul Secuiesc Geometry{ _id:'Kastell Odorheiul Secuiesc Geometry', _uri:'Kastell Odorheiul Secuiesc Geometry', rdfs_label:'Kastell Odorheiul Secuiesc Geometry' })
-CREATE ( 6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0{ _id:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0', _uri:'http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0', rdfs_label:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0' })
-CREATE ( 6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom{ _id:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom', rdfs_label:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom' })
-CREATE ( Kastell Băneasa I{ _id:'Kastell Băneasa I', _uri:'Kastell Băneasa I', rdfs_label:'Kastell Băneasa I' })
-CREATE ( b0524f84-a9d2-45fa-9f69-d8164ad73440{ _id:'b0524f84-a9d2-45fa-9f69-d8164ad73440', _uri:'http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440', rdfs_label:'b0524f84-a9d2-45fa-9f69-d8164ad73440' })
-CREATE ( b0524f84-a9d2-45fa-9f69-d8164ad73440_geom{ _id:'b0524f84-a9d2-45fa-9f69-d8164ad73440_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom', rdfs_label:'b0524f84-a9d2-45fa-9f69-d8164ad73440_geom' })
-CREATE ( Kastell Olteni{ _id:'Kastell Olteni', _uri:'Kastell Olteni', rdfs_label:'Kastell Olteni' })
-CREATE ( 5a43030f-b985-4444-8cf9-3e4a0b132d79{ _id:'5a43030f-b985-4444-8cf9-3e4a0b132d79', _uri:'http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79', rdfs_label:'5a43030f-b985-4444-8cf9-3e4a0b132d79' })
-CREATE ( 5a43030f-b985-4444-8cf9-3e4a0b132d79_geom{ _id:'5a43030f-b985-4444-8cf9-3e4a0b132d79_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom', rdfs_label:'5a43030f-b985-4444-8cf9-3e4a0b132d79_geom' })
-CREATE ( Kastell Vârtop{ _id:'Kastell Vârtop', _uri:'Kastell Vârtop', rdfs_label:'Kastell Vârtop' })
-CREATE ( e2573931-d743-40c3-a6b7-08ffeb244daa{ _id:'e2573931-d743-40c3-a6b7-08ffeb244daa', _uri:'http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa', rdfs_label:'e2573931-d743-40c3-a6b7-08ffeb244daa' })
-CREATE ( Kastell Valea Urluii{ _id:'Kastell Valea Urluii', _uri:'Kastell Valea Urluii', rdfs_label:'Kastell Valea Urluii' })
-CREATE ( bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom{ _id:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom', rdfs_label:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom' })
-CREATE ( 4326> POINT (24.752103 46.239431){ _id:'4326> POINT (24.752103 46.239431)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.752103 46.239431)', rdfs_label:'4326> POINT (24.752103 46.239431)' })
-CREATE ( Kastell Sighisoara Geometry{ _id:'Kastell Sighisoara Geometry', _uri:'Kastell Sighisoara Geometry', rdfs_label:'Kastell Sighisoara Geometry' })
-CREATE ( fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom{ _id:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom', rdfs_label:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom' })
-CREATE ( 4326> POINT (23.572314 46.066694){ _id:'4326> POINT (23.572314 46.066694)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.572314 46.066694)', rdfs_label:'4326> POINT (23.572314 46.066694)' })
-CREATE ( Legionslager Alba Julia Geometry{ _id:'Legionslager Alba Julia Geometry', _uri:'Legionslager Alba Julia Geometry', rdfs_label:'Legionslager Alba Julia Geometry' })
-CREATE ( ae458e0d-85d0-4756-b265-db4db5bb7fe2{ _id:'ae458e0d-85d0-4756-b265-db4db5bb7fe2', _uri:'http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2', rdfs_label:'ae458e0d-85d0-4756-b265-db4db5bb7fe2' })
-CREATE ( Kastell Inlăceni{ _id:'Kastell Inlăceni', _uri:'Kastell Inlăceni', rdfs_label:'Kastell Inlăceni' })
-CREATE ( 34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom{ _id:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom', rdfs_label:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom' })
-CREATE ( 4326> POINT (24.917722 44.172583){ _id:'4326> POINT (24.917722 44.172583)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.917722 44.172583)', rdfs_label:'4326> POINT (24.917722 44.172583)' })
-CREATE ( Kastell Gresia Geometry{ _id:'Kastell Gresia Geometry', _uri:'Kastell Gresia Geometry', rdfs_label:'Kastell Gresia Geometry' })
-CREATE ( 64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom{ _id:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom', rdfs_label:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom' })
-CREATE ( 4326> POINT (24.785111 44.603278){ _id:'4326> POINT (24.785111 44.603278)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.785111 44.603278)', rdfs_label:'4326> POINT (24.785111 44.603278)' })
-CREATE ( Kastell Fâlfani Geometry{ _id:'Kastell Fâlfani Geometry', _uri:'Kastell Fâlfani Geometry', rdfs_label:'Kastell Fâlfani Geometry' })
-CREATE ( f42bb013-afeb-4044-9886-ece53cc813d4{ _id:'f42bb013-afeb-4044-9886-ece53cc813d4', _uri:'http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4', rdfs_label:'f42bb013-afeb-4044-9886-ece53cc813d4' })
-CREATE ( Kastell Sutoru{ _id:'Kastell Sutoru', _uri:'Kastell Sutoru', rdfs_label:'Kastell Sutoru' })
-CREATE ( 34d0d768-2d4d-42b3-82ae-e29bad5c1eed{ _id:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed', _uri:'http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed', rdfs_label:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed' })
-CREATE ( Kastell Gresia{ _id:'Kastell Gresia', _uri:'Kastell Gresia', rdfs_label:'Kastell Gresia' })
-CREATE ( 7e6b0abd-392e-48da-a973-52db57e43459{ _id:'7e6b0abd-392e-48da-a973-52db57e43459', _uri:'http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459', rdfs_label:'7e6b0abd-392e-48da-a973-52db57e43459' })
-CREATE ( LegionaryCamp{ _id:'LegionaryCamp', _uri:'http://archaeoinformatics.link/ontology#LegionaryCamp', rdfs_label:'LegionaryCamp' })
-CREATE ( 7e6b0abd-392e-48da-a973-52db57e43459_geom{ _id:'7e6b0abd-392e-48da-a973-52db57e43459_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom', rdfs_label:'7e6b0abd-392e-48da-a973-52db57e43459_geom' })
-CREATE ( Legionslager{ _id:'Legionslager', _uri:'Legionslager', rdfs_label:'Legionslager' })
-CREATE ( Kastell Berzovia { _id:'Kastell Berzovia ', _uri:'Kastell Berzovia ', rdfs_label:'Kastell Berzovia ' })
-CREATE ( e811fe5a-92d2-43a0-a572-51bc5942e242_geom{ _id:'e811fe5a-92d2-43a0-a572-51bc5942e242_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom', rdfs_label:'e811fe5a-92d2-43a0-a572-51bc5942e242_geom' })
-CREATE ( 4326> POINT (21.847883 45.486656){ _id:'4326> POINT (21.847883 45.486656)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.847883 45.486656)', rdfs_label:'4326> POINT (21.847883 45.486656)' })
-CREATE ( Kastell Aizis Geometry{ _id:'Kastell Aizis Geometry', _uri:'Kastell Aizis Geometry', rdfs_label:'Kastell Aizis Geometry' })
-CREATE ( 5ea0f057-026f-4556-97f5-3e0e3a9471c3{ _id:'5ea0f057-026f-4556-97f5-3e0e3a9471c3', _uri:'http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3', rdfs_label:'5ea0f057-026f-4556-97f5-3e0e3a9471c3' })
-CREATE ( 5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom{ _id:'5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom', rdfs_label:'5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom' })
-CREATE ( Alenkastell{ _id:'Alenkastell', _uri:'Alenkastell', rdfs_label:'Alenkastell' })
-CREATE ( Kastell Gherla{ _id:'Kastell Gherla', _uri:'Kastell Gherla', rdfs_label:'Kastell Gherla' })
-CREATE ( d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom{ _id:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom', rdfs_label:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom' })
-CREATE ( 4326> POINT (21.331111 44.845){ _id:'4326> POINT (21.331111 44.845)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.331111 44.845)', rdfs_label:'4326> POINT (21.331111 44.845)' })
-CREATE ( Kastell Banatska Palanka Geometry{ _id:'Kastell Banatska Palanka Geometry', _uri:'Kastell Banatska Palanka Geometry', rdfs_label:'Kastell Banatska Palanka Geometry' })
-CREATE ( 322e89c0-f571-4be4-a08c-84b35efb69e5{ _id:'322e89c0-f571-4be4-a08c-84b35efb69e5', _uri:'http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5', rdfs_label:'322e89c0-f571-4be4-a08c-84b35efb69e5' })
-CREATE ( 322e89c0-f571-4be4-a08c-84b35efb69e5_geom{ _id:'322e89c0-f571-4be4-a08c-84b35efb69e5_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom', rdfs_label:'322e89c0-f571-4be4-a08c-84b35efb69e5_geom' })
-CREATE ( Kastell Sânpaul{ _id:'Kastell Sânpaul', _uri:'Kastell Sânpaul', rdfs_label:'Kastell Sânpaul' })
-CREATE ( 10b043a5-bb2b-48af-a168-84046185d6f7{ _id:'10b043a5-bb2b-48af-a168-84046185d6f7', _uri:'http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7', rdfs_label:'10b043a5-bb2b-48af-a168-84046185d6f7' })
-CREATE ( Kastell Pinoasa{ _id:'Kastell Pinoasa', _uri:'Kastell Pinoasa', rdfs_label:'Kastell Pinoasa' })
-CREATE ( 70d51242-571e-43ce-bd01-3bffca8cb4be{ _id:'70d51242-571e-43ce-bd01-3bffca8cb4be', _uri:'http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be', rdfs_label:'70d51242-571e-43ce-bd01-3bffca8cb4be' })
-CREATE ( 70d51242-571e-43ce-bd01-3bffca8cb4be_geom{ _id:'70d51242-571e-43ce-bd01-3bffca8cb4be_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be_geom', rdfs_label:'70d51242-571e-43ce-bd01-3bffca8cb4be_geom' })
-CREATE ( Kastell Feldioara{ _id:'Kastell Feldioara', _uri:'Kastell Feldioara', rdfs_label:'Kastell Feldioara' })
-CREATE ( 5709a2bb-8d86-44af-b582-19151b918068{ _id:'5709a2bb-8d86-44af-b582-19151b918068', _uri:'http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068', rdfs_label:'5709a2bb-8d86-44af-b582-19151b918068' })
-CREATE ( Kastell Sarmizegetusa (Ulpia Traiana){ _id:'Kastell Sarmizegetusa (Ulpia Traiana)', _uri:'Kastell Sarmizegetusa (Ulpia Traiana)', rdfs_label:'Kastell Sarmizegetusa (Ulpia Traiana)' })
-CREATE ( LegionaryCamp_collection{ _id:'LegionaryCamp_collection', _uri:'http://lod.squirrel.link/data/limes/LegionaryCamp_collection', rdfs_label:'LegionaryCamp_collection' })
-CREATE ( LegionaryCamp Instances Collection{ _id:'LegionaryCamp Instances Collection', _uri:'LegionaryCamp Instances Collection', rdfs_label:'LegionaryCamp Instances Collection' })
+CREATE ( 80ce787b-1ab0-42e7-b03c-c641d3767774_geom{ _id:'80ce787b-1ab0-42e7-b03c-c641d3767774_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774_geom', rdfs_label:'80ce787b-1ab0-42e7-b03c-c641d3767774_geom' })
+CREATE ( Kastell Perisani{ _id:'Kastell Perisani', _uri:'Kastell Perisani', rdfs_label:'Kastell Perisani' })
 CREATE ( 87009579-c2cc-4c7a-9b02-901bf75a0ee6{ _id:'87009579-c2cc-4c7a-9b02-901bf75a0ee6', _uri:'http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6', rdfs_label:'87009579-c2cc-4c7a-9b02-901bf75a0ee6' })
-CREATE ( fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e{ _id:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e', _uri:'http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e', rdfs_label:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e' })
-CREATE ( 497eff64-e309-4704-b5f0-3e2872ff379d{ _id:'497eff64-e309-4704-b5f0-3e2872ff379d', _uri:'http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d', rdfs_label:'497eff64-e309-4704-b5f0-3e2872ff379d' })
-CREATE ( ffd99607-0513-4fa5-8073-c80bddbfab84{ _id:'ffd99607-0513-4fa5-8073-c80bddbfab84', _uri:'http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84', rdfs_label:'ffd99607-0513-4fa5-8073-c80bddbfab84' })
-CREATE ( 64755b3a-9ff6-4c12-b9fb-778e3bde5b1f{ _id:'64755b3a-9ff6-4c12-b9fb-778e3bde5b1f', _uri:'http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f', rdfs_label:'64755b3a-9ff6-4c12-b9fb-778e3bde5b1f' })
-CREATE ( 4e013c45-7445-4ea6-8356-2c9cc9e7ac6e{ _id:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e', _uri:'http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e', rdfs_label:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e' })
-CREATE ( 4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom{ _id:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom', rdfs_label:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom' })
-CREATE ( Kastell Gilău{ _id:'Kastell Gilău', _uri:'Kastell Gilău', rdfs_label:'Kastell Gilău' })
-CREATE ( 4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom{ _id:'4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom', rdfs_label:'4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom' })
-CREATE ( 4326> POINT (24.360556 45.231944){ _id:'4326> POINT (24.360556 45.231944)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360556 45.231944)', rdfs_label:'4326> POINT (24.360556 45.231944)' })
-CREATE ( Kastell Jiblea Geometry{ _id:'Kastell Jiblea Geometry', _uri:'Kastell Jiblea Geometry', rdfs_label:'Kastell Jiblea Geometry' })
-CREATE ( 7b05b48b-cd48-4c66-916e-6ea581179843{ _id:'7b05b48b-cd48-4c66-916e-6ea581179843', _uri:'http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843', rdfs_label:'7b05b48b-cd48-4c66-916e-6ea581179843' })
-CREATE ( 7b05b48b-cd48-4c66-916e-6ea581179843_geom{ _id:'7b05b48b-cd48-4c66-916e-6ea581179843_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom', rdfs_label:'7b05b48b-cd48-4c66-916e-6ea581179843_geom' })
-CREATE ( Kastell Islaz-Verdea{ _id:'Kastell Islaz-Verdea', _uri:'Kastell Islaz-Verdea', rdfs_label:'Kastell Islaz-Verdea' })
-CREATE ( d92ef45f-91c4-442e-b279-61f17fbccb7c{ _id:'d92ef45f-91c4-442e-b279-61f17fbccb7c', _uri:'http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c', rdfs_label:'d92ef45f-91c4-442e-b279-61f17fbccb7c' })
-CREATE ( Kastell Ilişua (Arcobara){ _id:'Kastell Ilişua (Arcobara)', _uri:'Kastell Ilişua (Arcobara)', rdfs_label:'Kastell Ilişua (Arcobara)' })
+CREATE ( LegionaryCamp{ _id:'LegionaryCamp', _uri:'http://archaeoinformatics.link/ontology#LegionaryCamp', rdfs_label:'LegionaryCamp' })
+CREATE ( 87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom{ _id:'87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom', rdfs_label:'87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom' })
+CREATE ( Legionslager{ _id:'Legionslager', _uri:'Legionslager', rdfs_label:'Legionslager' })
+CREATE ( Kastell Vețel{ _id:'Kastell Vețel', _uri:'Kastell Vețel', rdfs_label:'Kastell Vețel' })
+CREATE ( 7aa137c0-3763-4bd3-a1ec-bd8a88b3d786{ _id:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786', _uri:'http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786', rdfs_label:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786' })
+CREATE ( 7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom{ _id:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom', rdfs_label:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom' })
+CREATE ( Kohortenkastell{ _id:'Kohortenkastell', _uri:'Kohortenkastell', rdfs_label:'Kohortenkastell' })
+CREATE ( Kastell Călugăreni{ _id:'Kastell Călugăreni', _uri:'Kastell Călugăreni', rdfs_label:'Kastell Călugăreni' })
+CREATE ( 1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom{ _id:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom', rdfs_label:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom' })
+CREATE ( 4326> POINT (24.870833 43.751667){ _id:'4326> POINT (24.870833 43.751667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.870833 43.751667)', rdfs_label:'4326> POINT (24.870833 43.751667)' })
+CREATE ( Kastell Islaz-Razovica Geometry{ _id:'Kastell Islaz-Razovica Geometry', _uri:'Kastell Islaz-Razovica Geometry', rdfs_label:'Kastell Islaz-Razovica Geometry' })
+CREATE ( 5e6a65c9-32dd-4581-b6ab-a95afdc4d061{ _id:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061', _uri:'http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061', rdfs_label:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061' })
+CREATE ( 5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom{ _id:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom', rdfs_label:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom' })
+CREATE ( Kastell Câmpulung Muscel I{ _id:'Kastell Câmpulung Muscel I', _uri:'Kastell Câmpulung Muscel I', rdfs_label:'Kastell Câmpulung Muscel I' })
+CREATE ( 0203af0b-bc52-4f9f-b490-b2bc3fe431fc{ _id:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc', _uri:'http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc', rdfs_label:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc' })
+CREATE ( 0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom{ _id:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom', rdfs_label:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom' })
+CREATE ( Auxiliarkastell{ _id:'Auxiliarkastell', _uri:'Auxiliarkastell', rdfs_label:'Auxiliarkastell' })
+CREATE ( Kastell Cigmău { _id:'Kastell Cigmău ', _uri:'Kastell Cigmău ', rdfs_label:'Kastell Cigmău ' })
 CREATE ( a6ec226a-3c2a-444a-9221-839201e1135f_geom{ _id:'a6ec226a-3c2a-444a-9221-839201e1135f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom', rdfs_label:'a6ec226a-3c2a-444a-9221-839201e1135f_geom' })
 CREATE ( 4326> POINT (24.763556 44.707333){ _id:'4326> POINT (24.763556 44.707333)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763556 44.707333)', rdfs_label:'4326> POINT (24.763556 44.707333)' })
 CREATE ( Kastell Săpata de Jos I Geometry{ _id:'Kastell Săpata de Jos I Geometry', _uri:'Kastell Săpata de Jos I Geometry', rdfs_label:'Kastell Săpata de Jos I Geometry' })
-CREATE ( 6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom{ _id:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom', rdfs_label:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom' })
-CREATE ( 4326> POINT (22.884611 46.885694){ _id:'4326> POINT (22.884611 46.885694)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.884611 46.885694)', rdfs_label:'4326> POINT (22.884611 46.885694)' })
-CREATE ( Kastell Bologa (Resculum) Geometry{ _id:'Kastell Bologa (Resculum) Geometry', _uri:'Kastell Bologa (Resculum) Geometry', rdfs_label:'Kastell Bologa (Resculum) Geometry' })
-CREATE ( LimesDaicusFeatures{ _id:'LimesDaicusFeatures', _uri:'http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures', rdfs_label:'LimesDaicusFeatures' })
-CREATE ( Limes Daicus Features{ _id:'Limes Daicus Features', _uri:'Limes Daicus Features', rdfs_label:'Limes Daicus Features' })
-CREATE ( 9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom{ _id:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom', rdfs_label:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom' })
-CREATE ( 4326> POINT (24.441944 45.281528){ _id:'4326> POINT (24.441944 45.281528)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.441944 45.281528)', rdfs_label:'4326> POINT (24.441944 45.281528)' })
-CREATE ( Kastell Rădăcineşti Geometry{ _id:'Kastell Rădăcineşti Geometry', _uri:'Kastell Rădăcineşti Geometry', rdfs_label:'Kastell Rădăcineşti Geometry' })
-CREATE ( 9ac48ee9-00b6-46ab-a597-b6aa5f2d784a{ _id:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a', _uri:'http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a', rdfs_label:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a' })
-CREATE ( 9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom{ _id:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom', rdfs_label:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom' })
-CREATE ( Kastell Bivolari (Arutela){ _id:'Kastell Bivolari (Arutela)', _uri:'Kastell Bivolari (Arutela)', rdfs_label:'Kastell Bivolari (Arutela)' })
-CREATE ( 80ce787b-1ab0-42e7-b03c-c641d3767774_geom{ _id:'80ce787b-1ab0-42e7-b03c-c641d3767774_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774_geom', rdfs_label:'80ce787b-1ab0-42e7-b03c-c641d3767774_geom' })
-CREATE ( 4326> POINT (24.400833 45.370833){ _id:'4326> POINT (24.400833 45.370833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 45.370833)', rdfs_label:'4326> POINT (24.400833 45.370833)' })
-CREATE ( Kastell Perisani Geometry{ _id:'Kastell Perisani Geometry', _uri:'Kastell Perisani Geometry', rdfs_label:'Kastell Perisani Geometry' })
-CREATE ( 7b05b48b-cd48-4c66-916e-6ea581179843_geom{ _id:'7b05b48b-cd48-4c66-916e-6ea581179843_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom', rdfs_label:'7b05b48b-cd48-4c66-916e-6ea581179843_geom' })
-CREATE ( 4326> POINT (24.762222 43.710278){ _id:'4326> POINT (24.762222 43.710278)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762222 43.710278)', rdfs_label:'4326> POINT (24.762222 43.710278)' })
-CREATE ( Kastell Islaz-Verdea Geometry{ _id:'Kastell Islaz-Verdea Geometry', _uri:'Kastell Islaz-Verdea Geometry', rdfs_label:'Kastell Islaz-Verdea Geometry' })
+CREATE ( b0cccdd1-2478-40bc-add2-a0e1bad88feb{ _id:'b0cccdd1-2478-40bc-add2-a0e1bad88feb', _uri:'http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb', rdfs_label:'b0cccdd1-2478-40bc-add2-a0e1bad88feb' })
+CREATE ( b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom{ _id:'b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom', rdfs_label:'b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom' })
+CREATE ( Kastell Slăveni{ _id:'Kastell Slăveni', _uri:'Kastell Slăveni', rdfs_label:'Kastell Slăveni' })
+CREATE ( 3af3a2c4-8038-482d-9fa9-a0e90584ef6d{ _id:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d', _uri:'http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d', rdfs_label:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d' })
+CREATE ( 3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom{ _id:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom', rdfs_label:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom' })
+CREATE ( Kohortenkastell (?){ _id:'Kohortenkastell (?)', _uri:'Kohortenkastell (?)', rdfs_label:'Kohortenkastell (?)' })
+CREATE ( Kastell Bulci{ _id:'Kastell Bulci', _uri:'Kastell Bulci', rdfs_label:'Kastell Bulci' })
+CREATE ( f81e10af-8e41-447d-b601-dcba5311199b_geom{ _id:'f81e10af-8e41-447d-b601-dcba5311199b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b_geom', rdfs_label:'f81e10af-8e41-447d-b601-dcba5311199b_geom' })
+CREATE ( 4326> POINT (24.400833 44.166667){ _id:'4326> POINT (24.400833 44.166667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 44.166667)', rdfs_label:'4326> POINT (24.400833 44.166667)' })
+CREATE ( Malva) Geometry{ _id:'Malva) Geometry', _uri:'Kastell Reşca (Romula/Malva) Geometry', rdfs_label:'Malva) Geometry' })
+CREATE ( 497eff64-e309-4704-b5f0-3e2872ff379d_geom{ _id:'497eff64-e309-4704-b5f0-3e2872ff379d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom', rdfs_label:'497eff64-e309-4704-b5f0-3e2872ff379d_geom' })
+CREATE ( 4326> POINT (23.772733 46.570536){ _id:'4326> POINT (23.772733 46.570536)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.772733 46.570536)', rdfs_label:'4326> POINT (23.772733 46.570536)' })
+CREATE ( Legionslager Potaissa Geometry{ _id:'Legionslager Potaissa Geometry', _uri:'Legionslager Potaissa Geometry', rdfs_label:'Legionslager Potaissa Geometry' })
+CREATE ( 6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom{ _id:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom', rdfs_label:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom' })
+CREATE ( 4326> POINT (24.96525 43.937806){ _id:'4326> POINT (24.96525 43.937806)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.96525 43.937806)', rdfs_label:'4326> POINT (24.96525 43.937806)' })
+CREATE ( Kastell Băneasa I Geometry{ _id:'Kastell Băneasa I Geometry', _uri:'Kastell Băneasa I Geometry', rdfs_label:'Kastell Băneasa I Geometry' })
+CREATE ( 2c2fb600-f249-469e-a025-1961edf5132d_geom{ _id:'2c2fb600-f249-469e-a025-1961edf5132d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom', rdfs_label:'2c2fb600-f249-469e-a025-1961edf5132d_geom' })
+CREATE ( 4326> POINT (23.868333 46.417222){ _id:'4326> POINT (23.868333 46.417222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.868333 46.417222)', rdfs_label:'4326> POINT (23.868333 46.417222)' })
+CREATE ( Kastell Războieni Geometry{ _id:'Kastell Războieni Geometry', _uri:'Kastell Războieni Geometry', rdfs_label:'Kastell Războieni Geometry' })
+CREATE ( af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom{ _id:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom', rdfs_label:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom' })
+CREATE ( 4326> POINT (24.373611 45.173611){ _id:'4326> POINT (24.373611 45.173611)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.373611 45.173611)', rdfs_label:'4326> POINT (24.373611 45.173611)' })
+CREATE ( Kastell Sămbotin (Castra Traiana) Geometry{ _id:'Kastell Sămbotin (Castra Traiana) Geometry', _uri:'Kastell Sămbotin (Castra Traiana) Geometry', rdfs_label:'Kastell Sămbotin (Castra Traiana) Geometry' })
+CREATE ( 50320dbe-929c-40e3-aebd-f8f257d6472a{ _id:'50320dbe-929c-40e3-aebd-f8f257d6472a', _uri:'http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a', rdfs_label:'50320dbe-929c-40e3-aebd-f8f257d6472a' })
+CREATE ( 50320dbe-929c-40e3-aebd-f8f257d6472a_geom{ _id:'50320dbe-929c-40e3-aebd-f8f257d6472a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom', rdfs_label:'50320dbe-929c-40e3-aebd-f8f257d6472a_geom' })
+CREATE ( Kastell Castranova{ _id:'Kastell Castranova', _uri:'Kastell Castranova', rdfs_label:'Kastell Castranova' })
+CREATE ( 46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990{ _id:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990', _uri:'http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990', rdfs_label:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990' })
+CREATE ( 46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom{ _id:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom', rdfs_label:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom' })
+CREATE ( Kastell Plesa{ _id:'Kastell Plesa', _uri:'Kastell Plesa', rdfs_label:'Kastell Plesa' })
+CREATE ( 7e6b0abd-392e-48da-a973-52db57e43459_geom{ _id:'7e6b0abd-392e-48da-a973-52db57e43459_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom', rdfs_label:'7e6b0abd-392e-48da-a973-52db57e43459_geom' })
+CREATE ( 4326> POINT (21.629394 45.426539){ _id:'4326> POINT (21.629394 45.426539)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.629394 45.426539)', rdfs_label:'4326> POINT (21.629394 45.426539)' })
+CREATE ( Kastell Berzovia Geometry{ _id:'Kastell Berzovia Geometry', _uri:'Kastell Berzovia Geometry', rdfs_label:'Kastell Berzovia Geometry' })
+CREATE ( af909713-68f5-4b6d-89d5-03f7fc7fd5c1{ _id:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1', _uri:'http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1', rdfs_label:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1' })
+CREATE ( Kastell Sămbotin (Castra Traiana){ _id:'Kastell Sămbotin (Castra Traiana)', _uri:'Kastell Sămbotin (Castra Traiana)', rdfs_label:'Kastell Sămbotin (Castra Traiana)' })
 CREATE ( 5b90b8d5-ba6e-4789-94d2-db823824acbf{ _id:'5b90b8d5-ba6e-4789-94d2-db823824acbf', _uri:'http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf', rdfs_label:'5b90b8d5-ba6e-4789-94d2-db823824acbf' })
 CREATE ( 5b90b8d5-ba6e-4789-94d2-db823824acbf_geom{ _id:'5b90b8d5-ba6e-4789-94d2-db823824acbf_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom', rdfs_label:'5b90b8d5-ba6e-4789-94d2-db823824acbf_geom' })
 CREATE ( Kastell Căineni (Pons Vetus ?){ _id:'Kastell Căineni (Pons Vetus ?)', _uri:'Kastell Căineni (Pons Vetus ?)', rdfs_label:'Kastell Căineni (Pons Vetus ?)' })
-CREATE ( 000d5176-6b9e-4065-a44f-d7b8f75b1199_geom{ _id:'000d5176-6b9e-4065-a44f-d7b8f75b1199_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom', rdfs_label:'000d5176-6b9e-4065-a44f-d7b8f75b1199_geom' })
-CREATE ( 4326> POINT (23.166667 45.733333){ _id:'4326> POINT (23.166667 45.733333)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.166667 45.733333)', rdfs_label:'4326> POINT (23.166667 45.733333)' })
-CREATE ( Kastell Orăştioara de Sus Geometry{ _id:'Kastell Orăştioara de Sus Geometry', _uri:'Kastell Orăştioara de Sus Geometry', rdfs_label:'Kastell Orăştioara de Sus Geometry' })
-CREATE ( ec646e12-636f-4c8c-96c2-0f46833adf1c_geom{ _id:'ec646e12-636f-4c8c-96c2-0f46833adf1c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom', rdfs_label:'ec646e12-636f-4c8c-96c2-0f46833adf1c_geom' })
-CREATE ( 4326> POINT (23.571847 44.514){ _id:'4326> POINT (23.571847 44.514)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571847 44.514)', rdfs_label:'4326> POINT (23.571847 44.514)' })
-CREATE ( Kastell Răcarii de Jos Geometry{ _id:'Kastell Răcarii de Jos Geometry', _uri:'Kastell Răcarii de Jos Geometry', rdfs_label:'Kastell Răcarii de Jos Geometry' })
-CREATE ( 000d5176-6b9e-4065-a44f-d7b8f75b1199{ _id:'000d5176-6b9e-4065-a44f-d7b8f75b1199', _uri:'http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199', rdfs_label:'000d5176-6b9e-4065-a44f-d7b8f75b1199' })
-CREATE ( Kastell Orăştioara de Sus{ _id:'Kastell Orăştioara de Sus', _uri:'Kastell Orăştioara de Sus', rdfs_label:'Kastell Orăştioara de Sus' })
-CREATE ( e69e6cb2-cded-446c-b159-daec78476f43_geom{ _id:'e69e6cb2-cded-446c-b159-daec78476f43_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom', rdfs_label:'e69e6cb2-cded-446c-b159-daec78476f43_geom' })
-CREATE ( 4326> POINT (23.949167 43.938056){ _id:'4326> POINT (23.949167 43.938056)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.949167 43.938056)', rdfs_label:'4326> POINT (23.949167 43.938056)' })
-CREATE ( Kastell Căciulătești Geometry{ _id:'Kastell Căciulătești Geometry', _uri:'Kastell Căciulătești Geometry', rdfs_label:'Kastell Căciulătești Geometry' })
-CREATE ( b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom{ _id:'b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom', rdfs_label:'b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom' })
-CREATE ( 4326> POINT (24.528969 44.081789){ _id:'4326> POINT (24.528969 44.081789)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.528969 44.081789)', rdfs_label:'4326> POINT (24.528969 44.081789)' })
-CREATE ( Kastell Slăveni Geometry{ _id:'Kastell Slăveni Geometry', _uri:'Kastell Slăveni Geometry', rdfs_label:'Kastell Slăveni Geometry' })
-CREATE ( 86dae60a-c827-480d-bb38-04a480b9ea01{ _id:'86dae60a-c827-480d-bb38-04a480b9ea01', _uri:'http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01', rdfs_label:'86dae60a-c827-480d-bb38-04a480b9ea01' })
-CREATE ( 86dae60a-c827-480d-bb38-04a480b9ea01_geom{ _id:'86dae60a-c827-480d-bb38-04a480b9ea01_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom', rdfs_label:'86dae60a-c827-480d-bb38-04a480b9ea01_geom' })
-CREATE ( Kastell Cenad{ _id:'Kastell Cenad', _uri:'Kastell Cenad', rdfs_label:'Kastell Cenad' })
-CREATE ( 7422f9df-da23-450f-8eac-db2d8dfca42e{ _id:'7422f9df-da23-450f-8eac-db2d8dfca42e', _uri:'http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e', rdfs_label:'7422f9df-da23-450f-8eac-db2d8dfca42e' })
-CREATE ( Kastell Livezile{ _id:'Kastell Livezile', _uri:'Kastell Livezile', rdfs_label:'Kastell Livezile' })
-CREATE ( 0e91c0e7-3991-4a45-89ed-382f7c74731a{ _id:'0e91c0e7-3991-4a45-89ed-382f7c74731a', _uri:'http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a', rdfs_label:'0e91c0e7-3991-4a45-89ed-382f7c74731a' })
-CREATE ( 0e91c0e7-3991-4a45-89ed-382f7c74731a_geom{ _id:'0e91c0e7-3991-4a45-89ed-382f7c74731a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom', rdfs_label:'0e91c0e7-3991-4a45-89ed-382f7c74731a_geom' })
-CREATE ( Kastell Săpata de Jos II{ _id:'Kastell Săpata de Jos II', _uri:'Kastell Săpata de Jos II', rdfs_label:'Kastell Săpata de Jos II' })
-CREATE ( 87009579-c2cc-4c7a-9b02-901bf75a0ee6{ _id:'87009579-c2cc-4c7a-9b02-901bf75a0ee6', _uri:'http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6', rdfs_label:'87009579-c2cc-4c7a-9b02-901bf75a0ee6' })
+CREATE ( 1d8f65a8-c30b-40f1-9676-2e1145691ac3{ _id:'1d8f65a8-c30b-40f1-9676-2e1145691ac3', _uri:'http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3', rdfs_label:'1d8f65a8-c30b-40f1-9676-2e1145691ac3' })
+CREATE ( 1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom{ _id:'1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom', rdfs_label:'1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom' })
+CREATE ( Kastell Abrud (Alburnus Maior){ _id:'Kastell Abrud (Alburnus Maior)', _uri:'Kastell Abrud (Alburnus Maior)', rdfs_label:'Kastell Abrud (Alburnus Maior)' })
+CREATE ( 3b51185a-d7ca-4c22-b85d-a021b3727c4d{ _id:'3b51185a-d7ca-4c22-b85d-a021b3727c4d', _uri:'http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d', rdfs_label:'3b51185a-d7ca-4c22-b85d-a021b3727c4d' })
+CREATE ( 3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom{ _id:'3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom', rdfs_label:'3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom' })
+CREATE ( Kastell Brâncoveneşti{ _id:'Kastell Brâncoveneşti', _uri:'Kastell Brâncoveneşti', rdfs_label:'Kastell Brâncoveneşti' })
+CREATE ( 3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom{ _id:'3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom', rdfs_label:'3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom' })
+CREATE ( 4326> POINT (24.592319 47.096014){ _id:'4326> POINT (24.592319 47.096014)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.592319 47.096014)', rdfs_label:'4326> POINT (24.592319 47.096014)' })
+CREATE ( Kastell Orheiul Bistriţei Geometry{ _id:'Kastell Orheiul Bistriţei Geometry', _uri:'Kastell Orheiul Bistriţei Geometry', rdfs_label:'Kastell Orheiul Bistriţei Geometry' })
+CREATE ( 34d0d768-2d4d-42b3-82ae-e29bad5c1eed{ _id:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed', _uri:'http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed', rdfs_label:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed' })
+CREATE ( 34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom{ _id:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom', rdfs_label:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom' })
+CREATE ( Kastell Gresia{ _id:'Kastell Gresia', _uri:'Kastell Gresia', rdfs_label:'Kastell Gresia' })
+CREATE ( 8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom{ _id:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom', rdfs_label:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom' })
+CREATE ( 4326> POINT (25.012694 45.221){ _id:'4326> POINT (25.012694 45.221)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012694 45.221)', rdfs_label:'4326> POINT (25.012694 45.221)' })
+CREATE ( Kastell Câmpulung Muscel II Geometry{ _id:'Kastell Câmpulung Muscel II Geometry', _uri:'Kastell Câmpulung Muscel II Geometry', rdfs_label:'Kastell Câmpulung Muscel II Geometry' })
+CREATE ( 46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom{ _id:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom', rdfs_label:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom' })
+CREATE ( 4326> POINT (23.37 45.18){ _id:'4326> POINT (23.37 45.18)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.37 45.18)', rdfs_label:'4326> POINT (23.37 45.18)' })
+CREATE ( Kastell Plesa Geometry{ _id:'Kastell Plesa Geometry', _uri:'Kastell Plesa Geometry', rdfs_label:'Kastell Plesa Geometry' })
+CREATE ( 0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom{ _id:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom', rdfs_label:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom' })
+CREATE ( 4326> POINT (24.761417 44.485833){ _id:'4326> POINT (24.761417 44.485833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761417 44.485833)', rdfs_label:'4326> POINT (24.761417 44.485833)' })
+CREATE ( Kastell Urluieni I Geometry{ _id:'Kastell Urluieni I Geometry', _uri:'Kastell Urluieni I Geometry', rdfs_label:'Kastell Urluieni I Geometry' })
+CREATE ( 59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom{ _id:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom', rdfs_label:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom' })
+CREATE ( 4326> POINT (20.629444 46.072222){ _id:'4326> POINT (20.629444 46.072222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.629444 46.072222)', rdfs_label:'4326> POINT (20.629444 46.072222)' })
+CREATE ( Kastell Sânnicolau Mare Geometry{ _id:'Kastell Sânnicolau Mare Geometry', _uri:'Kastell Sânnicolau Mare Geometry', rdfs_label:'Kastell Sânnicolau Mare Geometry' })
+CREATE ( c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom{ _id:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom', rdfs_label:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom' })
+CREATE ( 4326> POINT (24.8375 44.771389){ _id:'4326> POINT (24.8375 44.771389)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8375 44.771389)', rdfs_label:'4326> POINT (24.8375 44.771389)' })
+CREATE ( Kastell Albota Geometry{ _id:'Kastell Albota Geometry', _uri:'Kastell Albota Geometry', rdfs_label:'Kastell Albota Geometry' })
+CREATE ( 9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom{ _id:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom', rdfs_label:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom' })
+CREATE ( 4326> POINT (24.965361 43.897806){ _id:'4326> POINT (24.965361 43.897806)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.965361 43.897806)', rdfs_label:'4326> POINT (24.965361 43.897806)' })
+CREATE ( Kastell Putineiu Geometry{ _id:'Kastell Putineiu Geometry', _uri:'Kastell Putineiu Geometry', rdfs_label:'Kastell Putineiu Geometry' })
+CREATE ( 6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom{ _id:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom', rdfs_label:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom' })
+CREATE ( 4326> POINT (22.884611 46.885694){ _id:'4326> POINT (22.884611 46.885694)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.884611 46.885694)', rdfs_label:'4326> POINT (22.884611 46.885694)' })
+CREATE ( Kastell Bologa (Resculum) Geometry{ _id:'Kastell Bologa (Resculum) Geometry', _uri:'Kastell Bologa (Resculum) Geometry', rdfs_label:'Kastell Bologa (Resculum) Geometry' })
+CREATE ( 0ab5e10e-4fb0-4854-835b-389043840ee0_geom{ _id:'0ab5e10e-4fb0-4854-835b-389043840ee0_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom', rdfs_label:'0ab5e10e-4fb0-4854-835b-389043840ee0_geom' })
+CREATE ( 4326> POINT (23.92 43.834167){ _id:'4326> POINT (23.92 43.834167)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.92 43.834167)', rdfs_label:'4326> POINT (23.92 43.834167)' })
+CREATE ( Kastell Lişteava Geometry{ _id:'Kastell Lişteava Geometry', _uri:'Kastell Lişteava Geometry', rdfs_label:'Kastell Lişteava Geometry' })
+CREATE ( 4198c975-e14a-4fb3-9b2e-7be9e145ecac{ _id:'4198c975-e14a-4fb3-9b2e-7be9e145ecac', _uri:'http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac', rdfs_label:'4198c975-e14a-4fb3-9b2e-7be9e145ecac' })
+CREATE ( 4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom{ _id:'4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom', rdfs_label:'4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom' })
+CREATE ( Kastell Jiblea{ _id:'Kastell Jiblea', _uri:'Kastell Jiblea', rdfs_label:'Kastell Jiblea' })
+CREATE ( 8fa245f8-ffe5-4e74-b259-410c7be91afd_geom{ _id:'8fa245f8-ffe5-4e74-b259-410c7be91afd_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom', rdfs_label:'8fa245f8-ffe5-4e74-b259-410c7be91afd_geom' })
+CREATE ( 4326> POINT (24.394444 45.409722){ _id:'4326> POINT (24.394444 45.409722)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.394444 45.409722)', rdfs_label:'4326> POINT (24.394444 45.409722)' })
+CREATE ( Kastell Titeşti Geometry{ _id:'Kastell Titeşti Geometry', _uri:'Kastell Titeşti Geometry', rdfs_label:'Kastell Titeşti Geometry' })
 CREATE ( 87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom{ _id:'87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom', rdfs_label:'87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom' })
-CREATE ( Kastell Vețel{ _id:'Kastell Vețel', _uri:'Kastell Vețel', rdfs_label:'Kastell Vețel' })
-CREATE ( c3451d14-c4ee-42be-b918-af9735167f5f_geom{ _id:'c3451d14-c4ee-42be-b918-af9735167f5f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f_geom', rdfs_label:'c3451d14-c4ee-42be-b918-af9735167f5f_geom' })
-CREATE ( 4326> POINT (25.008889 46.562222){ _id:'4326> POINT (25.008889 46.562222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.008889 46.562222)', rdfs_label:'4326> POINT (25.008889 46.562222)' })
-CREATE ( Kastell Sarateni Geometry{ _id:'Kastell Sarateni Geometry', _uri:'Kastell Sarateni Geometry', rdfs_label:'Kastell Sarateni Geometry' })
-CREATE ( 9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom{ _id:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom', rdfs_label:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom' })
-CREATE ( 4326> POINT (24.312389 45.309667){ _id:'4326> POINT (24.312389 45.309667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.312389 45.309667)', rdfs_label:'4326> POINT (24.312389 45.309667)' })
-CREATE ( Kastell Bivolari (Arutela) Geometry{ _id:'Kastell Bivolari (Arutela) Geometry', _uri:'Kastell Bivolari (Arutela) Geometry', rdfs_label:'Kastell Bivolari (Arutela) Geometry' })
-CREATE ( 5e33b468-4135-46b4-babc-99f5c423f966_geom{ _id:'5e33b468-4135-46b4-babc-99f5c423f966_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966_geom', rdfs_label:'5e33b468-4135-46b4-babc-99f5c423f966_geom' })
-CREATE ( 4326> POINT (20.145953 46.253697){ _id:'4326> POINT (20.145953 46.253697)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.145953 46.253697)', rdfs_label:'4326> POINT (20.145953 46.253697)' })
-CREATE ( Kastell Szeged Geometry{ _id:'Kastell Szeged Geometry', _uri:'Kastell Szeged Geometry', rdfs_label:'Kastell Szeged Geometry' })
-CREATE ( f8305d66-9429-43c0-b6e3-73721df9986b_geom{ _id:'f8305d66-9429-43c0-b6e3-73721df9986b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom', rdfs_label:'f8305d66-9429-43c0-b6e3-73721df9986b_geom' })
-CREATE ( 4326> POINT (24.762111 44.484583){ _id:'4326> POINT (24.762111 44.484583)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762111 44.484583)', rdfs_label:'4326> POINT (24.762111 44.484583)' })
-CREATE ( Kastell Urluieni II Geometry{ _id:'Kastell Urluieni II Geometry', _uri:'Kastell Urluieni II Geometry', rdfs_label:'Kastell Urluieni II Geometry' })
+CREATE ( 4326> POINT (22.814906 45.914594){ _id:'4326> POINT (22.814906 45.914594)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.814906 45.914594)', rdfs_label:'4326> POINT (22.814906 45.914594)' })
+CREATE ( Kastell Vețel Geometry{ _id:'Kastell Vețel Geometry', _uri:'Kastell Vețel Geometry', rdfs_label:'Kastell Vețel Geometry' })
+CREATE ( 9a118e00-be2c-4c2d-a9f9-8cb86170e3d1{ _id:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1', _uri:'http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1', rdfs_label:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1' })
+CREATE ( 9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom{ _id:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom', rdfs_label:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom' })
+CREATE ( Kastell Rădăcineşti{ _id:'Kastell Rădăcineşti', _uri:'Kastell Rădăcineşti', rdfs_label:'Kastell Rădăcineşti' })
 CREATE ( 3f7e0b8c-1a5f-423f-85da-536d87bbdcc8{ _id:'3f7e0b8c-1a5f-423f-85da-536d87bbdcc8', _uri:'http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8', rdfs_label:'3f7e0b8c-1a5f-423f-85da-536d87bbdcc8' })
 CREATE ( Kastell Orheiul Bistriţei{ _id:'Kastell Orheiul Bistriţei', _uri:'Kastell Orheiul Bistriţei', rdfs_label:'Kastell Orheiul Bistriţei' })
 CREATE ( aadec8db-70f9-4c40-833a-2a7c39c631d2{ _id:'aadec8db-70f9-4c40-833a-2a7c39c631d2', _uri:'http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2', rdfs_label:'aadec8db-70f9-4c40-833a-2a7c39c631d2' })
 CREATE ( aadec8db-70f9-4c40-833a-2a7c39c631d2_geom{ _id:'aadec8db-70f9-4c40-833a-2a7c39c631d2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom', rdfs_label:'aadec8db-70f9-4c40-833a-2a7c39c631d2_geom' })
 CREATE ( Kastell Cătunele{ _id:'Kastell Cătunele', _uri:'Kastell Cătunele', rdfs_label:'Kastell Cătunele' })
-CREATE ( 01189de6-024d-4022-96ff-eec7e4efee0c_geom{ _id:'01189de6-024d-4022-96ff-eec7e4efee0c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom', rdfs_label:'01189de6-024d-4022-96ff-eec7e4efee0c_geom' })
-CREATE ( 4326> POINT (22.4076 44.7382){ _id:'4326> POINT (22.4076 44.7382)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.4076 44.7382)', rdfs_label:'4326> POINT (22.4076 44.7382)' })
-CREATE ( Kastell Orșova (Dierna) Geometry{ _id:'Kastell Orșova (Dierna) Geometry', _uri:'Kastell Orșova (Dierna) Geometry', rdfs_label:'Kastell Orșova (Dierna) Geometry' })
-CREATE ( 0e91c0e7-3991-4a45-89ed-382f7c74731a_geom{ _id:'0e91c0e7-3991-4a45-89ed-382f7c74731a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom', rdfs_label:'0e91c0e7-3991-4a45-89ed-382f7c74731a_geom' })
-CREATE ( 4326> POINT (24.763694 44.707917){ _id:'4326> POINT (24.763694 44.707917)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763694 44.707917)', rdfs_label:'4326> POINT (24.763694 44.707917)' })
-CREATE ( Kastell Săpata de Jos II Geometry{ _id:'Kastell Săpata de Jos II Geometry', _uri:'Kastell Săpata de Jos II Geometry', rdfs_label:'Kastell Săpata de Jos II Geometry' })
-CREATE ( 19360a61-a15a-4d56-a100-f3be57e93ff1_geom{ _id:'19360a61-a15a-4d56-a100-f3be57e93ff1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom', rdfs_label:'19360a61-a15a-4d56-a100-f3be57e93ff1_geom' })
-CREATE ( 4326> POINT (23.571889 44.514111){ _id:'4326> POINT (23.571889 44.514111)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571889 44.514111)', rdfs_label:'4326> POINT (23.571889 44.514111)' })
-CREATE ( Kastell Mofleni (Pelendava) Geometry{ _id:'Kastell Mofleni (Pelendava) Geometry', _uri:'Kastell Mofleni (Pelendava) Geometry', rdfs_label:'Kastell Mofleni (Pelendava) Geometry' })
-CREATE ( 8fa245f8-ffe5-4e74-b259-410c7be91afd_geom{ _id:'8fa245f8-ffe5-4e74-b259-410c7be91afd_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom', rdfs_label:'8fa245f8-ffe5-4e74-b259-410c7be91afd_geom' })
-CREATE ( 4326> POINT (24.394444 45.409722){ _id:'4326> POINT (24.394444 45.409722)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.394444 45.409722)', rdfs_label:'4326> POINT (24.394444 45.409722)' })
-CREATE ( Kastell Titeşti Geometry{ _id:'Kastell Titeşti Geometry', _uri:'Kastell Titeşti Geometry', rdfs_label:'Kastell Titeşti Geometry' })
-CREATE ( bd14e9f3-dd38-4329-a655-60b00fd8d5b7{ _id:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7', _uri:'http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7', rdfs_label:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7' })
-CREATE ( Kastell Sighisoara{ _id:'Kastell Sighisoara', _uri:'Kastell Sighisoara', rdfs_label:'Kastell Sighisoara' })
-CREATE ( GeometryCollection_collection{ _id:'GeometryCollection_collection', _uri:'http://lod.squirrel.link/data/limes/GeometryCollection_collection', rdfs_label:'GeometryCollection_collection' })
-CREATE ( GeometryCollection Instances Collection{ _id:'GeometryCollection Instances Collection', _uri:'GeometryCollection Instances Collection', rdfs_label:'GeometryCollection Instances Collection' })
-CREATE ( LimesDaicusGeometries{ _id:'LimesDaicusGeometries', _uri:'http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries', rdfs_label:'LimesDaicusGeometries' })
-CREATE ( LimesNoricumGeometries{ _id:'LimesNoricumGeometries', _uri:'http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries', rdfs_label:'LimesNoricumGeometries' })
-CREATE ( 7e6b0abd-392e-48da-a973-52db57e43459_geom{ _id:'7e6b0abd-392e-48da-a973-52db57e43459_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom', rdfs_label:'7e6b0abd-392e-48da-a973-52db57e43459_geom' })
-CREATE ( 4326> POINT (21.629394 45.426539){ _id:'4326> POINT (21.629394 45.426539)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.629394 45.426539)', rdfs_label:'4326> POINT (21.629394 45.426539)' })
-CREATE ( Kastell Berzovia Geometry{ _id:'Kastell Berzovia Geometry', _uri:'Kastell Berzovia Geometry', rdfs_label:'Kastell Berzovia Geometry' })
-CREATE ( ed79872f-dcb1-48d0-a008-5a3c65432a67{ _id:'ed79872f-dcb1-48d0-a008-5a3c65432a67', _uri:'http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67', rdfs_label:'ed79872f-dcb1-48d0-a008-5a3c65432a67' })
-CREATE ( ed79872f-dcb1-48d0-a008-5a3c65432a67_geom{ _id:'ed79872f-dcb1-48d0-a008-5a3c65432a67_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom', rdfs_label:'ed79872f-dcb1-48d0-a008-5a3c65432a67_geom' })
-CREATE ( Kastell Aradul Nou{ _id:'Kastell Aradul Nou', _uri:'Kastell Aradul Nou', rdfs_label:'Kastell Aradul Nou' })
-CREATE ( c8ecf3da-c535-41df-b06e-298cd8542633{ _id:'c8ecf3da-c535-41df-b06e-298cd8542633', _uri:'http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633', rdfs_label:'c8ecf3da-c535-41df-b06e-298cd8542633' })
-CREATE ( c8ecf3da-c535-41df-b06e-298cd8542633_geom{ _id:'c8ecf3da-c535-41df-b06e-298cd8542633_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom', rdfs_label:'c8ecf3da-c535-41df-b06e-298cd8542633_geom' })
-CREATE ( Kastell Teregova (Ad Pannonios){ _id:'Kastell Teregova (Ad Pannonios)', _uri:'Kastell Teregova (Ad Pannonios)', rdfs_label:'Kastell Teregova (Ad Pannonios)' })
-CREATE ( 1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom{ _id:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom', rdfs_label:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom' })
-CREATE ( 4326> POINT (24.870833 43.751667){ _id:'4326> POINT (24.870833 43.751667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.870833 43.751667)', rdfs_label:'4326> POINT (24.870833 43.751667)' })
-CREATE ( Kastell Islaz-Razovica Geometry{ _id:'Kastell Islaz-Razovica Geometry', _uri:'Kastell Islaz-Razovica Geometry', rdfs_label:'Kastell Islaz-Razovica Geometry' })
-CREATE ( 86dae60a-c827-480d-bb38-04a480b9ea01_geom{ _id:'86dae60a-c827-480d-bb38-04a480b9ea01_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom', rdfs_label:'86dae60a-c827-480d-bb38-04a480b9ea01_geom' })
-CREATE ( 4326> POINT (20.585819 46.138106){ _id:'4326> POINT (20.585819 46.138106)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.585819 46.138106)', rdfs_label:'4326> POINT (20.585819 46.138106)' })
-CREATE ( Kastell Cenad Geometry{ _id:'Kastell Cenad Geometry', _uri:'Kastell Cenad Geometry', rdfs_label:'Kastell Cenad Geometry' })
-CREATE ( 06eb8de4-750e-4ed9-ad04-9bf16d61c975{ _id:'06eb8de4-750e-4ed9-ad04-9bf16d61c975', _uri:'http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975', rdfs_label:'06eb8de4-750e-4ed9-ad04-9bf16d61c975' })
-CREATE ( 06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom{ _id:'06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom', rdfs_label:'06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom' })
-CREATE ( Kastell Momoteşti (Rusidava){ _id:'Kastell Momoteşti (Rusidava)', _uri:'Kastell Momoteşti (Rusidava)', rdfs_label:'Kastell Momoteşti (Rusidava)' })
+CREATE ( c3451d14-c4ee-42be-b918-af9735167f5f_geom{ _id:'c3451d14-c4ee-42be-b918-af9735167f5f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f_geom', rdfs_label:'c3451d14-c4ee-42be-b918-af9735167f5f_geom' })
+CREATE ( 4326> POINT (25.008889 46.562222){ _id:'4326> POINT (25.008889 46.562222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.008889 46.562222)', rdfs_label:'4326> POINT (25.008889 46.562222)' })
+CREATE ( Kastell Sarateni Geometry{ _id:'Kastell Sarateni Geometry', _uri:'Kastell Sarateni Geometry', rdfs_label:'Kastell Sarateni Geometry' })
+CREATE ( b0524f84-a9d2-45fa-9f69-d8164ad73440{ _id:'b0524f84-a9d2-45fa-9f69-d8164ad73440', _uri:'http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440', rdfs_label:'b0524f84-a9d2-45fa-9f69-d8164ad73440' })
 CREATE ( b0524f84-a9d2-45fa-9f69-d8164ad73440_geom{ _id:'b0524f84-a9d2-45fa-9f69-d8164ad73440_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom', rdfs_label:'b0524f84-a9d2-45fa-9f69-d8164ad73440_geom' })
-CREATE ( 4326> POINT (25.849619 45.970939){ _id:'4326> POINT (25.849619 45.970939)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.849619 45.970939)', rdfs_label:'4326> POINT (25.849619 45.970939)' })
-CREATE ( Kastell Olteni Geometry{ _id:'Kastell Olteni Geometry', _uri:'Kastell Olteni Geometry', rdfs_label:'Kastell Olteni Geometry' })
-CREATE ( aadec8db-70f9-4c40-833a-2a7c39c631d2_geom{ _id:'aadec8db-70f9-4c40-833a-2a7c39c631d2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom', rdfs_label:'aadec8db-70f9-4c40-833a-2a7c39c631d2_geom' })
-CREATE ( 4326> POINT (22.924444 44.838889){ _id:'4326> POINT (22.924444 44.838889)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.924444 44.838889)', rdfs_label:'4326> POINT (22.924444 44.838889)' })
-CREATE ( Kastell Cătunele Geometry{ _id:'Kastell Cătunele Geometry', _uri:'Kastell Cătunele Geometry', rdfs_label:'Kastell Cătunele Geometry' })
-CREATE ( 918ef494-4408-4a91-8ee0-61f6087ffee7_geom{ _id:'918ef494-4408-4a91-8ee0-61f6087ffee7_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom', rdfs_label:'918ef494-4408-4a91-8ee0-61f6087ffee7_geom' })
-CREATE ( 4326> POINT (21.587219 45.265){ _id:'4326> POINT (21.587219 45.265)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.587219 45.265)', rdfs_label:'4326> POINT (21.587219 45.265)' })
-CREATE ( Kastell Surducul Mare Geometry{ _id:'Kastell Surducul Mare Geometry', _uri:'Kastell Surducul Mare Geometry', rdfs_label:'Kastell Surducul Mare Geometry' })
-CREATE ( 9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom{ _id:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom', rdfs_label:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom' })
-CREATE ( 4326> POINT (25.441581 45.618708){ _id:'4326> POINT (25.441581 45.618708)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.441581 45.618708)', rdfs_label:'4326> POINT (25.441581 45.618708)' })
-CREATE ( Kastell Râșnov Geometry{ _id:'Kastell Râșnov Geometry', _uri:'Kastell Râșnov Geometry', rdfs_label:'Kastell Râșnov Geometry' })
-CREATE ( 497eff64-e309-4704-b5f0-3e2872ff379d_geom{ _id:'497eff64-e309-4704-b5f0-3e2872ff379d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom', rdfs_label:'497eff64-e309-4704-b5f0-3e2872ff379d_geom' })
-CREATE ( 4326> POINT (23.772733 46.570536){ _id:'4326> POINT (23.772733 46.570536)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.772733 46.570536)', rdfs_label:'4326> POINT (23.772733 46.570536)' })
-CREATE ( Legionslager Potaissa Geometry{ _id:'Legionslager Potaissa Geometry', _uri:'Legionslager Potaissa Geometry', rdfs_label:'Legionslager Potaissa Geometry' })
-CREATE ( 7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom{ _id:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom', rdfs_label:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom' })
-CREATE ( 4326> POINT (24.947028 44.074472){ _id:'4326> POINT (24.947028 44.074472)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.947028 44.074472)', rdfs_label:'4326> POINT (24.947028 44.074472)' })
-CREATE ( Kastell Roșiorii de Vede Geometry{ _id:'Kastell Roșiorii de Vede Geometry', _uri:'Kastell Roșiorii de Vede Geometry', rdfs_label:'Kastell Roșiorii de Vede Geometry' })
+CREATE ( Kastell Olteni{ _id:'Kastell Olteni', _uri:'Kastell Olteni', rdfs_label:'Kastell Olteni' })
 CREATE ( 7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom{ _id:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom', rdfs_label:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom' })
 CREATE ( 4326> POINT (24.266011 45.635769){ _id:'4326> POINT (24.266011 45.635769)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.266011 45.635769)', rdfs_label:'4326> POINT (24.266011 45.635769)' })
 CREATE ( Kastell Boiţa (Caput Stenarum) Geometry{ _id:'Kastell Boiţa (Caput Stenarum) Geometry', _uri:'Kastell Boiţa (Caput Stenarum) Geometry', rdfs_label:'Kastell Boiţa (Caput Stenarum) Geometry' })
-CREATE ( cba75304-f136-465d-90fb-56dff3acc018_geom{ _id:'cba75304-f136-465d-90fb-56dff3acc018_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom', rdfs_label:'cba75304-f136-465d-90fb-56dff3acc018_geom' })
-CREATE ( 4326> POINT (24.30325 44.374806){ _id:'4326> POINT (24.30325 44.374806)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.30325 44.374806)', rdfs_label:'4326> POINT (24.30325 44.374806)' })
-CREATE ( Kastell Enoşeşti (Acidava) Geometry{ _id:'Kastell Enoşeşti (Acidava) Geometry', _uri:'Kastell Enoşeşti (Acidava) Geometry', rdfs_label:'Kastell Enoşeşti (Acidava) Geometry' })
-CREATE ( 01189de6-024d-4022-96ff-eec7e4efee0c{ _id:'01189de6-024d-4022-96ff-eec7e4efee0c', _uri:'http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c', rdfs_label:'01189de6-024d-4022-96ff-eec7e4efee0c' })
-CREATE ( Kastell Orșova (Dierna){ _id:'Kastell Orșova (Dierna)', _uri:'Kastell Orșova (Dierna)', rdfs_label:'Kastell Orșova (Dierna)' })
-CREATE ( 3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom{ _id:'3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom', rdfs_label:'3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom' })
-CREATE ( 4326> POINT (24.766042 46.861514){ _id:'4326> POINT (24.766042 46.861514)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.766042 46.861514)', rdfs_label:'4326> POINT (24.766042 46.861514)' })
-CREATE ( Kastell Brâncoveneşti Geometry{ _id:'Kastell Brâncoveneşti Geometry', _uri:'Kastell Brâncoveneşti Geometry', rdfs_label:'Kastell Brâncoveneşti Geometry' })
-CREATE ( 7dd1742c-a3a5-4494-b148-1d435d754d5d{ _id:'7dd1742c-a3a5-4494-b148-1d435d754d5d', _uri:'http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d', rdfs_label:'7dd1742c-a3a5-4494-b148-1d435d754d5d' })
-CREATE (   Alenkastell{ _id:'  Alenkastell', _uri:'Vexillationskastell /  Kohortenkastell /  Alenkastell', rdfs_label:'  Alenkastell' })
-CREATE ( Kastell Vršac{ _id:'Kastell Vršac', _uri:'Kastell Vršac', rdfs_label:'Kastell Vršac' })
-CREATE ( LimesDaicusGeometries{ _id:'LimesDaicusGeometries', _uri:'http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries', rdfs_label:'LimesDaicusGeometries' })
-CREATE ( GeometryCollection{ _id:'GeometryCollection', _uri:'http://www.opengis.net/ont/geosparql#GeometryCollection', rdfs_label:'GeometryCollection' })
-CREATE ( b6e369cd-722a-4a1c-a984-538bb26f3777_geom{ _id:'b6e369cd-722a-4a1c-a984-538bb26f3777_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom', rdfs_label:'b6e369cd-722a-4a1c-a984-538bb26f3777_geom' })
-CREATE ( e3899f66-1234-4a44-b16e-2ead1e0bf696_geom{ _id:'e3899f66-1234-4a44-b16e-2ead1e0bf696_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom', rdfs_label:'e3899f66-1234-4a44-b16e-2ead1e0bf696_geom' })
-CREATE ( 0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom{ _id:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom', rdfs_label:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom' })
-CREATE ( 0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom{ _id:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom', rdfs_label:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom' })
-CREATE ( 096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom{ _id:'096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom', rdfs_label:'096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom' })
-CREATE ( 1795d125-e071-4153-b07e-e147bb19ad65_geom{ _id:'1795d125-e071-4153-b07e-e147bb19ad65_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom', rdfs_label:'1795d125-e071-4153-b07e-e147bb19ad65_geom' })
-CREATE ( 3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom{ _id:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom', rdfs_label:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom' })
-CREATE ( 3680e065-f377-4f4d-a9d6-84523dcb1727_geom{ _id:'3680e065-f377-4f4d-a9d6-84523dcb1727_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom', rdfs_label:'3680e065-f377-4f4d-a9d6-84523dcb1727_geom' })
-CREATE ( 5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom{ _id:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom', rdfs_label:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom' })
-CREATE ( 7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom{ _id:'7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom', rdfs_label:'7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom' })
-CREATE ( 8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom{ _id:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom', rdfs_label:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom' })
+CREATE ( 7dd1742c-a3a5-4494-b148-1d435d754d5d_geom{ _id:'7dd1742c-a3a5-4494-b148-1d435d754d5d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom', rdfs_label:'7dd1742c-a3a5-4494-b148-1d435d754d5d_geom' })
+CREATE ( 4326> POINT (21.300194 45.122669){ _id:'4326> POINT (21.300194 45.122669)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.300194 45.122669)', rdfs_label:'4326> POINT (21.300194 45.122669)' })
+CREATE ( Kastell Vršac Geometry{ _id:'Kastell Vršac Geometry', _uri:'Kastell Vršac Geometry', rdfs_label:'Kastell Vršac Geometry' })
+CREATE ( c8ecf3da-c535-41df-b06e-298cd8542633{ _id:'c8ecf3da-c535-41df-b06e-298cd8542633', _uri:'http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633', rdfs_label:'c8ecf3da-c535-41df-b06e-298cd8542633' })
+CREATE ( c8ecf3da-c535-41df-b06e-298cd8542633_geom{ _id:'c8ecf3da-c535-41df-b06e-298cd8542633_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom', rdfs_label:'c8ecf3da-c535-41df-b06e-298cd8542633_geom' })
+CREATE ( Kastell Teregova (Ad Pannonios){ _id:'Kastell Teregova (Ad Pannonios)', _uri:'Kastell Teregova (Ad Pannonios)', rdfs_label:'Kastell Teregova (Ad Pannonios)' })
+CREATE ( ae458e0d-85d0-4756-b265-db4db5bb7fe2{ _id:'ae458e0d-85d0-4756-b265-db4db5bb7fe2', _uri:'http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2', rdfs_label:'ae458e0d-85d0-4756-b265-db4db5bb7fe2' })
+CREATE ( ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom{ _id:'ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom', rdfs_label:'ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom' })
+CREATE ( Kastell Inlăceni{ _id:'Kastell Inlăceni', _uri:'Kastell Inlăceni', rdfs_label:'Kastell Inlăceni' })
+CREATE ( 5a43030f-b985-4444-8cf9-3e4a0b132d79{ _id:'5a43030f-b985-4444-8cf9-3e4a0b132d79', _uri:'http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79', rdfs_label:'5a43030f-b985-4444-8cf9-3e4a0b132d79' })
+CREATE ( 5a43030f-b985-4444-8cf9-3e4a0b132d79_geom{ _id:'5a43030f-b985-4444-8cf9-3e4a0b132d79_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom', rdfs_label:'5a43030f-b985-4444-8cf9-3e4a0b132d79_geom' })
+CREATE ( Kastell Vârtop{ _id:'Kastell Vârtop', _uri:'Kastell Vârtop', rdfs_label:'Kastell Vârtop' })
+CREATE ( d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom{ _id:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom', rdfs_label:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom' })
+CREATE ( 4326> POINT (21.331111 44.845){ _id:'4326> POINT (21.331111 44.845)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.331111 44.845)', rdfs_label:'4326> POINT (21.331111 44.845)' })
+CREATE ( Kastell Banatska Palanka Geometry{ _id:'Kastell Banatska Palanka Geometry', _uri:'Kastell Banatska Palanka Geometry', rdfs_label:'Kastell Banatska Palanka Geometry' })
+CREATE ( 80ce787b-1ab0-42e7-b03c-c641d3767774_geom{ _id:'80ce787b-1ab0-42e7-b03c-c641d3767774_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774_geom', rdfs_label:'80ce787b-1ab0-42e7-b03c-c641d3767774_geom' })
+CREATE ( 4326> POINT (24.400833 45.370833){ _id:'4326> POINT (24.400833 45.370833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 45.370833)', rdfs_label:'4326> POINT (24.400833 45.370833)' })
+CREATE ( Kastell Perisani Geometry{ _id:'Kastell Perisani Geometry', _uri:'Kastell Perisani Geometry', rdfs_label:'Kastell Perisani Geometry' })
+CREATE ( 9f76d5fd-4ee3-4985-9fb6-c22bfdf43436{ _id:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436', _uri:'http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436', rdfs_label:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436' })
+CREATE ( Kastell Putineiu{ _id:'Kastell Putineiu', _uri:'Kastell Putineiu', rdfs_label:'Kastell Putineiu' })
+CREATE ( 4df4edbc-facd-42bd-b05e-076f94ae693b_geom{ _id:'4df4edbc-facd-42bd-b05e-076f94ae693b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom', rdfs_label:'4df4edbc-facd-42bd-b05e-076f94ae693b_geom' })
+CREATE ( 4326> POINT (24.236111 44.883333){ _id:'4326> POINT (24.236111 44.883333)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.236111 44.883333)', rdfs_label:'4326> POINT (24.236111 44.883333)' })
+CREATE ( Kastell IIoneștii Govorii (Pons Aluti) Geometry{ _id:'Kastell IIoneștii Govorii (Pons Aluti) Geometry', _uri:'Kastell IIoneștii Govorii (Pons Aluti) Geometry', rdfs_label:'Kastell IIoneștii Govorii (Pons Aluti) Geometry' })
+CREATE ( 4df4edbc-facd-42bd-b05e-076f94ae693b{ _id:'4df4edbc-facd-42bd-b05e-076f94ae693b', _uri:'http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b', rdfs_label:'4df4edbc-facd-42bd-b05e-076f94ae693b' })
+CREATE ( Kastell IIoneștii Govorii (Pons Aluti){ _id:'Kastell IIoneștii Govorii (Pons Aluti)', _uri:'Kastell IIoneștii Govorii (Pons Aluti)', rdfs_label:'Kastell IIoneștii Govorii (Pons Aluti)' })
+CREATE ( c3451d14-c4ee-42be-b918-af9735167f5f{ _id:'c3451d14-c4ee-42be-b918-af9735167f5f', _uri:'http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f', rdfs_label:'c3451d14-c4ee-42be-b918-af9735167f5f' })
+CREATE ( Kastell Sarateni{ _id:'Kastell Sarateni', _uri:'Kastell Sarateni', rdfs_label:'Kastell Sarateni' })
+CREATE ( 5ea0f057-026f-4556-97f5-3e0e3a9471c3{ _id:'5ea0f057-026f-4556-97f5-3e0e3a9471c3', _uri:'http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3', rdfs_label:'5ea0f057-026f-4556-97f5-3e0e3a9471c3' })
+CREATE ( 5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom{ _id:'5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom', rdfs_label:'5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom' })
+CREATE ( Alenkastell{ _id:'Alenkastell', _uri:'Alenkastell', rdfs_label:'Alenkastell' })
+CREATE ( Kastell Gherla{ _id:'Kastell Gherla', _uri:'Kastell Gherla', rdfs_label:'Kastell Gherla' })
+CREATE ( 5e33b468-4135-46b4-babc-99f5c423f966{ _id:'5e33b468-4135-46b4-babc-99f5c423f966', _uri:'http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966', rdfs_label:'5e33b468-4135-46b4-babc-99f5c423f966' })
+CREATE ( 5e33b468-4135-46b4-babc-99f5c423f966_geom{ _id:'5e33b468-4135-46b4-babc-99f5c423f966_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966_geom', rdfs_label:'5e33b468-4135-46b4-babc-99f5c423f966_geom' })
+CREATE ( Kastell Szeged{ _id:'Kastell Szeged', _uri:'Kastell Szeged', rdfs_label:'Kastell Szeged' })
+CREATE ( ec646e12-636f-4c8c-96c2-0f46833adf1c{ _id:'ec646e12-636f-4c8c-96c2-0f46833adf1c', _uri:'http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c', rdfs_label:'ec646e12-636f-4c8c-96c2-0f46833adf1c' })
+CREATE ( ec646e12-636f-4c8c-96c2-0f46833adf1c_geom{ _id:'ec646e12-636f-4c8c-96c2-0f46833adf1c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom', rdfs_label:'ec646e12-636f-4c8c-96c2-0f46833adf1c_geom' })
+CREATE ( Kastell Răcarii de Jos{ _id:'Kastell Răcarii de Jos', _uri:'Kastell Răcarii de Jos', rdfs_label:'Kastell Răcarii de Jos' })
+CREATE ( 9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom{ _id:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom', rdfs_label:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom' })
+CREATE ( 4326> POINT (24.441944 45.281528){ _id:'4326> POINT (24.441944 45.281528)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.441944 45.281528)', rdfs_label:'4326> POINT (24.441944 45.281528)' })
+CREATE ( Kastell Rădăcineşti Geometry{ _id:'Kastell Rădăcineşti Geometry', _uri:'Kastell Rădăcineşti Geometry', rdfs_label:'Kastell Rădăcineşti Geometry' })
+CREATE ( fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom{ _id:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom', rdfs_label:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom' })
+CREATE ( 4326> POINT (23.572314 46.066694){ _id:'4326> POINT (23.572314 46.066694)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.572314 46.066694)', rdfs_label:'4326> POINT (23.572314 46.066694)' })
+CREATE ( Legionslager Alba Julia Geometry{ _id:'Legionslager Alba Julia Geometry', _uri:'Legionslager Alba Julia Geometry', rdfs_label:'Legionslager Alba Julia Geometry' })
+CREATE ( e2573931-d743-40c3-a6b7-08ffeb244daa{ _id:'e2573931-d743-40c3-a6b7-08ffeb244daa', _uri:'http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa', rdfs_label:'e2573931-d743-40c3-a6b7-08ffeb244daa' })
+CREATE ( e2573931-d743-40c3-a6b7-08ffeb244daa_geom{ _id:'e2573931-d743-40c3-a6b7-08ffeb244daa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom', rdfs_label:'e2573931-d743-40c3-a6b7-08ffeb244daa_geom' })
+CREATE ( Kastell Valea Urluii{ _id:'Kastell Valea Urluii', _uri:'Kastell Valea Urluii', rdfs_label:'Kastell Valea Urluii' })
+CREATE ( FeatureCollection_collection{ _id:'FeatureCollection_collection', _uri:'http://lod.squirrel.link/data/limes/FeatureCollection_collection', rdfs_label:'FeatureCollection_collection' })
+CREATE ( Collection{ _id:'Collection', _uri:'http://www.w3.org/2004/02/skos/core#Collection', rdfs_label:'Collection' })
+CREATE ( FeatureCollection Instances Collection{ _id:'FeatureCollection Instances Collection', _uri:'FeatureCollection Instances Collection', rdfs_label:'FeatureCollection Instances Collection' })
+CREATE ( LimesDaicusFeatures{ _id:'LimesDaicusFeatures', _uri:'http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures', rdfs_label:'LimesDaicusFeatures' })
+CREATE ( LimesNoricumFeatures{ _id:'LimesNoricumFeatures', _uri:'http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures', rdfs_label:'LimesNoricumFeatures' })
+CREATE ( 86dae60a-c827-480d-bb38-04a480b9ea01{ _id:'86dae60a-c827-480d-bb38-04a480b9ea01', _uri:'http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01', rdfs_label:'86dae60a-c827-480d-bb38-04a480b9ea01' })
+CREATE ( 86dae60a-c827-480d-bb38-04a480b9ea01_geom{ _id:'86dae60a-c827-480d-bb38-04a480b9ea01_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom', rdfs_label:'86dae60a-c827-480d-bb38-04a480b9ea01_geom' })
+CREATE ( Kastell Cenad{ _id:'Kastell Cenad', _uri:'Kastell Cenad', rdfs_label:'Kastell Cenad' })
+CREATE ( 0ccd99fd-62d1-4978-873a-106b1f5e3880{ _id:'0ccd99fd-62d1-4978-873a-106b1f5e3880', _uri:'http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880', rdfs_label:'0ccd99fd-62d1-4978-873a-106b1f5e3880' })
+CREATE ( 0ccd99fd-62d1-4978-873a-106b1f5e3880_geom{ _id:'0ccd99fd-62d1-4978-873a-106b1f5e3880_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom', rdfs_label:'0ccd99fd-62d1-4978-873a-106b1f5e3880_geom' })
+CREATE ( Kastell Rucăr{ _id:'Kastell Rucăr', _uri:'Kastell Rucăr', rdfs_label:'Kastell Rucăr' })
+CREATE ( 815f5c63-8478-4aac-bafb-11eaafa9a923{ _id:'815f5c63-8478-4aac-bafb-11eaafa9a923', _uri:'http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923', rdfs_label:'815f5c63-8478-4aac-bafb-11eaafa9a923' })
 CREATE ( 815f5c63-8478-4aac-bafb-11eaafa9a923_geom{ _id:'815f5c63-8478-4aac-bafb-11eaafa9a923_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923_geom', rdfs_label:'815f5c63-8478-4aac-bafb-11eaafa9a923_geom' })
-CREATE ( Limes Daicus Geometries{ _id:'Limes Daicus Geometries', _uri:'Limes Daicus Geometries', rdfs_label:'Limes Daicus Geometries' })
-CREATE ( e811fe5a-92d2-43a0-a572-51bc5942e242{ _id:'e811fe5a-92d2-43a0-a572-51bc5942e242', _uri:'http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242', rdfs_label:'e811fe5a-92d2-43a0-a572-51bc5942e242' })
-CREATE ( Kastell Aizis{ _id:'Kastell Aizis', _uri:'Kastell Aizis', rdfs_label:'Kastell Aizis' })
-CREATE ( e3899f66-1234-4a44-b16e-2ead1e0bf696{ _id:'e3899f66-1234-4a44-b16e-2ead1e0bf696', _uri:'http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696', rdfs_label:'e3899f66-1234-4a44-b16e-2ead1e0bf696' })
-CREATE ( Kastell Cincsor{ _id:'Kastell Cincsor', _uri:'Kastell Cincsor', rdfs_label:'Kastell Cincsor' })
-CREATE ( 22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom{ _id:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom', rdfs_label:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom' })
-CREATE ( 4326> POINT (24.651389 43.866389){ _id:'4326> POINT (24.651389 43.866389)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.651389 43.866389)', rdfs_label:'4326> POINT (24.651389 43.866389)' })
-CREATE ( Kastell Tia Mare Geometry{ _id:'Kastell Tia Mare Geometry', _uri:'Kastell Tia Mare Geometry', rdfs_label:'Kastell Tia Mare Geometry' })
-CREATE ( b6e369cd-722a-4a1c-a984-538bb26f3777_geom{ _id:'b6e369cd-722a-4a1c-a984-538bb26f3777_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom', rdfs_label:'b6e369cd-722a-4a1c-a984-538bb26f3777_geom' })
-CREATE ( 4326> POINT (23.044569 47.048264){ _id:'4326> POINT (23.044569 47.048264)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.044569 47.048264)', rdfs_label:'4326> POINT (23.044569 47.048264)' })
-CREATE ( Kastell Buciumi Geometry{ _id:'Kastell Buciumi Geometry', _uri:'Kastell Buciumi Geometry', rdfs_label:'Kastell Buciumi Geometry' })
-CREATE ( 50320dbe-929c-40e3-aebd-f8f257d6472a{ _id:'50320dbe-929c-40e3-aebd-f8f257d6472a', _uri:'http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a', rdfs_label:'50320dbe-929c-40e3-aebd-f8f257d6472a' })
-CREATE ( Kastell Castranova{ _id:'Kastell Castranova', _uri:'Kastell Castranova', rdfs_label:'Kastell Castranova' })
+CREATE ( Kastell Dupljaja{ _id:'Kastell Dupljaja', _uri:'Kastell Dupljaja', rdfs_label:'Kastell Dupljaja' })
+CREATE ( 42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom{ _id:'42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom', rdfs_label:'42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom' })
+CREATE ( 4326> POINT (21.232794 44.897786){ _id:'4326> POINT (21.232794 44.897786)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.232794 44.897786)', rdfs_label:'4326> POINT (21.232794 44.897786)' })
+CREATE ( Kastell Grebenac Geometry{ _id:'Kastell Grebenac Geometry', _uri:'Kastell Grebenac Geometry', rdfs_label:'Kastell Grebenac Geometry' })
+CREATE ( 9d1c0c0d-98f5-4728-86ee-4288dde6d0fa{ _id:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa', _uri:'http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa', rdfs_label:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa' })
+CREATE ( 9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom{ _id:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom', rdfs_label:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom' })
+CREATE ( Kastell Râșnov { _id:'Kastell Râșnov ', _uri:'Kastell Râșnov ', rdfs_label:'Kastell Râșnov ' })
+CREATE ( 5d0fac8e-53ae-4ae7-92a2-dd419eee0dce{ _id:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce', _uri:'http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce', rdfs_label:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce' })
+CREATE ( 5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom{ _id:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom', rdfs_label:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom' })
+CREATE ( Kastell Hoghiz{ _id:'Kastell Hoghiz', _uri:'Kastell Hoghiz', rdfs_label:'Kastell Hoghiz' })
+CREATE ( fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom{ _id:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom', rdfs_label:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom' })
+CREATE ( 4326> POINT (21.551161 45.079397){ _id:'4326> POINT (21.551161 45.079397)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.551161 45.079397)', rdfs_label:'4326> POINT (21.551161 45.079397)' })
+CREATE ( Kastell Vărădia Geometry{ _id:'Kastell Vărădia Geometry', _uri:'Kastell Vărădia Geometry', rdfs_label:'Kastell Vărădia Geometry' })
 CREATE ( 70d51242-571e-43ce-bd01-3bffca8cb4be_geom{ _id:'70d51242-571e-43ce-bd01-3bffca8cb4be_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be_geom', rdfs_label:'70d51242-571e-43ce-bd01-3bffca8cb4be_geom' })
 CREATE ( 4326> POINT (25.591561 45.816419){ _id:'4326> POINT (25.591561 45.816419)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.591561 45.816419)', rdfs_label:'4326> POINT (25.591561 45.816419)' })
 CREATE ( Kastell Feldioara Geometry{ _id:'Kastell Feldioara Geometry', _uri:'Kastell Feldioara Geometry', rdfs_label:'Kastell Feldioara Geometry' })
-CREATE ( 80ce787b-1ab0-42e7-b03c-c641d3767774{ _id:'80ce787b-1ab0-42e7-b03c-c641d3767774', _uri:'http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774', rdfs_label:'80ce787b-1ab0-42e7-b03c-c641d3767774' })
-CREATE ( Kastell Perisani{ _id:'Kastell Perisani', _uri:'Kastell Perisani', rdfs_label:'Kastell Perisani' })
-CREATE ( f8305d66-9429-43c0-b6e3-73721df9986b{ _id:'f8305d66-9429-43c0-b6e3-73721df9986b', _uri:'http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b', rdfs_label:'f8305d66-9429-43c0-b6e3-73721df9986b' })
-CREATE ( Kastell Urluieni II{ _id:'Kastell Urluieni II', _uri:'Kastell Urluieni II', rdfs_label:'Kastell Urluieni II' })
-CREATE ( 1795d125-e071-4153-b07e-e147bb19ad65_geom{ _id:'1795d125-e071-4153-b07e-e147bb19ad65_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom', rdfs_label:'1795d125-e071-4153-b07e-e147bb19ad65_geom' })
-CREATE ( 4326> POINT (25.900222 45.844172){ _id:'4326> POINT (25.900222 45.844172)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.900222 45.844172)', rdfs_label:'4326> POINT (25.900222 45.844172)' })
-CREATE ( Kastell Comalău Geometry{ _id:'Kastell Comalău Geometry', _uri:'Kastell Comalău Geometry', rdfs_label:'Kastell Comalău Geometry' })
+CREATE ( e2573931-d743-40c3-a6b7-08ffeb244daa_geom{ _id:'e2573931-d743-40c3-a6b7-08ffeb244daa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom', rdfs_label:'e2573931-d743-40c3-a6b7-08ffeb244daa_geom' })
+CREATE ( 4326> POINT (24.937389 44.061333){ _id:'4326> POINT (24.937389 44.061333)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.937389 44.061333)', rdfs_label:'4326> POINT (24.937389 44.061333)' })
+CREATE ( Kastell Valea Urluii Geometry{ _id:'Kastell Valea Urluii Geometry', _uri:'Kastell Valea Urluii Geometry', rdfs_label:'Kastell Valea Urluii Geometry' })
+CREATE ( e3899f66-1234-4a44-b16e-2ead1e0bf696{ _id:'e3899f66-1234-4a44-b16e-2ead1e0bf696', _uri:'http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696', rdfs_label:'e3899f66-1234-4a44-b16e-2ead1e0bf696' })
+CREATE ( e3899f66-1234-4a44-b16e-2ead1e0bf696_geom{ _id:'e3899f66-1234-4a44-b16e-2ead1e0bf696_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom', rdfs_label:'e3899f66-1234-4a44-b16e-2ead1e0bf696_geom' })
+CREATE ( Kastell Cincsor{ _id:'Kastell Cincsor', _uri:'Kastell Cincsor', rdfs_label:'Kastell Cincsor' })
+CREATE ( 8fa245f8-ffe5-4e74-b259-410c7be91afd{ _id:'8fa245f8-ffe5-4e74-b259-410c7be91afd', _uri:'http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd', rdfs_label:'8fa245f8-ffe5-4e74-b259-410c7be91afd' })
+CREATE ( Kastell Titeşti{ _id:'Kastell Titeşti', _uri:'Kastell Titeşti', rdfs_label:'Kastell Titeşti' })
+CREATE ( 6689fc0e-01ff-4dbc-b3ed-49e35a3d397a{ _id:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a', _uri:'http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a', rdfs_label:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a' })
+CREATE ( Kastell Bologa (Resculum){ _id:'Kastell Bologa (Resculum)', _uri:'Kastell Bologa (Resculum)', rdfs_label:'Kastell Bologa (Resculum)' })
+CREATE ( 7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc{ _id:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc', _uri:'http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc', rdfs_label:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc' })
+CREATE ( 7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom{ _id:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom', rdfs_label:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom' })
+CREATE ( Kastell Roșiorii de Vede{ _id:'Kastell Roșiorii de Vede', _uri:'Kastell Roșiorii de Vede', rdfs_label:'Kastell Roșiorii de Vede' })
+CREATE ( f81e10af-8e41-447d-b601-dcba5311199b{ _id:'f81e10af-8e41-447d-b601-dcba5311199b', _uri:'http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b', rdfs_label:'f81e10af-8e41-447d-b601-dcba5311199b' })
+CREATE ( Malva){ _id:'Malva)', _uri:'Kastell Reşca (Romula/Malva)', rdfs_label:'Malva)' })
+CREATE ( fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd{ _id:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd', _uri:'http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd', rdfs_label:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd' })
+CREATE ( Kastell Vărădia{ _id:'Kastell Vărădia', _uri:'Kastell Vărădia', rdfs_label:'Kastell Vărădia' })
+CREATE ( 0e91c0e7-3991-4a45-89ed-382f7c74731a_geom{ _id:'0e91c0e7-3991-4a45-89ed-382f7c74731a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom', rdfs_label:'0e91c0e7-3991-4a45-89ed-382f7c74731a_geom' })
+CREATE ( 4326> POINT (24.763694 44.707917){ _id:'4326> POINT (24.763694 44.707917)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763694 44.707917)', rdfs_label:'4326> POINT (24.763694 44.707917)' })
+CREATE ( Kastell Săpata de Jos II Geometry{ _id:'Kastell Săpata de Jos II Geometry', _uri:'Kastell Săpata de Jos II Geometry', rdfs_label:'Kastell Săpata de Jos II Geometry' })
+CREATE ( 9b62118c-9936-42f2-a6e7-49f649c937f2{ _id:'9b62118c-9936-42f2-a6e7-49f649c937f2', _uri:'http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2', rdfs_label:'9b62118c-9936-42f2-a6e7-49f649c937f2' })
 CREATE ( 9b62118c-9936-42f2-a6e7-49f649c937f2_geom{ _id:'9b62118c-9936-42f2-a6e7-49f649c937f2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom', rdfs_label:'9b62118c-9936-42f2-a6e7-49f649c937f2_geom' })
-CREATE ( 4326> POINT (23.4 45.166667){ _id:'4326> POINT (23.4 45.166667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.4 45.166667)', rdfs_label:'4326> POINT (23.4 45.166667)' })
-CREATE ( Kastell Bumbeşti Geometry{ _id:'Kastell Bumbeşti Geometry', _uri:'Kastell Bumbeşti Geometry', rdfs_label:'Kastell Bumbeşti Geometry' })
-CREATE ( 9a084d40-bf5c-42fa-8aa7-8c678524c631_geom{ _id:'9a084d40-bf5c-42fa-8aa7-8c678524c631_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom', rdfs_label:'9a084d40-bf5c-42fa-8aa7-8c678524c631_geom' })
-CREATE ( 4326> POINT (24.757222 43.733056){ _id:'4326> POINT (24.757222 43.733056)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.757222 43.733056)', rdfs_label:'4326> POINT (24.757222 43.733056)' })
-CREATE ( Kastell Racoviţa (Praetorium II) Geometry{ _id:'Kastell Racoviţa (Praetorium II) Geometry', _uri:'Kastell Racoviţa (Praetorium II) Geometry', rdfs_label:'Kastell Racoviţa (Praetorium II) Geometry' })
-CREATE ( 42d9c007-47e1-4b2a-ab2c-c381f93cac96{ _id:'42d9c007-47e1-4b2a-ab2c-c381f93cac96', _uri:'http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96', rdfs_label:'42d9c007-47e1-4b2a-ab2c-c381f93cac96' })
-CREATE ( Kastell Grebenac{ _id:'Kastell Grebenac', _uri:'Kastell Grebenac', rdfs_label:'Kastell Grebenac' })
-CREATE ( Point_collection{ _id:'Point_collection', _uri:'http://lod.squirrel.link/data/limes/Point_collection', rdfs_label:'Point_collection' })
-CREATE ( Point Instances Collection{ _id:'Point Instances Collection', _uri:'Point Instances Collection', rdfs_label:'Point Instances Collection' })
-CREATE ( 47a7d25e-6315-4256-b257-c2dfaea5e42f_geom{ _id:'47a7d25e-6315-4256-b257-c2dfaea5e42f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom', rdfs_label:'47a7d25e-6315-4256-b257-c2dfaea5e42f_geom' })
-CREATE ( 9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom{ _id:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom', rdfs_label:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom' })
-CREATE ( 1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom{ _id:'1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom', rdfs_label:'1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom' })
-CREATE ( 120e3991-1f39-4359-b810-37bb24aff05c_geom{ _id:'120e3991-1f39-4359-b810-37bb24aff05c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom', rdfs_label:'120e3991-1f39-4359-b810-37bb24aff05c_geom' })
-CREATE ( 2c2fb600-f249-469e-a025-1961edf5132d_geom{ _id:'2c2fb600-f249-469e-a025-1961edf5132d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom', rdfs_label:'2c2fb600-f249-469e-a025-1961edf5132d_geom' })
-CREATE ( 46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom{ _id:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom', rdfs_label:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom' })
-CREATE ( 7cadca30-bfd9-4628-9916-c20eecafa356_geom{ _id:'7cadca30-bfd9-4628-9916-c20eecafa356_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom', rdfs_label:'7cadca30-bfd9-4628-9916-c20eecafa356_geom' })
-CREATE ( ffd99607-0513-4fa5-8073-c80bddbfab84_geom{ _id:'ffd99607-0513-4fa5-8073-c80bddbfab84_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom', rdfs_label:'ffd99607-0513-4fa5-8073-c80bddbfab84_geom' })
-CREATE ( 1c936059-6af8-4f03-8e18-cc61f529c5f3_geom{ _id:'1c936059-6af8-4f03-8e18-cc61f529c5f3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom', rdfs_label:'1c936059-6af8-4f03-8e18-cc61f529c5f3_geom' })
-CREATE ( 0ccd99fd-62d1-4978-873a-106b1f5e3880_geom{ _id:'0ccd99fd-62d1-4978-873a-106b1f5e3880_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom', rdfs_label:'0ccd99fd-62d1-4978-873a-106b1f5e3880_geom' })
+CREATE ( Kastell Bumbeşti{ _id:'Kastell Bumbeşti', _uri:'Kastell Bumbeşti', rdfs_label:'Kastell Bumbeşti' })
+CREATE ( b5cf0c45-ec51-4710-a03a-75e7dc30a7a3{ _id:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3', _uri:'http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3', rdfs_label:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3' })
 CREATE ( b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom{ _id:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom', rdfs_label:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom' })
+CREATE ( Kastell Romanasi (Largiana){ _id:'Kastell Romanasi (Largiana)', _uri:'Kastell Romanasi (Largiana)', rdfs_label:'Kastell Romanasi (Largiana)' })
+CREATE ( 5709a2bb-8d86-44af-b582-19151b918068{ _id:'5709a2bb-8d86-44af-b582-19151b918068', _uri:'http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068', rdfs_label:'5709a2bb-8d86-44af-b582-19151b918068' })
+CREATE ( 5709a2bb-8d86-44af-b582-19151b918068_geom{ _id:'5709a2bb-8d86-44af-b582-19151b918068_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom', rdfs_label:'5709a2bb-8d86-44af-b582-19151b918068_geom' })
+CREATE ( Kastell Sarmizegetusa (Ulpia Traiana){ _id:'Kastell Sarmizegetusa (Ulpia Traiana)', _uri:'Kastell Sarmizegetusa (Ulpia Traiana)', rdfs_label:'Kastell Sarmizegetusa (Ulpia Traiana)' })
+CREATE ( 918ef494-4408-4a91-8ee0-61f6087ffee7_geom{ _id:'918ef494-4408-4a91-8ee0-61f6087ffee7_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom', rdfs_label:'918ef494-4408-4a91-8ee0-61f6087ffee7_geom' })
+CREATE ( 4326> POINT (21.587219 45.265){ _id:'4326> POINT (21.587219 45.265)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.587219 45.265)', rdfs_label:'4326> POINT (21.587219 45.265)' })
+CREATE ( Kastell Surducul Mare Geometry{ _id:'Kastell Surducul Mare Geometry', _uri:'Kastell Surducul Mare Geometry', rdfs_label:'Kastell Surducul Mare Geometry' })
+CREATE ( bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom{ _id:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom', rdfs_label:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom' })
+CREATE ( 4326> POINT (25.3002 46.3131){ _id:'4326> POINT (25.3002 46.3131)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.3002 46.3131)', rdfs_label:'4326> POINT (25.3002 46.3131)' })
+CREATE ( Kastell Odorheiul Secuiesc Geometry{ _id:'Kastell Odorheiul Secuiesc Geometry', _uri:'Kastell Odorheiul Secuiesc Geometry', rdfs_label:'Kastell Odorheiul Secuiesc Geometry' })
+CREATE ( Point_collection{ _id:'Point_collection', _uri:'http://lod.squirrel.link/data/limes/Point_collection', rdfs_label:'Point_collection' })
+CREATE ( GeometryCollection{ _id:'GeometryCollection', _uri:'http://www.opengis.net/ont/geosparql#GeometryCollection', rdfs_label:'GeometryCollection' })
+CREATE ( Point Instances Collection{ _id:'Point Instances Collection', _uri:'Point Instances Collection', rdfs_label:'Point Instances Collection' })
+CREATE ( 322e89c0-f571-4be4-a08c-84b35efb69e5_geom{ _id:'322e89c0-f571-4be4-a08c-84b35efb69e5_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom', rdfs_label:'322e89c0-f571-4be4-a08c-84b35efb69e5_geom' })
+CREATE ( e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom{ _id:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom', rdfs_label:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom' })
+CREATE ( 7b05b48b-cd48-4c66-916e-6ea581179843_geom{ _id:'7b05b48b-cd48-4c66-916e-6ea581179843_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom', rdfs_label:'7b05b48b-cd48-4c66-916e-6ea581179843_geom' })
+CREATE ( f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom{ _id:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom', rdfs_label:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom' })
+CREATE ( d92ef45f-91c4-442e-b279-61f17fbccb7c_geom{ _id:'d92ef45f-91c4-442e-b279-61f17fbccb7c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom', rdfs_label:'d92ef45f-91c4-442e-b279-61f17fbccb7c_geom' })
+CREATE ( b6e369cd-722a-4a1c-a984-538bb26f3777_geom{ _id:'b6e369cd-722a-4a1c-a984-538bb26f3777_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom', rdfs_label:'b6e369cd-722a-4a1c-a984-538bb26f3777_geom' })
+CREATE ( 7cadca30-bfd9-4628-9916-c20eecafa356_geom{ _id:'7cadca30-bfd9-4628-9916-c20eecafa356_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom', rdfs_label:'7cadca30-bfd9-4628-9916-c20eecafa356_geom' })
+CREATE ( 9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom{ _id:'9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom', rdfs_label:'9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom' })
+CREATE ( 22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom{ _id:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom', rdfs_label:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom' })
+CREATE ( 3680e065-f377-4f4d-a9d6-84523dcb1727_geom{ _id:'3680e065-f377-4f4d-a9d6-84523dcb1727_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom', rdfs_label:'3680e065-f377-4f4d-a9d6-84523dcb1727_geom' })
+CREATE ( f8305d66-9429-43c0-b6e3-73721df9986b_geom{ _id:'f8305d66-9429-43c0-b6e3-73721df9986b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom', rdfs_label:'f8305d66-9429-43c0-b6e3-73721df9986b_geom' })
+CREATE ( e811fe5a-92d2-43a0-a572-51bc5942e242_geom{ _id:'e811fe5a-92d2-43a0-a572-51bc5942e242_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom', rdfs_label:'e811fe5a-92d2-43a0-a572-51bc5942e242_geom' })
+CREATE ( 9a084d40-bf5c-42fa-8aa7-8c678524c631_geom{ _id:'9a084d40-bf5c-42fa-8aa7-8c678524c631_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom', rdfs_label:'9a084d40-bf5c-42fa-8aa7-8c678524c631_geom' })
+CREATE ( 1795d125-e071-4153-b07e-e147bb19ad65_geom{ _id:'1795d125-e071-4153-b07e-e147bb19ad65_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom', rdfs_label:'1795d125-e071-4153-b07e-e147bb19ad65_geom' })
+CREATE ( 4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom{ _id:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom', rdfs_label:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom' })
+CREATE ( cba75304-f136-465d-90fb-56dff3acc018_geom{ _id:'cba75304-f136-465d-90fb-56dff3acc018_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom', rdfs_label:'cba75304-f136-465d-90fb-56dff3acc018_geom' })
+CREATE ( 7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom{ _id:'7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom', rdfs_label:'7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom' })
+CREATE ( 8f823c04-d42b-49ec-879d-2c446d575885_geom{ _id:'8f823c04-d42b-49ec-879d-2c446d575885_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom', rdfs_label:'8f823c04-d42b-49ec-879d-2c446d575885_geom' })
+CREATE ( 4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom{ _id:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom', rdfs_label:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom' })
+CREATE ( 64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom{ _id:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom', rdfs_label:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom' })
+CREATE ( f42bb013-afeb-4044-9886-ece53cc813d4_geom{ _id:'f42bb013-afeb-4044-9886-ece53cc813d4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4_geom', rdfs_label:'f42bb013-afeb-4044-9886-ece53cc813d4_geom' })
+CREATE ( 340738ca-7444-4896-a0fd-cd9e6806eb30_geom{ _id:'340738ca-7444-4896-a0fd-cd9e6806eb30_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom', rdfs_label:'340738ca-7444-4896-a0fd-cd9e6806eb30_geom' })
+CREATE ( 707cb61a-d04e-4c7b-a620-6587db82f116_geom{ _id:'707cb61a-d04e-4c7b-a620-6587db82f116_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116_geom', rdfs_label:'707cb61a-d04e-4c7b-a620-6587db82f116_geom' })
+CREATE ( ffd99607-0513-4fa5-8073-c80bddbfab84_geom{ _id:'ffd99607-0513-4fa5-8073-c80bddbfab84_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom', rdfs_label:'ffd99607-0513-4fa5-8073-c80bddbfab84_geom' })
+CREATE ( 01189de6-024d-4022-96ff-eec7e4efee0c_geom{ _id:'01189de6-024d-4022-96ff-eec7e4efee0c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom', rdfs_label:'01189de6-024d-4022-96ff-eec7e4efee0c_geom' })
+CREATE ( e69e6cb2-cded-446c-b159-daec78476f43_geom{ _id:'e69e6cb2-cded-446c-b159-daec78476f43_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom', rdfs_label:'e69e6cb2-cded-446c-b159-daec78476f43_geom' })
+CREATE ( 1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom{ _id:'1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom', rdfs_label:'1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom' })
+CREATE ( 1c936059-6af8-4f03-8e18-cc61f529c5f3_geom{ _id:'1c936059-6af8-4f03-8e18-cc61f529c5f3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom', rdfs_label:'1c936059-6af8-4f03-8e18-cc61f529c5f3_geom' })
+CREATE ( ed79872f-dcb1-48d0-a008-5a3c65432a67_geom{ _id:'ed79872f-dcb1-48d0-a008-5a3c65432a67_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom', rdfs_label:'ed79872f-dcb1-48d0-a008-5a3c65432a67_geom' })
+CREATE ( 096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom{ _id:'096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom', rdfs_label:'096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom' })
+CREATE ( 0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom{ _id:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom', rdfs_label:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom' })
+CREATE ( 986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom{ _id:'986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom', rdfs_label:'986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom' })
+CREATE ( 000d5176-6b9e-4065-a44f-d7b8f75b1199_geom{ _id:'000d5176-6b9e-4065-a44f-d7b8f75b1199_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom', rdfs_label:'000d5176-6b9e-4065-a44f-d7b8f75b1199_geom' })
+CREATE ( 06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom{ _id:'06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom', rdfs_label:'06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom' })
+CREATE ( 9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom{ _id:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom', rdfs_label:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom' })
+CREATE ( 19360a61-a15a-4d56-a100-f3be57e93ff1_geom{ _id:'19360a61-a15a-4d56-a100-f3be57e93ff1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom', rdfs_label:'19360a61-a15a-4d56-a100-f3be57e93ff1_geom' })
+CREATE ( 120e3991-1f39-4359-b810-37bb24aff05c_geom{ _id:'120e3991-1f39-4359-b810-37bb24aff05c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom', rdfs_label:'120e3991-1f39-4359-b810-37bb24aff05c_geom' })
+CREATE ( 10b043a5-bb2b-48af-a168-84046185d6f7_geom{ _id:'10b043a5-bb2b-48af-a168-84046185d6f7_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7_geom', rdfs_label:'10b043a5-bb2b-48af-a168-84046185d6f7_geom' })
+CREATE ( bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom{ _id:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom', rdfs_label:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom' })
 CREATE ( 0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom{ _id:'0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom', _uri:'http://lod.squirrel.link/data/limes/noricum/0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom', rdfs_label:'0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom' })
 CREATE ( 0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom{ _id:'0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom', _uri:'http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom', rdfs_label:'0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom' })
 CREATE ( 0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom{ _id:'0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom', _uri:'http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom', rdfs_label:'0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom' })
@@ -536,1320 +322,1506 @@ CREATE ( d8bcb543-3948-43fd-937b-2782138b9deb_geom{ _id:'d8bcb543-3948-43fd-937b
 CREATE ( ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom{ _id:'ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom', _uri:'http://lod.squirrel.link/data/limes/noricum/ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom', rdfs_label:'ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom' })
 CREATE ( ed3e59f2-e683-4800-9e27-92d82cbc867f_geom{ _id:'ed3e59f2-e683-4800-9e27-92d82cbc867f_geom', _uri:'http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f_geom', rdfs_label:'ed3e59f2-e683-4800-9e27-92d82cbc867f_geom' })
 CREATE ( ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom{ _id:'ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom', _uri:'http://lod.squirrel.link/data/limes/noricum/ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom', rdfs_label:'ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom' })
-CREATE ( 9ba7d74c-175e-48c8-9403-dbbdd650ed22{ _id:'9ba7d74c-175e-48c8-9403-dbbdd650ed22', _uri:'http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22', rdfs_label:'9ba7d74c-175e-48c8-9403-dbbdd650ed22' })
-CREATE ( Kastell Cristeşti{ _id:'Kastell Cristeşti', _uri:'Kastell Cristeşti', rdfs_label:'Kastell Cristeşti' })
+CREATE ( 9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom{ _id:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom', rdfs_label:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom' })
+CREATE ( 4326> POINT (25.441581 45.618708){ _id:'4326> POINT (25.441581 45.618708)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.441581 45.618708)', rdfs_label:'4326> POINT (25.441581 45.618708)' })
+CREATE ( Kastell Râșnov Geometry{ _id:'Kastell Râșnov Geometry', _uri:'Kastell Râșnov Geometry', rdfs_label:'Kastell Râșnov Geometry' })
+CREATE ( bd14e9f3-dd38-4329-a655-60b00fd8d5b7{ _id:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7', _uri:'http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7', rdfs_label:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7' })
+CREATE ( Kastell Sighisoara{ _id:'Kastell Sighisoara', _uri:'Kastell Sighisoara', rdfs_label:'Kastell Sighisoara' })
+CREATE ( LegionaryCamp_collection{ _id:'LegionaryCamp_collection', _uri:'http://lod.squirrel.link/data/limes/LegionaryCamp_collection', rdfs_label:'LegionaryCamp_collection' })
+CREATE ( FeatureCollection{ _id:'FeatureCollection', _uri:'http://www.opengis.net/ont/geosparql#FeatureCollection', rdfs_label:'FeatureCollection' })
+CREATE ( LegionaryCamp Instances Collection{ _id:'LegionaryCamp Instances Collection', _uri:'LegionaryCamp Instances Collection', rdfs_label:'LegionaryCamp Instances Collection' })
+CREATE ( 497eff64-e309-4704-b5f0-3e2872ff379d{ _id:'497eff64-e309-4704-b5f0-3e2872ff379d', _uri:'http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d', rdfs_label:'497eff64-e309-4704-b5f0-3e2872ff379d' })
+CREATE ( ffd99607-0513-4fa5-8073-c80bddbfab84{ _id:'ffd99607-0513-4fa5-8073-c80bddbfab84', _uri:'http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84', rdfs_label:'ffd99607-0513-4fa5-8073-c80bddbfab84' })
+CREATE ( 7e6b0abd-392e-48da-a973-52db57e43459{ _id:'7e6b0abd-392e-48da-a973-52db57e43459', _uri:'http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459', rdfs_label:'7e6b0abd-392e-48da-a973-52db57e43459' })
+CREATE ( fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e{ _id:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e', _uri:'http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e', rdfs_label:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e' })
+CREATE ( 64755b3a-9ff6-4c12-b9fb-778e3bde5b1f{ _id:'64755b3a-9ff6-4c12-b9fb-778e3bde5b1f', _uri:'http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f', rdfs_label:'64755b3a-9ff6-4c12-b9fb-778e3bde5b1f' })
+CREATE ( ed79872f-dcb1-48d0-a008-5a3c65432a67{ _id:'ed79872f-dcb1-48d0-a008-5a3c65432a67', _uri:'http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67', rdfs_label:'ed79872f-dcb1-48d0-a008-5a3c65432a67' })
+CREATE ( Kastell Aradul Nou{ _id:'Kastell Aradul Nou', _uri:'Kastell Aradul Nou', rdfs_label:'Kastell Aradul Nou' })
+CREATE ( LimesDaicusFeatures{ _id:'LimesDaicusFeatures', _uri:'http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures', rdfs_label:'LimesDaicusFeatures' })
+CREATE ( b6e369cd-722a-4a1c-a984-538bb26f3777{ _id:'b6e369cd-722a-4a1c-a984-538bb26f3777', _uri:'http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777', rdfs_label:'b6e369cd-722a-4a1c-a984-538bb26f3777' })
+CREATE ( c3a471a8-ab67-4e9c-b127-1eff017b0cb4{ _id:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4', _uri:'http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4', rdfs_label:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4' })
+CREATE ( cba75304-f136-465d-90fb-56dff3acc018{ _id:'cba75304-f136-465d-90fb-56dff3acc018', _uri:'http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018', rdfs_label:'cba75304-f136-465d-90fb-56dff3acc018' })
+CREATE ( d2adbbd5-f4a7-471d-a817-b28e37bcbfb1{ _id:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1', _uri:'http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1', rdfs_label:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1' })
+CREATE ( d92ef45f-91c4-442e-b279-61f17fbccb7c{ _id:'d92ef45f-91c4-442e-b279-61f17fbccb7c', _uri:'http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c', rdfs_label:'d92ef45f-91c4-442e-b279-61f17fbccb7c' })
+CREATE ( e0423dfe-4fdf-4bf6-8453-97d7bee4d031{ _id:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031', _uri:'http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031', rdfs_label:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031' })
+CREATE ( e69e6cb2-cded-446c-b159-daec78476f43{ _id:'e69e6cb2-cded-446c-b159-daec78476f43', _uri:'http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43', rdfs_label:'e69e6cb2-cded-446c-b159-daec78476f43' })
+CREATE ( e811fe5a-92d2-43a0-a572-51bc5942e242{ _id:'e811fe5a-92d2-43a0-a572-51bc5942e242', _uri:'http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242', rdfs_label:'e811fe5a-92d2-43a0-a572-51bc5942e242' })
+CREATE ( f35f2d3f-8925-4139-9e9b-cf07ee5aaecb{ _id:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb', _uri:'http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb', rdfs_label:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb' })
+CREATE ( 0ab5e10e-4fb0-4854-835b-389043840ee0{ _id:'0ab5e10e-4fb0-4854-835b-389043840ee0', _uri:'http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0', rdfs_label:'0ab5e10e-4fb0-4854-835b-389043840ee0' })
+CREATE ( 0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace{ _id:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace', _uri:'http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace', rdfs_label:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace' })
+CREATE ( 096a9a4c-020f-4ce0-a4a6-993d50d08fea{ _id:'096a9a4c-020f-4ce0-a4a6-993d50d08fea', _uri:'http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea', rdfs_label:'096a9a4c-020f-4ce0-a4a6-993d50d08fea' })
+CREATE ( 1e218e82-f264-4241-a8e0-5efd9a1ec8a4{ _id:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4', _uri:'http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4', rdfs_label:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4' })
+CREATE ( 1795d125-e071-4153-b07e-e147bb19ad65{ _id:'1795d125-e071-4153-b07e-e147bb19ad65', _uri:'http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65', rdfs_label:'1795d125-e071-4153-b07e-e147bb19ad65' })
+CREATE ( 3680e065-f377-4f4d-a9d6-84523dcb1727{ _id:'3680e065-f377-4f4d-a9d6-84523dcb1727', _uri:'http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727', rdfs_label:'3680e065-f377-4f4d-a9d6-84523dcb1727' })
 CREATE ( 4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa{ _id:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa', _uri:'http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa', rdfs_label:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa' })
-CREATE ( Kastell Flămănda (Poiana){ _id:'Kastell Flămănda (Poiana)', _uri:'Kastell Flămănda (Poiana)', rdfs_label:'Kastell Flămănda (Poiana)' })
-CREATE ( 8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom{ _id:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom', rdfs_label:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom' })
-CREATE ( 4326> POINT (25.012694 45.221){ _id:'4326> POINT (25.012694 45.221)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012694 45.221)', rdfs_label:'4326> POINT (25.012694 45.221)' })
-CREATE ( Kastell Câmpulung Muscel II Geometry{ _id:'Kastell Câmpulung Muscel II Geometry', _uri:'Kastell Câmpulung Muscel II Geometry', rdfs_label:'Kastell Câmpulung Muscel II Geometry' })
-CREATE ( 986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom{ _id:'986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom', rdfs_label:'986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom' })
-CREATE ( 4326> POINT (23.327689 47.227733){ _id:'4326> POINT (23.327689 47.227733)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.327689 47.227733)', rdfs_label:'4326> POINT (23.327689 47.227733)' })
-CREATE ( Kastell Tihău Geometry{ _id:'Kastell Tihău Geometry', _uri:'Kastell Tihău Geometry', rdfs_label:'Kastell Tihău Geometry' })
-CREATE ( 0ccd99fd-62d1-4978-873a-106b1f5e3880{ _id:'0ccd99fd-62d1-4978-873a-106b1f5e3880', _uri:'http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880', rdfs_label:'0ccd99fd-62d1-4978-873a-106b1f5e3880' })
-CREATE ( Kastell Rucăr{ _id:'Kastell Rucăr', _uri:'Kastell Rucăr', rdfs_label:'Kastell Rucăr' })
-CREATE ( fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd{ _id:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd', _uri:'http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd', rdfs_label:'fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd' })
-CREATE ( Kastell Vărădia{ _id:'Kastell Vărădia', _uri:'Kastell Vărădia', rdfs_label:'Kastell Vărădia' })
+CREATE ( 4e013c45-7445-4ea6-8356-2c9cc9e7ac6e{ _id:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e', _uri:'http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e', rdfs_label:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e' })
+CREATE ( 6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0{ _id:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0', _uri:'http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0', rdfs_label:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0' })
+CREATE ( 64ae9ea8-9dca-4e22-b32b-c2f95fd80b44{ _id:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44', _uri:'http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44', rdfs_label:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44' })
+CREATE ( 7b05b48b-cd48-4c66-916e-6ea581179843{ _id:'7b05b48b-cd48-4c66-916e-6ea581179843', _uri:'http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843', rdfs_label:'7b05b48b-cd48-4c66-916e-6ea581179843' })
+CREATE ( 7c3bf06c-8f79-457e-b56f-77da98c7a69b{ _id:'7c3bf06c-8f79-457e-b56f-77da98c7a69b', _uri:'http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b', rdfs_label:'7c3bf06c-8f79-457e-b56f-77da98c7a69b' })
+CREATE ( 7cb289bf-4a31-467d-9c9d-4271a8dc55c9{ _id:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9', _uri:'http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9', rdfs_label:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9' })
+CREATE ( 70d51242-571e-43ce-bd01-3bffca8cb4be{ _id:'70d51242-571e-43ce-bd01-3bffca8cb4be', _uri:'http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be', rdfs_label:'70d51242-571e-43ce-bd01-3bffca8cb4be' })
+CREATE ( 8c5f1f84-f11a-48f0-8e9a-c629c7d346e2{ _id:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2', _uri:'http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2', rdfs_label:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2' })
+CREATE ( 9ac48ee9-00b6-46ab-a597-b6aa5f2d784a{ _id:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a', _uri:'http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a', rdfs_label:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a' })
+CREATE ( 9ba7d74c-175e-48c8-9403-dbbdd650ed22{ _id:'9ba7d74c-175e-48c8-9403-dbbdd650ed22', _uri:'http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22', rdfs_label:'9ba7d74c-175e-48c8-9403-dbbdd650ed22' })
+CREATE ( Limes Daicus Features{ _id:'Limes Daicus Features', _uri:'Limes Daicus Features', rdfs_label:'Limes Daicus Features' })
+CREATE ( bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4{ _id:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4', _uri:'http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4', rdfs_label:'bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4' })
+CREATE ( Kastell Odorheiul Secuiesc{ _id:'Kastell Odorheiul Secuiesc', _uri:'Kastell Odorheiul Secuiesc', rdfs_label:'Kastell Odorheiul Secuiesc' })
 CREATE ( 322e89c0-f571-4be4-a08c-84b35efb69e5_geom{ _id:'322e89c0-f571-4be4-a08c-84b35efb69e5_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom', rdfs_label:'322e89c0-f571-4be4-a08c-84b35efb69e5_geom' })
 CREATE ( 4326> POINT (25.379472 46.194833){ _id:'4326> POINT (25.379472 46.194833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.379472 46.194833)', rdfs_label:'4326> POINT (25.379472 46.194833)' })
 CREATE ( Kastell Sânpaul Geometry{ _id:'Kastell Sânpaul Geometry', _uri:'Kastell Sânpaul Geometry', rdfs_label:'Kastell Sânpaul Geometry' })
-CREATE ( 7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom{ _id:'7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom', rdfs_label:'7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom' })
-CREATE ( 4326> POINT (24.961889 43.935889){ _id:'4326> POINT (24.961889 43.935889)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.961889 43.935889)', rdfs_label:'4326> POINT (24.961889 43.935889)' })
-CREATE ( Kastell Băneasa II Geometry{ _id:'Kastell Băneasa II Geometry', _uri:'Kastell Băneasa II Geometry', rdfs_label:'Kastell Băneasa II Geometry' })
-CREATE ( c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom{ _id:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom', rdfs_label:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom' })
-CREATE ( 4326> POINT (24.8375 44.771389){ _id:'4326> POINT (24.8375 44.771389)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8375 44.771389)', rdfs_label:'4326> POINT (24.8375 44.771389)' })
-CREATE ( Kastell Albota Geometry{ _id:'Kastell Albota Geometry', _uri:'Kastell Albota Geometry', rdfs_label:'Kastell Albota Geometry' })
-CREATE ( e3899f66-1234-4a44-b16e-2ead1e0bf696_geom{ _id:'e3899f66-1234-4a44-b16e-2ead1e0bf696_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom', rdfs_label:'e3899f66-1234-4a44-b16e-2ead1e0bf696_geom' })
-CREATE ( 4326> POINT (24.866611 45.842519){ _id:'4326> POINT (24.866611 45.842519)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.866611 45.842519)', rdfs_label:'4326> POINT (24.866611 45.842519)' })
-CREATE ( Kastell Cincsor Geometry{ _id:'Kastell Cincsor Geometry', _uri:'Kastell Cincsor Geometry', rdfs_label:'Kastell Cincsor Geometry' })
-CREATE ( 47a7d25e-6315-4256-b257-c2dfaea5e42f_geom{ _id:'47a7d25e-6315-4256-b257-c2dfaea5e42f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom', rdfs_label:'47a7d25e-6315-4256-b257-c2dfaea5e42f_geom' })
-CREATE ( 4326> POINT (22.410833 45.525278){ _id:'4326> POINT (22.410833 45.525278)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.410833 45.525278)', rdfs_label:'4326> POINT (22.410833 45.525278)' })
-CREATE ( Kastell Zăvoi (Acmonia ?) Geometry{ _id:'Kastell Zăvoi (Acmonia ?) Geometry', _uri:'Kastell Zăvoi (Acmonia ?) Geometry', rdfs_label:'Kastell Zăvoi (Acmonia ?) Geometry' })
-CREATE ( 096a9a4c-020f-4ce0-a4a6-993d50d08fea{ _id:'096a9a4c-020f-4ce0-a4a6-993d50d08fea', _uri:'http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea', rdfs_label:'096a9a4c-020f-4ce0-a4a6-993d50d08fea' })
-CREATE ( Kastell Copăceni (Praetorium I){ _id:'Kastell Copăceni (Praetorium I)', _uri:'Kastell Copăceni (Praetorium I)', rdfs_label:'Kastell Copăceni (Praetorium I)' })
-CREATE ( 9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom{ _id:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom', rdfs_label:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom' })
-CREATE ( 4326> POINT (24.965361 43.897806){ _id:'4326> POINT (24.965361 43.897806)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.965361 43.897806)', rdfs_label:'4326> POINT (24.965361 43.897806)' })
-CREATE ( Kastell Putineiu Geometry{ _id:'Kastell Putineiu Geometry', _uri:'Kastell Putineiu Geometry', rdfs_label:'Kastell Putineiu Geometry' })
-CREATE ( 4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom{ _id:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom', rdfs_label:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom' })
-CREATE ( 4326> POINT (23.391764 46.754058){ _id:'4326> POINT (23.391764 46.754058)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.391764 46.754058)', rdfs_label:'4326> POINT (23.391764 46.754058)' })
-CREATE ( Kastell Gilău Geometry{ _id:'Kastell Gilău Geometry', _uri:'Kastell Gilău Geometry', rdfs_label:'Kastell Gilău Geometry' })
-CREATE ( 9f76d5fd-4ee3-4985-9fb6-c22bfdf43436{ _id:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436', _uri:'http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436', rdfs_label:'9f76d5fd-4ee3-4985-9fb6-c22bfdf43436' })
-CREATE ( Kastell Putineiu{ _id:'Kastell Putineiu', _uri:'Kastell Putineiu', rdfs_label:'Kastell Putineiu' })
-CREATE ( c8ecf3da-c535-41df-b06e-298cd8542633_geom{ _id:'c8ecf3da-c535-41df-b06e-298cd8542633_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom', rdfs_label:'c8ecf3da-c535-41df-b06e-298cd8542633_geom' })
-CREATE ( 4326> POINT (22.306831 45.168611){ _id:'4326> POINT (22.306831 45.168611)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.306831 45.168611)', rdfs_label:'4326> POINT (22.306831 45.168611)' })
-CREATE ( Kastell Teregova (Ad Pannonios) Geometry{ _id:'Kastell Teregova (Ad Pannonios) Geometry', _uri:'Kastell Teregova (Ad Pannonios) Geometry', rdfs_label:'Kastell Teregova (Ad Pannonios) Geometry' })
-CREATE ( 7cadca30-bfd9-4628-9916-c20eecafa356{ _id:'7cadca30-bfd9-4628-9916-c20eecafa356', _uri:'http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356', rdfs_label:'7cadca30-bfd9-4628-9916-c20eecafa356' })
-CREATE ( Kastell Stolniceni{ _id:'Kastell Stolniceni', _uri:'Kastell Stolniceni', rdfs_label:'Kastell Stolniceni' })
-CREATE ( c3451d14-c4ee-42be-b918-af9735167f5f{ _id:'c3451d14-c4ee-42be-b918-af9735167f5f', _uri:'http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f', rdfs_label:'c3451d14-c4ee-42be-b918-af9735167f5f' })
-CREATE ( Kastell Sarateni{ _id:'Kastell Sarateni', _uri:'Kastell Sarateni', rdfs_label:'Kastell Sarateni' })
-CREATE ( 5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom{ _id:'5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom', rdfs_label:'5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom' })
-CREATE ( 4326> POINT (23.899911 47.019833){ _id:'4326> POINT (23.899911 47.019833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.899911 47.019833)', rdfs_label:'4326> POINT (23.899911 47.019833)' })
-CREATE ( Kastell Gherla Geometry{ _id:'Kastell Gherla Geometry', _uri:'Kastell Gherla Geometry', rdfs_label:'Kastell Gherla Geometry' })
-CREATE ( 1795d125-e071-4153-b07e-e147bb19ad65{ _id:'1795d125-e071-4153-b07e-e147bb19ad65', _uri:'http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65', rdfs_label:'1795d125-e071-4153-b07e-e147bb19ad65' })
-CREATE ( Kastell Comalău{ _id:'Kastell Comalău', _uri:'Kastell Comalău', rdfs_label:'Kastell Comalău' })
-CREATE ( 3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom{ _id:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom', rdfs_label:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom' })
-CREATE ( 4326> POINT (22.112283 46.006539){ _id:'4326> POINT (22.112283 46.006539)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.112283 46.006539)', rdfs_label:'4326> POINT (22.112283 46.006539)' })
-CREATE ( Kastell Bulci Geometry{ _id:'Kastell Bulci Geometry', _uri:'Kastell Bulci Geometry', rdfs_label:'Kastell Bulci Geometry' })
-CREATE ( 8c5f1f84-f11a-48f0-8e9a-c629c7d346e2{ _id:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2', _uri:'http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2', rdfs_label:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2' })
-CREATE ( Kastell Câmpulung Muscel II{ _id:'Kastell Câmpulung Muscel II', _uri:'Kastell Câmpulung Muscel II', rdfs_label:'Kastell Câmpulung Muscel II' })
-CREATE ( 0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom{ _id:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom', rdfs_label:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom' })
-CREATE ( 4326> POINT (23.164364 45.897053){ _id:'4326> POINT (23.164364 45.897053)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.164364 45.897053)', rdfs_label:'4326> POINT (23.164364 45.897053)' })
-CREATE ( Kastell Cigmău Geometry{ _id:'Kastell Cigmău Geometry', _uri:'Kastell Cigmău Geometry', rdfs_label:'Kastell Cigmău Geometry' })
-CREATE ( f81e10af-8e41-447d-b601-dcba5311199b{ _id:'f81e10af-8e41-447d-b601-dcba5311199b', _uri:'http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b', rdfs_label:'f81e10af-8e41-447d-b601-dcba5311199b' })
-CREATE ( Malva){ _id:'Malva)', _uri:'Kastell Reşca (Romula/Malva)', rdfs_label:'Malva)' })
-CREATE ( af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom{ _id:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom', rdfs_label:'af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom' })
-CREATE ( 4326> POINT (24.373611 45.173611){ _id:'4326> POINT (24.373611 45.173611)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.373611 45.173611)', rdfs_label:'4326> POINT (24.373611 45.173611)' })
-CREATE ( Kastell Sămbotin (Castra Traiana) Geometry{ _id:'Kastell Sămbotin (Castra Traiana) Geometry', _uri:'Kastell Sămbotin (Castra Traiana) Geometry', rdfs_label:'Kastell Sămbotin (Castra Traiana) Geometry' })
-CREATE ( 47a7d25e-6315-4256-b257-c2dfaea5e42f{ _id:'47a7d25e-6315-4256-b257-c2dfaea5e42f', _uri:'http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f', rdfs_label:'47a7d25e-6315-4256-b257-c2dfaea5e42f' })
-CREATE ( Kastell Zăvoi (Acmonia ?){ _id:'Kastell Zăvoi (Acmonia ?)', _uri:'Kastell Zăvoi (Acmonia ?)', rdfs_label:'Kastell Zăvoi (Acmonia ?)' })
-CREATE ( ed79872f-dcb1-48d0-a008-5a3c65432a67_geom{ _id:'ed79872f-dcb1-48d0-a008-5a3c65432a67_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom', rdfs_label:'ed79872f-dcb1-48d0-a008-5a3c65432a67_geom' })
-CREATE ( 4326> POINT (21.315097 46.146819){ _id:'4326> POINT (21.315097 46.146819)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.315097 46.146819)', rdfs_label:'4326> POINT (21.315097 46.146819)' })
-CREATE ( Kastell Aradul Nou Geometry{ _id:'Kastell Aradul Nou Geometry', _uri:'Kastell Aradul Nou Geometry', rdfs_label:'Kastell Aradul Nou Geometry' })
-CREATE ( 87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom{ _id:'87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom', rdfs_label:'87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom' })
-CREATE ( 4326> POINT (22.814906 45.914594){ _id:'4326> POINT (22.814906 45.914594)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.814906 45.914594)', rdfs_label:'4326> POINT (22.814906 45.914594)' })
-CREATE ( Kastell Vețel Geometry{ _id:'Kastell Vețel Geometry', _uri:'Kastell Vețel Geometry', rdfs_label:'Kastell Vețel Geometry' })
-CREATE ( 7aa137c0-3763-4bd3-a1ec-bd8a88b3d786{ _id:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786', _uri:'http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786', rdfs_label:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786' })
-CREATE ( Kastell Călugăreni{ _id:'Kastell Călugăreni', _uri:'Kastell Călugăreni', rdfs_label:'Kastell Călugăreni' })
-CREATE ( b6e369cd-722a-4a1c-a984-538bb26f3777{ _id:'b6e369cd-722a-4a1c-a984-538bb26f3777', _uri:'http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777', rdfs_label:'b6e369cd-722a-4a1c-a984-538bb26f3777' })
-CREATE ( Kastell Buciumi{ _id:'Kastell Buciumi', _uri:'Kastell Buciumi', rdfs_label:'Kastell Buciumi' })
-CREATE ( 3680e065-f377-4f4d-a9d6-84523dcb1727_geom{ _id:'3680e065-f377-4f4d-a9d6-84523dcb1727_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom', rdfs_label:'3680e065-f377-4f4d-a9d6-84523dcb1727_geom' })
-CREATE ( 4326> POINT (26.312836 46.050994){ _id:'4326> POINT (26.312836 46.050994)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.312836 46.050994)', rdfs_label:'4326> POINT (26.312836 46.050994)' })
-CREATE ( Kastell Brețcu Geometry{ _id:'Kastell Brețcu Geometry', _uri:'Kastell Brețcu Geometry', rdfs_label:'Kastell Brețcu Geometry' })
 CREATE ( 0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace{ _id:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace', _uri:'http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace', rdfs_label:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace' })
 CREATE ( Kastell Căşeiu (Samum){ _id:'Kastell Căşeiu (Samum)', _uri:'Kastell Căşeiu (Samum)', rdfs_label:'Kastell Căşeiu (Samum)' })
-CREATE ( 3af3a2c4-8038-482d-9fa9-a0e90584ef6d{ _id:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d', _uri:'http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d', rdfs_label:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d' })
-CREATE ( Kastell Bulci{ _id:'Kastell Bulci', _uri:'Kastell Bulci', rdfs_label:'Kastell Bulci' })
-CREATE ( 1c936059-6af8-4f03-8e18-cc61f529c5f3{ _id:'1c936059-6af8-4f03-8e18-cc61f529c5f3', _uri:'http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3', rdfs_label:'1c936059-6af8-4f03-8e18-cc61f529c5f3' })
-CREATE ( Auxiliarkastelle{ _id:'Auxiliarkastelle', _uri:'Auxiliarkastelle', rdfs_label:'Auxiliarkastelle' })
-CREATE ( Kastelle von Porolissum{ _id:'Kastelle von Porolissum', _uri:'Kastelle von Porolissum', rdfs_label:'Kastelle von Porolissum' })
-CREATE ( 06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom{ _id:'06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom', rdfs_label:'06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom' })
-CREATE ( 4326> POINT (24.27 44.650306){ _id:'4326> POINT (24.27 44.650306)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.27 44.650306)', rdfs_label:'4326> POINT (24.27 44.650306)' })
-CREATE ( Kastell Momoteşti (Rusidava) Geometry{ _id:'Kastell Momoteşti (Rusidava) Geometry', _uri:'Kastell Momoteşti (Rusidava) Geometry', rdfs_label:'Kastell Momoteşti (Rusidava) Geometry' })
-CREATE ( 1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom{ _id:'1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom', rdfs_label:'1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom' })
-CREATE ( 4326> POINT (24.272806 45.523639){ _id:'4326> POINT (24.272806 45.523639)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.272806 45.523639)', rdfs_label:'4326> POINT (24.272806 45.523639)' })
-CREATE ( Kastell Râul Vadului Geometry{ _id:'Kastell Râul Vadului Geometry', _uri:'Kastell Râul Vadului Geometry', rdfs_label:'Kastell Râul Vadului Geometry' })
-CREATE ( 0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom{ _id:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom', rdfs_label:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom' })
-CREATE ( 4326> POINT (24.761417 44.485833){ _id:'4326> POINT (24.761417 44.485833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761417 44.485833)', rdfs_label:'4326> POINT (24.761417 44.485833)' })
-CREATE ( Kastell Urluieni I Geometry{ _id:'Kastell Urluieni I Geometry', _uri:'Kastell Urluieni I Geometry', rdfs_label:'Kastell Urluieni I Geometry' })
-CREATE ( 59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f{ _id:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f', _uri:'http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f', rdfs_label:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f' })
-CREATE ( Kastell Sânnicolau Mare{ _id:'Kastell Sânnicolau Mare', _uri:'Kastell Sânnicolau Mare', rdfs_label:'Kastell Sânnicolau Mare' })
-CREATE ( 8fa245f8-ffe5-4e74-b259-410c7be91afd{ _id:'8fa245f8-ffe5-4e74-b259-410c7be91afd', _uri:'http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd', rdfs_label:'8fa245f8-ffe5-4e74-b259-410c7be91afd' })
-CREATE ( Kastell Titeşti{ _id:'Kastell Titeşti', _uri:'Kastell Titeşti', rdfs_label:'Kastell Titeşti' })
-CREATE ( ffd99607-0513-4fa5-8073-c80bddbfab84{ _id:'ffd99607-0513-4fa5-8073-c80bddbfab84', _uri:'http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84', rdfs_label:'ffd99607-0513-4fa5-8073-c80bddbfab84' })
-CREATE ( Kastell Tibiscum{ _id:'Kastell Tibiscum', _uri:'Kastell Tibiscum', rdfs_label:'Kastell Tibiscum' })
-CREATE ( 8f823c04-d42b-49ec-879d-2c446d575885{ _id:'8f823c04-d42b-49ec-879d-2c446d575885', _uri:'http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885', rdfs_label:'8f823c04-d42b-49ec-879d-2c446d575885' })
-CREATE ( Kastell Voineşti{ _id:'Kastell Voineşti', _uri:'Kastell Voineşti', rdfs_label:'Kastell Voineşti' })
-CREATE ( 0ab5e10e-4fb0-4854-835b-389043840ee0_geom{ _id:'0ab5e10e-4fb0-4854-835b-389043840ee0_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom', rdfs_label:'0ab5e10e-4fb0-4854-835b-389043840ee0_geom' })
-CREATE ( 4326> POINT (23.92 43.834167){ _id:'4326> POINT (23.92 43.834167)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.92 43.834167)', rdfs_label:'4326> POINT (23.92 43.834167)' })
-CREATE ( Kastell Lişteava Geometry{ _id:'Kastell Lişteava Geometry', _uri:'Kastell Lişteava Geometry', rdfs_label:'Kastell Lişteava Geometry' })
-CREATE ( 7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc{ _id:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc', _uri:'http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc', rdfs_label:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc' })
-CREATE ( Kastell Roșiorii de Vede{ _id:'Kastell Roșiorii de Vede', _uri:'Kastell Roșiorii de Vede', rdfs_label:'Kastell Roșiorii de Vede' })
-CREATE ( 120e3991-1f39-4359-b810-37bb24aff05c_geom{ _id:'120e3991-1f39-4359-b810-37bb24aff05c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom', rdfs_label:'120e3991-1f39-4359-b810-37bb24aff05c_geom' })
-CREATE ( 4326> POINT (23.172444 47.106944){ _id:'4326> POINT (23.172444 47.106944)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.172444 47.106944)', rdfs_label:'4326> POINT (23.172444 47.106944)' })
-CREATE ( Kastell Romita Geometry{ _id:'Kastell Romita Geometry', _uri:'Kastell Romita Geometry', rdfs_label:'Kastell Romita Geometry' })
-CREATE ( 7cb289bf-4a31-467d-9c9d-4271a8dc55c9{ _id:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9', _uri:'http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9', rdfs_label:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9' })
-CREATE ( Kastell Boiţa (Caput Stenarum) { _id:'Kastell Boiţa (Caput Stenarum) ', _uri:'Kastell Boiţa (Caput Stenarum) ', rdfs_label:'Kastell Boiţa (Caput Stenarum) ' })
-CREATE ( 4df4edbc-facd-42bd-b05e-076f94ae693b{ _id:'4df4edbc-facd-42bd-b05e-076f94ae693b', _uri:'http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b', rdfs_label:'4df4edbc-facd-42bd-b05e-076f94ae693b' })
-CREATE ( Kastell IIoneștii Govorii (Pons Aluti){ _id:'Kastell IIoneștii Govorii (Pons Aluti)', _uri:'Kastell IIoneștii Govorii (Pons Aluti)', rdfs_label:'Kastell IIoneștii Govorii (Pons Aluti)' })
-CREATE ( cba75304-f136-465d-90fb-56dff3acc018{ _id:'cba75304-f136-465d-90fb-56dff3acc018', _uri:'http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018', rdfs_label:'cba75304-f136-465d-90fb-56dff3acc018' })
-CREATE ( Kastell Enoşeşti (Acidava){ _id:'Kastell Enoşeşti (Acidava)', _uri:'Kastell Enoşeşti (Acidava)', rdfs_label:'Kastell Enoşeşti (Acidava)' })
-CREATE ( 096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom{ _id:'096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom', rdfs_label:'096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom' })
-CREATE ( 4326> POINT (24.309861 45.395903){ _id:'4326> POINT (24.309861 45.395903)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.309861 45.395903)', rdfs_label:'4326> POINT (24.309861 45.395903)' })
-CREATE ( Kastell Copăceni (Praetorium I) Geometry{ _id:'Kastell Copăceni (Praetorium I) Geometry', _uri:'Kastell Copăceni (Praetorium I) Geometry', rdfs_label:'Kastell Copăceni (Praetorium I) Geometry' })
-CREATE ( 0203af0b-bc52-4f9f-b490-b2bc3fe431fc{ _id:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc', _uri:'http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc', rdfs_label:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc' })
-CREATE ( Kastell Cigmău { _id:'Kastell Cigmău ', _uri:'Kastell Cigmău ', rdfs_label:'Kastell Cigmău ' })
-CREATE ( 5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom{ _id:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom', rdfs_label:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom' })
-CREATE ( 4326> POINT (25.012472 45.22075){ _id:'4326> POINT (25.012472 45.22075)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012472 45.22075)', rdfs_label:'4326> POINT (25.012472 45.22075)' })
-CREATE ( Kastell Câmpulung Muscel I Geometry{ _id:'Kastell Câmpulung Muscel I Geometry', _uri:'Kastell Câmpulung Muscel I Geometry', rdfs_label:'Kastell Câmpulung Muscel I Geometry' })
-CREATE ( 815f5c63-8478-4aac-bafb-11eaafa9a923{ _id:'815f5c63-8478-4aac-bafb-11eaafa9a923', _uri:'http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923', rdfs_label:'815f5c63-8478-4aac-bafb-11eaafa9a923' })
-CREATE ( Kastell Dupljaja{ _id:'Kastell Dupljaja', _uri:'Kastell Dupljaja', rdfs_label:'Kastell Dupljaja' })
-CREATE ( 2c2fb600-f249-469e-a025-1961edf5132d_geom{ _id:'2c2fb600-f249-469e-a025-1961edf5132d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom', rdfs_label:'2c2fb600-f249-469e-a025-1961edf5132d_geom' })
-CREATE ( 4326> POINT (23.868333 46.417222){ _id:'4326> POINT (23.868333 46.417222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.868333 46.417222)', rdfs_label:'4326> POINT (23.868333 46.417222)' })
-CREATE ( Kastell Războieni Geometry{ _id:'Kastell Războieni Geometry', _uri:'Kastell Războieni Geometry', rdfs_label:'Kastell Războieni Geometry' })
-CREATE ( ec646e12-636f-4c8c-96c2-0f46833adf1c{ _id:'ec646e12-636f-4c8c-96c2-0f46833adf1c', _uri:'http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c', rdfs_label:'ec646e12-636f-4c8c-96c2-0f46833adf1c' })
-CREATE ( Kastell Răcarii de Jos{ _id:'Kastell Răcarii de Jos', _uri:'Kastell Răcarii de Jos', rdfs_label:'Kastell Răcarii de Jos' })
-CREATE ( 918ef494-4408-4a91-8ee0-61f6087ffee7{ _id:'918ef494-4408-4a91-8ee0-61f6087ffee7', _uri:'http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7', rdfs_label:'918ef494-4408-4a91-8ee0-61f6087ffee7' })
-CREATE ( Kastell Surducul Mare{ _id:'Kastell Surducul Mare', _uri:'Kastell Surducul Mare', rdfs_label:'Kastell Surducul Mare' })
-CREATE ( 5a43030f-b985-4444-8cf9-3e4a0b132d79_geom{ _id:'5a43030f-b985-4444-8cf9-3e4a0b132d79_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom', rdfs_label:'5a43030f-b985-4444-8cf9-3e4a0b132d79_geom' })
-CREATE ( 4326> POINT (23.372222 45.1825){ _id:'4326> POINT (23.372222 45.1825)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.372222 45.1825)', rdfs_label:'4326> POINT (23.372222 45.1825)' })
-CREATE ( Kastell Vârtop Geometry{ _id:'Kastell Vârtop Geometry', _uri:'Kastell Vârtop Geometry', rdfs_label:'Kastell Vârtop Geometry' })
-CREATE ( 1b4b9c1f-cb64-4c02-976d-61c2147b0705{ _id:'1b4b9c1f-cb64-4c02-976d-61c2147b0705', _uri:'http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705', rdfs_label:'1b4b9c1f-cb64-4c02-976d-61c2147b0705' })
-CREATE ( Kastell Râul Vadului{ _id:'Kastell Râul Vadului', _uri:'Kastell Râul Vadului', rdfs_label:'Kastell Râul Vadului' })
-CREATE ( 1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom{ _id:'1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom', rdfs_label:'1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom' })
-CREATE ( 4326> POINT (23.068611 46.272222){ _id:'4326> POINT (23.068611 46.272222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.068611 46.272222)', rdfs_label:'4326> POINT (23.068611 46.272222)' })
-CREATE ( Kastell Abrud (Alburnus Maior) Geometry{ _id:'Kastell Abrud (Alburnus Maior) Geometry', _uri:'Kastell Abrud (Alburnus Maior) Geometry', rdfs_label:'Kastell Abrud (Alburnus Maior) Geometry' })
-CREATE ( 5b90b8d5-ba6e-4789-94d2-db823824acbf_geom{ _id:'5b90b8d5-ba6e-4789-94d2-db823824acbf_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom', rdfs_label:'5b90b8d5-ba6e-4789-94d2-db823824acbf_geom' })
-CREATE ( 4326> POINT (24.308611 45.495){ _id:'4326> POINT (24.308611 45.495)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.308611 45.495)', rdfs_label:'4326> POINT (24.308611 45.495)' })
-CREATE ( Kastell Căineni (Pons Vetus ?) Geometry{ _id:'Kastell Căineni (Pons Vetus ?) Geometry', _uri:'Kastell Căineni (Pons Vetus ?) Geometry', rdfs_label:'Kastell Căineni (Pons Vetus ?) Geometry' })
-CREATE ( b5cf0c45-ec51-4710-a03a-75e7dc30a7a3{ _id:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3', _uri:'http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3', rdfs_label:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3' })
-CREATE ( Kastell Romanasi (Largiana){ _id:'Kastell Romanasi (Largiana)', _uri:'Kastell Romanasi (Largiana)', rdfs_label:'Kastell Romanasi (Largiana)' })
-CREATE ( 46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom{ _id:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom', rdfs_label:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom' })
-CREATE ( 4326> POINT (23.37 45.18){ _id:'4326> POINT (23.37 45.18)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.37 45.18)', rdfs_label:'4326> POINT (23.37 45.18)' })
-CREATE ( Kastell Plesa Geometry{ _id:'Kastell Plesa Geometry', _uri:'Kastell Plesa Geometry', rdfs_label:'Kastell Plesa Geometry' })
-CREATE ( 120e3991-1f39-4359-b810-37bb24aff05c{ _id:'120e3991-1f39-4359-b810-37bb24aff05c', _uri:'http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c', rdfs_label:'120e3991-1f39-4359-b810-37bb24aff05c' })
-CREATE ( Kastell Romita{ _id:'Kastell Romita', _uri:'Kastell Romita', rdfs_label:'Kastell Romita' })
-CREATE ( 0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom{ _id:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom', rdfs_label:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom' })
-CREATE ( 4326> POINT (23.837639 47.186222){ _id:'4326> POINT (23.837639 47.186222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.837639 47.186222)', rdfs_label:'4326> POINT (23.837639 47.186222)' })
-CREATE ( Kastell Căşeiu (Samum) Geometry{ _id:'Kastell Căşeiu (Samum) Geometry', _uri:'Kastell Căşeiu (Samum) Geometry', rdfs_label:'Kastell Căşeiu (Samum) Geometry' })
-CREATE ( f35f2d3f-8925-4139-9e9b-cf07ee5aaecb{ _id:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb', _uri:'http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb', rdfs_label:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb' })
-CREATE ( Kastell Borosneu Mare{ _id:'Kastell Borosneu Mare', _uri:'Kastell Borosneu Mare', rdfs_label:'Kastell Borosneu Mare' })
-CREATE ( 9d1c0c0d-98f5-4728-86ee-4288dde6d0fa{ _id:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa', _uri:'http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa', rdfs_label:'9d1c0c0d-98f5-4728-86ee-4288dde6d0fa' })
-CREATE ( Kastell Râșnov { _id:'Kastell Râșnov ', _uri:'Kastell Râșnov ', rdfs_label:'Kastell Râșnov ' })
 CREATE ( 815f5c63-8478-4aac-bafb-11eaafa9a923_geom{ _id:'815f5c63-8478-4aac-bafb-11eaafa9a923_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923_geom', rdfs_label:'815f5c63-8478-4aac-bafb-11eaafa9a923_geom' })
 CREATE ( 4326> POINT (21.275078 44.927103){ _id:'4326> POINT (21.275078 44.927103)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.275078 44.927103)', rdfs_label:'4326> POINT (21.275078 44.927103)' })
 CREATE ( Kastell Dupljaja Geometry{ _id:'Kastell Dupljaja Geometry', _uri:'Kastell Dupljaja Geometry', rdfs_label:'Kastell Dupljaja Geometry' })
-CREATE ( 2c2fb600-f249-469e-a025-1961edf5132d{ _id:'2c2fb600-f249-469e-a025-1961edf5132d', _uri:'http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d', rdfs_label:'2c2fb600-f249-469e-a025-1961edf5132d' })
-CREATE ( Kastell Războieni{ _id:'Kastell Războieni', _uri:'Kastell Războieni', rdfs_label:'Kastell Războieni' })
-CREATE ( 7cadca30-bfd9-4628-9916-c20eecafa356_geom{ _id:'7cadca30-bfd9-4628-9916-c20eecafa356_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom', rdfs_label:'7cadca30-bfd9-4628-9916-c20eecafa356_geom' })
-CREATE ( 4326> POINT (24.360675 45.105944){ _id:'4326> POINT (24.360675 45.105944)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360675 45.105944)', rdfs_label:'4326> POINT (24.360675 45.105944)' })
-CREATE ( Kastell Stolniceni Geometry{ _id:'Kastell Stolniceni Geometry', _uri:'Kastell Stolniceni Geometry', rdfs_label:'Kastell Stolniceni Geometry' })
-CREATE ( 497eff64-e309-4704-b5f0-3e2872ff379d{ _id:'497eff64-e309-4704-b5f0-3e2872ff379d', _uri:'http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d', rdfs_label:'497eff64-e309-4704-b5f0-3e2872ff379d' })
-CREATE ( Legionslager Potaissa{ _id:'Legionslager Potaissa', _uri:'Legionslager Potaissa', rdfs_label:'Legionslager Potaissa' })
 CREATE ( e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom{ _id:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom', rdfs_label:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom' })
 CREATE ( 4326> POINT (24.761056 44.307778){ _id:'4326> POINT (24.761056 44.307778)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761056 44.307778)', rdfs_label:'4326> POINT (24.761056 44.307778)' })
 CREATE ( Kastell Ghioca Geometry{ _id:'Kastell Ghioca Geometry', _uri:'Kastell Ghioca Geometry', rdfs_label:'Kastell Ghioca Geometry' })
-CREATE ( ffd99607-0513-4fa5-8073-c80bddbfab84_geom{ _id:'ffd99607-0513-4fa5-8073-c80bddbfab84_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom', rdfs_label:'ffd99607-0513-4fa5-8073-c80bddbfab84_geom' })
-CREATE ( 4326> POINT (22.1895 45.4663){ _id:'4326> POINT (22.1895 45.4663)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.1895 45.4663)', rdfs_label:'4326> POINT (22.1895 45.4663)' })
-CREATE ( Kastell Tibiscum Geometry{ _id:'Kastell Tibiscum Geometry', _uri:'Kastell Tibiscum Geometry', rdfs_label:'Kastell Tibiscum Geometry' })
-CREATE ( 9a118e00-be2c-4c2d-a9f9-8cb86170e3d1{ _id:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1', _uri:'http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1', rdfs_label:'9a118e00-be2c-4c2d-a9f9-8cb86170e3d1' })
-CREATE ( Kastell Rădăcineşti{ _id:'Kastell Rădăcineşti', _uri:'Kastell Rădăcineşti', rdfs_label:'Kastell Rădăcineşti' })
+CREATE ( 5b90b8d5-ba6e-4789-94d2-db823824acbf_geom{ _id:'5b90b8d5-ba6e-4789-94d2-db823824acbf_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom', rdfs_label:'5b90b8d5-ba6e-4789-94d2-db823824acbf_geom' })
+CREATE ( 4326> POINT (24.308611 45.495){ _id:'4326> POINT (24.308611 45.495)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.308611 45.495)', rdfs_label:'4326> POINT (24.308611 45.495)' })
+CREATE ( Kastell Căineni (Pons Vetus ?) Geometry{ _id:'Kastell Căineni (Pons Vetus ?) Geometry', _uri:'Kastell Căineni (Pons Vetus ?) Geometry', rdfs_label:'Kastell Căineni (Pons Vetus ?) Geometry' })
+CREATE ( 59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f{ _id:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f', _uri:'http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f', rdfs_label:'59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f' })
+CREATE ( Kastell Sânnicolau Mare{ _id:'Kastell Sânnicolau Mare', _uri:'Kastell Sânnicolau Mare', rdfs_label:'Kastell Sânnicolau Mare' })
+CREATE ( 0e91c0e7-3991-4a45-89ed-382f7c74731a{ _id:'0e91c0e7-3991-4a45-89ed-382f7c74731a', _uri:'http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a', rdfs_label:'0e91c0e7-3991-4a45-89ed-382f7c74731a' })
+CREATE ( Kastell Săpata de Jos II{ _id:'Kastell Săpata de Jos II', _uri:'Kastell Săpata de Jos II', rdfs_label:'Kastell Săpata de Jos II' })
 CREATE ( 22bf9a4e-a715-43f7-9fd0-4a60b8b77288{ _id:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288', _uri:'http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288', rdfs_label:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288' })
 CREATE ( Kastell Tia Mare{ _id:'Kastell Tia Mare', _uri:'Kastell Tia Mare', rdfs_label:'Kastell Tia Mare' })
-CREATE ( 5e6a65c9-32dd-4581-b6ab-a95afdc4d061{ _id:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061', _uri:'http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061', rdfs_label:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061' })
-CREATE ( Kastell Câmpulung Muscel I{ _id:'Kastell Câmpulung Muscel I', _uri:'Kastell Câmpulung Muscel I', rdfs_label:'Kastell Câmpulung Muscel I' })
-CREATE ( 1c936059-6af8-4f03-8e18-cc61f529c5f3_geom{ _id:'1c936059-6af8-4f03-8e18-cc61f529c5f3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom', rdfs_label:'1c936059-6af8-4f03-8e18-cc61f529c5f3_geom' })
-CREATE ( 4326> POINT (23.157319 47.179167){ _id:'4326> POINT (23.157319 47.179167)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.157319 47.179167)', rdfs_label:'4326> POINT (23.157319 47.179167)' })
-CREATE ( Kastelle von Porolissum Geometry{ _id:'Kastelle von Porolissum Geometry', _uri:'Kastelle von Porolissum Geometry', rdfs_label:'Kastelle von Porolissum Geometry' })
-CREATE ( 5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom{ _id:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom', rdfs_label:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom' })
-CREATE ( 4326> POINT (25.300011 45.983367){ _id:'4326> POINT (25.300011 45.983367)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.300011 45.983367)', rdfs_label:'4326> POINT (25.300011 45.983367)' })
-CREATE ( Kastell Hoghiz Geometry{ _id:'Kastell Hoghiz Geometry', _uri:'Kastell Hoghiz Geometry', rdfs_label:'Kastell Hoghiz Geometry' })
-CREATE ( fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e{ _id:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e', _uri:'http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e', rdfs_label:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e' })
-CREATE ( Legionslager Alba Julia{ _id:'Legionslager Alba Julia', _uri:'Legionslager Alba Julia', rdfs_label:'Legionslager Alba Julia' })
-CREATE ( 46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990{ _id:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990', _uri:'http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990', rdfs_label:'46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990' })
-CREATE ( Kastell Plesa{ _id:'Kastell Plesa', _uri:'Kastell Plesa', rdfs_label:'Kastell Plesa' })
+CREATE ( b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom{ _id:'b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom', rdfs_label:'b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom' })
+CREATE ( 4326> POINT (24.528969 44.081789){ _id:'4326> POINT (24.528969 44.081789)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.528969 44.081789)', rdfs_label:'4326> POINT (24.528969 44.081789)' })
+CREATE ( Kastell Slăveni Geometry{ _id:'Kastell Slăveni Geometry', _uri:'Kastell Slăveni Geometry', rdfs_label:'Kastell Slăveni Geometry' })
+CREATE ( 120e3991-1f39-4359-b810-37bb24aff05c{ _id:'120e3991-1f39-4359-b810-37bb24aff05c', _uri:'http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c', rdfs_label:'120e3991-1f39-4359-b810-37bb24aff05c' })
+CREATE ( Kastell Romita{ _id:'Kastell Romita', _uri:'Kastell Romita', rdfs_label:'Kastell Romita' })
+CREATE ( 7b05b48b-cd48-4c66-916e-6ea581179843_geom{ _id:'7b05b48b-cd48-4c66-916e-6ea581179843_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom', rdfs_label:'7b05b48b-cd48-4c66-916e-6ea581179843_geom' })
+CREATE ( 4326> POINT (24.762222 43.710278){ _id:'4326> POINT (24.762222 43.710278)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762222 43.710278)', rdfs_label:'4326> POINT (24.762222 43.710278)' })
+CREATE ( Kastell Islaz-Verdea Geometry{ _id:'Kastell Islaz-Verdea Geometry', _uri:'Kastell Islaz-Verdea Geometry', rdfs_label:'Kastell Islaz-Verdea Geometry' })
+CREATE ( 70d51242-571e-43ce-bd01-3bffca8cb4be{ _id:'70d51242-571e-43ce-bd01-3bffca8cb4be', _uri:'http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be', rdfs_label:'70d51242-571e-43ce-bd01-3bffca8cb4be' })
+CREATE ( Kastell Feldioara{ _id:'Kastell Feldioara', _uri:'Kastell Feldioara', rdfs_label:'Kastell Feldioara' })
+CREATE ( f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom{ _id:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom', rdfs_label:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom' })
+CREATE ( 4326> POINT (26.016986 45.843861){ _id:'4326> POINT (26.016986 45.843861)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.016986 45.843861)', rdfs_label:'4326> POINT (26.016986 45.843861)' })
+CREATE ( Kastell Borosneu Mare Geometry{ _id:'Kastell Borosneu Mare Geometry', _uri:'Kastell Borosneu Mare Geometry', rdfs_label:'Kastell Borosneu Mare Geometry' })
+CREATE ( LimesDaicusGeometries{ _id:'LimesDaicusGeometries', _uri:'http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries', rdfs_label:'LimesDaicusGeometries' })
+CREATE ( Limes Daicus Geometries{ _id:'Limes Daicus Geometries', _uri:'Limes Daicus Geometries', rdfs_label:'Limes Daicus Geometries' })
+CREATE ( d92ef45f-91c4-442e-b279-61f17fbccb7c_geom{ _id:'d92ef45f-91c4-442e-b279-61f17fbccb7c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom', rdfs_label:'d92ef45f-91c4-442e-b279-61f17fbccb7c_geom' })
+CREATE ( 4326> POINT (24.095361 47.210528){ _id:'4326> POINT (24.095361 47.210528)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.095361 47.210528)', rdfs_label:'4326> POINT (24.095361 47.210528)' })
+CREATE ( Kastell Ilişua (Arcobara) Geometry{ _id:'Kastell Ilişua (Arcobara) Geometry', _uri:'Kastell Ilişua (Arcobara) Geometry', rdfs_label:'Kastell Ilişua (Arcobara) Geometry' })
+CREATE ( 7dd1742c-a3a5-4494-b148-1d435d754d5d{ _id:'7dd1742c-a3a5-4494-b148-1d435d754d5d', _uri:'http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d', rdfs_label:'7dd1742c-a3a5-4494-b148-1d435d754d5d' })
+CREATE (   Alenkastell{ _id:'  Alenkastell', _uri:'Vexillationskastell /  Kohortenkastell /  Alenkastell', rdfs_label:'  Alenkastell' })
+CREATE ( Kastell Vršac{ _id:'Kastell Vršac', _uri:'Kastell Vršac', rdfs_label:'Kastell Vršac' })
+CREATE ( 06eb8de4-750e-4ed9-ad04-9bf16d61c975{ _id:'06eb8de4-750e-4ed9-ad04-9bf16d61c975', _uri:'http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975', rdfs_label:'06eb8de4-750e-4ed9-ad04-9bf16d61c975' })
+CREATE ( Kastell Momoteşti (Rusidava){ _id:'Kastell Momoteşti (Rusidava)', _uri:'Kastell Momoteşti (Rusidava)', rdfs_label:'Kastell Momoteşti (Rusidava)' })
+CREATE ( cba75304-f136-465d-90fb-56dff3acc018{ _id:'cba75304-f136-465d-90fb-56dff3acc018', _uri:'http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018', rdfs_label:'cba75304-f136-465d-90fb-56dff3acc018' })
+CREATE ( Kastell Enoşeşti (Acidava){ _id:'Kastell Enoşeşti (Acidava)', _uri:'Kastell Enoşeşti (Acidava)', rdfs_label:'Kastell Enoşeşti (Acidava)' })
 CREATE ( 0ccd99fd-62d1-4978-873a-106b1f5e3880_geom{ _id:'0ccd99fd-62d1-4978-873a-106b1f5e3880_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom', rdfs_label:'0ccd99fd-62d1-4978-873a-106b1f5e3880_geom' })
 CREATE ( 4326> POINT (25.178583 45.398444){ _id:'4326> POINT (25.178583 45.398444)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.178583 45.398444)', rdfs_label:'4326> POINT (25.178583 45.398444)' })
 CREATE ( Kastell Rucăr Geometry{ _id:'Kastell Rucăr Geometry', _uri:'Kastell Rucăr Geometry', rdfs_label:'Kastell Rucăr Geometry' })
-CREATE ( e69e6cb2-cded-446c-b159-daec78476f43{ _id:'e69e6cb2-cded-446c-b159-daec78476f43', _uri:'http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43', rdfs_label:'e69e6cb2-cded-446c-b159-daec78476f43' })
-CREATE ( Kastell Căciulătești{ _id:'Kastell Căciulătești', _uri:'Kastell Căciulătești', rdfs_label:'Kastell Căciulătești' })
-CREATE ( 3b51185a-d7ca-4c22-b85d-a021b3727c4d{ _id:'3b51185a-d7ca-4c22-b85d-a021b3727c4d', _uri:'http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d', rdfs_label:'3b51185a-d7ca-4c22-b85d-a021b3727c4d' })
-CREATE ( Kastell Brâncoveneşti{ _id:'Kastell Brâncoveneşti', _uri:'Kastell Brâncoveneşti', rdfs_label:'Kastell Brâncoveneşti' })
-CREATE ( 6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom{ _id:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom', rdfs_label:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom' })
-CREATE ( 4326> POINT (24.96525 43.937806){ _id:'4326> POINT (24.96525 43.937806)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.96525 43.937806)', rdfs_label:'4326> POINT (24.96525 43.937806)' })
-CREATE ( Kastell Băneasa I Geometry{ _id:'Kastell Băneasa I Geometry', _uri:'Kastell Băneasa I Geometry', rdfs_label:'Kastell Băneasa I Geometry' })
-CREATE ( 7c3bf06c-8f79-457e-b56f-77da98c7a69b{ _id:'7c3bf06c-8f79-457e-b56f-77da98c7a69b', _uri:'http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b', rdfs_label:'7c3bf06c-8f79-457e-b56f-77da98c7a69b' })
-CREATE ( Kastell Băneasa II{ _id:'Kastell Băneasa II', _uri:'Kastell Băneasa II', rdfs_label:'Kastell Băneasa II' })
-CREATE ( 3680e065-f377-4f4d-a9d6-84523dcb1727{ _id:'3680e065-f377-4f4d-a9d6-84523dcb1727', _uri:'http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727', rdfs_label:'3680e065-f377-4f4d-a9d6-84523dcb1727' })
-CREATE ( Kastell Brețcu { _id:'Kastell Brețcu ', _uri:'Kastell Brețcu ', rdfs_label:'Kastell Brețcu ' })
-CREATE ( 6689fc0e-01ff-4dbc-b3ed-49e35a3d397a{ _id:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a', _uri:'http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a', rdfs_label:'6689fc0e-01ff-4dbc-b3ed-49e35a3d397a' })
-CREATE ( Kastell Bologa (Resculum){ _id:'Kastell Bologa (Resculum)', _uri:'Kastell Bologa (Resculum)', rdfs_label:'Kastell Bologa (Resculum)' })
+CREATE ( 5e33b468-4135-46b4-babc-99f5c423f966_geom{ _id:'5e33b468-4135-46b4-babc-99f5c423f966_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966_geom', rdfs_label:'5e33b468-4135-46b4-babc-99f5c423f966_geom' })
+CREATE ( 4326> POINT (20.145953 46.253697){ _id:'4326> POINT (20.145953 46.253697)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.145953 46.253697)', rdfs_label:'4326> POINT (20.145953 46.253697)' })
+CREATE ( Kastell Szeged Geometry{ _id:'Kastell Szeged Geometry', _uri:'Kastell Szeged Geometry', rdfs_label:'Kastell Szeged Geometry' })
+CREATE ( c8ecf3da-c535-41df-b06e-298cd8542633_geom{ _id:'c8ecf3da-c535-41df-b06e-298cd8542633_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom', rdfs_label:'c8ecf3da-c535-41df-b06e-298cd8542633_geom' })
+CREATE ( 4326> POINT (22.306831 45.168611){ _id:'4326> POINT (22.306831 45.168611)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.306831 45.168611)', rdfs_label:'4326> POINT (22.306831 45.168611)' })
+CREATE ( Kastell Teregova (Ad Pannonios) Geometry{ _id:'Kastell Teregova (Ad Pannonios) Geometry', _uri:'Kastell Teregova (Ad Pannonios) Geometry', rdfs_label:'Kastell Teregova (Ad Pannonios) Geometry' })
+CREATE ( b6e369cd-722a-4a1c-a984-538bb26f3777_geom{ _id:'b6e369cd-722a-4a1c-a984-538bb26f3777_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom', rdfs_label:'b6e369cd-722a-4a1c-a984-538bb26f3777_geom' })
+CREATE ( 4326> POINT (23.044569 47.048264){ _id:'4326> POINT (23.044569 47.048264)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.044569 47.048264)', rdfs_label:'4326> POINT (23.044569 47.048264)' })
+CREATE ( Kastell Buciumi Geometry{ _id:'Kastell Buciumi Geometry', _uri:'Kastell Buciumi Geometry', rdfs_label:'Kastell Buciumi Geometry' })
+CREATE ( 000d5176-6b9e-4065-a44f-d7b8f75b1199{ _id:'000d5176-6b9e-4065-a44f-d7b8f75b1199', _uri:'http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199', rdfs_label:'000d5176-6b9e-4065-a44f-d7b8f75b1199' })
+CREATE ( Kastell Orăştioara de Sus{ _id:'Kastell Orăştioara de Sus', _uri:'Kastell Orăştioara de Sus', rdfs_label:'Kastell Orăştioara de Sus' })
+CREATE ( 7cadca30-bfd9-4628-9916-c20eecafa356_geom{ _id:'7cadca30-bfd9-4628-9916-c20eecafa356_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom', rdfs_label:'7cadca30-bfd9-4628-9916-c20eecafa356_geom' })
+CREATE ( 4326> POINT (24.360675 45.105944){ _id:'4326> POINT (24.360675 45.105944)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360675 45.105944)', rdfs_label:'4326> POINT (24.360675 45.105944)' })
+CREATE ( Kastell Stolniceni Geometry{ _id:'Kastell Stolniceni Geometry', _uri:'Kastell Stolniceni Geometry', rdfs_label:'Kastell Stolniceni Geometry' })
+CREATE ( b6e369cd-722a-4a1c-a984-538bb26f3777{ _id:'b6e369cd-722a-4a1c-a984-538bb26f3777', _uri:'http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777', rdfs_label:'b6e369cd-722a-4a1c-a984-538bb26f3777' })
+CREATE ( Kastell Buciumi{ _id:'Kastell Buciumi', _uri:'Kastell Buciumi', rdfs_label:'Kastell Buciumi' })
+CREATE ( 1e218e82-f264-4241-a8e0-5efd9a1ec8a4{ _id:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4', _uri:'http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4', rdfs_label:'1e218e82-f264-4241-a8e0-5efd9a1ec8a4' })
+CREATE ( Kastell Islaz-Razovica{ _id:'Kastell Islaz-Razovica', _uri:'Kastell Islaz-Razovica', rdfs_label:'Kastell Islaz-Razovica' })
+CREATE ( 8c5f1f84-f11a-48f0-8e9a-c629c7d346e2{ _id:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2', _uri:'http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2', rdfs_label:'8c5f1f84-f11a-48f0-8e9a-c629c7d346e2' })
+CREATE ( Kastell Câmpulung Muscel II{ _id:'Kastell Câmpulung Muscel II', _uri:'Kastell Câmpulung Muscel II', rdfs_label:'Kastell Câmpulung Muscel II' })
+CREATE ( b0524f84-a9d2-45fa-9f69-d8164ad73440_geom{ _id:'b0524f84-a9d2-45fa-9f69-d8164ad73440_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom', rdfs_label:'b0524f84-a9d2-45fa-9f69-d8164ad73440_geom' })
+CREATE ( 4326> POINT (25.849619 45.970939){ _id:'4326> POINT (25.849619 45.970939)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.849619 45.970939)', rdfs_label:'4326> POINT (25.849619 45.970939)' })
+CREATE ( Kastell Olteni Geometry{ _id:'Kastell Olteni Geometry', _uri:'Kastell Olteni Geometry', rdfs_label:'Kastell Olteni Geometry' })
+CREATE ( 5709a2bb-8d86-44af-b582-19151b918068_geom{ _id:'5709a2bb-8d86-44af-b582-19151b918068_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom', rdfs_label:'5709a2bb-8d86-44af-b582-19151b918068_geom' })
+CREATE ( 4326> POINT (22.786822 45.51665){ _id:'4326> POINT (22.786822 45.51665)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.786822 45.51665)', rdfs_label:'4326> POINT (22.786822 45.51665)' })
+CREATE ( Kastell Sarmizegetusa (Ulpia Traiana) Geometry{ _id:'Kastell Sarmizegetusa (Ulpia Traiana) Geometry', _uri:'Kastell Sarmizegetusa (Ulpia Traiana) Geometry', rdfs_label:'Kastell Sarmizegetusa (Ulpia Traiana) Geometry' })
+CREATE ( 9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom{ _id:'9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom', rdfs_label:'9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom' })
+CREATE ( 4326> POINT (24.476111 46.510556){ _id:'4326> POINT (24.476111 46.510556)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.476111 46.510556)', rdfs_label:'4326> POINT (24.476111 46.510556)' })
+CREATE ( Kastell Cristeşti Geometry{ _id:'Kastell Cristeşti Geometry', _uri:'Kastell Cristeşti Geometry', rdfs_label:'Kastell Cristeşti Geometry' })
+CREATE ( f8305d66-9429-43c0-b6e3-73721df9986b{ _id:'f8305d66-9429-43c0-b6e3-73721df9986b', _uri:'http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b', rdfs_label:'f8305d66-9429-43c0-b6e3-73721df9986b' })
+CREATE ( Kastell Urluieni II{ _id:'Kastell Urluieni II', _uri:'Kastell Urluieni II', rdfs_label:'Kastell Urluieni II' })
+CREATE ( 7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom{ _id:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom', rdfs_label:'7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom' })
+CREATE ( 4326> POINT (24.877311 46.628978){ _id:'4326> POINT (24.877311 46.628978)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.877311 46.628978)', rdfs_label:'4326> POINT (24.877311 46.628978)' })
+CREATE ( Kastell Călugăreni Geometry{ _id:'Kastell Călugăreni Geometry', _uri:'Kastell Călugăreni Geometry', rdfs_label:'Kastell Călugăreni Geometry' })
+CREATE ( 9ac48ee9-00b6-46ab-a597-b6aa5f2d784a{ _id:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a', _uri:'http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a', rdfs_label:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a' })
+CREATE ( Kastell Bivolari (Arutela){ _id:'Kastell Bivolari (Arutela)', _uri:'Kastell Bivolari (Arutela)', rdfs_label:'Kastell Bivolari (Arutela)' })
+CREATE ( a6ec226a-3c2a-444a-9221-839201e1135f{ _id:'a6ec226a-3c2a-444a-9221-839201e1135f', _uri:'http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f', rdfs_label:'a6ec226a-3c2a-444a-9221-839201e1135f' })
+CREATE ( Kastell Săpata de Jos I{ _id:'Kastell Săpata de Jos I', _uri:'Kastell Săpata de Jos I', rdfs_label:'Kastell Săpata de Jos I' })
+CREATE ( 50320dbe-929c-40e3-aebd-f8f257d6472a_geom{ _id:'50320dbe-929c-40e3-aebd-f8f257d6472a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom', rdfs_label:'50320dbe-929c-40e3-aebd-f8f257d6472a_geom' })
+CREATE ( 4326> POINT (24.016667 44.116667){ _id:'4326> POINT (24.016667 44.116667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.016667 44.116667)', rdfs_label:'4326> POINT (24.016667 44.116667)' })
+CREATE ( Kastell Castranova Geometry{ _id:'Kastell Castranova Geometry', _uri:'Kastell Castranova Geometry', rdfs_label:'Kastell Castranova Geometry' })
+CREATE ( 22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom{ _id:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom', rdfs_label:'22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom' })
+CREATE ( 4326> POINT (24.651389 43.866389){ _id:'4326> POINT (24.651389 43.866389)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.651389 43.866389)', rdfs_label:'4326> POINT (24.651389 43.866389)' })
+CREATE ( Kastell Tia Mare Geometry{ _id:'Kastell Tia Mare Geometry', _uri:'Kastell Tia Mare Geometry', rdfs_label:'Kastell Tia Mare Geometry' })
+CREATE ( 3680e065-f377-4f4d-a9d6-84523dcb1727_geom{ _id:'3680e065-f377-4f4d-a9d6-84523dcb1727_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom', rdfs_label:'3680e065-f377-4f4d-a9d6-84523dcb1727_geom' })
+CREATE ( 4326> POINT (26.312836 46.050994){ _id:'4326> POINT (26.312836 46.050994)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.312836 46.050994)', rdfs_label:'4326> POINT (26.312836 46.050994)' })
+CREATE ( Kastell Brețcu Geometry{ _id:'Kastell Brețcu Geometry', _uri:'Kastell Brețcu Geometry', rdfs_label:'Kastell Brețcu Geometry' })
 CREATE ( b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom{ _id:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom', rdfs_label:'b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom' })
 CREATE ( 4326> POINT (23.181678 47.113403){ _id:'4326> POINT (23.181678 47.113403)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.181678 47.113403)', rdfs_label:'4326> POINT (23.181678 47.113403)' })
 CREATE ( Kastell Romanasi (Largiana) Geometry{ _id:'Kastell Romanasi (Largiana) Geometry', _uri:'Kastell Romanasi (Largiana) Geometry', rdfs_label:'Kastell Romanasi (Largiana) Geometry' })
+CREATE ( GeometryCollection_collection{ _id:'GeometryCollection_collection', _uri:'http://lod.squirrel.link/data/limes/GeometryCollection_collection', rdfs_label:'GeometryCollection_collection' })
+CREATE ( GeometryCollection Instances Collection{ _id:'GeometryCollection Instances Collection', _uri:'GeometryCollection Instances Collection', rdfs_label:'GeometryCollection Instances Collection' })
+CREATE ( LimesNoricumGeometries{ _id:'LimesNoricumGeometries', _uri:'http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries', rdfs_label:'LimesNoricumGeometries' })
+CREATE ( 3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom{ _id:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom', rdfs_label:'3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom' })
+CREATE ( 4326> POINT (22.112283 46.006539){ _id:'4326> POINT (22.112283 46.006539)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.112283 46.006539)', rdfs_label:'4326> POINT (22.112283 46.006539)' })
+CREATE ( Kastell Bulci Geometry{ _id:'Kastell Bulci Geometry', _uri:'Kastell Bulci Geometry', rdfs_label:'Kastell Bulci Geometry' })
+CREATE ( 10b043a5-bb2b-48af-a168-84046185d6f7{ _id:'10b043a5-bb2b-48af-a168-84046185d6f7', _uri:'http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7', rdfs_label:'10b043a5-bb2b-48af-a168-84046185d6f7' })
+CREATE ( Kastell Pinoasa{ _id:'Kastell Pinoasa', _uri:'Kastell Pinoasa', rdfs_label:'Kastell Pinoasa' })
+CREATE ( f8305d66-9429-43c0-b6e3-73721df9986b_geom{ _id:'f8305d66-9429-43c0-b6e3-73721df9986b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom', rdfs_label:'f8305d66-9429-43c0-b6e3-73721df9986b_geom' })
+CREATE ( 4326> POINT (24.762111 44.484583){ _id:'4326> POINT (24.762111 44.484583)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762111 44.484583)', rdfs_label:'4326> POINT (24.762111 44.484583)' })
+CREATE ( Kastell Urluieni II Geometry{ _id:'Kastell Urluieni II Geometry', _uri:'Kastell Urluieni II Geometry', rdfs_label:'Kastell Urluieni II Geometry' })
+CREATE ( ec646e12-636f-4c8c-96c2-0f46833adf1c_geom{ _id:'ec646e12-636f-4c8c-96c2-0f46833adf1c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom', rdfs_label:'ec646e12-636f-4c8c-96c2-0f46833adf1c_geom' })
+CREATE ( 4326> POINT (23.571847 44.514){ _id:'4326> POINT (23.571847 44.514)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571847 44.514)', rdfs_label:'4326> POINT (23.571847 44.514)' })
+CREATE ( Kastell Răcarii de Jos Geometry{ _id:'Kastell Răcarii de Jos Geometry', _uri:'Kastell Răcarii de Jos Geometry', rdfs_label:'Kastell Răcarii de Jos Geometry' })
+CREATE ( 7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom{ _id:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom', rdfs_label:'7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom' })
+CREATE ( 4326> POINT (24.947028 44.074472){ _id:'4326> POINT (24.947028 44.074472)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.947028 44.074472)', rdfs_label:'4326> POINT (24.947028 44.074472)' })
+CREATE ( Kastell Roșiorii de Vede Geometry{ _id:'Kastell Roșiorii de Vede Geometry', _uri:'Kastell Roșiorii de Vede Geometry', rdfs_label:'Kastell Roșiorii de Vede Geometry' })
+CREATE ( 64ae9ea8-9dca-4e22-b32b-c2f95fd80b44{ _id:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44', _uri:'http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44', rdfs_label:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44' })
+CREATE ( Kastell Fâlfani{ _id:'Kastell Fâlfani', _uri:'Kastell Fâlfani', rdfs_label:'Kastell Fâlfani' })
+CREATE ( ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom{ _id:'ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom', rdfs_label:'ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom' })
+CREATE ( 4326> POINT (25.121806 46.431319){ _id:'4326> POINT (25.121806 46.431319)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.121806 46.431319)', rdfs_label:'4326> POINT (25.121806 46.431319)' })
+CREATE ( Kastell Inlăceni Geometry{ _id:'Kastell Inlăceni Geometry', _uri:'Kastell Inlăceni Geometry', rdfs_label:'Kastell Inlăceni Geometry' })
+CREATE ( 340738ca-7444-4896-a0fd-cd9e6806eb30{ _id:'340738ca-7444-4896-a0fd-cd9e6806eb30', _uri:'http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30', rdfs_label:'340738ca-7444-4896-a0fd-cd9e6806eb30' })
+CREATE ( Kastell Mehadia (Praetorium){ _id:'Kastell Mehadia (Praetorium)', _uri:'Kastell Mehadia (Praetorium)', rdfs_label:'Kastell Mehadia (Praetorium)' })
+CREATE ( d92ef45f-91c4-442e-b279-61f17fbccb7c{ _id:'d92ef45f-91c4-442e-b279-61f17fbccb7c', _uri:'http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c', rdfs_label:'d92ef45f-91c4-442e-b279-61f17fbccb7c' })
+CREATE ( Kastell Ilişua (Arcobara){ _id:'Kastell Ilişua (Arcobara)', _uri:'Kastell Ilişua (Arcobara)', rdfs_label:'Kastell Ilişua (Arcobara)' })
+CREATE ( e811fe5a-92d2-43a0-a572-51bc5942e242_geom{ _id:'e811fe5a-92d2-43a0-a572-51bc5942e242_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom', rdfs_label:'e811fe5a-92d2-43a0-a572-51bc5942e242_geom' })
+CREATE ( 4326> POINT (21.847883 45.486656){ _id:'4326> POINT (21.847883 45.486656)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.847883 45.486656)', rdfs_label:'4326> POINT (21.847883 45.486656)' })
+CREATE ( Kastell Aizis Geometry{ _id:'Kastell Aizis Geometry', _uri:'Kastell Aizis Geometry', rdfs_label:'Kastell Aizis Geometry' })
+CREATE ( 5a43030f-b985-4444-8cf9-3e4a0b132d79_geom{ _id:'5a43030f-b985-4444-8cf9-3e4a0b132d79_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom', rdfs_label:'5a43030f-b985-4444-8cf9-3e4a0b132d79_geom' })
+CREATE ( 4326> POINT (23.372222 45.1825){ _id:'4326> POINT (23.372222 45.1825)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.372222 45.1825)', rdfs_label:'4326> POINT (23.372222 45.1825)' })
+CREATE ( Kastell Vârtop Geometry{ _id:'Kastell Vârtop Geometry', _uri:'Kastell Vârtop Geometry', rdfs_label:'Kastell Vârtop Geometry' })
+CREATE ( 9a084d40-bf5c-42fa-8aa7-8c678524c631_geom{ _id:'9a084d40-bf5c-42fa-8aa7-8c678524c631_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom', rdfs_label:'9a084d40-bf5c-42fa-8aa7-8c678524c631_geom' })
+CREATE ( 4326> POINT (24.757222 43.733056){ _id:'4326> POINT (24.757222 43.733056)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.757222 43.733056)', rdfs_label:'4326> POINT (24.757222 43.733056)' })
+CREATE ( Kastell Racoviţa (Praetorium II) Geometry{ _id:'Kastell Racoviţa (Praetorium II) Geometry', _uri:'Kastell Racoviţa (Praetorium II) Geometry', rdfs_label:'Kastell Racoviţa (Praetorium II) Geometry' })
+CREATE ( 7422f9df-da23-450f-8eac-db2d8dfca42e_geom{ _id:'7422f9df-da23-450f-8eac-db2d8dfca42e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom', rdfs_label:'7422f9df-da23-450f-8eac-db2d8dfca42e_geom' })
+CREATE ( 4326> POINT (24.57075 47.186869){ _id:'4326> POINT (24.57075 47.186869)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.57075 47.186869)', rdfs_label:'4326> POINT (24.57075 47.186869)' })
+CREATE ( Kastell Livezile Geometry{ _id:'Kastell Livezile Geometry', _uri:'Kastell Livezile Geometry', rdfs_label:'Kastell Livezile Geometry' })
+CREATE ( 3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom{ _id:'3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom', rdfs_label:'3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom' })
+CREATE ( 4326> POINT (24.766042 46.861514){ _id:'4326> POINT (24.766042 46.861514)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.766042 46.861514)', rdfs_label:'4326> POINT (24.766042 46.861514)' })
+CREATE ( Kastell Brâncoveneşti Geometry{ _id:'Kastell Brâncoveneşti Geometry', _uri:'Kastell Brâncoveneşti Geometry', rdfs_label:'Kastell Brâncoveneşti Geometry' })
+CREATE ( e0423dfe-4fdf-4bf6-8453-97d7bee4d031{ _id:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031', _uri:'http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031', rdfs_label:'e0423dfe-4fdf-4bf6-8453-97d7bee4d031' })
+CREATE ( Kastell Ghioca{ _id:'Kastell Ghioca', _uri:'Kastell Ghioca', rdfs_label:'Kastell Ghioca' })
+CREATE ( 1795d125-e071-4153-b07e-e147bb19ad65_geom{ _id:'1795d125-e071-4153-b07e-e147bb19ad65_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom', rdfs_label:'1795d125-e071-4153-b07e-e147bb19ad65_geom' })
+CREATE ( 4326> POINT (25.900222 45.844172){ _id:'4326> POINT (25.900222 45.844172)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.900222 45.844172)', rdfs_label:'4326> POINT (25.900222 45.844172)' })
+CREATE ( Kastell Comalău Geometry{ _id:'Kastell Comalău Geometry', _uri:'Kastell Comalău Geometry', rdfs_label:'Kastell Comalău Geometry' })
+CREATE ( 8f823c04-d42b-49ec-879d-2c446d575885{ _id:'8f823c04-d42b-49ec-879d-2c446d575885', _uri:'http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885', rdfs_label:'8f823c04-d42b-49ec-879d-2c446d575885' })
+CREATE ( Kastell Voineşti{ _id:'Kastell Voineşti', _uri:'Kastell Voineşti', rdfs_label:'Kastell Voineşti' })
+CREATE ( 2c2fb600-f249-469e-a025-1961edf5132d{ _id:'2c2fb600-f249-469e-a025-1961edf5132d', _uri:'http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d', rdfs_label:'2c2fb600-f249-469e-a025-1961edf5132d' })
+CREATE ( Kastell Războieni{ _id:'Kastell Războieni', _uri:'Kastell Războieni', rdfs_label:'Kastell Războieni' })
+CREATE ( ffd99607-0513-4fa5-8073-c80bddbfab84{ _id:'ffd99607-0513-4fa5-8073-c80bddbfab84', _uri:'http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84', rdfs_label:'ffd99607-0513-4fa5-8073-c80bddbfab84' })
+CREATE ( Kastell Tibiscum{ _id:'Kastell Tibiscum', _uri:'Kastell Tibiscum', rdfs_label:'Kastell Tibiscum' })
+CREATE ( 4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom{ _id:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom', rdfs_label:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom' })
+CREATE ( 4326> POINT (23.391764 46.754058){ _id:'4326> POINT (23.391764 46.754058)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.391764 46.754058)', rdfs_label:'4326> POINT (23.391764 46.754058)' })
+CREATE ( Kastell Gilău Geometry{ _id:'Kastell Gilău Geometry', _uri:'Kastell Gilău Geometry', rdfs_label:'Kastell Gilău Geometry' })
+CREATE ( cba75304-f136-465d-90fb-56dff3acc018_geom{ _id:'cba75304-f136-465d-90fb-56dff3acc018_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom', rdfs_label:'cba75304-f136-465d-90fb-56dff3acc018_geom' })
+CREATE ( 4326> POINT (24.30325 44.374806){ _id:'4326> POINT (24.30325 44.374806)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.30325 44.374806)', rdfs_label:'4326> POINT (24.30325 44.374806)' })
+CREATE ( Kastell Enoşeşti (Acidava) Geometry{ _id:'Kastell Enoşeşti (Acidava) Geometry', _uri:'Kastell Enoşeşti (Acidava) Geometry', rdfs_label:'Kastell Enoşeşti (Acidava) Geometry' })
+CREATE ( 47a7d25e-6315-4256-b257-c2dfaea5e42f{ _id:'47a7d25e-6315-4256-b257-c2dfaea5e42f', _uri:'http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f', rdfs_label:'47a7d25e-6315-4256-b257-c2dfaea5e42f' })
+CREATE ( Kastell Zăvoi (Acmonia ?){ _id:'Kastell Zăvoi (Acmonia ?)', _uri:'Kastell Zăvoi (Acmonia ?)', rdfs_label:'Kastell Zăvoi (Acmonia ?)' })
+CREATE ( 096a9a4c-020f-4ce0-a4a6-993d50d08fea{ _id:'096a9a4c-020f-4ce0-a4a6-993d50d08fea', _uri:'http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea', rdfs_label:'096a9a4c-020f-4ce0-a4a6-993d50d08fea' })
+CREATE ( Kastell Copăceni (Praetorium I){ _id:'Kastell Copăceni (Praetorium I)', _uri:'Kastell Copăceni (Praetorium I)', rdfs_label:'Kastell Copăceni (Praetorium I)' })
+CREATE ( 4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom{ _id:'4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom', rdfs_label:'4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom' })
+CREATE ( 4326> POINT (24.360556 45.231944){ _id:'4326> POINT (24.360556 45.231944)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360556 45.231944)', rdfs_label:'4326> POINT (24.360556 45.231944)' })
+CREATE ( Kastell Jiblea Geometry{ _id:'Kastell Jiblea Geometry', _uri:'Kastell Jiblea Geometry', rdfs_label:'Kastell Jiblea Geometry' })
+CREATE ( 7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom{ _id:'7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom', rdfs_label:'7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom' })
+CREATE ( 4326> POINT (24.961889 43.935889){ _id:'4326> POINT (24.961889 43.935889)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.961889 43.935889)', rdfs_label:'4326> POINT (24.961889 43.935889)' })
+CREATE ( Kastell Băneasa II Geometry{ _id:'Kastell Băneasa II Geometry', _uri:'Kastell Băneasa II Geometry', rdfs_label:'Kastell Băneasa II Geometry' })
+CREATE ( 8f823c04-d42b-49ec-879d-2c446d575885_geom{ _id:'8f823c04-d42b-49ec-879d-2c446d575885_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom', rdfs_label:'8f823c04-d42b-49ec-879d-2c446d575885_geom' })
+CREATE ( 4326> POINT (25.076083 45.297833){ _id:'4326> POINT (25.076083 45.297833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.076083 45.297833)', rdfs_label:'4326> POINT (25.076083 45.297833)' })
+CREATE ( Kastell Voineşti Geometry{ _id:'Kastell Voineşti Geometry', _uri:'Kastell Voineşti Geometry', rdfs_label:'Kastell Voineşti Geometry' })
+CREATE ( 86dae60a-c827-480d-bb38-04a480b9ea01_geom{ _id:'86dae60a-c827-480d-bb38-04a480b9ea01_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom', rdfs_label:'86dae60a-c827-480d-bb38-04a480b9ea01_geom' })
+CREATE ( 4326> POINT (20.585819 46.138106){ _id:'4326> POINT (20.585819 46.138106)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.585819 46.138106)', rdfs_label:'4326> POINT (20.585819 46.138106)' })
+CREATE ( Kastell Cenad Geometry{ _id:'Kastell Cenad Geometry', _uri:'Kastell Cenad Geometry', rdfs_label:'Kastell Cenad Geometry' })
+CREATE ( 4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom{ _id:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom', rdfs_label:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom' })
+CREATE ( 4326> POINT (24.983333 43.7345){ _id:'4326> POINT (24.983333 43.7345)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.983333 43.7345)', rdfs_label:'4326> POINT (24.983333 43.7345)' })
+CREATE ( Kastell Flămănda (Poiana) Geometry{ _id:'Kastell Flămănda (Poiana) Geometry', _uri:'Kastell Flămănda (Poiana) Geometry', rdfs_label:'Kastell Flămănda (Poiana) Geometry' })
+CREATE ( 64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom{ _id:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom', rdfs_label:'64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom' })
+CREATE ( 4326> POINT (24.785111 44.603278){ _id:'4326> POINT (24.785111 44.603278)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.785111 44.603278)', rdfs_label:'4326> POINT (24.785111 44.603278)' })
+CREATE ( Kastell Fâlfani Geometry{ _id:'Kastell Fâlfani Geometry', _uri:'Kastell Fâlfani Geometry', rdfs_label:'Kastell Fâlfani Geometry' })
+CREATE ( f42bb013-afeb-4044-9886-ece53cc813d4_geom{ _id:'f42bb013-afeb-4044-9886-ece53cc813d4_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4_geom', rdfs_label:'f42bb013-afeb-4044-9886-ece53cc813d4_geom' })
+CREATE ( 4326> POINT (23.251667 46.986086){ _id:'4326> POINT (23.251667 46.986086)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.251667 46.986086)', rdfs_label:'4326> POINT (23.251667 46.986086)' })
+CREATE ( Kastell Sutoru Geometry{ _id:'Kastell Sutoru Geometry', _uri:'Kastell Sutoru Geometry', rdfs_label:'Kastell Sutoru Geometry' })
+CREATE ( 01189de6-024d-4022-96ff-eec7e4efee0c{ _id:'01189de6-024d-4022-96ff-eec7e4efee0c', _uri:'http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c', rdfs_label:'01189de6-024d-4022-96ff-eec7e4efee0c' })
+CREATE ( Kastell Orșova (Dierna){ _id:'Kastell Orșova (Dierna)', _uri:'Kastell Orșova (Dierna)', rdfs_label:'Kastell Orșova (Dierna)' })
+CREATE ( 340738ca-7444-4896-a0fd-cd9e6806eb30_geom{ _id:'340738ca-7444-4896-a0fd-cd9e6806eb30_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom', rdfs_label:'340738ca-7444-4896-a0fd-cd9e6806eb30_geom' })
+CREATE ( 4326> POINT (22.3522 44.9229){ _id:'4326> POINT (22.3522 44.9229)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.3522 44.9229)', rdfs_label:'4326> POINT (22.3522 44.9229)' })
+CREATE ( Kastell Mehadia (Praetorium) Geometry{ _id:'Kastell Mehadia (Praetorium) Geometry', _uri:'Kastell Mehadia (Praetorium) Geometry', rdfs_label:'Kastell Mehadia (Praetorium) Geometry' })
+CREATE ( 1c936059-6af8-4f03-8e18-cc61f529c5f3{ _id:'1c936059-6af8-4f03-8e18-cc61f529c5f3', _uri:'http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3', rdfs_label:'1c936059-6af8-4f03-8e18-cc61f529c5f3' })
+CREATE ( Auxiliarkastelle{ _id:'Auxiliarkastelle', _uri:'Auxiliarkastelle', rdfs_label:'Auxiliarkastelle' })
+CREATE ( Kastelle von Porolissum{ _id:'Kastelle von Porolissum', _uri:'Kastelle von Porolissum', rdfs_label:'Kastelle von Porolissum' })
+CREATE ( aadec8db-70f9-4c40-833a-2a7c39c631d2_geom{ _id:'aadec8db-70f9-4c40-833a-2a7c39c631d2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom', rdfs_label:'aadec8db-70f9-4c40-833a-2a7c39c631d2_geom' })
+CREATE ( 4326> POINT (22.924444 44.838889){ _id:'4326> POINT (22.924444 44.838889)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.924444 44.838889)', rdfs_label:'4326> POINT (22.924444 44.838889)' })
+CREATE ( Kastell Cătunele Geometry{ _id:'Kastell Cătunele Geometry', _uri:'Kastell Cătunele Geometry', rdfs_label:'Kastell Cătunele Geometry' })
+CREATE ( 707cb61a-d04e-4c7b-a620-6587db82f116_geom{ _id:'707cb61a-d04e-4c7b-a620-6587db82f116_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116_geom', rdfs_label:'707cb61a-d04e-4c7b-a620-6587db82f116_geom' })
+CREATE ( 4326> POINT (24.8945 44.958083){ _id:'4326> POINT (24.8945 44.958083)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8945 44.958083)', rdfs_label:'4326> POINT (24.8945 44.958083)' })
+CREATE ( Kastell Purcăreni Geometry{ _id:'Kastell Purcăreni Geometry', _uri:'Kastell Purcăreni Geometry', rdfs_label:'Kastell Purcăreni Geometry' })
+CREATE ( ffd99607-0513-4fa5-8073-c80bddbfab84_geom{ _id:'ffd99607-0513-4fa5-8073-c80bddbfab84_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom', rdfs_label:'ffd99607-0513-4fa5-8073-c80bddbfab84_geom' })
+CREATE ( 4326> POINT (22.1895 45.4663){ _id:'4326> POINT (22.1895 45.4663)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.1895 45.4663)', rdfs_label:'4326> POINT (22.1895 45.4663)' })
+CREATE ( Kastell Tibiscum Geometry{ _id:'Kastell Tibiscum Geometry', _uri:'Kastell Tibiscum Geometry', rdfs_label:'Kastell Tibiscum Geometry' })
+CREATE ( 01189de6-024d-4022-96ff-eec7e4efee0c_geom{ _id:'01189de6-024d-4022-96ff-eec7e4efee0c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom', rdfs_label:'01189de6-024d-4022-96ff-eec7e4efee0c_geom' })
+CREATE ( 4326> POINT (22.4076 44.7382){ _id:'4326> POINT (22.4076 44.7382)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.4076 44.7382)', rdfs_label:'4326> POINT (22.4076 44.7382)' })
+CREATE ( Kastell Orșova (Dierna) Geometry{ _id:'Kastell Orșova (Dierna) Geometry', _uri:'Kastell Orșova (Dierna) Geometry', rdfs_label:'Kastell Orșova (Dierna) Geometry' })
+CREATE ( MilitaryCamp_collection{ _id:'MilitaryCamp_collection', _uri:'http://lod.squirrel.link/data/limes/MilitaryCamp_collection', rdfs_label:'MilitaryCamp_collection' })
+CREATE ( MilitaryCamp Instances Collection{ _id:'MilitaryCamp Instances Collection', _uri:'MilitaryCamp Instances Collection', rdfs_label:'MilitaryCamp Instances Collection' })
+CREATE ( 918ef494-4408-4a91-8ee0-61f6087ffee7{ _id:'918ef494-4408-4a91-8ee0-61f6087ffee7', _uri:'http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7', rdfs_label:'918ef494-4408-4a91-8ee0-61f6087ffee7' })
+CREATE ( 707cb61a-d04e-4c7b-a620-6587db82f116{ _id:'707cb61a-d04e-4c7b-a620-6587db82f116', _uri:'http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116', rdfs_label:'707cb61a-d04e-4c7b-a620-6587db82f116' })
+CREATE ( 0f25c729-a3c7-4cb4-b063-ff72c0124b4f{ _id:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f', _uri:'http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f', rdfs_label:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f' })
+CREATE ( 7cadca30-bfd9-4628-9916-c20eecafa356{ _id:'7cadca30-bfd9-4628-9916-c20eecafa356', _uri:'http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356', rdfs_label:'7cadca30-bfd9-4628-9916-c20eecafa356' })
+CREATE ( 986efe66-cf8a-4b64-a488-ad95d0f2dd79{ _id:'986efe66-cf8a-4b64-a488-ad95d0f2dd79', _uri:'http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79', rdfs_label:'986efe66-cf8a-4b64-a488-ad95d0f2dd79' })
+CREATE ( f42bb013-afeb-4044-9886-ece53cc813d4{ _id:'f42bb013-afeb-4044-9886-ece53cc813d4', _uri:'http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4', rdfs_label:'f42bb013-afeb-4044-9886-ece53cc813d4' })
+CREATE ( 322e89c0-f571-4be4-a08c-84b35efb69e5{ _id:'322e89c0-f571-4be4-a08c-84b35efb69e5', _uri:'http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5', rdfs_label:'322e89c0-f571-4be4-a08c-84b35efb69e5' })
+CREATE ( 42d9c007-47e1-4b2a-ab2c-c381f93cac96{ _id:'42d9c007-47e1-4b2a-ab2c-c381f93cac96', _uri:'http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96', rdfs_label:'42d9c007-47e1-4b2a-ab2c-c381f93cac96' })
+CREATE ( 19360a61-a15a-4d56-a100-f3be57e93ff1{ _id:'19360a61-a15a-4d56-a100-f3be57e93ff1', _uri:'http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1', rdfs_label:'19360a61-a15a-4d56-a100-f3be57e93ff1' })
+CREATE ( 9a084d40-bf5c-42fa-8aa7-8c678524c631{ _id:'9a084d40-bf5c-42fa-8aa7-8c678524c631', _uri:'http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631', rdfs_label:'9a084d40-bf5c-42fa-8aa7-8c678524c631' })
+CREATE ( 1b4b9c1f-cb64-4c02-976d-61c2147b0705{ _id:'1b4b9c1f-cb64-4c02-976d-61c2147b0705', _uri:'http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705', rdfs_label:'1b4b9c1f-cb64-4c02-976d-61c2147b0705' })
+CREATE ( 0e8a5ba3-887e-4540-92c3-d35fef2bd579{ _id:'0e8a5ba3-887e-4540-92c3-d35fef2bd579', _uri:'http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579', rdfs_label:'0e8a5ba3-887e-4540-92c3-d35fef2bd579' })
+CREATE ( 0f5c8dda-88a9-48ad-bf8f-e72f216a4066{ _id:'0f5c8dda-88a9-48ad-bf8f-e72f216a4066', _uri:'http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066', rdfs_label:'0f5c8dda-88a9-48ad-bf8f-e72f216a4066' })
+CREATE ( 13572025-f4dc-4503-8aad-72050202752b{ _id:'13572025-f4dc-4503-8aad-72050202752b', _uri:'http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b', rdfs_label:'13572025-f4dc-4503-8aad-72050202752b' })
+CREATE ( 2bf44917-dd67-4ec8-9240-513476cdb60c{ _id:'2bf44917-dd67-4ec8-9240-513476cdb60c', _uri:'http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c', rdfs_label:'2bf44917-dd67-4ec8-9240-513476cdb60c' })
+CREATE ( 78b044f5-8a10-47ed-acf0-74658affbf22{ _id:'78b044f5-8a10-47ed-acf0-74658affbf22', _uri:'http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22', rdfs_label:'78b044f5-8a10-47ed-acf0-74658affbf22' })
+CREATE ( 8f964055-7a95-4e88-bcef-5bd3a5824de9{ _id:'8f964055-7a95-4e88-bcef-5bd3a5824de9', _uri:'http://lod.squirrel.link/data/limes/noricum/8f964055-7a95-4e88-bcef-5bd3a5824de9', rdfs_label:'8f964055-7a95-4e88-bcef-5bd3a5824de9' })
+CREATE ( 9f8f4e96-12d9-449b-b9ab-6e6080e34c9f{ _id:'9f8f4e96-12d9-449b-b9ab-6e6080e34c9f', _uri:'http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f', rdfs_label:'9f8f4e96-12d9-449b-b9ab-6e6080e34c9f' })
+CREATE ( b3e7d110-127b-45a7-9195-5e8a694e4862{ _id:'b3e7d110-127b-45a7-9195-5e8a694e4862', _uri:'http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862', rdfs_label:'b3e7d110-127b-45a7-9195-5e8a694e4862' })
+CREATE ( cfcfa4b0-501f-4563-8157-3c76054014a4{ _id:'cfcfa4b0-501f-4563-8157-3c76054014a4', _uri:'http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4', rdfs_label:'cfcfa4b0-501f-4563-8157-3c76054014a4' })
+CREATE ( d0ef2a62-6c85-44ce-a995-65ab6d5a5f43{ _id:'d0ef2a62-6c85-44ce-a995-65ab6d5a5f43', _uri:'http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43', rdfs_label:'d0ef2a62-6c85-44ce-a995-65ab6d5a5f43' })
+CREATE ( d151609e-cb90-4faf-a74b-54d2f52e01a1{ _id:'d151609e-cb90-4faf-a74b-54d2f52e01a1', _uri:'http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1', rdfs_label:'d151609e-cb90-4faf-a74b-54d2f52e01a1' })
+CREATE ( d8bcb543-3948-43fd-937b-2782138b9deb{ _id:'d8bcb543-3948-43fd-937b-2782138b9deb', _uri:'http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb', rdfs_label:'d8bcb543-3948-43fd-937b-2782138b9deb' })
+CREATE ( e69e6cb2-cded-446c-b159-daec78476f43_geom{ _id:'e69e6cb2-cded-446c-b159-daec78476f43_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom', rdfs_label:'e69e6cb2-cded-446c-b159-daec78476f43_geom' })
+CREATE ( 4326> POINT (23.949167 43.938056){ _id:'4326> POINT (23.949167 43.938056)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.949167 43.938056)', rdfs_label:'4326> POINT (23.949167 43.938056)' })
+CREATE ( Kastell Căciulătești Geometry{ _id:'Kastell Căciulătești Geometry', _uri:'Kastell Căciulătești Geometry', rdfs_label:'Kastell Căciulătești Geometry' })
+CREATE ( 1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom{ _id:'1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom', rdfs_label:'1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom' })
+CREATE ( 4326> POINT (24.272806 45.523639){ _id:'4326> POINT (24.272806 45.523639)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.272806 45.523639)', rdfs_label:'4326> POINT (24.272806 45.523639)' })
+CREATE ( Kastell Râul Vadului Geometry{ _id:'Kastell Râul Vadului Geometry', _uri:'Kastell Râul Vadului Geometry', rdfs_label:'Kastell Râul Vadului Geometry' })
+CREATE ( 918ef494-4408-4a91-8ee0-61f6087ffee7{ _id:'918ef494-4408-4a91-8ee0-61f6087ffee7', _uri:'http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7', rdfs_label:'918ef494-4408-4a91-8ee0-61f6087ffee7' })
+CREATE ( Kastell Surducul Mare{ _id:'Kastell Surducul Mare', _uri:'Kastell Surducul Mare', rdfs_label:'Kastell Surducul Mare' })
+CREATE ( 707cb61a-d04e-4c7b-a620-6587db82f116{ _id:'707cb61a-d04e-4c7b-a620-6587db82f116', _uri:'http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116', rdfs_label:'707cb61a-d04e-4c7b-a620-6587db82f116' })
+CREATE ( Kastell Purcăreni{ _id:'Kastell Purcăreni', _uri:'Kastell Purcăreni', rdfs_label:'Kastell Purcăreni' })
+CREATE ( e3899f66-1234-4a44-b16e-2ead1e0bf696_geom{ _id:'e3899f66-1234-4a44-b16e-2ead1e0bf696_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom', rdfs_label:'e3899f66-1234-4a44-b16e-2ead1e0bf696_geom' })
+CREATE ( 4326> POINT (24.866611 45.842519){ _id:'4326> POINT (24.866611 45.842519)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.866611 45.842519)', rdfs_label:'4326> POINT (24.866611 45.842519)' })
+CREATE ( Kastell Cincsor Geometry{ _id:'Kastell Cincsor Geometry', _uri:'Kastell Cincsor Geometry', rdfs_label:'Kastell Cincsor Geometry' })
+CREATE ( 34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom{ _id:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom', rdfs_label:'34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom' })
+CREATE ( 4326> POINT (24.917722 44.172583){ _id:'4326> POINT (24.917722 44.172583)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.917722 44.172583)', rdfs_label:'4326> POINT (24.917722 44.172583)' })
+CREATE ( Kastell Gresia Geometry{ _id:'Kastell Gresia Geometry', _uri:'Kastell Gresia Geometry', rdfs_label:'Kastell Gresia Geometry' })
+CREATE ( 6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0{ _id:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0', _uri:'http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0', rdfs_label:'6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0' })
+CREATE ( Kastell Băneasa I{ _id:'Kastell Băneasa I', _uri:'Kastell Băneasa I', rdfs_label:'Kastell Băneasa I' })
+CREATE ( 0f25c729-a3c7-4cb4-b063-ff72c0124b4f{ _id:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f', _uri:'http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f', rdfs_label:'0f25c729-a3c7-4cb4-b063-ff72c0124b4f' })
+CREATE ( Kastell Urluieni I{ _id:'Kastell Urluieni I', _uri:'Kastell Urluieni I', rdfs_label:'Kastell Urluieni I' })
+CREATE ( c3a471a8-ab67-4e9c-b127-1eff017b0cb4{ _id:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4', _uri:'http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4', rdfs_label:'c3a471a8-ab67-4e9c-b127-1eff017b0cb4' })
+CREATE ( Kastell Albota{ _id:'Kastell Albota', _uri:'Kastell Albota', rdfs_label:'Kastell Albota' })
+CREATE ( 7cadca30-bfd9-4628-9916-c20eecafa356{ _id:'7cadca30-bfd9-4628-9916-c20eecafa356', _uri:'http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356', rdfs_label:'7cadca30-bfd9-4628-9916-c20eecafa356' })
+CREATE ( Kastell Stolniceni{ _id:'Kastell Stolniceni', _uri:'Kastell Stolniceni', rdfs_label:'Kastell Stolniceni' })
+CREATE ( 986efe66-cf8a-4b64-a488-ad95d0f2dd79{ _id:'986efe66-cf8a-4b64-a488-ad95d0f2dd79', _uri:'http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79', rdfs_label:'986efe66-cf8a-4b64-a488-ad95d0f2dd79' })
+CREATE ( Kastell Tihău{ _id:'Kastell Tihău', _uri:'Kastell Tihău', rdfs_label:'Kastell Tihău' })
+CREATE ( 7cb289bf-4a31-467d-9c9d-4271a8dc55c9{ _id:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9', _uri:'http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9', rdfs_label:'7cb289bf-4a31-467d-9c9d-4271a8dc55c9' })
+CREATE ( Kastell Boiţa (Caput Stenarum) { _id:'Kastell Boiţa (Caput Stenarum) ', _uri:'Kastell Boiţa (Caput Stenarum) ', rdfs_label:'Kastell Boiţa (Caput Stenarum) ' })
+CREATE ( 9b62118c-9936-42f2-a6e7-49f649c937f2_geom{ _id:'9b62118c-9936-42f2-a6e7-49f649c937f2_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom', rdfs_label:'9b62118c-9936-42f2-a6e7-49f649c937f2_geom' })
+CREATE ( 4326> POINT (23.4 45.166667){ _id:'4326> POINT (23.4 45.166667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.4 45.166667)', rdfs_label:'4326> POINT (23.4 45.166667)' })
+CREATE ( Kastell Bumbeşti Geometry{ _id:'Kastell Bumbeşti Geometry', _uri:'Kastell Bumbeşti Geometry', rdfs_label:'Kastell Bumbeşti Geometry' })
+CREATE ( f42bb013-afeb-4044-9886-ece53cc813d4{ _id:'f42bb013-afeb-4044-9886-ece53cc813d4', _uri:'http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4', rdfs_label:'f42bb013-afeb-4044-9886-ece53cc813d4' })
+CREATE ( Kastell Sutoru{ _id:'Kastell Sutoru', _uri:'Kastell Sutoru', rdfs_label:'Kastell Sutoru' })
+CREATE ( 1795d125-e071-4153-b07e-e147bb19ad65{ _id:'1795d125-e071-4153-b07e-e147bb19ad65', _uri:'http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65', rdfs_label:'1795d125-e071-4153-b07e-e147bb19ad65' })
+CREATE ( Kastell Comalău{ _id:'Kastell Comalău', _uri:'Kastell Comalău', rdfs_label:'Kastell Comalău' })
+CREATE ( 1c936059-6af8-4f03-8e18-cc61f529c5f3_geom{ _id:'1c936059-6af8-4f03-8e18-cc61f529c5f3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom', rdfs_label:'1c936059-6af8-4f03-8e18-cc61f529c5f3_geom' })
+CREATE ( 4326> POINT (23.157319 47.179167){ _id:'4326> POINT (23.157319 47.179167)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.157319 47.179167)', rdfs_label:'4326> POINT (23.157319 47.179167)' })
+CREATE ( Kastelle von Porolissum Geometry{ _id:'Kastelle von Porolissum Geometry', _uri:'Kastelle von Porolissum Geometry', rdfs_label:'Kastelle von Porolissum Geometry' })
+CREATE ( 7c3bf06c-8f79-457e-b56f-77da98c7a69b{ _id:'7c3bf06c-8f79-457e-b56f-77da98c7a69b', _uri:'http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b', rdfs_label:'7c3bf06c-8f79-457e-b56f-77da98c7a69b' })
+CREATE ( Kastell Băneasa II{ _id:'Kastell Băneasa II', _uri:'Kastell Băneasa II', rdfs_label:'Kastell Băneasa II' })
+CREATE ( 5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom{ _id:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom', rdfs_label:'5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom' })
+CREATE ( 4326> POINT (25.012472 45.22075){ _id:'4326> POINT (25.012472 45.22075)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012472 45.22075)', rdfs_label:'4326> POINT (25.012472 45.22075)' })
+CREATE ( Kastell Câmpulung Muscel I Geometry{ _id:'Kastell Câmpulung Muscel I Geometry', _uri:'Kastell Câmpulung Muscel I Geometry', rdfs_label:'Kastell Câmpulung Muscel I Geometry' })
+CREATE ( 322e89c0-f571-4be4-a08c-84b35efb69e5{ _id:'322e89c0-f571-4be4-a08c-84b35efb69e5', _uri:'http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5', rdfs_label:'322e89c0-f571-4be4-a08c-84b35efb69e5' })
+CREATE ( Kastell Sânpaul{ _id:'Kastell Sânpaul', _uri:'Kastell Sânpaul', rdfs_label:'Kastell Sânpaul' })
+CREATE ( 0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom{ _id:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom', rdfs_label:'0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom' })
+CREATE ( 4326> POINT (23.164364 45.897053){ _id:'4326> POINT (23.164364 45.897053)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.164364 45.897053)', rdfs_label:'4326> POINT (23.164364 45.897053)' })
+CREATE ( Kastell Cigmău Geometry{ _id:'Kastell Cigmău Geometry', _uri:'Kastell Cigmău Geometry', rdfs_label:'Kastell Cigmău Geometry' })
+CREATE ( ed79872f-dcb1-48d0-a008-5a3c65432a67_geom{ _id:'ed79872f-dcb1-48d0-a008-5a3c65432a67_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom', rdfs_label:'ed79872f-dcb1-48d0-a008-5a3c65432a67_geom' })
+CREATE ( 4326> POINT (21.315097 46.146819){ _id:'4326> POINT (21.315097 46.146819)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.315097 46.146819)', rdfs_label:'4326> POINT (21.315097 46.146819)' })
+CREATE ( Kastell Aradul Nou Geometry{ _id:'Kastell Aradul Nou Geometry', _uri:'Kastell Aradul Nou Geometry', rdfs_label:'Kastell Aradul Nou Geometry' })
+CREATE ( 096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom{ _id:'096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom', rdfs_label:'096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom' })
+CREATE ( 4326> POINT (24.309861 45.395903){ _id:'4326> POINT (24.309861 45.395903)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.309861 45.395903)', rdfs_label:'4326> POINT (24.309861 45.395903)' })
+CREATE ( Kastell Copăceni (Praetorium I) Geometry{ _id:'Kastell Copăceni (Praetorium I) Geometry', _uri:'Kastell Copăceni (Praetorium I) Geometry', rdfs_label:'Kastell Copăceni (Praetorium I) Geometry' })
+CREATE ( 4e013c45-7445-4ea6-8356-2c9cc9e7ac6e{ _id:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e', _uri:'http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e', rdfs_label:'4e013c45-7445-4ea6-8356-2c9cc9e7ac6e' })
+CREATE ( Kastell Gilău{ _id:'Kastell Gilău', _uri:'Kastell Gilău', rdfs_label:'Kastell Gilău' })
+CREATE ( 5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom{ _id:'5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom', rdfs_label:'5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom' })
+CREATE ( 4326> POINT (23.899911 47.019833){ _id:'4326> POINT (23.899911 47.019833)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.899911 47.019833)', rdfs_label:'4326> POINT (23.899911 47.019833)' })
+CREATE ( Kastell Gherla Geometry{ _id:'Kastell Gherla Geometry', _uri:'Kastell Gherla Geometry', rdfs_label:'Kastell Gherla Geometry' })
+CREATE ( 497eff64-e309-4704-b5f0-3e2872ff379d{ _id:'497eff64-e309-4704-b5f0-3e2872ff379d', _uri:'http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d', rdfs_label:'497eff64-e309-4704-b5f0-3e2872ff379d' })
+CREATE ( Legionslager Potaissa{ _id:'Legionslager Potaissa', _uri:'Legionslager Potaissa', rdfs_label:'Legionslager Potaissa' })
+CREATE ( 3680e065-f377-4f4d-a9d6-84523dcb1727{ _id:'3680e065-f377-4f4d-a9d6-84523dcb1727', _uri:'http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727', rdfs_label:'3680e065-f377-4f4d-a9d6-84523dcb1727' })
+CREATE ( Kastell Brețcu { _id:'Kastell Brețcu ', _uri:'Kastell Brețcu ', rdfs_label:'Kastell Brețcu ' })
+CREATE ( 986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom{ _id:'986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom', rdfs_label:'986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom' })
+CREATE ( 4326> POINT (23.327689 47.227733){ _id:'4326> POINT (23.327689 47.227733)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.327689 47.227733)', rdfs_label:'4326> POINT (23.327689 47.227733)' })
+CREATE ( Kastell Tihău Geometry{ _id:'Kastell Tihău Geometry', _uri:'Kastell Tihău Geometry', rdfs_label:'Kastell Tihău Geometry' })
+CREATE ( e811fe5a-92d2-43a0-a572-51bc5942e242{ _id:'e811fe5a-92d2-43a0-a572-51bc5942e242', _uri:'http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242', rdfs_label:'e811fe5a-92d2-43a0-a572-51bc5942e242' })
+CREATE ( Kastell Aizis{ _id:'Kastell Aizis', _uri:'Kastell Aizis', rdfs_label:'Kastell Aizis' })
+CREATE ( 000d5176-6b9e-4065-a44f-d7b8f75b1199_geom{ _id:'000d5176-6b9e-4065-a44f-d7b8f75b1199_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom', rdfs_label:'000d5176-6b9e-4065-a44f-d7b8f75b1199_geom' })
+CREATE ( 4326> POINT (23.166667 45.733333){ _id:'4326> POINT (23.166667 45.733333)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.166667 45.733333)', rdfs_label:'4326> POINT (23.166667 45.733333)' })
+CREATE ( Kastell Orăştioara de Sus Geometry{ _id:'Kastell Orăştioara de Sus Geometry', _uri:'Kastell Orăştioara de Sus Geometry', rdfs_label:'Kastell Orăştioara de Sus Geometry' })
+CREATE ( 0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom{ _id:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom', rdfs_label:'0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom' })
+CREATE ( 4326> POINT (23.837639 47.186222){ _id:'4326> POINT (23.837639 47.186222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.837639 47.186222)', rdfs_label:'4326> POINT (23.837639 47.186222)' })
+CREATE ( Kastell Căşeiu (Samum) Geometry{ _id:'Kastell Căşeiu (Samum) Geometry', _uri:'Kastell Căşeiu (Samum) Geometry', rdfs_label:'Kastell Căşeiu (Samum) Geometry' })
+CREATE ( 10b043a5-bb2b-48af-a168-84046185d6f7_geom{ _id:'10b043a5-bb2b-48af-a168-84046185d6f7_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7_geom', rdfs_label:'10b043a5-bb2b-48af-a168-84046185d6f7_geom' })
+CREATE ( 4326> POINT (23.098056 44.9075){ _id:'4326> POINT (23.098056 44.9075)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.098056 44.9075)', rdfs_label:'4326> POINT (23.098056 44.9075)' })
+CREATE ( Kastell Pinoasa Geometry{ _id:'Kastell Pinoasa Geometry', _uri:'Kastell Pinoasa Geometry', rdfs_label:'Kastell Pinoasa Geometry' })
+CREATE ( 06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom{ _id:'06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom', rdfs_label:'06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom' })
+CREATE ( 4326> POINT (24.27 44.650306){ _id:'4326> POINT (24.27 44.650306)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.27 44.650306)', rdfs_label:'4326> POINT (24.27 44.650306)' })
+CREATE ( Kastell Momoteşti (Rusidava) Geometry{ _id:'Kastell Momoteşti (Rusidava) Geometry', _uri:'Kastell Momoteşti (Rusidava) Geometry', rdfs_label:'Kastell Momoteşti (Rusidava) Geometry' })
+CREATE ( 9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom{ _id:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom', rdfs_label:'9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom' })
+CREATE ( 4326> POINT (24.312389 45.309667){ _id:'4326> POINT (24.312389 45.309667)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.312389 45.309667)', rdfs_label:'4326> POINT (24.312389 45.309667)' })
+CREATE ( Kastell Bivolari (Arutela) Geometry{ _id:'Kastell Bivolari (Arutela) Geometry', _uri:'Kastell Bivolari (Arutela) Geometry', rdfs_label:'Kastell Bivolari (Arutela) Geometry' })
+CREATE ( 1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom{ _id:'1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom', rdfs_label:'1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom' })
+CREATE ( 4326> POINT (23.068611 46.272222){ _id:'4326> POINT (23.068611 46.272222)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.068611 46.272222)', rdfs_label:'4326> POINT (23.068611 46.272222)' })
+CREATE ( Kastell Abrud (Alburnus Maior) Geometry{ _id:'Kastell Abrud (Alburnus Maior) Geometry', _uri:'Kastell Abrud (Alburnus Maior) Geometry', rdfs_label:'Kastell Abrud (Alburnus Maior) Geometry' })
+CREATE ( 19360a61-a15a-4d56-a100-f3be57e93ff1_geom{ _id:'19360a61-a15a-4d56-a100-f3be57e93ff1_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom', rdfs_label:'19360a61-a15a-4d56-a100-f3be57e93ff1_geom' })
+CREATE ( 4326> POINT (23.571889 44.514111){ _id:'4326> POINT (23.571889 44.514111)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571889 44.514111)', rdfs_label:'4326> POINT (23.571889 44.514111)' })
+CREATE ( Kastell Mofleni (Pelendava) Geometry{ _id:'Kastell Mofleni (Pelendava) Geometry', _uri:'Kastell Mofleni (Pelendava) Geometry', rdfs_label:'Kastell Mofleni (Pelendava) Geometry' })
+CREATE ( 0ab5e10e-4fb0-4854-835b-389043840ee0{ _id:'0ab5e10e-4fb0-4854-835b-389043840ee0', _uri:'http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0', rdfs_label:'0ab5e10e-4fb0-4854-835b-389043840ee0' })
+CREATE ( Kastell Lişteava{ _id:'Kastell Lişteava', _uri:'Kastell Lişteava', rdfs_label:'Kastell Lişteava' })
+CREATE ( 42d9c007-47e1-4b2a-ab2c-c381f93cac96{ _id:'42d9c007-47e1-4b2a-ab2c-c381f93cac96', _uri:'http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96', rdfs_label:'42d9c007-47e1-4b2a-ab2c-c381f93cac96' })
+CREATE ( Kastell Grebenac{ _id:'Kastell Grebenac', _uri:'Kastell Grebenac', rdfs_label:'Kastell Grebenac' })
+CREATE ( 4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa{ _id:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa', _uri:'http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa', rdfs_label:'4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa' })
+CREATE ( Kastell Flămănda (Poiana){ _id:'Kastell Flămănda (Poiana)', _uri:'Kastell Flămănda (Poiana)', rdfs_label:'Kastell Flămănda (Poiana)' })
+CREATE ( 7b05b48b-cd48-4c66-916e-6ea581179843{ _id:'7b05b48b-cd48-4c66-916e-6ea581179843', _uri:'http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843', rdfs_label:'7b05b48b-cd48-4c66-916e-6ea581179843' })
+CREATE ( Kastell Islaz-Verdea{ _id:'Kastell Islaz-Verdea', _uri:'Kastell Islaz-Verdea', rdfs_label:'Kastell Islaz-Verdea' })
+CREATE ( d2adbbd5-f4a7-471d-a817-b28e37bcbfb1{ _id:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1', _uri:'http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1', rdfs_label:'d2adbbd5-f4a7-471d-a817-b28e37bcbfb1' })
+CREATE (  Alenkastell{ _id:' Alenkastell', _uri:'Kohortenkastell / Alenkastell', rdfs_label:' Alenkastell' })
+CREATE ( Kastell Banatska Palanka{ _id:'Kastell Banatska Palanka', _uri:'Kastell Banatska Palanka', rdfs_label:'Kastell Banatska Palanka' })
+CREATE ( 9ba7d74c-175e-48c8-9403-dbbdd650ed22{ _id:'9ba7d74c-175e-48c8-9403-dbbdd650ed22', _uri:'http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22', rdfs_label:'9ba7d74c-175e-48c8-9403-dbbdd650ed22' })
+CREATE ( Kastell Cristeşti{ _id:'Kastell Cristeşti', _uri:'Kastell Cristeşti', rdfs_label:'Kastell Cristeşti' })
+CREATE ( 19360a61-a15a-4d56-a100-f3be57e93ff1{ _id:'19360a61-a15a-4d56-a100-f3be57e93ff1', _uri:'http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1', rdfs_label:'19360a61-a15a-4d56-a100-f3be57e93ff1' })
+CREATE ( Kastell Mofleni (Pelendava){ _id:'Kastell Mofleni (Pelendava)', _uri:'Kastell Mofleni (Pelendava)', rdfs_label:'Kastell Mofleni (Pelendava)' })
+CREATE ( 9a084d40-bf5c-42fa-8aa7-8c678524c631{ _id:'9a084d40-bf5c-42fa-8aa7-8c678524c631', _uri:'http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631', rdfs_label:'9a084d40-bf5c-42fa-8aa7-8c678524c631' })
+CREATE ( Kastell Racoviţa (Praetorium II){ _id:'Kastell Racoviţa (Praetorium II)', _uri:'Kastell Racoviţa (Praetorium II)', rdfs_label:'Kastell Racoviţa (Praetorium II)' })
+CREATE ( 7e6b0abd-392e-48da-a973-52db57e43459{ _id:'7e6b0abd-392e-48da-a973-52db57e43459', _uri:'http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459', rdfs_label:'7e6b0abd-392e-48da-a973-52db57e43459' })
+CREATE ( Kastell Berzovia { _id:'Kastell Berzovia ', _uri:'Kastell Berzovia ', rdfs_label:'Kastell Berzovia ' })
+CREATE ( 5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom{ _id:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom', rdfs_label:'5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom' })
+CREATE ( 4326> POINT (25.300011 45.983367){ _id:'4326> POINT (25.300011 45.983367)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.300011 45.983367)', rdfs_label:'4326> POINT (25.300011 45.983367)' })
+CREATE ( Kastell Hoghiz Geometry{ _id:'Kastell Hoghiz Geometry', _uri:'Kastell Hoghiz Geometry', rdfs_label:'Kastell Hoghiz Geometry' })
+CREATE ( f35f2d3f-8925-4139-9e9b-cf07ee5aaecb{ _id:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb', _uri:'http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb', rdfs_label:'f35f2d3f-8925-4139-9e9b-cf07ee5aaecb' })
+CREATE ( Kastell Borosneu Mare{ _id:'Kastell Borosneu Mare', _uri:'Kastell Borosneu Mare', rdfs_label:'Kastell Borosneu Mare' })
+CREATE ( 1b4b9c1f-cb64-4c02-976d-61c2147b0705{ _id:'1b4b9c1f-cb64-4c02-976d-61c2147b0705', _uri:'http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705', rdfs_label:'1b4b9c1f-cb64-4c02-976d-61c2147b0705' })
+CREATE ( Kastell Râul Vadului{ _id:'Kastell Râul Vadului', _uri:'Kastell Râul Vadului', rdfs_label:'Kastell Râul Vadului' })
+CREATE ( 120e3991-1f39-4359-b810-37bb24aff05c_geom{ _id:'120e3991-1f39-4359-b810-37bb24aff05c_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom', rdfs_label:'120e3991-1f39-4359-b810-37bb24aff05c_geom' })
+CREATE ( 4326> POINT (23.172444 47.106944){ _id:'4326> POINT (23.172444 47.106944)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.172444 47.106944)', rdfs_label:'4326> POINT (23.172444 47.106944)' })
+CREATE ( Kastell Romita Geometry{ _id:'Kastell Romita Geometry', _uri:'Kastell Romita Geometry', rdfs_label:'Kastell Romita Geometry' })
+CREATE ( fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e{ _id:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e', _uri:'http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e', rdfs_label:'fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e' })
+CREATE ( Legionslager Alba Julia{ _id:'Legionslager Alba Julia', _uri:'Legionslager Alba Julia', rdfs_label:'Legionslager Alba Julia' })
+CREATE ( e69e6cb2-cded-446c-b159-daec78476f43{ _id:'e69e6cb2-cded-446c-b159-daec78476f43', _uri:'http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43', rdfs_label:'e69e6cb2-cded-446c-b159-daec78476f43' })
+CREATE ( Kastell Căciulătești{ _id:'Kastell Căciulătești', _uri:'Kastell Căciulătești', rdfs_label:'Kastell Căciulătești' })
+CREATE ( bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom{ _id:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom', _uri:'http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom', rdfs_label:'bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom' })
+CREATE ( 4326> POINT (24.752103 46.239431){ _id:'4326> POINT (24.752103 46.239431)', _uri:'<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.752103 46.239431)', rdfs_label:'4326> POINT (24.752103 46.239431)' })
+CREATE ( Kastell Sighisoara Geometry{ _id:'Kastell Sighisoara Geometry', _uri:'Kastell Sighisoara Geometry', rdfs_label:'Kastell Sighisoara Geometry' })
 
 
 CREATE (0)-[:MilitaryCamp]->(type),
-(0)-[:0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom]->(hasGeometry),
+(0)-[:7422f9df-da23-450f-8eac-db2d8dfca42e_geom]->(hasGeometry),
 (0)-[:nan]->(comment),
-(0)-[:Kastell Urluieni I]->(label),
+(0)-[:Kastell Livezile]->(label),
 (5)-[:Point]->(type),
-(5)-[:4326> POINT (22.3522 44.9229)]->(asWKT),
-(5)-[:Kastell Mehadia (Praetorium) Geometry]->(label),
+(5)-[:4326> POINT (22.410833 45.525278)]->(asWKT),
+(5)-[:Kastell Zăvoi (Acmonia ?) Geometry]->(label),
 (9)-[:MilitaryCamp]->(type),
-(9)-[:0ab5e10e-4fb0-4854-835b-389043840ee0_geom]->(hasGeometry),
+(9)-[:80ce787b-1ab0-42e7-b03c-c641d3767774_geom]->(hasGeometry),
 (9)-[:nan]->(comment),
-(9)-[:Kastell Lişteava]->(label),
-(12)-[:MilitaryCamp]->(type),
-(12)-[:af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom]->(hasGeometry),
-(12)-[:nan]->(comment),
-(12)-[:Kastell Sămbotin (Castra Traiana)]->(label),
-(15)-[:MilitaryCamp]->(type),
-(15)-[:5e33b468-4135-46b4-babc-99f5c423f966_geom]->(hasGeometry),
-(15)-[:Kohortenkastell (?)]->(comment),
-(15)-[:Kastell Szeged]->(label),
-(19)-[:Point]->(type),
-(19)-[:4326> POINT (24.57075 47.186869)]->(asWKT),
-(19)-[:Kastell Livezile Geometry]->(label),
-(22)-[:Point]->(type),
-(22)-[:4326> POINT (24.8945 44.958083)]->(asWKT),
-(22)-[:Kastell Purcăreni Geometry]->(label),
-(25)-[:Point]->(type),
-(25)-[:4326> POINT (20.629444 46.072222)]->(asWKT),
-(25)-[:Kastell Sânnicolau Mare Geometry]->(label),
-(28)-[:MilitaryCamp]->(type),
-(28)-[:9a084d40-bf5c-42fa-8aa7-8c678524c631_geom]->(hasGeometry),
-(28)-[:nan]->(comment),
-(28)-[:Kastell Racoviţa (Praetorium II)]->(label),
+(9)-[:Kastell Perisani]->(label),
+(12)-[:LegionaryCamp]->(type),
+(12)-[:87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom]->(hasGeometry),
+(12)-[:Legionslager]->(comment),
+(12)-[:Kastell Vețel]->(label),
+(17)-[:MilitaryCamp]->(type),
+(17)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom]->(hasGeometry),
+(17)-[:Kohortenkastell]->(comment),
+(17)-[:Kastell Călugăreni]->(label),
+(21)-[:Point]->(type),
+(21)-[:4326> POINT (24.870833 43.751667)]->(asWKT),
+(21)-[:Kastell Islaz-Razovica Geometry]->(label),
+(24)-[:MilitaryCamp]->(type),
+(24)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom]->(hasGeometry),
+(24)-[:nan]->(comment),
+(24)-[:Kastell Câmpulung Muscel I]->(label),
+(27)-[:MilitaryCamp]->(type),
+(27)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom]->(hasGeometry),
+(27)-[:Auxiliarkastell]->(comment),
+(27)-[:Kastell Cigmău ]->(label),
 (31)-[:Point]->(type),
-(31)-[:4326> POINT (24.877311 46.628978)]->(asWKT),
-(31)-[:Kastell Călugăreni Geometry]->(label),
-(34)-[:Point]->(type),
-(34)-[:4326> POINT (24.095361 47.210528)]->(asWKT),
-(34)-[:Kastell Ilişua (Arcobara) Geometry]->(label),
-(37)-[:Point]->(type),
-(37)-[:4326> POINT (25.076083 45.297833)]->(asWKT),
-(37)-[:Kastell Voineşti Geometry]->(label),
-(40)-[:Point]->(type),
-(40)-[:4326> POINT (24.983333 43.7345)]->(asWKT),
-(40)-[:Kastell Flămănda (Poiana) Geometry]->(label),
-(43)-[:MilitaryCamp]->(type),
-(43)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom]->(hasGeometry),
-(43)-[: Alenkastell]->(comment),
-(43)-[:Kastell Banatska Palanka]->(label),
+(31)-[:4326> POINT (24.763556 44.707333)]->(asWKT),
+(31)-[:Kastell Săpata de Jos I Geometry]->(label),
+(34)-[:MilitaryCamp]->(type),
+(34)-[:b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom]->(hasGeometry),
+(34)-[:nan]->(comment),
+(34)-[:Kastell Slăveni]->(label),
+(37)-[:MilitaryCamp]->(type),
+(37)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom]->(hasGeometry),
+(37)-[:Kohortenkastell (?)]->(comment),
+(37)-[:Kastell Bulci]->(label),
+(41)-[:Point]->(type),
+(41)-[:4326> POINT (24.400833 44.166667)]->(asWKT),
+(41)-[:Malva) Geometry]->(label),
+(44)-[:Point]->(type),
+(44)-[:4326> POINT (23.772733 46.570536)]->(asWKT),
+(44)-[:Legionslager Potaissa Geometry]->(label),
 (47)-[:Point]->(type),
-(47)-[:4326> POINT (24.400833 44.166667)]->(asWKT),
-(47)-[:Malva) Geometry]->(label),
-(50)-[:MilitaryCamp]->(type),
-(50)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom]->(hasGeometry),
-(50)-[:nan]->(comment),
-(50)-[:Kastell Jiblea]->(label),
-(53)-[:MilitaryCamp]->(type),
-(53)-[:340738ca-7444-4896-a0fd-cd9e6806eb30_geom]->(hasGeometry),
-(53)-[:nan]->(comment),
-(53)-[:Kastell Mehadia (Praetorium)]->(label),
-(55)-[:MilitaryCamp]->(type),
-(55)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom]->(hasGeometry),
-(55)-[:nan]->(comment),
-(55)-[:Kastell Fâlfani]->(label),
-(58)-[:MilitaryCamp]->(type),
-(58)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom]->(hasGeometry),
-(58)-[:Auxiliarkastell]->(comment),
-(58)-[:Kastell Hoghiz]->(label),
-(62)-[:MilitaryCamp]->(type),
-(62)-[:707cb61a-d04e-4c7b-a620-6587db82f116_geom]->(hasGeometry),
-(62)-[:nan]->(comment),
-(62)-[:Kastell Purcăreni]->(label),
-(64)-[:MilitaryCamp]->(type),
-(64)-[:a6ec226a-3c2a-444a-9221-839201e1135f_geom]->(hasGeometry),
-(64)-[:nan]->(comment),
-(64)-[:Kastell Săpata de Jos I]->(label),
+(47)-[:4326> POINT (24.96525 43.937806)]->(asWKT),
+(47)-[:Kastell Băneasa I Geometry]->(label),
+(50)-[:Point]->(type),
+(50)-[:4326> POINT (23.868333 46.417222)]->(asWKT),
+(50)-[:Kastell Războieni Geometry]->(label),
+(53)-[:Point]->(type),
+(53)-[:4326> POINT (24.373611 45.173611)]->(asWKT),
+(53)-[:Kastell Sămbotin (Castra Traiana) Geometry]->(label),
+(56)-[:MilitaryCamp]->(type),
+(56)-[:50320dbe-929c-40e3-aebd-f8f257d6472a_geom]->(hasGeometry),
+(56)-[:nan]->(comment),
+(56)-[:Kastell Castranova]->(label),
+(59)-[:MilitaryCamp]->(type),
+(59)-[:46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom]->(hasGeometry),
+(59)-[:nan]->(comment),
+(59)-[:Kastell Plesa]->(label),
+(62)-[:Point]->(type),
+(62)-[:4326> POINT (21.629394 45.426539)]->(asWKT),
+(62)-[:Kastell Berzovia Geometry]->(label),
+(65)-[:MilitaryCamp]->(type),
+(65)-[:af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom]->(hasGeometry),
+(65)-[:nan]->(comment),
+(65)-[:Kastell Sămbotin (Castra Traiana)]->(label),
 (67)-[:MilitaryCamp]->(type),
-(67)-[:bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom]->(hasGeometry),
+(67)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf_geom]->(hasGeometry),
 (67)-[:nan]->(comment),
-(67)-[:Kastell Odorheiul Secuiesc]->(label),
+(67)-[:Kastell Căineni (Pons Vetus ?)]->(label),
 (70)-[:MilitaryCamp]->(type),
 (70)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom]->(hasGeometry),
 (70)-[:nan]->(comment),
 (70)-[:Kastell Abrud (Alburnus Maior)]->(label),
-(73)-[:Point]->(type),
-(73)-[:4326> POINT (24.236111 44.883333)]->(asWKT),
-(73)-[:Kastell IIoneștii Govorii (Pons Aluti) Geometry]->(label),
+(73)-[:MilitaryCamp]->(type),
+(73)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom]->(hasGeometry),
+(73)-[:nan]->(comment),
+(73)-[:Kastell Brâncoveneşti]->(label),
 (76)-[:Point]->(type),
 (76)-[:4326> POINT (24.592319 47.096014)]->(asWKT),
 (76)-[:Kastell Orheiul Bistriţei Geometry]->(label),
-(79)-[:Point]->(type),
-(79)-[:4326> POINT (22.786822 45.51665)]->(asWKT),
-(79)-[:Kastell Sarmizegetusa (Ulpia Traiana) Geometry]->(label),
+(79)-[:MilitaryCamp]->(type),
+(79)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom]->(hasGeometry),
+(79)-[:nan]->(comment),
+(79)-[:Kastell Gresia]->(label),
 (82)-[:Point]->(type),
-(82)-[:4326> POINT (26.016986 45.843861)]->(asWKT),
-(82)-[:Kastell Borosneu Mare Geometry]->(label),
-(85)-[:MilitaryCamp]->(type),
-(85)-[:9b62118c-9936-42f2-a6e7-49f649c937f2_geom]->(hasGeometry),
-(85)-[:nan]->(comment),
-(85)-[:Kastell Bumbeşti]->(label),
+(82)-[:4326> POINT (25.012694 45.221)]->(asWKT),
+(82)-[:Kastell Câmpulung Muscel II Geometry]->(label),
+(85)-[:Point]->(type),
+(85)-[:4326> POINT (23.37 45.18)]->(asWKT),
+(85)-[:Kastell Plesa Geometry]->(label),
 (88)-[:Point]->(type),
-(88)-[:4326> POINT (24.016667 44.116667)]->(asWKT),
-(88)-[:Kastell Castranova Geometry]->(label),
+(88)-[:4326> POINT (24.761417 44.485833)]->(asWKT),
+(88)-[:Kastell Urluieni I Geometry]->(label),
 (91)-[:Point]->(type),
-(91)-[:4326> POINT (24.937389 44.061333)]->(asWKT),
-(91)-[:Kastell Valea Urluii Geometry]->(label),
-(94)-[:MilitaryCamp]->(type),
-(94)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom]->(hasGeometry),
-(94)-[:nan]->(comment),
-(94)-[:Kastell Ghioca]->(label),
-(97)-[:MilitaryCamp]->(type),
-(97)-[:b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom]->(hasGeometry),
-(97)-[:nan]->(comment),
-(97)-[:Kastell Slăveni]->(label),
+(91)-[:4326> POINT (20.629444 46.072222)]->(asWKT),
+(91)-[:Kastell Sânnicolau Mare Geometry]->(label),
+(94)-[:Point]->(type),
+(94)-[:4326> POINT (24.8375 44.771389)]->(asWKT),
+(94)-[:Kastell Albota Geometry]->(label),
+(97)-[:Point]->(type),
+(97)-[:4326> POINT (24.965361 43.897806)]->(asWKT),
+(97)-[:Kastell Putineiu Geometry]->(label),
 (100)-[:Point]->(type),
-(100)-[:4326> POINT (21.300194 45.122669)]->(asWKT),
-(100)-[:Kastell Vršac Geometry]->(label),
+(100)-[:4326> POINT (22.884611 46.885694)]->(asWKT),
+(100)-[:Kastell Bologa (Resculum) Geometry]->(label),
 (103)-[:Point]->(type),
-(103)-[:4326> POINT (23.251667 46.986086)]->(asWKT),
-(103)-[:Kastell Sutoru Geometry]->(label),
-(106)-[:Point]->(type),
-(106)-[:4326> POINT (24.476111 46.510556)]->(asWKT),
-(106)-[:Kastell Cristeşti Geometry]->(label),
-(109)-[:Collection]->(type),
-(109)-[:FeatureCollection Instances Collection]->(label),
-(109)-[:LimesDaicusFeatures]->(member),
-(109)-[:LimesNoricumFeatures]->(member),
-(114)-[:Point]->(type),
-(114)-[:4326> POINT (25.121806 46.431319)]->(asWKT),
-(114)-[:Kastell Inlăceni Geometry]->(label),
-(117)-[:Point]->(type),
-(117)-[:4326> POINT (21.232794 44.897786)]->(asWKT),
-(117)-[:Kastell Grebenac Geometry]->(label),
+(103)-[:4326> POINT (23.92 43.834167)]->(asWKT),
+(103)-[:Kastell Lişteava Geometry]->(label),
+(106)-[:MilitaryCamp]->(type),
+(106)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom]->(hasGeometry),
+(106)-[:nan]->(comment),
+(106)-[:Kastell Jiblea]->(label),
+(109)-[:Point]->(type),
+(109)-[:4326> POINT (24.394444 45.409722)]->(asWKT),
+(109)-[:Kastell Titeşti Geometry]->(label),
+(112)-[:Point]->(type),
+(112)-[:4326> POINT (22.814906 45.914594)]->(asWKT),
+(112)-[:Kastell Vețel Geometry]->(label),
+(115)-[:MilitaryCamp]->(type),
+(115)-[:9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom]->(hasGeometry),
+(115)-[:nan]->(comment),
+(115)-[:Kastell Rădăcineşti]->(label),
+(118)-[:MilitaryCamp]->(type),
+(118)-[:3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom]->(hasGeometry),
+(118)-[:nan]->(comment),
+(118)-[:Kastell Orheiul Bistriţei]->(label),
 (120)-[:MilitaryCamp]->(type),
-(120)-[:986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom]->(hasGeometry),
-(120)-[:Kohortenkastell]->(comment),
-(120)-[:Kastell Tihău]->(label),
-(124)-[:Point]->(type),
-(124)-[:4326> POINT (21.551161 45.079397)]->(asWKT),
-(124)-[:Kastell Vărădia Geometry]->(label),
-(127)-[:MilitaryCamp]->(type),
-(127)-[:19360a61-a15a-4d56-a100-f3be57e93ff1_geom]->(hasGeometry),
-(127)-[:nan]->(comment),
-(127)-[:Kastell Mofleni (Pelendava)]->(label),
-(130)-[:MilitaryCamp]->(type),
-(130)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom]->(hasGeometry),
-(130)-[:nan]->(comment),
-(130)-[:Kastell Islaz-Razovica]->(label),
-(133)-[:Point]->(type),
-(133)-[:4326> POINT (23.098056 44.9075)]->(asWKT),
-(133)-[:Kastell Pinoasa Geometry]->(label),
-(136)-[:FeatureCollection]->(type),
-(136)-[:MilitaryCamp Instances Collection]->(label),
-(136)-[:0f25c729-a3c7-4cb4-b063-ff72c0124b4f]->(member),
-(136)-[:0ab5e10e-4fb0-4854-835b-389043840ee0]->(member),
-(136)-[:af909713-68f5-4b6d-89d5-03f7fc7fd5c1]->(member),
-(136)-[:5e33b468-4135-46b4-babc-99f5c423f966]->(member),
-(136)-[:9a084d40-bf5c-42fa-8aa7-8c678524c631]->(member),
-(136)-[:707cb61a-d04e-4c7b-a620-6587db82f116]->(member),
-(136)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1]->(member),
-(136)-[:340738ca-7444-4896-a0fd-cd9e6806eb30]->(member),
-(136)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac]->(member),
-(136)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44]->(member),
-(136)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce]->(member),
-(136)-[:a6ec226a-3c2a-444a-9221-839201e1135f]->(member),
-(136)-[:bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4]->(member),
-(136)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3]->(member),
-(136)-[:9b62118c-9936-42f2-a6e7-49f649c937f2]->(member),
-(136)-[:b0cccdd1-2478-40bc-add2-a0e1bad88feb]->(member),
-(136)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031]->(member),
-(136)-[:986efe66-cf8a-4b64-a488-ad95d0f2dd79]->(member),
-(136)-[:19360a61-a15a-4d56-a100-f3be57e93ff1]->(member),
-(136)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4]->(member),
-(136)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4]->(member),
-(136)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0]->(member),
-(136)-[:b0524f84-a9d2-45fa-9f69-d8164ad73440]->(member),
-(136)-[:5a43030f-b985-4444-8cf9-3e4a0b132d79]->(member),
-(136)-[:e2573931-d743-40c3-a6b7-08ffeb244daa]->(member),
-(136)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2]->(member),
-(136)-[:f42bb013-afeb-4044-9886-ece53cc813d4]->(member),
-(136)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed]->(member),
-(136)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3]->(member),
-(136)-[:322e89c0-f571-4be4-a08c-84b35efb69e5]->(member),
-(136)-[:10b043a5-bb2b-48af-a168-84046185d6f7]->(member),
-(136)-[:70d51242-571e-43ce-bd01-3bffca8cb4be]->(member),
-(136)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e]->(member),
-(136)-[:7b05b48b-cd48-4c66-916e-6ea581179843]->(member),
-(136)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c]->(member),
-(136)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a]->(member),
-(136)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf]->(member),
-(136)-[:000d5176-6b9e-4065-a44f-d7b8f75b1199]->(member),
-(136)-[:7422f9df-da23-450f-8eac-db2d8dfca42e]->(member),
-(136)-[:86dae60a-c827-480d-bb38-04a480b9ea01]->(member),
-(136)-[:0e91c0e7-3991-4a45-89ed-382f7c74731a]->(member),
-(136)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2]->(member),
-(136)-[:3f7e0b8c-1a5f-423f-85da-536d87bbdcc8]->(member),
-(136)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67]->(member),
-(136)-[:bd14e9f3-dd38-4329-a655-60b00fd8d5b7]->(member),
-(136)-[:c8ecf3da-c535-41df-b06e-298cd8542633]->(member),
-(136)-[:06eb8de4-750e-4ed9-ad04-9bf16d61c975]->(member),
-(136)-[:01189de6-024d-4022-96ff-eec7e4efee0c]->(member),
-(136)-[:7dd1742c-a3a5-4494-b148-1d435d754d5d]->(member),
-(136)-[:e811fe5a-92d2-43a0-a572-51bc5942e242]->(member),
-(136)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696]->(member),
-(136)-[:50320dbe-929c-40e3-aebd-f8f257d6472a]->(member),
-(136)-[:80ce787b-1ab0-42e7-b03c-c641d3767774]->(member),
-(136)-[:f8305d66-9429-43c0-b6e3-73721df9986b]->(member),
-(136)-[:42d9c007-47e1-4b2a-ab2c-c381f93cac96]->(member),
-(136)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa]->(member),
-(136)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22]->(member),
-(136)-[:0ccd99fd-62d1-4978-873a-106b1f5e3880]->(member),
-(136)-[:fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd]->(member),
-(136)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea]->(member),
-(136)-[:9f76d5fd-4ee3-4985-9fb6-c22bfdf43436]->(member),
-(136)-[:7cadca30-bfd9-4628-9916-c20eecafa356]->(member),
-(136)-[:c3451d14-c4ee-42be-b918-af9735167f5f]->(member),
-(136)-[:1795d125-e071-4153-b07e-e147bb19ad65]->(member),
-(136)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2]->(member),
-(136)-[:f81e10af-8e41-447d-b601-dcba5311199b]->(member),
-(136)-[:47a7d25e-6315-4256-b257-c2dfaea5e42f]->(member),
-(136)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786]->(member),
-(136)-[:b6e369cd-722a-4a1c-a984-538bb26f3777]->(member),
-(136)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace]->(member),
-(136)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d]->(member),
-(136)-[:1c936059-6af8-4f03-8e18-cc61f529c5f3]->(member),
-(136)-[:59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f]->(member),
-(136)-[:8fa245f8-ffe5-4e74-b259-410c7be91afd]->(member),
-(136)-[:8f823c04-d42b-49ec-879d-2c446d575885]->(member),
-(136)-[:7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc]->(member),
-(136)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9]->(member),
-(136)-[:4df4edbc-facd-42bd-b05e-076f94ae693b]->(member),
-(136)-[:cba75304-f136-465d-90fb-56dff3acc018]->(member),
-(136)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc]->(member),
-(136)-[:815f5c63-8478-4aac-bafb-11eaafa9a923]->(member),
-(136)-[:ec646e12-636f-4c8c-96c2-0f46833adf1c]->(member),
-(136)-[:918ef494-4408-4a91-8ee0-61f6087ffee7]->(member),
-(136)-[:1b4b9c1f-cb64-4c02-976d-61c2147b0705]->(member),
-(136)-[:b5cf0c45-ec51-4710-a03a-75e7dc30a7a3]->(member),
-(136)-[:120e3991-1f39-4359-b810-37bb24aff05c]->(member),
-(136)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb]->(member),
-(136)-[:9d1c0c0d-98f5-4728-86ee-4288dde6d0fa]->(member),
-(136)-[:2c2fb600-f249-469e-a025-1961edf5132d]->(member),
-(136)-[:22bf9a4e-a715-43f7-9fd0-4a60b8b77288]->(member),
-(136)-[:9a118e00-be2c-4c2d-a9f9-8cb86170e3d1]->(member),
-(136)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061]->(member),
-(136)-[:46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990]->(member),
-(136)-[:e69e6cb2-cded-446c-b159-daec78476f43]->(member),
-(136)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d]->(member),
-(136)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b]->(member),
-(136)-[:3680e065-f377-4f4d-a9d6-84523dcb1727]->(member),
-(136)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a]->(member),
-(136)-[:0e8a5ba3-887e-4540-92c3-d35fef2bd579]->(member),
-(136)-[:0f5c8dda-88a9-48ad-bf8f-e72f216a4066]->(member),
-(136)-[:13572025-f4dc-4503-8aad-72050202752b]->(member),
-(136)-[:2bf44917-dd67-4ec8-9240-513476cdb60c]->(member),
-(136)-[:78b044f5-8a10-47ed-acf0-74658affbf22]->(member),
-(136)-[:8f964055-7a95-4e88-bcef-5bd3a5824de9]->(member),
-(136)-[:9f8f4e96-12d9-449b-b9ab-6e6080e34c9f]->(member),
-(136)-[:b3e7d110-127b-45a7-9195-5e8a694e4862]->(member),
-(136)-[:cfcfa4b0-501f-4563-8157-3c76054014a4]->(member),
-(136)-[:d0ef2a62-6c85-44ce-a995-65ab6d5a5f43]->(member),
-(136)-[:d151609e-cb90-4faf-a74b-54d2f52e01a1]->(member),
-(136)-[:d8bcb543-3948-43fd-937b-2782138b9deb]->(member),
-(229)-[:MilitaryCamp]->(type),
-(229)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom]->(hasGeometry),
-(229)-[:nan]->(comment),
-(229)-[:Kastell Albota]->(label),
-(232)-[:Point]->(type),
-(232)-[:4326> POINT (25.3002 46.3131)]->(asWKT),
-(232)-[:Kastell Odorheiul Secuiesc Geometry]->(label),
-(235)-[:MilitaryCamp]->(type),
-(235)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom]->(hasGeometry),
-(235)-[:nan]->(comment),
-(235)-[:Kastell Băneasa I]->(label),
-(238)-[:MilitaryCamp]->(type),
-(238)-[:b0524f84-a9d2-45fa-9f69-d8164ad73440_geom]->(hasGeometry),
-(238)-[:Kohortenkastell]->(comment),
-(238)-[:Kastell Olteni]->(label),
-(241)-[:MilitaryCamp]->(type),
-(241)-[:5a43030f-b985-4444-8cf9-3e4a0b132d79_geom]->(hasGeometry),
-(241)-[:nan]->(comment),
-(241)-[:Kastell Vârtop]->(label),
-(244)-[:MilitaryCamp]->(type),
-(244)-[:e2573931-d743-40c3-a6b7-08ffeb244daa_geom]->(hasGeometry),
-(244)-[:nan]->(comment),
-(244)-[:Kastell Valea Urluii]->(label),
-(246)-[:Point]->(type),
-(246)-[:4326> POINT (24.752103 46.239431)]->(asWKT),
-(246)-[:Kastell Sighisoara Geometry]->(label),
-(249)-[:Point]->(type),
-(249)-[:4326> POINT (23.572314 46.066694)]->(asWKT),
-(249)-[:Legionslager Alba Julia Geometry]->(label),
-(252)-[:MilitaryCamp]->(type),
-(252)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom]->(hasGeometry),
-(252)-[:Kohortenkastell]->(comment),
-(252)-[:Kastell Inlăceni]->(label),
-(254)-[:Point]->(type),
-(254)-[:4326> POINT (24.917722 44.172583)]->(asWKT),
-(254)-[:Kastell Gresia Geometry]->(label),
-(257)-[:Point]->(type),
-(257)-[:4326> POINT (24.785111 44.603278)]->(asWKT),
-(257)-[:Kastell Fâlfani Geometry]->(label),
-(260)-[:MilitaryCamp]->(type),
-(260)-[:f42bb013-afeb-4044-9886-ece53cc813d4_geom]->(hasGeometry),
-(260)-[:Auxiliarkastell]->(comment),
-(260)-[:Kastell Sutoru]->(label),
-(262)-[:MilitaryCamp]->(type),
-(262)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom]->(hasGeometry),
-(262)-[:nan]->(comment),
-(262)-[:Kastell Gresia]->(label),
-(264)-[:LegionaryCamp]->(type),
-(264)-[:7e6b0abd-392e-48da-a973-52db57e43459_geom]->(hasGeometry),
-(264)-[:Legionslager]->(comment),
-(264)-[:Kastell Berzovia ]->(label),
-(269)-[:Point]->(type),
-(269)-[:4326> POINT (21.847883 45.486656)]->(asWKT),
-(269)-[:Kastell Aizis Geometry]->(label),
-(272)-[:MilitaryCamp]->(type),
-(272)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom]->(hasGeometry),
-(272)-[:Alenkastell]->(comment),
-(272)-[:Kastell Gherla]->(label),
-(276)-[:Point]->(type),
-(276)-[:4326> POINT (21.331111 44.845)]->(asWKT),
-(276)-[:Kastell Banatska Palanka Geometry]->(label),
-(279)-[:MilitaryCamp]->(type),
-(279)-[:322e89c0-f571-4be4-a08c-84b35efb69e5_geom]->(hasGeometry),
-(279)-[:nan]->(comment),
-(279)-[:Kastell Sânpaul]->(label),
-(282)-[:MilitaryCamp]->(type),
-(282)-[:10b043a5-bb2b-48af-a168-84046185d6f7_geom]->(hasGeometry),
-(282)-[:nan]->(comment),
-(282)-[:Kastell Pinoasa]->(label),
-(284)-[:MilitaryCamp]->(type),
-(284)-[:70d51242-571e-43ce-bd01-3bffca8cb4be_geom]->(hasGeometry),
-(284)-[:Kohortenkastell]->(comment),
-(284)-[:Kastell Feldioara]->(label),
-(287)-[:LegionaryCamp]->(type),
-(287)-[:5709a2bb-8d86-44af-b582-19151b918068_geom]->(hasGeometry),
-(287)-[:nan]->(comment),
-(287)-[:Kastell Sarmizegetusa (Ulpia Traiana)]->(label),
-(289)-[:FeatureCollection]->(type),
-(289)-[:LegionaryCamp Instances Collection]->(label),
-(289)-[:5709a2bb-8d86-44af-b582-19151b918068]->(member),
-(289)-[:87009579-c2cc-4c7a-9b02-901bf75a0ee6]->(member),
-(289)-[:fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e]->(member),
-(289)-[:7e6b0abd-392e-48da-a973-52db57e43459]->(member),
-(289)-[:497eff64-e309-4704-b5f0-3e2872ff379d]->(member),
-(289)-[:ffd99607-0513-4fa5-8073-c80bddbfab84]->(member),
-(289)-[:64755b3a-9ff6-4c12-b9fb-778e3bde5b1f]->(member),
-(296)-[:MilitaryCamp]->(type),
-(296)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom]->(hasGeometry),
-(296)-[:Auxiliarkastell]->(comment),
-(296)-[:Kastell Gilău]->(label),
-(299)-[:Point]->(type),
-(299)-[:4326> POINT (24.360556 45.231944)]->(asWKT),
-(299)-[:Kastell Jiblea Geometry]->(label),
-(302)-[:MilitaryCamp]->(type),
-(302)-[:7b05b48b-cd48-4c66-916e-6ea581179843_geom]->(hasGeometry),
-(302)-[:nan]->(comment),
-(302)-[:Kastell Islaz-Verdea]->(label),
-(305)-[:MilitaryCamp]->(type),
-(305)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c_geom]->(hasGeometry),
-(305)-[:nan]->(comment),
-(305)-[:Kastell Ilişua (Arcobara)]->(label),
-(307)-[:Point]->(type),
-(307)-[:4326> POINT (24.763556 44.707333)]->(asWKT),
-(307)-[:Kastell Săpata de Jos I Geometry]->(label),
-(310)-[:Point]->(type),
-(310)-[:4326> POINT (22.884611 46.885694)]->(asWKT),
-(310)-[:Kastell Bologa (Resculum) Geometry]->(label),
-(313)-[:FeatureCollection]->(type),
-(313)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2]->(member),
-(313)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2]->(member),
-(313)-[:b6e369cd-722a-4a1c-a984-538bb26f3777]->(member),
-(313)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4]->(member),
-(313)-[:cba75304-f136-465d-90fb-56dff3acc018]->(member),
-(313)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1]->(member),
-(313)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c]->(member),
-(313)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031]->(member),
-(313)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696]->(member),
-(313)-[:e69e6cb2-cded-446c-b159-daec78476f43]->(member),
-(313)-[:e811fe5a-92d2-43a0-a572-51bc5942e242]->(member),
-(313)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67]->(member),
-(313)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb]->(member),
-(313)-[:0ab5e10e-4fb0-4854-835b-389043840ee0]->(member),
-(313)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace]->(member),
-(313)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc]->(member),
-(313)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea]->(member),
-(313)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3]->(member),
-(313)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4]->(member),
-(313)-[:1795d125-e071-4153-b07e-e147bb19ad65]->(member),
-(313)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d]->(member),
-(313)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d]->(member),
-(313)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed]->(member),
-(313)-[:3680e065-f377-4f4d-a9d6-84523dcb1727]->(member),
-(313)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa]->(member),
-(313)-[:4df4edbc-facd-42bd-b05e-076f94ae693b]->(member),
-(313)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e]->(member),
-(313)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac]->(member),
-(313)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf]->(member),
-(313)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce]->(member),
-(313)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061]->(member),
-(313)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3]->(member),
-(313)-[:50320dbe-929c-40e3-aebd-f8f257d6472a]->(member),
-(313)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0]->(member),
-(313)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44]->(member),
-(313)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a]->(member),
-(313)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786]->(member),
-(313)-[:7b05b48b-cd48-4c66-916e-6ea581179843]->(member),
-(313)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b]->(member),
-(313)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9]->(member),
-(313)-[:7e6b0abd-392e-48da-a973-52db57e43459]->(member),
-(313)-[:70d51242-571e-43ce-bd01-3bffca8cb4be]->(member),
-(313)-[:7422f9df-da23-450f-8eac-db2d8dfca42e]->(member),
-(313)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2]->(member),
-(313)-[:815f5c63-8478-4aac-bafb-11eaafa9a923]->(member),
-(313)-[:86dae60a-c827-480d-bb38-04a480b9ea01]->(member),
-(313)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a]->(member),
-(313)-[:9b62118c-9936-42f2-a6e7-49f649c937f2]->(member),
-(313)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22]->(member),
-(313)-[:Limes Daicus Features]->(label),
-(315)-[:Point]->(type),
-(315)-[:4326> POINT (24.441944 45.281528)]->(asWKT),
-(315)-[:Kastell Rădăcineşti Geometry]->(label),
-(318)-[:MilitaryCamp]->(type),
-(318)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom]->(hasGeometry),
-(318)-[:nan]->(comment),
-(318)-[:Kastell Bivolari (Arutela)]->(label),
-(321)-[:Point]->(type),
-(321)-[:4326> POINT (24.400833 45.370833)]->(asWKT),
-(321)-[:Kastell Perisani Geometry]->(label),
+(120)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2_geom]->(hasGeometry),
+(120)-[:nan]->(comment),
+(120)-[:Kastell Cătunele]->(label),
+(123)-[:Point]->(type),
+(123)-[:4326> POINT (25.008889 46.562222)]->(asWKT),
+(123)-[:Kastell Sarateni Geometry]->(label),
+(126)-[:MilitaryCamp]->(type),
+(126)-[:b0524f84-a9d2-45fa-9f69-d8164ad73440_geom]->(hasGeometry),
+(126)-[:Kohortenkastell]->(comment),
+(126)-[:Kastell Olteni]->(label),
+(129)-[:Point]->(type),
+(129)-[:4326> POINT (24.266011 45.635769)]->(asWKT),
+(129)-[:Kastell Boiţa (Caput Stenarum) Geometry]->(label),
+(132)-[:Point]->(type),
+(132)-[:4326> POINT (21.300194 45.122669)]->(asWKT),
+(132)-[:Kastell Vršac Geometry]->(label),
+(135)-[:MilitaryCamp]->(type),
+(135)-[:c8ecf3da-c535-41df-b06e-298cd8542633_geom]->(hasGeometry),
+(135)-[:nan]->(comment),
+(135)-[:Kastell Teregova (Ad Pannonios)]->(label),
+(138)-[:MilitaryCamp]->(type),
+(138)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom]->(hasGeometry),
+(138)-[:Kohortenkastell]->(comment),
+(138)-[:Kastell Inlăceni]->(label),
+(141)-[:MilitaryCamp]->(type),
+(141)-[:5a43030f-b985-4444-8cf9-3e4a0b132d79_geom]->(hasGeometry),
+(141)-[:nan]->(comment),
+(141)-[:Kastell Vârtop]->(label),
+(144)-[:Point]->(type),
+(144)-[:4326> POINT (21.331111 44.845)]->(asWKT),
+(144)-[:Kastell Banatska Palanka Geometry]->(label),
+(147)-[:Point]->(type),
+(147)-[:4326> POINT (24.400833 45.370833)]->(asWKT),
+(147)-[:Kastell Perisani Geometry]->(label),
+(150)-[:MilitaryCamp]->(type),
+(150)-[:9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom]->(hasGeometry),
+(150)-[:nan]->(comment),
+(150)-[:Kastell Putineiu]->(label),
+(152)-[:Point]->(type),
+(152)-[:4326> POINT (24.236111 44.883333)]->(asWKT),
+(152)-[:Kastell IIoneștii Govorii (Pons Aluti) Geometry]->(label),
+(155)-[:MilitaryCamp]->(type),
+(155)-[:4df4edbc-facd-42bd-b05e-076f94ae693b_geom]->(hasGeometry),
+(155)-[:nan]->(comment),
+(155)-[:Kastell IIoneștii Govorii (Pons Aluti)]->(label),
+(157)-[:MilitaryCamp]->(type),
+(157)-[:c3451d14-c4ee-42be-b918-af9735167f5f_geom]->(hasGeometry),
+(157)-[:nan]->(comment),
+(157)-[:Kastell Sarateni]->(label),
+(159)-[:MilitaryCamp]->(type),
+(159)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom]->(hasGeometry),
+(159)-[:Alenkastell]->(comment),
+(159)-[:Kastell Gherla]->(label),
+(163)-[:MilitaryCamp]->(type),
+(163)-[:5e33b468-4135-46b4-babc-99f5c423f966_geom]->(hasGeometry),
+(163)-[:Kohortenkastell (?)]->(comment),
+(163)-[:Kastell Szeged]->(label),
+(166)-[:MilitaryCamp]->(type),
+(166)-[:ec646e12-636f-4c8c-96c2-0f46833adf1c_geom]->(hasGeometry),
+(166)-[:Auxiliarkastell]->(comment),
+(166)-[:Kastell Răcarii de Jos]->(label),
+(169)-[:Point]->(type),
+(169)-[:4326> POINT (24.441944 45.281528)]->(asWKT),
+(169)-[:Kastell Rădăcineşti Geometry]->(label),
+(172)-[:Point]->(type),
+(172)-[:4326> POINT (23.572314 46.066694)]->(asWKT),
+(172)-[:Legionslager Alba Julia Geometry]->(label),
+(175)-[:MilitaryCamp]->(type),
+(175)-[:e2573931-d743-40c3-a6b7-08ffeb244daa_geom]->(hasGeometry),
+(175)-[:nan]->(comment),
+(175)-[:Kastell Valea Urluii]->(label),
+(178)-[:Collection]->(type),
+(178)-[:FeatureCollection Instances Collection]->(label),
+(178)-[:LimesDaicusFeatures]->(member),
+(178)-[:LimesNoricumFeatures]->(member),
+(183)-[:MilitaryCamp]->(type),
+(183)-[:86dae60a-c827-480d-bb38-04a480b9ea01_geom]->(hasGeometry),
+(183)-[:Kohortenkastell (?)]->(comment),
+(183)-[:Kastell Cenad]->(label),
+(186)-[:MilitaryCamp]->(type),
+(186)-[:0ccd99fd-62d1-4978-873a-106b1f5e3880_geom]->(hasGeometry),
+(186)-[:nan]->(comment),
+(186)-[:Kastell Rucăr]->(label),
+(189)-[:MilitaryCamp]->(type),
+(189)-[:815f5c63-8478-4aac-bafb-11eaafa9a923_geom]->(hasGeometry),
+(189)-[:Auxiliarkastell]->(comment),
+(189)-[:Kastell Dupljaja]->(label),
+(192)-[:Point]->(type),
+(192)-[:4326> POINT (21.232794 44.897786)]->(asWKT),
+(192)-[:Kastell Grebenac Geometry]->(label),
+(195)-[:MilitaryCamp]->(type),
+(195)-[:9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom]->(hasGeometry),
+(195)-[:Kohortenkastell]->(comment),
+(195)-[:Kastell Râșnov ]->(label),
+(198)-[:MilitaryCamp]->(type),
+(198)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom]->(hasGeometry),
+(198)-[:Auxiliarkastell]->(comment),
+(198)-[:Kastell Hoghiz]->(label),
+(201)-[:Point]->(type),
+(201)-[:4326> POINT (21.551161 45.079397)]->(asWKT),
+(201)-[:Kastell Vărădia Geometry]->(label),
+(204)-[:Point]->(type),
+(204)-[:4326> POINT (25.591561 45.816419)]->(asWKT),
+(204)-[:Kastell Feldioara Geometry]->(label),
+(207)-[:Point]->(type),
+(207)-[:4326> POINT (24.937389 44.061333)]->(asWKT),
+(207)-[:Kastell Valea Urluii Geometry]->(label),
+(210)-[:MilitaryCamp]->(type),
+(210)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696_geom]->(hasGeometry),
+(210)-[:nan]->(comment),
+(210)-[:Kastell Cincsor]->(label),
+(213)-[:MilitaryCamp]->(type),
+(213)-[:8fa245f8-ffe5-4e74-b259-410c7be91afd_geom]->(hasGeometry),
+(213)-[:nan]->(comment),
+(213)-[:Kastell Titeşti]->(label),
+(215)-[:MilitaryCamp]->(type),
+(215)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom]->(hasGeometry),
+(215)-[:nan]->(comment),
+(215)-[:Kastell Bologa (Resculum)]->(label),
+(217)-[:MilitaryCamp]->(type),
+(217)-[:7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom]->(hasGeometry),
+(217)-[:nan]->(comment),
+(217)-[:Kastell Roșiorii de Vede]->(label),
+(220)-[:MilitaryCamp]->(type),
+(220)-[:f81e10af-8e41-447d-b601-dcba5311199b_geom]->(hasGeometry),
+(220)-[:nan]->(comment),
+(220)-[:Malva)]->(label),
+(222)-[:MilitaryCamp]->(type),
+(222)-[:fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom]->(hasGeometry),
+(222)-[:Kohortenkastell]->(comment),
+(222)-[:Kastell Vărădia]->(label),
+(224)-[:Point]->(type),
+(224)-[:4326> POINT (24.763694 44.707917)]->(asWKT),
+(224)-[:Kastell Săpata de Jos II Geometry]->(label),
+(227)-[:MilitaryCamp]->(type),
+(227)-[:9b62118c-9936-42f2-a6e7-49f649c937f2_geom]->(hasGeometry),
+(227)-[:nan]->(comment),
+(227)-[:Kastell Bumbeşti]->(label),
+(230)-[:MilitaryCamp]->(type),
+(230)-[:b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom]->(hasGeometry),
+(230)-[:Kohortenkastell]->(comment),
+(230)-[:Kastell Romanasi (Largiana)]->(label),
+(233)-[:LegionaryCamp]->(type),
+(233)-[:5709a2bb-8d86-44af-b582-19151b918068_geom]->(hasGeometry),
+(233)-[:nan]->(comment),
+(233)-[:Kastell Sarmizegetusa (Ulpia Traiana)]->(label),
+(236)-[:Point]->(type),
+(236)-[:4326> POINT (21.587219 45.265)]->(asWKT),
+(236)-[:Kastell Surducul Mare Geometry]->(label),
+(239)-[:Point]->(type),
+(239)-[:4326> POINT (25.3002 46.3131)]->(asWKT),
+(239)-[:Kastell Odorheiul Secuiesc Geometry]->(label),
+(242)-[:GeometryCollection]->(type),
+(242)-[:Point Instances Collection]->(label),
+(242)-[:a6ec226a-3c2a-444a-9221-839201e1135f_geom]->(member),
+(242)-[:47a7d25e-6315-4256-b257-c2dfaea5e42f_geom]->(member),
+(242)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom]->(member),
+(242)-[:f81e10af-8e41-447d-b601-dcba5311199b_geom]->(member),
+(242)-[:497eff64-e309-4704-b5f0-3e2872ff379d_geom]->(member),
+(242)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom]->(member),
+(242)-[:2c2fb600-f249-469e-a025-1961edf5132d_geom]->(member),
+(242)-[:af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom]->(member),
+(242)-[:7e6b0abd-392e-48da-a973-52db57e43459_geom]->(member),
+(242)-[:0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom]->(member),
+(242)-[:3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom]->(member),
+(242)-[:46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom]->(member),
+(242)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom]->(member),
+(242)-[:59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom]->(member),
+(242)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom]->(member),
+(242)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom]->(member),
+(242)-[:9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom]->(member),
+(242)-[:0ab5e10e-4fb0-4854-835b-389043840ee0_geom]->(member),
+(242)-[:8fa245f8-ffe5-4e74-b259-410c7be91afd_geom]->(member),
+(242)-[:87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom]->(member),
+(242)-[:c3451d14-c4ee-42be-b918-af9735167f5f_geom]->(member),
+(242)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom]->(member),
+(242)-[:7dd1742c-a3a5-4494-b148-1d435d754d5d_geom]->(member),
+(242)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom]->(member),
+(242)-[:80ce787b-1ab0-42e7-b03c-c641d3767774_geom]->(member),
+(242)-[:4df4edbc-facd-42bd-b05e-076f94ae693b_geom]->(member),
+(242)-[:fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom]->(member),
+(242)-[:9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom]->(member),
+(242)-[:42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom]->(member),
+(242)-[:fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom]->(member),
+(242)-[:70d51242-571e-43ce-bd01-3bffca8cb4be_geom]->(member),
+(242)-[:e2573931-d743-40c3-a6b7-08ffeb244daa_geom]->(member),
+(242)-[:0e91c0e7-3991-4a45-89ed-382f7c74731a_geom]->(member),
+(242)-[:9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom]->(member),
+(242)-[:918ef494-4408-4a91-8ee0-61f6087ffee7_geom]->(member),
+(242)-[:bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom]->(member),
+(242)-[:322e89c0-f571-4be4-a08c-84b35efb69e5_geom]->(member),
+(242)-[:815f5c63-8478-4aac-bafb-11eaafa9a923_geom]->(member),
+(242)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom]->(member),
+(242)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf_geom]->(member),
+(242)-[:b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom]->(member),
+(242)-[:0ccd99fd-62d1-4978-873a-106b1f5e3880_geom]->(member),
+(242)-[:7b05b48b-cd48-4c66-916e-6ea581179843_geom]->(member),
+(242)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom]->(member),
+(242)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c_geom]->(member),
+(242)-[:5e33b468-4135-46b4-babc-99f5c423f966_geom]->(member),
+(242)-[:c8ecf3da-c535-41df-b06e-298cd8542633_geom]->(member),
+(242)-[:b6e369cd-722a-4a1c-a984-538bb26f3777_geom]->(member),
+(242)-[:7cadca30-bfd9-4628-9916-c20eecafa356_geom]->(member),
+(242)-[:b0524f84-a9d2-45fa-9f69-d8164ad73440_geom]->(member),
+(242)-[:5709a2bb-8d86-44af-b582-19151b918068_geom]->(member),
+(242)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom]->(member),
+(242)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom]->(member),
+(242)-[:22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom]->(member),
+(242)-[:50320dbe-929c-40e3-aebd-f8f257d6472a_geom]->(member),
+(242)-[:3680e065-f377-4f4d-a9d6-84523dcb1727_geom]->(member),
+(242)-[:b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom]->(member),
+(242)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom]->(member),
+(242)-[:f8305d66-9429-43c0-b6e3-73721df9986b_geom]->(member),
+(242)-[:ec646e12-636f-4c8c-96c2-0f46833adf1c_geom]->(member),
+(242)-[:7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom]->(member),
+(242)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom]->(member),
+(242)-[:e811fe5a-92d2-43a0-a572-51bc5942e242_geom]->(member),
+(242)-[:7422f9df-da23-450f-8eac-db2d8dfca42e_geom]->(member),
+(242)-[:5a43030f-b985-4444-8cf9-3e4a0b132d79_geom]->(member),
+(242)-[:9a084d40-bf5c-42fa-8aa7-8c678524c631_geom]->(member),
+(242)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom]->(member),
+(242)-[:1795d125-e071-4153-b07e-e147bb19ad65_geom]->(member),
+(242)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom]->(member),
+(242)-[:cba75304-f136-465d-90fb-56dff3acc018_geom]->(member),
+(242)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom]->(member),
+(242)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom]->(member),
+(242)-[:8f823c04-d42b-49ec-879d-2c446d575885_geom]->(member),
+(242)-[:86dae60a-c827-480d-bb38-04a480b9ea01_geom]->(member),
+(242)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom]->(member),
+(242)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom]->(member),
+(242)-[:f42bb013-afeb-4044-9886-ece53cc813d4_geom]->(member),
+(242)-[:340738ca-7444-4896-a0fd-cd9e6806eb30_geom]->(member),
+(242)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2_geom]->(member),
+(242)-[:707cb61a-d04e-4c7b-a620-6587db82f116_geom]->(member),
+(242)-[:ffd99607-0513-4fa5-8073-c80bddbfab84_geom]->(member),
+(242)-[:01189de6-024d-4022-96ff-eec7e4efee0c_geom]->(member),
+(242)-[:e69e6cb2-cded-446c-b159-daec78476f43_geom]->(member),
+(242)-[:1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom]->(member),
+(242)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696_geom]->(member),
+(242)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom]->(member),
+(242)-[:9b62118c-9936-42f2-a6e7-49f649c937f2_geom]->(member),
+(242)-[:1c936059-6af8-4f03-8e18-cc61f529c5f3_geom]->(member),
+(242)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom]->(member),
+(242)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom]->(member),
+(242)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67_geom]->(member),
+(242)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom]->(member),
+(242)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom]->(member),
+(242)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom]->(member),
+(242)-[:986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom]->(member),
+(242)-[:000d5176-6b9e-4065-a44f-d7b8f75b1199_geom]->(member),
+(242)-[:06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom]->(member),
+(242)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom]->(member),
+(242)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom]->(member),
+(242)-[:19360a61-a15a-4d56-a100-f3be57e93ff1_geom]->(member),
+(242)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom]->(member),
+(242)-[:120e3991-1f39-4359-b810-37bb24aff05c_geom]->(member),
+(242)-[:10b043a5-bb2b-48af-a168-84046185d6f7_geom]->(member),
+(242)-[:bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom]->(member),
+(242)-[:0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom]->(member),
+(242)-[:0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom]->(member),
+(242)-[:0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom]->(member),
+(242)-[:130bed48-35dd-45d9-9fc0-bc50fb465c60_geom]->(member),
+(242)-[:13572025-f4dc-4503-8aad-72050202752b_geom]->(member),
+(242)-[:1d31fa5a-61cc-42df-b958-a5e9d83555a3_geom]->(member),
+(242)-[:203478fb-4a78-48c7-bd75-97b667f6e707_geom]->(member),
+(242)-[:2471711a-fb59-436f-ade5-b61e4fd67732_geom]->(member),
+(242)-[:26f3beb0-0cb4-42a8-849d-38455b2d1b79_geom]->(member),
+(242)-[:2bf44917-dd67-4ec8-9240-513476cdb60c_geom]->(member),
+(242)-[:2e2c9ca5-61d1-459e-a151-fad5d81dd1b7_geom]->(member),
+(242)-[:32371ca3-a871-475e-8d85-49ca8c26da3d_geom]->(member),
+(242)-[:4043d889-d9be-47b7-b9d3-afede593d67a_geom]->(member),
+(242)-[:48f27058-f4ea-41f3-8319-888f59ffdd2d_geom]->(member),
+(242)-[:4c745423-da08-4414-93b9-bf0df2382c76_geom]->(member),
+(242)-[:5028c3bd-efbb-43b3-a8f6-a30ab9844d1b_geom]->(member),
+(242)-[:51607531-4767-41c1-94ca-86d68572c7c2_geom]->(member),
+(242)-[:58660c1d-c211-4cf7-90d6-b53a5957addc_geom]->(member),
+(242)-[:64755b3a-9ff6-4c12-b9fb-778e3bde5b1f_geom]->(member),
+(242)-[:71192446-c179-4a45-9214-44ef9a3a996b_geom]->(member),
+(242)-[:78b044f5-8a10-47ed-acf0-74658affbf22_geom]->(member),
+(242)-[:7e23ed9a-8efc-48ec-a294-a7cc9b8285dc_geom]->(member),
+(242)-[:80943cf4-f263-44f2-bd49-2a2c405b3be6_geom]->(member),
+(242)-[:8135cb6b-504d-4cae-9835-b9a7b0613163_geom]->(member),
+(242)-[:88218e4a-aa6a-421c-84ea-a646790b80cb_geom]->(member),
+(242)-[:8f964055-7a95-4e88-bcef-5bd3a5824de9_geom]->(member),
+(242)-[:9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom]->(member),
+(242)-[:a41296e5-fca2-4ce3-843e-a17871a5d85b_geom]->(member),
+(242)-[:b3e7d110-127b-45a7-9195-5e8a694e4862_geom]->(member),
+(242)-[:c2b75037-aed0-49b4-9e1c-39944efa5cb4_geom]->(member),
+(242)-[:c589a7d3-f71c-4051-ac8b-c701902d3610_geom]->(member),
+(242)-[:c75941f8-009d-4c4c-8505-0298a88a6fd4_geom]->(member),
+(242)-[:cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5_geom]->(member),
+(242)-[:cfcfa4b0-501f-4563-8157-3c76054014a4_geom]->(member),
+(242)-[:d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom]->(member),
+(242)-[:d151609e-cb90-4faf-a74b-54d2f52e01a1_geom]->(member),
+(242)-[:d8bcb543-3948-43fd-937b-2782138b9deb_geom]->(member),
+(242)-[:ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom]->(member),
+(242)-[:ed3e59f2-e683-4800-9e27-92d82cbc867f_geom]->(member),
+(242)-[:ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom]->(member),
 (324)-[:Point]->(type),
-(324)-[:4326> POINT (24.762222 43.710278)]->(asWKT),
-(324)-[:Kastell Islaz-Verdea Geometry]->(label),
+(324)-[:4326> POINT (25.441581 45.618708)]->(asWKT),
+(324)-[:Kastell Râșnov Geometry]->(label),
 (327)-[:MilitaryCamp]->(type),
-(327)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf_geom]->(hasGeometry),
+(327)-[:bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom]->(hasGeometry),
 (327)-[:nan]->(comment),
-(327)-[:Kastell Căineni (Pons Vetus ?)]->(label),
-(330)-[:Point]->(type),
-(330)-[:4326> POINT (23.166667 45.733333)]->(asWKT),
-(330)-[:Kastell Orăştioara de Sus Geometry]->(label),
-(333)-[:Point]->(type),
-(333)-[:4326> POINT (23.571847 44.514)]->(asWKT),
-(333)-[:Kastell Răcarii de Jos Geometry]->(label),
-(336)-[:MilitaryCamp]->(type),
-(336)-[:000d5176-6b9e-4065-a44f-d7b8f75b1199_geom]->(hasGeometry),
-(336)-[:nan]->(comment),
-(336)-[:Kastell Orăştioara de Sus]->(label),
-(338)-[:Point]->(type),
-(338)-[:4326> POINT (23.949167 43.938056)]->(asWKT),
-(338)-[:Kastell Căciulătești Geometry]->(label),
-(341)-[:Point]->(type),
-(341)-[:4326> POINT (24.528969 44.081789)]->(asWKT),
-(341)-[:Kastell Slăveni Geometry]->(label),
-(344)-[:MilitaryCamp]->(type),
-(344)-[:86dae60a-c827-480d-bb38-04a480b9ea01_geom]->(hasGeometry),
-(344)-[:Kohortenkastell (?)]->(comment),
-(344)-[:Kastell Cenad]->(label),
-(347)-[:MilitaryCamp]->(type),
-(347)-[:7422f9df-da23-450f-8eac-db2d8dfca42e_geom]->(hasGeometry),
-(347)-[:nan]->(comment),
-(347)-[:Kastell Livezile]->(label),
-(349)-[:MilitaryCamp]->(type),
-(349)-[:0e91c0e7-3991-4a45-89ed-382f7c74731a_geom]->(hasGeometry),
-(349)-[:nan]->(comment),
-(349)-[:Kastell Săpata de Jos II]->(label),
-(352)-[:LegionaryCamp]->(type),
-(352)-[:87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom]->(hasGeometry),
-(352)-[:Legionslager]->(comment),
-(352)-[:Kastell Vețel]->(label),
-(355)-[:Point]->(type),
-(355)-[:4326> POINT (25.008889 46.562222)]->(asWKT),
-(355)-[:Kastell Sarateni Geometry]->(label),
-(358)-[:Point]->(type),
-(358)-[:4326> POINT (24.312389 45.309667)]->(asWKT),
-(358)-[:Kastell Bivolari (Arutela) Geometry]->(label),
-(361)-[:Point]->(type),
-(361)-[:4326> POINT (20.145953 46.253697)]->(asWKT),
-(361)-[:Kastell Szeged Geometry]->(label),
-(364)-[:Point]->(type),
-(364)-[:4326> POINT (24.762111 44.484583)]->(asWKT),
-(364)-[:Kastell Urluieni II Geometry]->(label),
+(327)-[:Kastell Sighisoara]->(label),
+(329)-[:FeatureCollection]->(type),
+(329)-[:LegionaryCamp Instances Collection]->(label),
+(329)-[:87009579-c2cc-4c7a-9b02-901bf75a0ee6]->(member),
+(329)-[:497eff64-e309-4704-b5f0-3e2872ff379d]->(member),
+(329)-[:ffd99607-0513-4fa5-8073-c80bddbfab84]->(member),
+(329)-[:7e6b0abd-392e-48da-a973-52db57e43459]->(member),
+(329)-[:fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e]->(member),
+(329)-[:5709a2bb-8d86-44af-b582-19151b918068]->(member),
+(329)-[:64755b3a-9ff6-4c12-b9fb-778e3bde5b1f]->(member),
+(337)-[:MilitaryCamp]->(type),
+(337)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67_geom]->(hasGeometry),
+(337)-[:Kohortenkastell (?)]->(comment),
+(337)-[:Kastell Aradul Nou]->(label),
+(339)-[:FeatureCollection]->(type),
+(339)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2]->(member),
+(339)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2]->(member),
+(339)-[:b6e369cd-722a-4a1c-a984-538bb26f3777]->(member),
+(339)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4]->(member),
+(339)-[:cba75304-f136-465d-90fb-56dff3acc018]->(member),
+(339)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1]->(member),
+(339)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c]->(member),
+(339)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031]->(member),
+(339)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696]->(member),
+(339)-[:e69e6cb2-cded-446c-b159-daec78476f43]->(member),
+(339)-[:e811fe5a-92d2-43a0-a572-51bc5942e242]->(member),
+(339)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67]->(member),
+(339)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb]->(member),
+(339)-[:0ab5e10e-4fb0-4854-835b-389043840ee0]->(member),
+(339)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace]->(member),
+(339)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc]->(member),
+(339)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea]->(member),
+(339)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3]->(member),
+(339)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4]->(member),
+(339)-[:1795d125-e071-4153-b07e-e147bb19ad65]->(member),
+(339)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d]->(member),
+(339)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d]->(member),
+(339)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed]->(member),
+(339)-[:3680e065-f377-4f4d-a9d6-84523dcb1727]->(member),
+(339)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa]->(member),
+(339)-[:4df4edbc-facd-42bd-b05e-076f94ae693b]->(member),
+(339)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e]->(member),
+(339)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac]->(member),
+(339)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf]->(member),
+(339)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce]->(member),
+(339)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061]->(member),
+(339)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3]->(member),
+(339)-[:50320dbe-929c-40e3-aebd-f8f257d6472a]->(member),
+(339)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0]->(member),
+(339)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44]->(member),
+(339)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a]->(member),
+(339)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786]->(member),
+(339)-[:7b05b48b-cd48-4c66-916e-6ea581179843]->(member),
+(339)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b]->(member),
+(339)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9]->(member),
+(339)-[:7e6b0abd-392e-48da-a973-52db57e43459]->(member),
+(339)-[:70d51242-571e-43ce-bd01-3bffca8cb4be]->(member),
+(339)-[:7422f9df-da23-450f-8eac-db2d8dfca42e]->(member),
+(339)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2]->(member),
+(339)-[:815f5c63-8478-4aac-bafb-11eaafa9a923]->(member),
+(339)-[:86dae60a-c827-480d-bb38-04a480b9ea01]->(member),
+(339)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a]->(member),
+(339)-[:9b62118c-9936-42f2-a6e7-49f649c937f2]->(member),
+(339)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22]->(member),
+(339)-[:Limes Daicus Features]->(label),
 (367)-[:MilitaryCamp]->(type),
-(367)-[:3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom]->(hasGeometry),
+(367)-[:bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom]->(hasGeometry),
 (367)-[:nan]->(comment),
-(367)-[:Kastell Orheiul Bistriţei]->(label),
-(369)-[:MilitaryCamp]->(type),
-(369)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2_geom]->(hasGeometry),
-(369)-[:nan]->(comment),
-(369)-[:Kastell Cătunele]->(label),
-(372)-[:Point]->(type),
-(372)-[:4326> POINT (22.4076 44.7382)]->(asWKT),
-(372)-[:Kastell Orșova (Dierna) Geometry]->(label),
-(375)-[:Point]->(type),
-(375)-[:4326> POINT (24.763694 44.707917)]->(asWKT),
-(375)-[:Kastell Săpata de Jos II Geometry]->(label),
-(378)-[:Point]->(type),
-(378)-[:4326> POINT (23.571889 44.514111)]->(asWKT),
-(378)-[:Kastell Mofleni (Pelendava) Geometry]->(label),
-(381)-[:Point]->(type),
-(381)-[:4326> POINT (24.394444 45.409722)]->(asWKT),
-(381)-[:Kastell Titeşti Geometry]->(label),
-(384)-[:MilitaryCamp]->(type),
-(384)-[:bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom]->(hasGeometry),
-(384)-[:nan]->(comment),
-(384)-[:Kastell Sighisoara]->(label),
-(386)-[:Collection]->(type),
-(386)-[:GeometryCollection Instances Collection]->(label),
-(386)-[:LimesDaicusGeometries]->(member),
-(386)-[:LimesNoricumGeometries]->(member),
-(390)-[:Point]->(type),
-(390)-[:4326> POINT (21.629394 45.426539)]->(asWKT),
-(390)-[:Kastell Berzovia Geometry]->(label),
-(393)-[:MilitaryCamp]->(type),
-(393)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67_geom]->(hasGeometry),
-(393)-[:Kohortenkastell (?)]->(comment),
-(393)-[:Kastell Aradul Nou]->(label),
-(396)-[:MilitaryCamp]->(type),
-(396)-[:c8ecf3da-c535-41df-b06e-298cd8542633_geom]->(hasGeometry),
-(396)-[:nan]->(comment),
-(396)-[:Kastell Teregova (Ad Pannonios)]->(label),
+(367)-[:Kastell Odorheiul Secuiesc]->(label),
+(369)-[:Point]->(type),
+(369)-[:4326> POINT (25.379472 46.194833)]->(asWKT),
+(369)-[:Kastell Sânpaul Geometry]->(label),
+(372)-[:MilitaryCamp]->(type),
+(372)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom]->(hasGeometry),
+(372)-[:nan]->(comment),
+(372)-[:Kastell Căşeiu (Samum)]->(label),
+(374)-[:Point]->(type),
+(374)-[:4326> POINT (21.275078 44.927103)]->(asWKT),
+(374)-[:Kastell Dupljaja Geometry]->(label),
+(377)-[:Point]->(type),
+(377)-[:4326> POINT (24.761056 44.307778)]->(asWKT),
+(377)-[:Kastell Ghioca Geometry]->(label),
+(380)-[:Point]->(type),
+(380)-[:4326> POINT (24.308611 45.495)]->(asWKT),
+(380)-[:Kastell Căineni (Pons Vetus ?) Geometry]->(label),
+(383)-[:MilitaryCamp]->(type),
+(383)-[:59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom]->(hasGeometry),
+(383)-[:Kohortenkastell (?)]->(comment),
+(383)-[:Kastell Sânnicolau Mare]->(label),
+(385)-[:MilitaryCamp]->(type),
+(385)-[:0e91c0e7-3991-4a45-89ed-382f7c74731a_geom]->(hasGeometry),
+(385)-[:nan]->(comment),
+(385)-[:Kastell Săpata de Jos II]->(label),
+(387)-[:MilitaryCamp]->(type),
+(387)-[:22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom]->(hasGeometry),
+(387)-[:nan]->(comment),
+(387)-[:Kastell Tia Mare]->(label),
+(389)-[:Point]->(type),
+(389)-[:4326> POINT (24.528969 44.081789)]->(asWKT),
+(389)-[:Kastell Slăveni Geometry]->(label),
+(392)-[:MilitaryCamp]->(type),
+(392)-[:120e3991-1f39-4359-b810-37bb24aff05c_geom]->(hasGeometry),
+(392)-[:Kohortenkastell]->(comment),
+(392)-[:Kastell Romita]->(label),
+(394)-[:Point]->(type),
+(394)-[:4326> POINT (24.762222 43.710278)]->(asWKT),
+(394)-[:Kastell Islaz-Verdea Geometry]->(label),
+(397)-[:MilitaryCamp]->(type),
+(397)-[:70d51242-571e-43ce-bd01-3bffca8cb4be_geom]->(hasGeometry),
+(397)-[:Kohortenkastell]->(comment),
+(397)-[:Kastell Feldioara]->(label),
 (399)-[:Point]->(type),
-(399)-[:4326> POINT (24.870833 43.751667)]->(asWKT),
-(399)-[:Kastell Islaz-Razovica Geometry]->(label),
-(402)-[:Point]->(type),
-(402)-[:4326> POINT (20.585819 46.138106)]->(asWKT),
-(402)-[:Kastell Cenad Geometry]->(label),
-(405)-[:MilitaryCamp]->(type),
-(405)-[:06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom]->(hasGeometry),
-(405)-[:nan]->(comment),
-(405)-[:Kastell Momoteşti (Rusidava)]->(label),
-(408)-[:Point]->(type),
-(408)-[:4326> POINT (25.849619 45.970939)]->(asWKT),
-(408)-[:Kastell Olteni Geometry]->(label),
-(411)-[:Point]->(type),
-(411)-[:4326> POINT (22.924444 44.838889)]->(asWKT),
-(411)-[:Kastell Cătunele Geometry]->(label),
+(399)-[:4326> POINT (26.016986 45.843861)]->(asWKT),
+(399)-[:Kastell Borosneu Mare Geometry]->(label),
+(402)-[:GeometryCollection]->(type),
+(402)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2_geom]->(member),
+(402)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom]->(member),
+(402)-[:b6e369cd-722a-4a1c-a984-538bb26f3777_geom]->(member),
+(402)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom]->(member),
+(402)-[:cba75304-f136-465d-90fb-56dff3acc018_geom]->(member),
+(402)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom]->(member),
+(402)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c_geom]->(member),
+(402)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom]->(member),
+(402)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696_geom]->(member),
+(402)-[:e69e6cb2-cded-446c-b159-daec78476f43_geom]->(member),
+(402)-[:e811fe5a-92d2-43a0-a572-51bc5942e242_geom]->(member),
+(402)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67_geom]->(member),
+(402)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom]->(member),
+(402)-[:0ab5e10e-4fb0-4854-835b-389043840ee0_geom]->(member),
+(402)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom]->(member),
+(402)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom]->(member),
+(402)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom]->(member),
+(402)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom]->(member),
+(402)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom]->(member),
+(402)-[:1795d125-e071-4153-b07e-e147bb19ad65_geom]->(member),
+(402)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom]->(member),
+(402)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom]->(member),
+(402)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom]->(member),
+(402)-[:3680e065-f377-4f4d-a9d6-84523dcb1727_geom]->(member),
+(402)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom]->(member),
+(402)-[:4df4edbc-facd-42bd-b05e-076f94ae693b_geom]->(member),
+(402)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom]->(member),
+(402)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom]->(member),
+(402)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf_geom]->(member),
+(402)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom]->(member),
+(402)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom]->(member),
+(402)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom]->(member),
+(402)-[:50320dbe-929c-40e3-aebd-f8f257d6472a_geom]->(member),
+(402)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom]->(member),
+(402)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom]->(member),
+(402)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom]->(member),
+(402)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom]->(member),
+(402)-[:7b05b48b-cd48-4c66-916e-6ea581179843_geom]->(member),
+(402)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom]->(member),
+(402)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom]->(member),
+(402)-[:7e6b0abd-392e-48da-a973-52db57e43459_geom]->(member),
+(402)-[:70d51242-571e-43ce-bd01-3bffca8cb4be_geom]->(member),
+(402)-[:7422f9df-da23-450f-8eac-db2d8dfca42e_geom]->(member),
+(402)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom]->(member),
+(402)-[:815f5c63-8478-4aac-bafb-11eaafa9a923_geom]->(member),
+(402)-[:86dae60a-c827-480d-bb38-04a480b9ea01_geom]->(member),
+(402)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom]->(member),
+(402)-[:9b62118c-9936-42f2-a6e7-49f649c937f2_geom]->(member),
+(402)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom]->(member),
+(402)-[:Limes Daicus Geometries]->(label),
+(404)-[:Point]->(type),
+(404)-[:4326> POINT (24.095361 47.210528)]->(asWKT),
+(404)-[:Kastell Ilişua (Arcobara) Geometry]->(label),
+(407)-[:MilitaryCamp]->(type),
+(407)-[:7dd1742c-a3a5-4494-b148-1d435d754d5d_geom]->(hasGeometry),
+(407)-[:  Alenkastell]->(comment),
+(407)-[:Kastell Vršac]->(label),
+(410)-[:MilitaryCamp]->(type),
+(410)-[:06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom]->(hasGeometry),
+(410)-[:nan]->(comment),
+(410)-[:Kastell Momoteşti (Rusidava)]->(label),
+(412)-[:MilitaryCamp]->(type),
+(412)-[:cba75304-f136-465d-90fb-56dff3acc018_geom]->(hasGeometry),
+(412)-[:nan]->(comment),
+(412)-[:Kastell Enoşeşti (Acidava)]->(label),
 (414)-[:Point]->(type),
-(414)-[:4326> POINT (21.587219 45.265)]->(asWKT),
-(414)-[:Kastell Surducul Mare Geometry]->(label),
+(414)-[:4326> POINT (25.178583 45.398444)]->(asWKT),
+(414)-[:Kastell Rucăr Geometry]->(label),
 (417)-[:Point]->(type),
-(417)-[:4326> POINT (25.441581 45.618708)]->(asWKT),
-(417)-[:Kastell Râșnov Geometry]->(label),
+(417)-[:4326> POINT (20.145953 46.253697)]->(asWKT),
+(417)-[:Kastell Szeged Geometry]->(label),
 (420)-[:Point]->(type),
-(420)-[:4326> POINT (23.772733 46.570536)]->(asWKT),
-(420)-[:Legionslager Potaissa Geometry]->(label),
+(420)-[:4326> POINT (22.306831 45.168611)]->(asWKT),
+(420)-[:Kastell Teregova (Ad Pannonios) Geometry]->(label),
 (423)-[:Point]->(type),
-(423)-[:4326> POINT (24.947028 44.074472)]->(asWKT),
-(423)-[:Kastell Roșiorii de Vede Geometry]->(label),
-(426)-[:Point]->(type),
-(426)-[:4326> POINT (24.266011 45.635769)]->(asWKT),
-(426)-[:Kastell Boiţa (Caput Stenarum) Geometry]->(label),
-(429)-[:Point]->(type),
-(429)-[:4326> POINT (24.30325 44.374806)]->(asWKT),
-(429)-[:Kastell Enoşeşti (Acidava) Geometry]->(label),
-(432)-[:MilitaryCamp]->(type),
-(432)-[:01189de6-024d-4022-96ff-eec7e4efee0c_geom]->(hasGeometry),
-(432)-[:nan]->(comment),
-(432)-[:Kastell Orșova (Dierna)]->(label),
-(434)-[:Point]->(type),
-(434)-[:4326> POINT (24.766042 46.861514)]->(asWKT),
-(434)-[:Kastell Brâncoveneşti Geometry]->(label),
-(437)-[:MilitaryCamp]->(type),
-(437)-[:7dd1742c-a3a5-4494-b148-1d435d754d5d_geom]->(hasGeometry),
-(437)-[:  Alenkastell]->(comment),
-(437)-[:Kastell Vršac]->(label),
-(440)-[:GeometryCollection]->(type),
-(440)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2_geom]->(member),
-(440)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom]->(member),
-(440)-[:b6e369cd-722a-4a1c-a984-538bb26f3777_geom]->(member),
-(440)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom]->(member),
-(440)-[:cba75304-f136-465d-90fb-56dff3acc018_geom]->(member),
-(440)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom]->(member),
-(440)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c_geom]->(member),
-(440)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom]->(member),
-(440)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696_geom]->(member),
-(440)-[:e69e6cb2-cded-446c-b159-daec78476f43_geom]->(member),
-(440)-[:e811fe5a-92d2-43a0-a572-51bc5942e242_geom]->(member),
-(440)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67_geom]->(member),
-(440)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom]->(member),
-(440)-[:0ab5e10e-4fb0-4854-835b-389043840ee0_geom]->(member),
-(440)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom]->(member),
-(440)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom]->(member),
-(440)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom]->(member),
-(440)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom]->(member),
-(440)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom]->(member),
-(440)-[:1795d125-e071-4153-b07e-e147bb19ad65_geom]->(member),
-(440)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom]->(member),
-(440)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom]->(member),
-(440)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom]->(member),
-(440)-[:3680e065-f377-4f4d-a9d6-84523dcb1727_geom]->(member),
-(440)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom]->(member),
-(440)-[:4df4edbc-facd-42bd-b05e-076f94ae693b_geom]->(member),
-(440)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom]->(member),
-(440)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom]->(member),
-(440)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf_geom]->(member),
-(440)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom]->(member),
-(440)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom]->(member),
-(440)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom]->(member),
-(440)-[:50320dbe-929c-40e3-aebd-f8f257d6472a_geom]->(member),
-(440)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom]->(member),
-(440)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom]->(member),
-(440)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom]->(member),
-(440)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom]->(member),
-(440)-[:7b05b48b-cd48-4c66-916e-6ea581179843_geom]->(member),
-(440)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom]->(member),
-(440)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom]->(member),
-(440)-[:7e6b0abd-392e-48da-a973-52db57e43459_geom]->(member),
-(440)-[:70d51242-571e-43ce-bd01-3bffca8cb4be_geom]->(member),
-(440)-[:7422f9df-da23-450f-8eac-db2d8dfca42e_geom]->(member),
-(440)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom]->(member),
-(440)-[:815f5c63-8478-4aac-bafb-11eaafa9a923_geom]->(member),
-(440)-[:86dae60a-c827-480d-bb38-04a480b9ea01_geom]->(member),
-(440)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom]->(member),
-(440)-[:9b62118c-9936-42f2-a6e7-49f649c937f2_geom]->(member),
-(440)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom]->(member),
-(440)-[:Limes Daicus Geometries]->(label),
-(455)-[:MilitaryCamp]->(type),
-(455)-[:e811fe5a-92d2-43a0-a572-51bc5942e242_geom]->(hasGeometry),
-(455)-[:nan]->(comment),
-(455)-[:Kastell Aizis]->(label),
-(457)-[:MilitaryCamp]->(type),
-(457)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696_geom]->(hasGeometry),
-(457)-[:nan]->(comment),
-(457)-[:Kastell Cincsor]->(label),
-(459)-[:Point]->(type),
-(459)-[:4326> POINT (24.651389 43.866389)]->(asWKT),
-(459)-[:Kastell Tia Mare Geometry]->(label),
-(462)-[:Point]->(type),
-(462)-[:4326> POINT (23.044569 47.048264)]->(asWKT),
-(462)-[:Kastell Buciumi Geometry]->(label),
-(465)-[:MilitaryCamp]->(type),
-(465)-[:50320dbe-929c-40e3-aebd-f8f257d6472a_geom]->(hasGeometry),
-(465)-[:nan]->(comment),
-(465)-[:Kastell Castranova]->(label),
-(467)-[:Point]->(type),
-(467)-[:4326> POINT (25.591561 45.816419)]->(asWKT),
-(467)-[:Kastell Feldioara Geometry]->(label),
-(470)-[:MilitaryCamp]->(type),
-(470)-[:80ce787b-1ab0-42e7-b03c-c641d3767774_geom]->(hasGeometry),
-(470)-[:nan]->(comment),
-(470)-[:Kastell Perisani]->(label),
-(472)-[:MilitaryCamp]->(type),
-(472)-[:f8305d66-9429-43c0-b6e3-73721df9986b_geom]->(hasGeometry),
-(472)-[:nan]->(comment),
-(472)-[:Kastell Urluieni II]->(label),
-(474)-[:Point]->(type),
-(474)-[:4326> POINT (25.900222 45.844172)]->(asWKT),
-(474)-[:Kastell Comalău Geometry]->(label),
-(477)-[:Point]->(type),
-(477)-[:4326> POINT (23.4 45.166667)]->(asWKT),
-(477)-[:Kastell Bumbeşti Geometry]->(label),
-(480)-[:Point]->(type),
-(480)-[:4326> POINT (24.757222 43.733056)]->(asWKT),
-(480)-[:Kastell Racoviţa (Praetorium II) Geometry]->(label),
-(483)-[:MilitaryCamp]->(type),
-(483)-[:42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom]->(hasGeometry),
-(483)-[:Auxiliarkastell]->(comment),
-(483)-[:Kastell Grebenac]->(label),
-(485)-[:GeometryCollection]->(type),
-(485)-[:Point Instances Collection]->(label),
-(485)-[:340738ca-7444-4896-a0fd-cd9e6806eb30_geom]->(member),
-(485)-[:707cb61a-d04e-4c7b-a620-6587db82f116_geom]->(member),
-(485)-[:7422f9df-da23-450f-8eac-db2d8dfca42e_geom]->(member),
-(485)-[:59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom]->(member),
-(485)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom]->(member),
-(485)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c_geom]->(member),
-(485)-[:8f823c04-d42b-49ec-879d-2c446d575885_geom]->(member),
-(485)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom]->(member),
-(485)-[:f81e10af-8e41-447d-b601-dcba5311199b_geom]->(member),
-(485)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom]->(member),
-(485)-[:4df4edbc-facd-42bd-b05e-076f94ae693b_geom]->(member),
-(485)-[:3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom]->(member),
-(485)-[:5709a2bb-8d86-44af-b582-19151b918068_geom]->(member),
-(485)-[:50320dbe-929c-40e3-aebd-f8f257d6472a_geom]->(member),
-(485)-[:e2573931-d743-40c3-a6b7-08ffeb244daa_geom]->(member),
-(485)-[:7dd1742c-a3a5-4494-b148-1d435d754d5d_geom]->(member),
-(485)-[:f42bb013-afeb-4044-9886-ece53cc813d4_geom]->(member),
-(485)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom]->(member),
-(485)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom]->(member),
-(485)-[:42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom]->(member),
-(485)-[:fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom]->(member),
-(485)-[:10b043a5-bb2b-48af-a168-84046185d6f7_geom]->(member),
-(485)-[:bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom]->(member),
-(485)-[:bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom]->(member),
-(485)-[:fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom]->(member),
-(485)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom]->(member),
-(485)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom]->(member),
-(485)-[:e811fe5a-92d2-43a0-a572-51bc5942e242_geom]->(member),
-(485)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom]->(member),
-(485)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom]->(member),
-(485)-[:a6ec226a-3c2a-444a-9221-839201e1135f_geom]->(member),
-(485)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom]->(member),
-(485)-[:9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom]->(member),
-(485)-[:7b05b48b-cd48-4c66-916e-6ea581179843_geom]->(member),
-(485)-[:80ce787b-1ab0-42e7-b03c-c641d3767774_geom]->(member),
-(485)-[:000d5176-6b9e-4065-a44f-d7b8f75b1199_geom]->(member),
-(485)-[:ec646e12-636f-4c8c-96c2-0f46833adf1c_geom]->(member),
-(485)-[:e69e6cb2-cded-446c-b159-daec78476f43_geom]->(member),
-(485)-[:b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom]->(member),
-(485)-[:c3451d14-c4ee-42be-b918-af9735167f5f_geom]->(member),
-(485)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom]->(member),
-(485)-[:5e33b468-4135-46b4-babc-99f5c423f966_geom]->(member),
-(485)-[:f8305d66-9429-43c0-b6e3-73721df9986b_geom]->(member),
-(485)-[:8fa245f8-ffe5-4e74-b259-410c7be91afd_geom]->(member),
-(485)-[:01189de6-024d-4022-96ff-eec7e4efee0c_geom]->(member),
-(485)-[:0e91c0e7-3991-4a45-89ed-382f7c74731a_geom]->(member),
-(485)-[:19360a61-a15a-4d56-a100-f3be57e93ff1_geom]->(member),
-(485)-[:7e6b0abd-392e-48da-a973-52db57e43459_geom]->(member),
-(485)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom]->(member),
-(485)-[:b0524f84-a9d2-45fa-9f69-d8164ad73440_geom]->(member),
-(485)-[:86dae60a-c827-480d-bb38-04a480b9ea01_geom]->(member),
-(485)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2_geom]->(member),
-(485)-[:918ef494-4408-4a91-8ee0-61f6087ffee7_geom]->(member),
-(485)-[:497eff64-e309-4704-b5f0-3e2872ff379d_geom]->(member),
-(485)-[:7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom]->(member),
-(485)-[:9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom]->(member),
-(485)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom]->(member),
-(485)-[:cba75304-f136-465d-90fb-56dff3acc018_geom]->(member),
-(485)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom]->(member),
-(485)-[:22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom]->(member),
-(485)-[:b6e369cd-722a-4a1c-a984-538bb26f3777_geom]->(member),
-(485)-[:70d51242-571e-43ce-bd01-3bffca8cb4be_geom]->(member),
-(485)-[:1795d125-e071-4153-b07e-e147bb19ad65_geom]->(member),
-(485)-[:9b62118c-9936-42f2-a6e7-49f649c937f2_geom]->(member),
-(485)-[:9a084d40-bf5c-42fa-8aa7-8c678524c631_geom]->(member),
-(485)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom]->(member),
-(485)-[:986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom]->(member),
-(485)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom]->(member),
-(485)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696_geom]->(member),
-(485)-[:322e89c0-f571-4be4-a08c-84b35efb69e5_geom]->(member),
-(485)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom]->(member),
-(485)-[:47a7d25e-6315-4256-b257-c2dfaea5e42f_geom]->(member),
-(485)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom]->(member),
-(485)-[:9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom]->(member),
-(485)-[:c8ecf3da-c535-41df-b06e-298cd8542633_geom]->(member),
-(485)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom]->(member),
-(485)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom]->(member),
-(485)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom]->(member),
-(485)-[:af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom]->(member),
-(485)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67_geom]->(member),
-(485)-[:87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom]->(member),
-(485)-[:3680e065-f377-4f4d-a9d6-84523dcb1727_geom]->(member),
-(485)-[:06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom]->(member),
-(485)-[:1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom]->(member),
-(485)-[:0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom]->(member),
-(485)-[:0ab5e10e-4fb0-4854-835b-389043840ee0_geom]->(member),
-(485)-[:120e3991-1f39-4359-b810-37bb24aff05c_geom]->(member),
-(485)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom]->(member),
-(485)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom]->(member),
-(485)-[:2c2fb600-f249-469e-a025-1961edf5132d_geom]->(member),
-(485)-[:5a43030f-b985-4444-8cf9-3e4a0b132d79_geom]->(member),
-(485)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom]->(member),
-(485)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf_geom]->(member),
-(485)-[:46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom]->(member),
-(485)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom]->(member),
-(485)-[:815f5c63-8478-4aac-bafb-11eaafa9a923_geom]->(member),
-(485)-[:7cadca30-bfd9-4628-9916-c20eecafa356_geom]->(member),
-(485)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom]->(member),
-(485)-[:ffd99607-0513-4fa5-8073-c80bddbfab84_geom]->(member),
-(485)-[:1c936059-6af8-4f03-8e18-cc61f529c5f3_geom]->(member),
-(485)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom]->(member),
-(485)-[:0ccd99fd-62d1-4978-873a-106b1f5e3880_geom]->(member),
-(485)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom]->(member),
-(485)-[:b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom]->(member),
-(485)-[:0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom]->(member),
-(485)-[:0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom]->(member),
-(485)-[:0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom]->(member),
-(485)-[:130bed48-35dd-45d9-9fc0-bc50fb465c60_geom]->(member),
-(485)-[:13572025-f4dc-4503-8aad-72050202752b_geom]->(member),
-(485)-[:1d31fa5a-61cc-42df-b958-a5e9d83555a3_geom]->(member),
-(485)-[:203478fb-4a78-48c7-bd75-97b667f6e707_geom]->(member),
-(485)-[:2471711a-fb59-436f-ade5-b61e4fd67732_geom]->(member),
-(485)-[:26f3beb0-0cb4-42a8-849d-38455b2d1b79_geom]->(member),
-(485)-[:2bf44917-dd67-4ec8-9240-513476cdb60c_geom]->(member),
-(485)-[:2e2c9ca5-61d1-459e-a151-fad5d81dd1b7_geom]->(member),
-(485)-[:32371ca3-a871-475e-8d85-49ca8c26da3d_geom]->(member),
-(485)-[:4043d889-d9be-47b7-b9d3-afede593d67a_geom]->(member),
-(485)-[:48f27058-f4ea-41f3-8319-888f59ffdd2d_geom]->(member),
-(485)-[:4c745423-da08-4414-93b9-bf0df2382c76_geom]->(member),
-(485)-[:5028c3bd-efbb-43b3-a8f6-a30ab9844d1b_geom]->(member),
-(485)-[:51607531-4767-41c1-94ca-86d68572c7c2_geom]->(member),
-(485)-[:58660c1d-c211-4cf7-90d6-b53a5957addc_geom]->(member),
-(485)-[:64755b3a-9ff6-4c12-b9fb-778e3bde5b1f_geom]->(member),
-(485)-[:71192446-c179-4a45-9214-44ef9a3a996b_geom]->(member),
-(485)-[:78b044f5-8a10-47ed-acf0-74658affbf22_geom]->(member),
-(485)-[:7e23ed9a-8efc-48ec-a294-a7cc9b8285dc_geom]->(member),
-(485)-[:80943cf4-f263-44f2-bd49-2a2c405b3be6_geom]->(member),
-(485)-[:8135cb6b-504d-4cae-9835-b9a7b0613163_geom]->(member),
-(485)-[:88218e4a-aa6a-421c-84ea-a646790b80cb_geom]->(member),
-(485)-[:8f964055-7a95-4e88-bcef-5bd3a5824de9_geom]->(member),
-(485)-[:9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom]->(member),
-(485)-[:a41296e5-fca2-4ce3-843e-a17871a5d85b_geom]->(member),
-(485)-[:b3e7d110-127b-45a7-9195-5e8a694e4862_geom]->(member),
-(485)-[:c2b75037-aed0-49b4-9e1c-39944efa5cb4_geom]->(member),
-(485)-[:c589a7d3-f71c-4051-ac8b-c701902d3610_geom]->(member),
-(485)-[:c75941f8-009d-4c4c-8505-0298a88a6fd4_geom]->(member),
-(485)-[:cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5_geom]->(member),
-(485)-[:cfcfa4b0-501f-4563-8157-3c76054014a4_geom]->(member),
-(485)-[:d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom]->(member),
-(485)-[:d151609e-cb90-4faf-a74b-54d2f52e01a1_geom]->(member),
-(485)-[:d8bcb543-3948-43fd-937b-2782138b9deb_geom]->(member),
-(485)-[:ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom]->(member),
-(485)-[:ed3e59f2-e683-4800-9e27-92d82cbc867f_geom]->(member),
-(485)-[:ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom]->(member),
-(538)-[:MilitaryCamp]->(type),
-(538)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom]->(hasGeometry),
-(538)-[:nan]->(comment),
-(538)-[:Kastell Cristeşti]->(label),
-(540)-[:MilitaryCamp]->(type),
-(540)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom]->(hasGeometry),
-(540)-[:nan]->(comment),
-(540)-[:Kastell Flămănda (Poiana)]->(label),
-(542)-[:Point]->(type),
-(542)-[:4326> POINT (25.012694 45.221)]->(asWKT),
-(542)-[:Kastell Câmpulung Muscel II Geometry]->(label),
-(545)-[:Point]->(type),
-(545)-[:4326> POINT (23.327689 47.227733)]->(asWKT),
-(545)-[:Kastell Tihău Geometry]->(label),
-(548)-[:MilitaryCamp]->(type),
-(548)-[:0ccd99fd-62d1-4978-873a-106b1f5e3880_geom]->(hasGeometry),
-(548)-[:nan]->(comment),
-(548)-[:Kastell Rucăr]->(label),
+(423)-[:4326> POINT (23.044569 47.048264)]->(asWKT),
+(423)-[:Kastell Buciumi Geometry]->(label),
+(426)-[:MilitaryCamp]->(type),
+(426)-[:000d5176-6b9e-4065-a44f-d7b8f75b1199_geom]->(hasGeometry),
+(426)-[:nan]->(comment),
+(426)-[:Kastell Orăştioara de Sus]->(label),
+(428)-[:Point]->(type),
+(428)-[:4326> POINT (24.360675 45.105944)]->(asWKT),
+(428)-[:Kastell Stolniceni Geometry]->(label),
+(431)-[:MilitaryCamp]->(type),
+(431)-[:b6e369cd-722a-4a1c-a984-538bb26f3777_geom]->(hasGeometry),
+(431)-[:Kohortenkastell]->(comment),
+(431)-[:Kastell Buciumi]->(label),
+(433)-[:MilitaryCamp]->(type),
+(433)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom]->(hasGeometry),
+(433)-[:nan]->(comment),
+(433)-[:Kastell Islaz-Razovica]->(label),
+(435)-[:MilitaryCamp]->(type),
+(435)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom]->(hasGeometry),
+(435)-[:nan]->(comment),
+(435)-[:Kastell Câmpulung Muscel II]->(label),
+(437)-[:Point]->(type),
+(437)-[:4326> POINT (25.849619 45.970939)]->(asWKT),
+(437)-[:Kastell Olteni Geometry]->(label),
+(440)-[:Point]->(type),
+(440)-[:4326> POINT (22.786822 45.51665)]->(asWKT),
+(440)-[:Kastell Sarmizegetusa (Ulpia Traiana) Geometry]->(label),
+(443)-[:Point]->(type),
+(443)-[:4326> POINT (24.476111 46.510556)]->(asWKT),
+(443)-[:Kastell Cristeşti Geometry]->(label),
+(446)-[:MilitaryCamp]->(type),
+(446)-[:f8305d66-9429-43c0-b6e3-73721df9986b_geom]->(hasGeometry),
+(446)-[:nan]->(comment),
+(446)-[:Kastell Urluieni II]->(label),
+(448)-[:Point]->(type),
+(448)-[:4326> POINT (24.877311 46.628978)]->(asWKT),
+(448)-[:Kastell Călugăreni Geometry]->(label),
+(451)-[:MilitaryCamp]->(type),
+(451)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom]->(hasGeometry),
+(451)-[:nan]->(comment),
+(451)-[:Kastell Bivolari (Arutela)]->(label),
+(453)-[:MilitaryCamp]->(type),
+(453)-[:a6ec226a-3c2a-444a-9221-839201e1135f_geom]->(hasGeometry),
+(453)-[:nan]->(comment),
+(453)-[:Kastell Săpata de Jos I]->(label),
+(455)-[:Point]->(type),
+(455)-[:4326> POINT (24.016667 44.116667)]->(asWKT),
+(455)-[:Kastell Castranova Geometry]->(label),
+(458)-[:Point]->(type),
+(458)-[:4326> POINT (24.651389 43.866389)]->(asWKT),
+(458)-[:Kastell Tia Mare Geometry]->(label),
+(461)-[:Point]->(type),
+(461)-[:4326> POINT (26.312836 46.050994)]->(asWKT),
+(461)-[:Kastell Brețcu Geometry]->(label),
+(464)-[:Point]->(type),
+(464)-[:4326> POINT (23.181678 47.113403)]->(asWKT),
+(464)-[:Kastell Romanasi (Largiana) Geometry]->(label),
+(467)-[:Collection]->(type),
+(467)-[:GeometryCollection Instances Collection]->(label),
+(467)-[:LimesDaicusGeometries]->(member),
+(467)-[:LimesNoricumGeometries]->(member),
+(470)-[:Point]->(type),
+(470)-[:4326> POINT (22.112283 46.006539)]->(asWKT),
+(470)-[:Kastell Bulci Geometry]->(label),
+(473)-[:MilitaryCamp]->(type),
+(473)-[:10b043a5-bb2b-48af-a168-84046185d6f7_geom]->(hasGeometry),
+(473)-[:nan]->(comment),
+(473)-[:Kastell Pinoasa]->(label),
+(475)-[:Point]->(type),
+(475)-[:4326> POINT (24.762111 44.484583)]->(asWKT),
+(475)-[:Kastell Urluieni II Geometry]->(label),
+(478)-[:Point]->(type),
+(478)-[:4326> POINT (23.571847 44.514)]->(asWKT),
+(478)-[:Kastell Răcarii de Jos Geometry]->(label),
+(481)-[:Point]->(type),
+(481)-[:4326> POINT (24.947028 44.074472)]->(asWKT),
+(481)-[:Kastell Roșiorii de Vede Geometry]->(label),
+(484)-[:MilitaryCamp]->(type),
+(484)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom]->(hasGeometry),
+(484)-[:nan]->(comment),
+(484)-[:Kastell Fâlfani]->(label),
+(486)-[:Point]->(type),
+(486)-[:4326> POINT (25.121806 46.431319)]->(asWKT),
+(486)-[:Kastell Inlăceni Geometry]->(label),
+(489)-[:MilitaryCamp]->(type),
+(489)-[:340738ca-7444-4896-a0fd-cd9e6806eb30_geom]->(hasGeometry),
+(489)-[:nan]->(comment),
+(489)-[:Kastell Mehadia (Praetorium)]->(label),
+(491)-[:MilitaryCamp]->(type),
+(491)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c_geom]->(hasGeometry),
+(491)-[:nan]->(comment),
+(491)-[:Kastell Ilişua (Arcobara)]->(label),
+(493)-[:Point]->(type),
+(493)-[:4326> POINT (21.847883 45.486656)]->(asWKT),
+(493)-[:Kastell Aizis Geometry]->(label),
+(496)-[:Point]->(type),
+(496)-[:4326> POINT (23.372222 45.1825)]->(asWKT),
+(496)-[:Kastell Vârtop Geometry]->(label),
+(499)-[:Point]->(type),
+(499)-[:4326> POINT (24.757222 43.733056)]->(asWKT),
+(499)-[:Kastell Racoviţa (Praetorium II) Geometry]->(label),
+(502)-[:Point]->(type),
+(502)-[:4326> POINT (24.57075 47.186869)]->(asWKT),
+(502)-[:Kastell Livezile Geometry]->(label),
+(505)-[:Point]->(type),
+(505)-[:4326> POINT (24.766042 46.861514)]->(asWKT),
+(505)-[:Kastell Brâncoveneşti Geometry]->(label),
+(508)-[:MilitaryCamp]->(type),
+(508)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom]->(hasGeometry),
+(508)-[:nan]->(comment),
+(508)-[:Kastell Ghioca]->(label),
+(510)-[:Point]->(type),
+(510)-[:4326> POINT (25.900222 45.844172)]->(asWKT),
+(510)-[:Kastell Comalău Geometry]->(label),
+(513)-[:MilitaryCamp]->(type),
+(513)-[:8f823c04-d42b-49ec-879d-2c446d575885_geom]->(hasGeometry),
+(513)-[:nan]->(comment),
+(513)-[:Kastell Voineşti]->(label),
+(515)-[:MilitaryCamp]->(type),
+(515)-[:2c2fb600-f249-469e-a025-1961edf5132d_geom]->(hasGeometry),
+(515)-[:nan]->(comment),
+(515)-[:Kastell Războieni]->(label),
+(517)-[:LegionaryCamp]->(type),
+(517)-[:ffd99607-0513-4fa5-8073-c80bddbfab84_geom]->(hasGeometry),
+(517)-[:Legionslager]->(comment),
+(517)-[:Kastell Tibiscum]->(label),
+(519)-[:Point]->(type),
+(519)-[:4326> POINT (23.391764 46.754058)]->(asWKT),
+(519)-[:Kastell Gilău Geometry]->(label),
+(522)-[:Point]->(type),
+(522)-[:4326> POINT (24.30325 44.374806)]->(asWKT),
+(522)-[:Kastell Enoşeşti (Acidava) Geometry]->(label),
+(525)-[:MilitaryCamp]->(type),
+(525)-[:47a7d25e-6315-4256-b257-c2dfaea5e42f_geom]->(hasGeometry),
+(525)-[:nan]->(comment),
+(525)-[:Kastell Zăvoi (Acmonia ?)]->(label),
+(527)-[:MilitaryCamp]->(type),
+(527)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom]->(hasGeometry),
+(527)-[:nan]->(comment),
+(527)-[:Kastell Copăceni (Praetorium I)]->(label),
+(529)-[:Point]->(type),
+(529)-[:4326> POINT (24.360556 45.231944)]->(asWKT),
+(529)-[:Kastell Jiblea Geometry]->(label),
+(532)-[:Point]->(type),
+(532)-[:4326> POINT (24.961889 43.935889)]->(asWKT),
+(532)-[:Kastell Băneasa II Geometry]->(label),
+(535)-[:Point]->(type),
+(535)-[:4326> POINT (25.076083 45.297833)]->(asWKT),
+(535)-[:Kastell Voineşti Geometry]->(label),
+(538)-[:Point]->(type),
+(538)-[:4326> POINT (20.585819 46.138106)]->(asWKT),
+(538)-[:Kastell Cenad Geometry]->(label),
+(541)-[:Point]->(type),
+(541)-[:4326> POINT (24.983333 43.7345)]->(asWKT),
+(541)-[:Kastell Flămănda (Poiana) Geometry]->(label),
+(544)-[:Point]->(type),
+(544)-[:4326> POINT (24.785111 44.603278)]->(asWKT),
+(544)-[:Kastell Fâlfani Geometry]->(label),
+(547)-[:Point]->(type),
+(547)-[:4326> POINT (23.251667 46.986086)]->(asWKT),
+(547)-[:Kastell Sutoru Geometry]->(label),
 (550)-[:MilitaryCamp]->(type),
-(550)-[:fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom]->(hasGeometry),
-(550)-[:Kohortenkastell]->(comment),
-(550)-[:Kastell Vărădia]->(label),
+(550)-[:01189de6-024d-4022-96ff-eec7e4efee0c_geom]->(hasGeometry),
+(550)-[:nan]->(comment),
+(550)-[:Kastell Orșova (Dierna)]->(label),
 (552)-[:Point]->(type),
-(552)-[:4326> POINT (25.379472 46.194833)]->(asWKT),
-(552)-[:Kastell Sânpaul Geometry]->(label),
-(555)-[:Point]->(type),
-(555)-[:4326> POINT (24.961889 43.935889)]->(asWKT),
-(555)-[:Kastell Băneasa II Geometry]->(label),
+(552)-[:4326> POINT (22.3522 44.9229)]->(asWKT),
+(552)-[:Kastell Mehadia (Praetorium) Geometry]->(label),
+(555)-[:MilitaryCamp]->(type),
+(555)-[:1c936059-6af8-4f03-8e18-cc61f529c5f3_geom]->(hasGeometry),
+(555)-[:Auxiliarkastelle]->(comment),
+(555)-[:Kastelle von Porolissum]->(label),
 (558)-[:Point]->(type),
-(558)-[:4326> POINT (24.8375 44.771389)]->(asWKT),
-(558)-[:Kastell Albota Geometry]->(label),
+(558)-[:4326> POINT (22.924444 44.838889)]->(asWKT),
+(558)-[:Kastell Cătunele Geometry]->(label),
 (561)-[:Point]->(type),
-(561)-[:4326> POINT (24.866611 45.842519)]->(asWKT),
-(561)-[:Kastell Cincsor Geometry]->(label),
+(561)-[:4326> POINT (24.8945 44.958083)]->(asWKT),
+(561)-[:Kastell Purcăreni Geometry]->(label),
 (564)-[:Point]->(type),
-(564)-[:4326> POINT (22.410833 45.525278)]->(asWKT),
-(564)-[:Kastell Zăvoi (Acmonia ?) Geometry]->(label),
-(567)-[:MilitaryCamp]->(type),
-(567)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom]->(hasGeometry),
-(567)-[:nan]->(comment),
-(567)-[:Kastell Copăceni (Praetorium I)]->(label),
-(569)-[:Point]->(type),
-(569)-[:4326> POINT (24.965361 43.897806)]->(asWKT),
-(569)-[:Kastell Putineiu Geometry]->(label),
-(572)-[:Point]->(type),
-(572)-[:4326> POINT (23.391764 46.754058)]->(asWKT),
-(572)-[:Kastell Gilău Geometry]->(label),
-(575)-[:MilitaryCamp]->(type),
-(575)-[:9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom]->(hasGeometry),
-(575)-[:nan]->(comment),
-(575)-[:Kastell Putineiu]->(label),
-(577)-[:Point]->(type),
-(577)-[:4326> POINT (22.306831 45.168611)]->(asWKT),
-(577)-[:Kastell Teregova (Ad Pannonios) Geometry]->(label),
-(580)-[:MilitaryCamp]->(type),
-(580)-[:7cadca30-bfd9-4628-9916-c20eecafa356_geom]->(hasGeometry),
-(580)-[:Kohortenkastell]->(comment),
-(580)-[:Kastell Stolniceni]->(label),
-(582)-[:MilitaryCamp]->(type),
-(582)-[:c3451d14-c4ee-42be-b918-af9735167f5f_geom]->(hasGeometry),
-(582)-[:nan]->(comment),
-(582)-[:Kastell Sarateni]->(label),
-(584)-[:Point]->(type),
-(584)-[:4326> POINT (23.899911 47.019833)]->(asWKT),
-(584)-[:Kastell Gherla Geometry]->(label),
-(587)-[:MilitaryCamp]->(type),
-(587)-[:1795d125-e071-4153-b07e-e147bb19ad65_geom]->(hasGeometry),
-(587)-[:nan]->(comment),
-(587)-[:Kastell Comalău]->(label),
-(589)-[:Point]->(type),
-(589)-[:4326> POINT (22.112283 46.006539)]->(asWKT),
-(589)-[:Kastell Bulci Geometry]->(label),
-(592)-[:MilitaryCamp]->(type),
-(592)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom]->(hasGeometry),
-(592)-[:nan]->(comment),
-(592)-[:Kastell Câmpulung Muscel II]->(label),
-(594)-[:Point]->(type),
-(594)-[:4326> POINT (23.164364 45.897053)]->(asWKT),
-(594)-[:Kastell Cigmău Geometry]->(label),
-(597)-[:MilitaryCamp]->(type),
-(597)-[:f81e10af-8e41-447d-b601-dcba5311199b_geom]->(hasGeometry),
-(597)-[:nan]->(comment),
-(597)-[:Malva)]->(label),
-(599)-[:Point]->(type),
-(599)-[:4326> POINT (24.373611 45.173611)]->(asWKT),
-(599)-[:Kastell Sămbotin (Castra Traiana) Geometry]->(label),
-(602)-[:MilitaryCamp]->(type),
-(602)-[:47a7d25e-6315-4256-b257-c2dfaea5e42f_geom]->(hasGeometry),
-(602)-[:nan]->(comment),
-(602)-[:Kastell Zăvoi (Acmonia ?)]->(label),
-(604)-[:Point]->(type),
-(604)-[:4326> POINT (21.315097 46.146819)]->(asWKT),
-(604)-[:Kastell Aradul Nou Geometry]->(label),
-(607)-[:Point]->(type),
-(607)-[:4326> POINT (22.814906 45.914594)]->(asWKT),
-(607)-[:Kastell Vețel Geometry]->(label),
-(610)-[:MilitaryCamp]->(type),
-(610)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom]->(hasGeometry),
-(610)-[:Kohortenkastell]->(comment),
-(610)-[:Kastell Călugăreni]->(label),
-(612)-[:MilitaryCamp]->(type),
-(612)-[:b6e369cd-722a-4a1c-a984-538bb26f3777_geom]->(hasGeometry),
-(612)-[:Kohortenkastell]->(comment),
-(612)-[:Kastell Buciumi]->(label),
-(614)-[:Point]->(type),
-(614)-[:4326> POINT (26.312836 46.050994)]->(asWKT),
-(614)-[:Kastell Brețcu Geometry]->(label),
+(564)-[:4326> POINT (22.1895 45.4663)]->(asWKT),
+(564)-[:Kastell Tibiscum Geometry]->(label),
+(567)-[:Point]->(type),
+(567)-[:4326> POINT (22.4076 44.7382)]->(asWKT),
+(567)-[:Kastell Orșova (Dierna) Geometry]->(label),
+(570)-[:FeatureCollection]->(type),
+(570)-[:MilitaryCamp Instances Collection]->(label),
+(570)-[:7422f9df-da23-450f-8eac-db2d8dfca42e]->(member),
+(570)-[:80ce787b-1ab0-42e7-b03c-c641d3767774]->(member),
+(570)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061]->(member),
+(570)-[:7aa137c0-3763-4bd3-a1ec-bd8a88b3d786]->(member),
+(570)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc]->(member),
+(570)-[:b0cccdd1-2478-40bc-add2-a0e1bad88feb]->(member),
+(570)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d]->(member),
+(570)-[:50320dbe-929c-40e3-aebd-f8f257d6472a]->(member),
+(570)-[:46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990]->(member),
+(570)-[:af909713-68f5-4b6d-89d5-03f7fc7fd5c1]->(member),
+(570)-[:5b90b8d5-ba6e-4789-94d2-db823824acbf]->(member),
+(570)-[:1d8f65a8-c30b-40f1-9676-2e1145691ac3]->(member),
+(570)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d]->(member),
+(570)-[:34d0d768-2d4d-42b3-82ae-e29bad5c1eed]->(member),
+(570)-[:4198c975-e14a-4fb3-9b2e-7be9e145ecac]->(member),
+(570)-[:9a118e00-be2c-4c2d-a9f9-8cb86170e3d1]->(member),
+(570)-[:3f7e0b8c-1a5f-423f-85da-536d87bbdcc8]->(member),
+(570)-[:aadec8db-70f9-4c40-833a-2a7c39c631d2]->(member),
+(570)-[:b0524f84-a9d2-45fa-9f69-d8164ad73440]->(member),
+(570)-[:c8ecf3da-c535-41df-b06e-298cd8542633]->(member),
+(570)-[:ae458e0d-85d0-4756-b265-db4db5bb7fe2]->(member),
+(570)-[:5a43030f-b985-4444-8cf9-3e4a0b132d79]->(member),
+(570)-[:9f76d5fd-4ee3-4985-9fb6-c22bfdf43436]->(member),
+(570)-[:4df4edbc-facd-42bd-b05e-076f94ae693b]->(member),
+(570)-[:5e33b468-4135-46b4-babc-99f5c423f966]->(member),
+(570)-[:c3451d14-c4ee-42be-b918-af9735167f5f]->(member),
+(570)-[:5ea0f057-026f-4556-97f5-3e0e3a9471c3]->(member),
+(570)-[:ec646e12-636f-4c8c-96c2-0f46833adf1c]->(member),
+(570)-[:e2573931-d743-40c3-a6b7-08ffeb244daa]->(member),
+(570)-[:815f5c63-8478-4aac-bafb-11eaafa9a923]->(member),
+(570)-[:0ccd99fd-62d1-4978-873a-106b1f5e3880]->(member),
+(570)-[:86dae60a-c827-480d-bb38-04a480b9ea01]->(member),
+(570)-[:9d1c0c0d-98f5-4728-86ee-4288dde6d0fa]->(member),
+(570)-[:5d0fac8e-53ae-4ae7-92a2-dd419eee0dce]->(member),
+(570)-[:e3899f66-1234-4a44-b16e-2ead1e0bf696]->(member),
+(570)-[:8fa245f8-ffe5-4e74-b259-410c7be91afd]->(member),
+(570)-[:f81e10af-8e41-447d-b601-dcba5311199b]->(member),
+(570)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a]->(member),
+(570)-[:7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc]->(member),
+(570)-[:fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd]->(member),
+(570)-[:9b62118c-9936-42f2-a6e7-49f649c937f2]->(member),
+(570)-[:b5cf0c45-ec51-4710-a03a-75e7dc30a7a3]->(member),
+(570)-[:bd14e9f3-dd38-4329-a655-60b00fd8d5b7]->(member),
+(570)-[:ed79872f-dcb1-48d0-a008-5a3c65432a67]->(member),
+(570)-[:bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4]->(member),
+(570)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace]->(member),
+(570)-[:0e91c0e7-3991-4a45-89ed-382f7c74731a]->(member),
+(570)-[:59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f]->(member),
+(570)-[:22bf9a4e-a715-43f7-9fd0-4a60b8b77288]->(member),
+(570)-[:120e3991-1f39-4359-b810-37bb24aff05c]->(member),
+(570)-[:70d51242-571e-43ce-bd01-3bffca8cb4be]->(member),
+(570)-[:cba75304-f136-465d-90fb-56dff3acc018]->(member),
+(570)-[:7dd1742c-a3a5-4494-b148-1d435d754d5d]->(member),
+(570)-[:06eb8de4-750e-4ed9-ad04-9bf16d61c975]->(member),
+(570)-[:000d5176-6b9e-4065-a44f-d7b8f75b1199]->(member),
+(570)-[:b6e369cd-722a-4a1c-a984-538bb26f3777]->(member),
+(570)-[:1e218e82-f264-4241-a8e0-5efd9a1ec8a4]->(member),
+(570)-[:8c5f1f84-f11a-48f0-8e9a-c629c7d346e2]->(member),
+(570)-[:f8305d66-9429-43c0-b6e3-73721df9986b]->(member),
+(570)-[:9ac48ee9-00b6-46ab-a597-b6aa5f2d784a]->(member),
+(570)-[:a6ec226a-3c2a-444a-9221-839201e1135f]->(member),
+(570)-[:10b043a5-bb2b-48af-a168-84046185d6f7]->(member),
+(570)-[:64ae9ea8-9dca-4e22-b32b-c2f95fd80b44]->(member),
+(570)-[:340738ca-7444-4896-a0fd-cd9e6806eb30]->(member),
+(570)-[:d92ef45f-91c4-442e-b279-61f17fbccb7c]->(member),
+(570)-[:e0423dfe-4fdf-4bf6-8453-97d7bee4d031]->(member),
+(570)-[:8f823c04-d42b-49ec-879d-2c446d575885]->(member),
+(570)-[:2c2fb600-f249-469e-a025-1961edf5132d]->(member),
+(570)-[:47a7d25e-6315-4256-b257-c2dfaea5e42f]->(member),
+(570)-[:096a9a4c-020f-4ce0-a4a6-993d50d08fea]->(member),
+(570)-[:01189de6-024d-4022-96ff-eec7e4efee0c]->(member),
+(570)-[:1c936059-6af8-4f03-8e18-cc61f529c5f3]->(member),
+(570)-[:918ef494-4408-4a91-8ee0-61f6087ffee7]->(member),
+(570)-[:707cb61a-d04e-4c7b-a620-6587db82f116]->(member),
+(570)-[:0f25c729-a3c7-4cb4-b063-ff72c0124b4f]->(member),
+(570)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0]->(member),
+(570)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4]->(member),
+(570)-[:7cadca30-bfd9-4628-9916-c20eecafa356]->(member),
+(570)-[:986efe66-cf8a-4b64-a488-ad95d0f2dd79]->(member),
+(570)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9]->(member),
+(570)-[:f42bb013-afeb-4044-9886-ece53cc813d4]->(member),
+(570)-[:1795d125-e071-4153-b07e-e147bb19ad65]->(member),
+(570)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b]->(member),
+(570)-[:322e89c0-f571-4be4-a08c-84b35efb69e5]->(member),
+(570)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e]->(member),
+(570)-[:3680e065-f377-4f4d-a9d6-84523dcb1727]->(member),
+(570)-[:e811fe5a-92d2-43a0-a572-51bc5942e242]->(member),
+(570)-[:0ab5e10e-4fb0-4854-835b-389043840ee0]->(member),
+(570)-[:42d9c007-47e1-4b2a-ab2c-c381f93cac96]->(member),
+(570)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa]->(member),
+(570)-[:7b05b48b-cd48-4c66-916e-6ea581179843]->(member),
+(570)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1]->(member),
+(570)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22]->(member),
+(570)-[:19360a61-a15a-4d56-a100-f3be57e93ff1]->(member),
+(570)-[:9a084d40-bf5c-42fa-8aa7-8c678524c631]->(member),
+(570)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb]->(member),
+(570)-[:1b4b9c1f-cb64-4c02-976d-61c2147b0705]->(member),
+(570)-[:e69e6cb2-cded-446c-b159-daec78476f43]->(member),
+(570)-[:0e8a5ba3-887e-4540-92c3-d35fef2bd579]->(member),
+(570)-[:0f5c8dda-88a9-48ad-bf8f-e72f216a4066]->(member),
+(570)-[:13572025-f4dc-4503-8aad-72050202752b]->(member),
+(570)-[:2bf44917-dd67-4ec8-9240-513476cdb60c]->(member),
+(570)-[:78b044f5-8a10-47ed-acf0-74658affbf22]->(member),
+(570)-[:8f964055-7a95-4e88-bcef-5bd3a5824de9]->(member),
+(570)-[:9f8f4e96-12d9-449b-b9ab-6e6080e34c9f]->(member),
+(570)-[:b3e7d110-127b-45a7-9195-5e8a694e4862]->(member),
+(570)-[:cfcfa4b0-501f-4563-8157-3c76054014a4]->(member),
+(570)-[:d0ef2a62-6c85-44ce-a995-65ab6d5a5f43]->(member),
+(570)-[:d151609e-cb90-4faf-a74b-54d2f52e01a1]->(member),
+(570)-[:d8bcb543-3948-43fd-937b-2782138b9deb]->(member),
+(595)-[:Point]->(type),
+(595)-[:4326> POINT (23.949167 43.938056)]->(asWKT),
+(595)-[:Kastell Căciulătești Geometry]->(label),
+(598)-[:Point]->(type),
+(598)-[:4326> POINT (24.272806 45.523639)]->(asWKT),
+(598)-[:Kastell Râul Vadului Geometry]->(label),
+(601)-[:MilitaryCamp]->(type),
+(601)-[:918ef494-4408-4a91-8ee0-61f6087ffee7_geom]->(hasGeometry),
+(601)-[:nan]->(comment),
+(601)-[:Kastell Surducul Mare]->(label),
+(603)-[:MilitaryCamp]->(type),
+(603)-[:707cb61a-d04e-4c7b-a620-6587db82f116_geom]->(hasGeometry),
+(603)-[:nan]->(comment),
+(603)-[:Kastell Purcăreni]->(label),
+(605)-[:Point]->(type),
+(605)-[:4326> POINT (24.866611 45.842519)]->(asWKT),
+(605)-[:Kastell Cincsor Geometry]->(label),
+(608)-[:Point]->(type),
+(608)-[:4326> POINT (24.917722 44.172583)]->(asWKT),
+(608)-[:Kastell Gresia Geometry]->(label),
+(611)-[:MilitaryCamp]->(type),
+(611)-[:6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom]->(hasGeometry),
+(611)-[:nan]->(comment),
+(611)-[:Kastell Băneasa I]->(label),
+(613)-[:MilitaryCamp]->(type),
+(613)-[:0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom]->(hasGeometry),
+(613)-[:nan]->(comment),
+(613)-[:Kastell Urluieni I]->(label),
+(615)-[:MilitaryCamp]->(type),
+(615)-[:c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom]->(hasGeometry),
+(615)-[:nan]->(comment),
+(615)-[:Kastell Albota]->(label),
 (617)-[:MilitaryCamp]->(type),
-(617)-[:0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom]->(hasGeometry),
-(617)-[:nan]->(comment),
-(617)-[:Kastell Căşeiu (Samum)]->(label),
+(617)-[:7cadca30-bfd9-4628-9916-c20eecafa356_geom]->(hasGeometry),
+(617)-[:Kohortenkastell]->(comment),
+(617)-[:Kastell Stolniceni]->(label),
 (619)-[:MilitaryCamp]->(type),
-(619)-[:3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom]->(hasGeometry),
-(619)-[:Kohortenkastell (?)]->(comment),
-(619)-[:Kastell Bulci]->(label),
+(619)-[:986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom]->(hasGeometry),
+(619)-[:Kohortenkastell]->(comment),
+(619)-[:Kastell Tihău]->(label),
 (621)-[:MilitaryCamp]->(type),
-(621)-[:1c936059-6af8-4f03-8e18-cc61f529c5f3_geom]->(hasGeometry),
-(621)-[:Auxiliarkastelle]->(comment),
-(621)-[:Kastelle von Porolissum]->(label),
-(624)-[:Point]->(type),
-(624)-[:4326> POINT (24.27 44.650306)]->(asWKT),
-(624)-[:Kastell Momoteşti (Rusidava) Geometry]->(label),
-(627)-[:Point]->(type),
-(627)-[:4326> POINT (24.272806 45.523639)]->(asWKT),
-(627)-[:Kastell Râul Vadului Geometry]->(label),
+(621)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom]->(hasGeometry),
+(621)-[:nan]->(comment),
+(621)-[:Kastell Boiţa (Caput Stenarum) ]->(label),
+(623)-[:Point]->(type),
+(623)-[:4326> POINT (23.4 45.166667)]->(asWKT),
+(623)-[:Kastell Bumbeşti Geometry]->(label),
+(626)-[:MilitaryCamp]->(type),
+(626)-[:f42bb013-afeb-4044-9886-ece53cc813d4_geom]->(hasGeometry),
+(626)-[:Auxiliarkastell]->(comment),
+(626)-[:Kastell Sutoru]->(label),
+(628)-[:MilitaryCamp]->(type),
+(628)-[:1795d125-e071-4153-b07e-e147bb19ad65_geom]->(hasGeometry),
+(628)-[:nan]->(comment),
+(628)-[:Kastell Comalău]->(label),
 (630)-[:Point]->(type),
-(630)-[:4326> POINT (24.761417 44.485833)]->(asWKT),
-(630)-[:Kastell Urluieni I Geometry]->(label),
+(630)-[:4326> POINT (23.157319 47.179167)]->(asWKT),
+(630)-[:Kastelle von Porolissum Geometry]->(label),
 (633)-[:MilitaryCamp]->(type),
-(633)-[:59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom]->(hasGeometry),
-(633)-[:Kohortenkastell (?)]->(comment),
-(633)-[:Kastell Sânnicolau Mare]->(label),
-(635)-[:MilitaryCamp]->(type),
-(635)-[:8fa245f8-ffe5-4e74-b259-410c7be91afd_geom]->(hasGeometry),
-(635)-[:nan]->(comment),
-(635)-[:Kastell Titeşti]->(label),
-(637)-[:LegionaryCamp]->(type),
-(637)-[:ffd99607-0513-4fa5-8073-c80bddbfab84_geom]->(hasGeometry),
-(637)-[:Legionslager]->(comment),
-(637)-[:Kastell Tibiscum]->(label),
-(639)-[:MilitaryCamp]->(type),
-(639)-[:8f823c04-d42b-49ec-879d-2c446d575885_geom]->(hasGeometry),
-(639)-[:nan]->(comment),
-(639)-[:Kastell Voineşti]->(label),
-(641)-[:Point]->(type),
-(641)-[:4326> POINT (23.92 43.834167)]->(asWKT),
-(641)-[:Kastell Lişteava Geometry]->(label),
-(644)-[:MilitaryCamp]->(type),
-(644)-[:7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom]->(hasGeometry),
-(644)-[:nan]->(comment),
-(644)-[:Kastell Roșiorii de Vede]->(label),
+(633)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom]->(hasGeometry),
+(633)-[:nan]->(comment),
+(633)-[:Kastell Băneasa II]->(label),
+(635)-[:Point]->(type),
+(635)-[:4326> POINT (25.012472 45.22075)]->(asWKT),
+(635)-[:Kastell Câmpulung Muscel I Geometry]->(label),
+(638)-[:MilitaryCamp]->(type),
+(638)-[:322e89c0-f571-4be4-a08c-84b35efb69e5_geom]->(hasGeometry),
+(638)-[:nan]->(comment),
+(638)-[:Kastell Sânpaul]->(label),
+(640)-[:Point]->(type),
+(640)-[:4326> POINT (23.164364 45.897053)]->(asWKT),
+(640)-[:Kastell Cigmău Geometry]->(label),
+(643)-[:Point]->(type),
+(643)-[:4326> POINT (21.315097 46.146819)]->(asWKT),
+(643)-[:Kastell Aradul Nou Geometry]->(label),
 (646)-[:Point]->(type),
-(646)-[:4326> POINT (23.172444 47.106944)]->(asWKT),
-(646)-[:Kastell Romita Geometry]->(label),
+(646)-[:4326> POINT (24.309861 45.395903)]->(asWKT),
+(646)-[:Kastell Copăceni (Praetorium I) Geometry]->(label),
 (649)-[:MilitaryCamp]->(type),
-(649)-[:7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom]->(hasGeometry),
-(649)-[:nan]->(comment),
-(649)-[:Kastell Boiţa (Caput Stenarum) ]->(label),
-(651)-[:MilitaryCamp]->(type),
-(651)-[:4df4edbc-facd-42bd-b05e-076f94ae693b_geom]->(hasGeometry),
-(651)-[:nan]->(comment),
-(651)-[:Kastell IIoneștii Govorii (Pons Aluti)]->(label),
-(653)-[:MilitaryCamp]->(type),
-(653)-[:cba75304-f136-465d-90fb-56dff3acc018_geom]->(hasGeometry),
-(653)-[:nan]->(comment),
-(653)-[:Kastell Enoşeşti (Acidava)]->(label),
-(655)-[:Point]->(type),
-(655)-[:4326> POINT (24.309861 45.395903)]->(asWKT),
-(655)-[:Kastell Copăceni (Praetorium I) Geometry]->(label),
-(658)-[:MilitaryCamp]->(type),
-(658)-[:0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom]->(hasGeometry),
-(658)-[:Auxiliarkastell]->(comment),
-(658)-[:Kastell Cigmău ]->(label),
-(660)-[:Point]->(type),
-(660)-[:4326> POINT (25.012472 45.22075)]->(asWKT),
-(660)-[:Kastell Câmpulung Muscel I Geometry]->(label),
-(663)-[:MilitaryCamp]->(type),
-(663)-[:815f5c63-8478-4aac-bafb-11eaafa9a923_geom]->(hasGeometry),
-(663)-[:Auxiliarkastell]->(comment),
-(663)-[:Kastell Dupljaja]->(label),
-(665)-[:Point]->(type),
-(665)-[:4326> POINT (23.868333 46.417222)]->(asWKT),
-(665)-[:Kastell Războieni Geometry]->(label),
-(668)-[:MilitaryCamp]->(type),
-(668)-[:ec646e12-636f-4c8c-96c2-0f46833adf1c_geom]->(hasGeometry),
-(668)-[:Auxiliarkastell]->(comment),
-(668)-[:Kastell Răcarii de Jos]->(label),
-(670)-[:MilitaryCamp]->(type),
-(670)-[:918ef494-4408-4a91-8ee0-61f6087ffee7_geom]->(hasGeometry),
-(670)-[:nan]->(comment),
-(670)-[:Kastell Surducul Mare]->(label),
+(649)-[:4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom]->(hasGeometry),
+(649)-[:Auxiliarkastell]->(comment),
+(649)-[:Kastell Gilău]->(label),
+(651)-[:Point]->(type),
+(651)-[:4326> POINT (23.899911 47.019833)]->(asWKT),
+(651)-[:Kastell Gherla Geometry]->(label),
+(654)-[:LegionaryCamp]->(type),
+(654)-[:497eff64-e309-4704-b5f0-3e2872ff379d_geom]->(hasGeometry),
+(654)-[:Legionslager]->(comment),
+(654)-[:Legionslager Potaissa]->(label),
+(656)-[:MilitaryCamp]->(type),
+(656)-[:3680e065-f377-4f4d-a9d6-84523dcb1727_geom]->(hasGeometry),
+(656)-[:Kohortenkastell]->(comment),
+(656)-[:Kastell Brețcu ]->(label),
+(658)-[:Point]->(type),
+(658)-[:4326> POINT (23.327689 47.227733)]->(asWKT),
+(658)-[:Kastell Tihău Geometry]->(label),
+(661)-[:MilitaryCamp]->(type),
+(661)-[:e811fe5a-92d2-43a0-a572-51bc5942e242_geom]->(hasGeometry),
+(661)-[:nan]->(comment),
+(661)-[:Kastell Aizis]->(label),
+(663)-[:Point]->(type),
+(663)-[:4326> POINT (23.166667 45.733333)]->(asWKT),
+(663)-[:Kastell Orăştioara de Sus Geometry]->(label),
+(666)-[:Point]->(type),
+(666)-[:4326> POINT (23.837639 47.186222)]->(asWKT),
+(666)-[:Kastell Căşeiu (Samum) Geometry]->(label),
+(669)-[:Point]->(type),
+(669)-[:4326> POINT (23.098056 44.9075)]->(asWKT),
+(669)-[:Kastell Pinoasa Geometry]->(label),
 (672)-[:Point]->(type),
-(672)-[:4326> POINT (23.372222 45.1825)]->(asWKT),
-(672)-[:Kastell Vârtop Geometry]->(label),
-(675)-[:MilitaryCamp]->(type),
-(675)-[:1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom]->(hasGeometry),
-(675)-[:nan]->(comment),
-(675)-[:Kastell Râul Vadului]->(label),
-(677)-[:Point]->(type),
-(677)-[:4326> POINT (23.068611 46.272222)]->(asWKT),
-(677)-[:Kastell Abrud (Alburnus Maior) Geometry]->(label),
-(680)-[:Point]->(type),
-(680)-[:4326> POINT (24.308611 45.495)]->(asWKT),
-(680)-[:Kastell Căineni (Pons Vetus ?) Geometry]->(label),
-(683)-[:MilitaryCamp]->(type),
-(683)-[:b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom]->(hasGeometry),
-(683)-[:Kohortenkastell]->(comment),
-(683)-[:Kastell Romanasi (Largiana)]->(label),
-(685)-[:Point]->(type),
-(685)-[:4326> POINT (23.37 45.18)]->(asWKT),
-(685)-[:Kastell Plesa Geometry]->(label),
+(672)-[:4326> POINT (24.27 44.650306)]->(asWKT),
+(672)-[:Kastell Momoteşti (Rusidava) Geometry]->(label),
+(675)-[:Point]->(type),
+(675)-[:4326> POINT (24.312389 45.309667)]->(asWKT),
+(675)-[:Kastell Bivolari (Arutela) Geometry]->(label),
+(678)-[:Point]->(type),
+(678)-[:4326> POINT (23.068611 46.272222)]->(asWKT),
+(678)-[:Kastell Abrud (Alburnus Maior) Geometry]->(label),
+(681)-[:Point]->(type),
+(681)-[:4326> POINT (23.571889 44.514111)]->(asWKT),
+(681)-[:Kastell Mofleni (Pelendava) Geometry]->(label),
+(684)-[:MilitaryCamp]->(type),
+(684)-[:0ab5e10e-4fb0-4854-835b-389043840ee0_geom]->(hasGeometry),
+(684)-[:nan]->(comment),
+(684)-[:Kastell Lişteava]->(label),
+(686)-[:MilitaryCamp]->(type),
+(686)-[:42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom]->(hasGeometry),
+(686)-[:Auxiliarkastell]->(comment),
+(686)-[:Kastell Grebenac]->(label),
 (688)-[:MilitaryCamp]->(type),
-(688)-[:120e3991-1f39-4359-b810-37bb24aff05c_geom]->(hasGeometry),
-(688)-[:Kohortenkastell]->(comment),
-(688)-[:Kastell Romita]->(label),
-(690)-[:Point]->(type),
-(690)-[:4326> POINT (23.837639 47.186222)]->(asWKT),
-(690)-[:Kastell Căşeiu (Samum) Geometry]->(label),
-(693)-[:MilitaryCamp]->(type),
-(693)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom]->(hasGeometry),
-(693)-[:nan]->(comment),
-(693)-[:Kastell Borosneu Mare]->(label),
+(688)-[:4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom]->(hasGeometry),
+(688)-[:nan]->(comment),
+(688)-[:Kastell Flămănda (Poiana)]->(label),
+(690)-[:MilitaryCamp]->(type),
+(690)-[:7b05b48b-cd48-4c66-916e-6ea581179843_geom]->(hasGeometry),
+(690)-[:nan]->(comment),
+(690)-[:Kastell Islaz-Verdea]->(label),
+(692)-[:MilitaryCamp]->(type),
+(692)-[:d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom]->(hasGeometry),
+(692)-[: Alenkastell]->(comment),
+(692)-[:Kastell Banatska Palanka]->(label),
 (695)-[:MilitaryCamp]->(type),
-(695)-[:9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom]->(hasGeometry),
-(695)-[:Kohortenkastell]->(comment),
-(695)-[:Kastell Râșnov ]->(label),
-(697)-[:Point]->(type),
-(697)-[:4326> POINT (21.275078 44.927103)]->(asWKT),
-(697)-[:Kastell Dupljaja Geometry]->(label),
-(700)-[:MilitaryCamp]->(type),
-(700)-[:2c2fb600-f249-469e-a025-1961edf5132d_geom]->(hasGeometry),
-(700)-[:nan]->(comment),
-(700)-[:Kastell Războieni]->(label),
-(702)-[:Point]->(type),
-(702)-[:4326> POINT (24.360675 45.105944)]->(asWKT),
-(702)-[:Kastell Stolniceni Geometry]->(label),
-(705)-[:LegionaryCamp]->(type),
-(705)-[:497eff64-e309-4704-b5f0-3e2872ff379d_geom]->(hasGeometry),
-(705)-[:Legionslager]->(comment),
-(705)-[:Legionslager Potaissa]->(label),
-(707)-[:Point]->(type),
-(707)-[:4326> POINT (24.761056 44.307778)]->(asWKT),
-(707)-[:Kastell Ghioca Geometry]->(label),
+(695)-[:9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom]->(hasGeometry),
+(695)-[:nan]->(comment),
+(695)-[:Kastell Cristeşti]->(label),
+(697)-[:MilitaryCamp]->(type),
+(697)-[:19360a61-a15a-4d56-a100-f3be57e93ff1_geom]->(hasGeometry),
+(697)-[:nan]->(comment),
+(697)-[:Kastell Mofleni (Pelendava)]->(label),
+(699)-[:MilitaryCamp]->(type),
+(699)-[:9a084d40-bf5c-42fa-8aa7-8c678524c631_geom]->(hasGeometry),
+(699)-[:nan]->(comment),
+(699)-[:Kastell Racoviţa (Praetorium II)]->(label),
+(701)-[:LegionaryCamp]->(type),
+(701)-[:7e6b0abd-392e-48da-a973-52db57e43459_geom]->(hasGeometry),
+(701)-[:Legionslager]->(comment),
+(701)-[:Kastell Berzovia ]->(label),
+(703)-[:Point]->(type),
+(703)-[:4326> POINT (25.300011 45.983367)]->(asWKT),
+(703)-[:Kastell Hoghiz Geometry]->(label),
+(706)-[:MilitaryCamp]->(type),
+(706)-[:f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom]->(hasGeometry),
+(706)-[:nan]->(comment),
+(706)-[:Kastell Borosneu Mare]->(label),
+(708)-[:MilitaryCamp]->(type),
+(708)-[:1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom]->(hasGeometry),
+(708)-[:nan]->(comment),
+(708)-[:Kastell Râul Vadului]->(label),
 (710)-[:Point]->(type),
-(710)-[:4326> POINT (22.1895 45.4663)]->(asWKT),
-(710)-[:Kastell Tibiscum Geometry]->(label),
-(713)-[:MilitaryCamp]->(type),
-(713)-[:9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom]->(hasGeometry),
-(713)-[:nan]->(comment),
-(713)-[:Kastell Rădăcineşti]->(label),
+(710)-[:4326> POINT (23.172444 47.106944)]->(asWKT),
+(710)-[:Kastell Romita Geometry]->(label),
+(713)-[:LegionaryCamp]->(type),
+(713)-[:fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom]->(hasGeometry),
+(713)-[:Legionslager]->(comment),
+(713)-[:Legionslager Alba Julia]->(label),
 (715)-[:MilitaryCamp]->(type),
-(715)-[:22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom]->(hasGeometry),
+(715)-[:e69e6cb2-cded-446c-b159-daec78476f43_geom]->(hasGeometry),
 (715)-[:nan]->(comment),
-(715)-[:Kastell Tia Mare]->(label),
-(717)-[:MilitaryCamp]->(type),
-(717)-[:5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom]->(hasGeometry),
-(717)-[:nan]->(comment),
-(717)-[:Kastell Câmpulung Muscel I]->(label),
-(719)-[:Point]->(type),
-(719)-[:4326> POINT (23.157319 47.179167)]->(asWKT),
-(719)-[:Kastelle von Porolissum Geometry]->(label),
-(722)-[:Point]->(type),
-(722)-[:4326> POINT (25.300011 45.983367)]->(asWKT),
-(722)-[:Kastell Hoghiz Geometry]->(label),
-(725)-[:LegionaryCamp]->(type),
-(725)-[:fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom]->(hasGeometry),
-(725)-[:Legionslager]->(comment),
-(725)-[:Legionslager Alba Julia]->(label),
-(727)-[:MilitaryCamp]->(type),
-(727)-[:46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom]->(hasGeometry),
-(727)-[:nan]->(comment),
-(727)-[:Kastell Plesa]->(label),
-(729)-[:Point]->(type),
-(729)-[:4326> POINT (25.178583 45.398444)]->(asWKT),
-(729)-[:Kastell Rucăr Geometry]->(label),
-(732)-[:MilitaryCamp]->(type),
-(732)-[:e69e6cb2-cded-446c-b159-daec78476f43_geom]->(hasGeometry),
-(732)-[:nan]->(comment),
-(732)-[:Kastell Căciulătești]->(label),
-(734)-[:MilitaryCamp]->(type),
-(734)-[:3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom]->(hasGeometry),
-(734)-[:nan]->(comment),
-(734)-[:Kastell Brâncoveneşti]->(label),
-(736)-[:Point]->(type),
-(736)-[:4326> POINT (24.96525 43.937806)]->(asWKT),
-(736)-[:Kastell Băneasa I Geometry]->(label),
-(739)-[:MilitaryCamp]->(type),
-(739)-[:7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom]->(hasGeometry),
-(739)-[:nan]->(comment),
-(739)-[:Kastell Băneasa II]->(label),
-(741)-[:MilitaryCamp]->(type),
-(741)-[:3680e065-f377-4f4d-a9d6-84523dcb1727_geom]->(hasGeometry),
-(741)-[:Kohortenkastell]->(comment),
-(741)-[:Kastell Brețcu ]->(label),
-(743)-[:MilitaryCamp]->(type),
-(743)-[:6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom]->(hasGeometry),
-(743)-[:nan]->(comment),
-(743)-[:Kastell Bologa (Resculum)]->(label),
-(745)-[:Point]->(type),
-(745)-[:4326> POINT (23.181678 47.113403)]->(asWKT),
-(745)-[:Kastell Romanasi (Largiana) Geometry]->(label)
+(715)-[:Kastell Căciulătești]->(label),
+(717)-[:Point]->(type),
+(717)-[:4326> POINT (24.752103 46.239431)]->(asWKT),
+(717)-[:Kastell Sighisoara Geometry]->(label)
