@@ -1,5 +1,5 @@
 # SPARQLing Unicorn QGIS Plugin Testdata
-   
+    
 This repository contains sample data for the SPARQLing Unicorn QGIS plugin.
                           
 This data may be loaded in the plugin dialog and queried for its contents.  
