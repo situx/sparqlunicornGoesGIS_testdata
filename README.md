@@ -12,7 +12,8 @@ The script is used in a Github Action, as an external workflow to generate HTML 
  
 ```
 uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
-    with: 
+    with:
+        version: v016
         rdffilepath: LimesNoricum_result.ttl LimesDaicus_result.ttl
         docpath: docs
         prefixns: http://lod.squirrel.link/data/limes/
@@ -35,6 +36,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
 ```
   
 The workflow may be called using the following paramters:
+* **version (optional)**: The version of the script you want to execute (defaults to latest stable version)
 * **rdffilepath (required)**: A whitespace-separated list of RDF files
 * **docpath**: The path where the HTML documentation should be stored, optionally also a list of paths
 * **prefixns (required)**: The prefix of the RDF data which should be documented with HTML
