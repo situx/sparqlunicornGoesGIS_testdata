@@ -26,6 +26,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         offlinecompat: false
         exports: graphml json ttl
         iiif: true
+        ckan: true
         metadatatable: false
         preferredlang: en
         license: CC-BY-SA 4.0
@@ -51,6 +52,7 @@ The workflow may be called using the following paramters:
 * **exports**: A list of export formats the script generates besides HTML.
     Eligible formats: *cypher*, *graphml*, *json*, *n3*, *nq*, *nt*, *tgf*, *trig*, *trix*, *ttl*, defaults to *ttl* and *json*
 * **iiif**: If true, generates IIIF manifests for connected media files
+* **ckan**: If true, generates CKAN static API documents
 * **metadatatable**: If true, creates a second table per page which includes only triples in predefined metadata namespaces
 * **preferredlang**: Defines the preferred label language for multilingual graphs (default: en)
 * **license**: One of the following licenses or leave empty for no license 
