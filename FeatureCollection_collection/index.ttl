@@ -3,5 +3,6 @@
 
 <http://lod.squirrel.link/data/limes/FeatureCollection_collection> a skos:Collection ;
     rdfs:label "FeatureCollection Instances Collection" ;
-    rdfs:member <http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures> .
+    rdfs:member <http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures>,
+        <http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures> .
 

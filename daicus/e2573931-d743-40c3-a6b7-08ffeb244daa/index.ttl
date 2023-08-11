@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastell Valea Urluii" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom> ;
+    rdfs:comment "nan" .
+

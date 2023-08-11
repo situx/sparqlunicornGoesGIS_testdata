@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastell Răcarii de Jos" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom> ;
+    rdfs:comment "Auxiliarkastell" .
+

@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastell Titeşti" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom> ;
+    rdfs:comment "nan" .
+

@@ -1,0 +1,8 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+    rdfs:label "Kastell Vârtop" ;
+    geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom> ;
+    rdfs:comment "nan" .
+

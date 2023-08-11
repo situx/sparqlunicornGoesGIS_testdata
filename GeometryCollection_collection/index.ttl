@@ -3,5 +3,6 @@
 
 <http://lod.squirrel.link/data/limes/GeometryCollection_collection> a skos:Collection ;
     rdfs:label "GeometryCollection Instances Collection" ;
-    rdfs:member <http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries> .
+    rdfs:member <http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries>,
+        <http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries> .
 
