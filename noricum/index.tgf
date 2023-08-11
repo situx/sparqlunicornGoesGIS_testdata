@@ -1,600 +1,558 @@
-0 http://lod.squirrel.link/data/limes/FeatureCollection_collection
-1 http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f
-2 http://onto.squirrel.link/ontology#LegionaryCamp
-3 http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f_geom
-4 Legionslager Albing
-5 http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures
-6 http://www.opengis.net/ont/geosparql#FeatureCollection
-7 http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b
-8 http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862
-9 http://lod.squirrel.link/data/limes/noricum/c2b75037-aed0-49b4-9e1c-39944efa5cb4
-10 http://lod.squirrel.link/data/limes/noricum/c589a7d3-f71c-4051-ac8b-c701902d3610
-11 http://lod.squirrel.link/data/limes/noricum/c75941f8-009d-4c4c-8505-0298a88a6fd4
-12 http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5
-13 http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4
-14 http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43
-15 http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1
-16 http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb
-17 http://lod.squirrel.link/data/limes/noricum/ec211670-f0d2-4c53-b8a5-3b8830b0aaa1
-18 http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f
-19 http://lod.squirrel.link/data/limes/noricum/ed6779f9-6afd-4f34-b7ff-0a6e731d4846
-20 http://lod.squirrel.link/data/limes/noricum/0a1032df-bf53-47e7-9da6-e56c2b97caa8
-21 http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579
-22 http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066
-23 http://lod.squirrel.link/data/limes/noricum/1d31fa5a-61cc-42df-b958-a5e9d83555a3
-24 http://lod.squirrel.link/data/limes/noricum/130bed48-35dd-45d9-9fc0-bc50fb465c60
-25 http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b
-26 http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c
-27 http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7
-28 http://lod.squirrel.link/data/limes/noricum/203478fb-4a78-48c7-bd75-97b667f6e707
-29 http://lod.squirrel.link/data/limes/noricum/2471711a-fb59-436f-ade5-b61e4fd67732
-30 http://lod.squirrel.link/data/limes/noricum/26f3beb0-0cb4-42a8-849d-38455b2d1b79
-31 http://lod.squirrel.link/data/limes/noricum/32371ca3-a871-475e-8d85-49ca8c26da3d
-32 http://lod.squirrel.link/data/limes/noricum/4c745423-da08-4414-93b9-bf0df2382c76
-33 http://lod.squirrel.link/data/limes/noricum/4043d889-d9be-47b7-b9d3-afede593d67a
-34 http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d
-35 http://lod.squirrel.link/data/limes/noricum/5028c3bd-efbb-43b3-a8f6-a30ab9844d1b
-36 http://lod.squirrel.link/data/limes/noricum/51607531-4767-41c1-94ca-86d68572c7c2
-37 http://lod.squirrel.link/data/limes/noricum/58660c1d-c211-4cf7-90d6-b53a5957addc
-38 http://lod.squirrel.link/data/limes/noricum/7e23ed9a-8efc-48ec-a294-a7cc9b8285dc
-39 http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b
-40 http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22
-41 http://lod.squirrel.link/data/limes/noricum/8f964055-7a95-4e88-bcef-5bd3a5824de9
-42 http://lod.squirrel.link/data/limes/noricum/80943cf4-f263-44f2-bd49-2a2c405b3be6
-43 http://lod.squirrel.link/data/limes/noricum/8135cb6b-504d-4cae-9835-b9a7b0613163
-44 http://lod.squirrel.link/data/limes/noricum/88218e4a-aa6a-421c-84ea-a646790b80cb
-45 http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f
-46 Limes Noricum Features
-47 http://lod.squirrel.link/data/limes/noricum/1d31fa5a-61cc-42df-b958-a5e9d83555a3
-48 http://onto.squirrel.link/ontology#Watchtower
-49 http://lod.squirrel.link/data/limes/noricum/1d31fa5a-61cc-42df-b958-a5e9d83555a3_geom
-50 Wachturm Maria Ponsee West
-51 http://lod.squirrel.link/data/limes/noricum/c2b75037-aed0-49b4-9e1c-39944efa5cb4_geom
-52 http://www.opengis.net/ont/sf#Point
-53 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.116667 48.2)
-54 Wachturm Säusenstein Geometry
-55 http://lod.squirrel.link/data/limes/noricum/ec211670-f0d2-4c53-b8a5-3b8830b0aaa1
-56 http://onto.squirrel.link/ontology#Burgus
-57 http://lod.squirrel.link/data/limes/noricum/ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom
-58 Burgus Rossatz
-59 http://lod.squirrel.link/data/limes/Class_collection
+0 http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862
+1 http://onto.squirrel.link/ontology#MilitaryCamp
+2 http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862_geom
+3 Kastell Arelape
+4 http://lod.squirrel.link/data/limes/noricum/c75941f8-009d-4c4c-8505-0298a88a6fd4_geom
+5 http://www.opengis.net/ont/sf#Point
+6 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.680278 48.38)
+7 Burgus Hollenburg Geometry
+8 http://lod.squirrel.link/data/limes/noricum/2471711a-fb59-436f-ade5-b61e4fd67732
+9 http://onto.squirrel.link/ontology#Watchtower
+10 http://lod.squirrel.link/data/limes/noricum/2471711a-fb59-436f-ade5-b61e4fd67732_geom
+11 Wachturm Kobling See
+12 http://lod.squirrel.link/data/limes/noricum/80943cf4-f263-44f2-bd49-2a2c405b3be6_geom
+13 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.916667 48.416667)
+14 Kleinkastell Schlögen Geometry
+15 http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f
+16 http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom
+17 Kastell Boiodurum 
+18 http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom
+19 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.47585 48.57125)
+20 Kastell Boiodurum Geometry
+21 http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7
+22 http://archaeoinformatics.link/ontology#Limes
+23 http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7_geom
+24 Locus Felicis
+25 http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5
+26 http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5_geom
+27 Wachturm Maria Ponsee Süd
+28 http://lod.squirrel.link/data/limes/noricum/Kleinkastell
+29 http://www.w3.org/2002/07/owl#Class
+30 Kleinkastell
+31 http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b_geom
+32 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.445069 48.369328)
+33 Burgus Bacharnsdorf Geometry
+34 http://lod.squirrel.link/data/limes/noricum/5028c3bd-efbb-43b3-a8f6-a30ab9844d1b_geom
+35 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.331111 48.228333)
+36 Burgus Aggsbach-Dorf/Blashauskapelle Geometry
+37 http://lod.squirrel.link/data/limes/noricum/1d31fa5a-61cc-42df-b958-a5e9d83555a3_geom
+38 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.913889 48.3425)
+39 Wachturm Maria Ponsee West Geometry
+40 http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c
+41 http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c_geom
+42 Kastell Augustianis
+43 http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43
+44 http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom
+45 Kastell Boiotro
+46 http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d
+47 http://onto.squirrel.link/ontology#Burgus
+48 http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d_geom
+49 Burgus Au-Rotte Hof
+50 http://lod.squirrel.link/data/limes/Kleinkastell_collection
+51 http://lod.squirrel.link/data/limes/noricum/88218e4a-aa6a-421c-84ea-a646790b80cb_geom
+52 Wachturm Kobling-Rossgraben Geometry
+53 http://lod.squirrel.link/data/limes/noricum/32371ca3-a871-475e-8d85-49ca8c26da3d_geom
+54 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.475 48.216667)
+55 Lauriacum Geometry
+56 http://lod.squirrel.link/data/limes/noricum/4c745423-da08-4414-93b9-bf0df2382c76_geom
+57 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.716667 48.166667)
+58 Burgus Sommerau Geometry
+59 http://lod.squirrel.link/data/limes/noricum/51607531-4767-41c1-94ca-86d68572c7c2
 60 http://lod.squirrel.link/data/limes/noricum/51607531-4767-41c1-94ca-86d68572c7c2_geom
-61 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.428333 48.378611)
-62 Kleinkastell Sankt Marienkirchen Geometry
-63 http://lod.squirrel.link/data/limes/Kleinkastell_collection
-64 http://lod.squirrel.link/data/limes/noricum/80943cf4-f263-44f2-bd49-2a2c405b3be6
-65 http://lod.squirrel.link/data/limes/noricum/Kleinkastell
-66 http://lod.squirrel.link/data/limes/noricum/80943cf4-f263-44f2-bd49-2a2c405b3be6_geom
-67 Kleinkastell Schlögen
-68 http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4
-69 http://onto.squirrel.link/ontology#MilitaryCamp
-70 http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4_geom
-71 Kastell Favianis
-72 http://lod.squirrel.link/data/limes/noricum/8f964055-7a95-4e88-bcef-5bd3a5824de9_geom
-73 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.177083 48.328972)
-74 Kastell Cannabiaca Geometry
-75 http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom
-76 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.462222 48.569722)
-77 Kastell Boiotro Geometry
-78 http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5_geom
-79 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.913889 48.3425)
-80 Wachturm Maria Ponsee Süd Geometry
-81 http://lod.squirrel.link/data/limes/noricum/8f964055-7a95-4e88-bcef-5bd3a5824de9
-82 Kastell Cannabiaca
-83 http://lod.squirrel.link/data/limes/noricum/26f3beb0-0cb4-42a8-849d-38455b2d1b79_geom
-84 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.498611 48.574444)
-85 Burgus Passau-Haibach Geometry
-86 http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b_geom
-87 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.445069 48.369328)
-88 Burgus Bacharnsdorf Geometry
-89 http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b
-90 Burgus Bacharnsdorf
-91 http://lod.squirrel.link/data/limes/noricum/51607531-4767-41c1-94ca-86d68572c7c2
-92 Kleinkastell Sankt Marienkirchen
-93 http://lod.squirrel.link/data/limes/noricum/ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom
-94 Burgus Rossatz Geometry
-95 http://lod.squirrel.link/data/limes/noricum/1d31fa5a-61cc-42df-b958-a5e9d83555a3_geom
-96 Wachturm Maria Ponsee West Geometry
-97 http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b
-98 http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b_geom
-99 Burgus Wallsee-Nordhang
-100 http://lod.squirrel.link/data/limes/noricum/7e23ed9a-8efc-48ec-a294-a7cc9b8285dc
-101 http://archaeoinformatics.link/ontology#Limes
-102 http://lod.squirrel.link/data/limes/noricum/7e23ed9a-8efc-48ec-a294-a7cc9b8285dc_geom
-103 Militärziegelei Sankt Marienkirchen
-104 http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries
-105 http://www.opengis.net/ont/geosparql#GeometryCollection
-106 http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862_geom
-107 http://lod.squirrel.link/data/limes/noricum/c75941f8-009d-4c4c-8505-0298a88a6fd4_geom
-108 http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1_geom
-109 http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb_geom
-110 http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f_geom
-111 http://lod.squirrel.link/data/limes/noricum/0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom
-112 http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom
-113 http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom
-114 http://lod.squirrel.link/data/limes/noricum/130bed48-35dd-45d9-9fc0-bc50fb465c60_geom
-115 http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b_geom
-116 http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c_geom
-117 http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7_geom
-118 http://lod.squirrel.link/data/limes/noricum/203478fb-4a78-48c7-bd75-97b667f6e707_geom
-119 http://lod.squirrel.link/data/limes/noricum/32371ca3-a871-475e-8d85-49ca8c26da3d_geom
-120 http://lod.squirrel.link/data/limes/noricum/4c745423-da08-4414-93b9-bf0df2382c76_geom
-121 http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d_geom
-122 http://lod.squirrel.link/data/limes/noricum/5028c3bd-efbb-43b3-a8f6-a30ab9844d1b_geom
-123 http://lod.squirrel.link/data/limes/noricum/58660c1d-c211-4cf7-90d6-b53a5957addc_geom
-124 http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22_geom
-125 http://lod.squirrel.link/data/limes/noricum/8135cb6b-504d-4cae-9835-b9a7b0613163_geom
-126 http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom
-127 Limes Noricum Geometries
-128 http://lod.squirrel.link/data/limes/noricum/0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom
-129 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.190556 48.323889)
-130 Burgus Hirschleitengraben Geometry
-131 http://lod.squirrel.link/data/limes/noricum/c589a7d3-f71c-4051-ac8b-c701902d3610
-132 http://lod.squirrel.link/data/limes/noricum/c589a7d3-f71c-4051-ac8b-c701902d3610_geom
-133 Wachturm/Straßenstation Maria Gugging
-134 http://lod.squirrel.link/data/limes/noricum/203478fb-4a78-48c7-bd75-97b667f6e707
-135 Kleinkastell Eberranna
-136 http://lod.squirrel.link/data/limes/noricum/88218e4a-aa6a-421c-84ea-a646790b80cb
-137 http://lod.squirrel.link/data/limes/noricum/88218e4a-aa6a-421c-84ea-a646790b80cb_geom
-138 Wachturm Kobling-Rossgraben
-139 http://lod.squirrel.link/data/limes/noricum/80943cf4-f263-44f2-bd49-2a2c405b3be6_geom
-140 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.916667 48.416667)
-141 Kleinkastell Schlögen Geometry
-142 http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c
-143 Kastell Augustianis
-144 http://lod.squirrel.link/data/limes/MilitaryCamp_collection
-145 http://lod.squirrel.link/data/limes/noricum/4c745423-da08-4414-93b9-bf0df2382c76_geom
-146 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.716667 48.166667)
-147 Burgus Sommerau Geometry
-148 http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c_geom
-149 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.733056 48.333333)
-150 Kastell Augustianis Geometry
-151 http://lod.squirrel.link/data/limes/noricum/8135cb6b-504d-4cae-9835-b9a7b0613163
-152 Burgus Ybbs
-153 http://lod.squirrel.link/data/limes/noricum/8135cb6b-504d-4cae-9835-b9a7b0613163_geom
-154 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.066667 48.166667)
-155 Burgus Ybbs Geometry
-156 http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862_geom
-157 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.2 48.2)
-158 Kastell Arelape Geometry
-159 http://lod.squirrel.link/data/limes/noricum/c589a7d3-f71c-4051-ac8b-c701902d3610_geom
-160 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.249167 48.3125)
-161 Wachturm/Straßenstation Maria Gugging Geometry
-162 http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f
-163 Burgus Neumarkt
-164 http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579
-165 Kastell Eferding
-166 http://lod.squirrel.link/data/limes/noricum/2471711a-fb59-436f-ade5-b61e4fd67732_geom
-167 Wachturm Kobling See Geometry
-168 http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d
-169 Burgus Au-Rotte Hof
-170 http://lod.squirrel.link/data/limes/GeometryCollection_collection
-171 http://lod.squirrel.link/data/limes/noricum/c2b75037-aed0-49b4-9e1c-39944efa5cb4
-172 Wachturm Säusenstein
-173 http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b_geom
-174 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.331111 48.228333)
-175 Kastell Melk Geometry
-176 http://lod.squirrel.link/data/limes/noricum/130bed48-35dd-45d9-9fc0-bc50fb465c60
-177 Burgus Melk-Spielberg
-178 http://lod.squirrel.link/data/limes/noricum/203478fb-4a78-48c7-bd75-97b667f6e707_geom
-179 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.773667 48.471506)
-180 Kleinkastell Eberranna Geometry
-181 http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1_geom
-182 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.052083 48.331056)
-183 Kastell Comagena Geometry
-184 http://lod.squirrel.link/data/limes/noricum/Kleinkastell
-185 http://www.w3.org/2002/07/owl#Class
-186 Kleinkastell
-187 http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4_geom
-188 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.577639 48.39375)
-189 Kastell Favianis Geometry
-190 http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b
-191 Kastell Melk
-192 http://lod.squirrel.link/data/limes/noricum/32371ca3-a871-475e-8d85-49ca8c26da3d_geom
-193 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.475 48.216667)
-194 Lauriacum Geometry
-195 http://lod.squirrel.link/data/limes/noricum/4043d889-d9be-47b7-b9d3-afede593d67a_geom
-196 Wachturm Sarling Geometry
-197 http://lod.squirrel.link/data/limes/noricum/58660c1d-c211-4cf7-90d6-b53a5957addc_geom
-198 Burgus St. Lorenz Geometry
-199 http://lod.squirrel.link/data/limes/noricum/5028c3bd-efbb-43b3-a8f6-a30ab9844d1b
-200 Burgus Aggsbach-Dorf/Blashauskapelle
-201 http://lod.squirrel.link/data/limes/Watchtower_collection
-202 http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066
-203 Kastell Zwentendorf
-204 http://lod.squirrel.link/data/limes/noricum/2471711a-fb59-436f-ade5-b61e4fd67732
-205 Wachturm Kobling See
-206 http://lod.squirrel.link/data/limes/noricum/130bed48-35dd-45d9-9fc0-bc50fb465c60_geom
-207 Burgus Melk-Spielberg Geometry
-208 http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22_geom
-209 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.290556 48.303056)
-210 Kastell Lentia Geometry
-211 http://lod.squirrel.link/data/limes/Burgus_collection
-212 http://lod.squirrel.link/data/limes/noricum/0a1032df-bf53-47e7-9da6-e56c2b97caa8
-213 Burgus Hirschleitengraben
-214 http://lod.squirrel.link/data/limes/noricum/c75941f8-009d-4c4c-8505-0298a88a6fd4_geom
-215 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.680278 48.38)
-216 Burgus Hollenburg Geometry
-217 http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom
-218 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.47585 48.57125)
-219 Kastell Boiodurum Geometry
-220 http://lod.squirrel.link/data/limes/noricum/4c745423-da08-4414-93b9-bf0df2382c76
-221 Burgus Sommerau
-222 http://lod.squirrel.link/data/limes/noricum/ed6779f9-6afd-4f34-b7ff-0a6e731d4846
-223 http://lod.squirrel.link/data/limes/noricum/ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom
-224 Wachturm Freinberg 
-225 http://lod.squirrel.link/data/limes/noricum/88218e4a-aa6a-421c-84ea-a646790b80cb_geom
-226 Wachturm Kobling-Rossgraben Geometry
-227 http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22
-228 Kastell Lentia
-229 http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1
-230 Kastell Comagena
-231 http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom
-232 Kastell Zwentendorf Geometry
-233 http://lod.squirrel.link/data/limes/noricum/5028c3bd-efbb-43b3-a8f6-a30ab9844d1b_geom
-234 Burgus Aggsbach-Dorf/Blashauskapelle Geometry
-235 http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b_geom
-236 Burgus Wallsee-Nordhang Geometry
-237 http://lod.squirrel.link/data/limes/LegionaryCamp_collection
-238 http://lod.squirrel.link/data/limes/noricum/9f8f4e96-12d9-449b-b9ab-6e6080e34c9f
-239 Kastell Boiodurum 
-240 http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7_geom
-241 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.798056 48.095556)
-242 Locus Felicis Geometry
-243 http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7
-244 Locus Felicis
-245 http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f_geom
-246 Burgus Neumarkt Geometry
-247 http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43
-248 Kastell Boiotro
-249 http://lod.squirrel.link/data/limes/noricum/7e23ed9a-8efc-48ec-a294-a7cc9b8285dc_geom
-250 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.423611 48.38)
-251 Militärziegelei Sankt Marienkirchen Geometry
-252 http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb_geom
-253 Kastell Wallsee Geometry
-254 http://lod.squirrel.link/data/limes/noricum/c75941f8-009d-4c4c-8505-0298a88a6fd4
-255 Burgus Hollenburg
-256 http://lod.squirrel.link/data/limes/noricum/ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom
-257 Wachturm Freinberg Geometry
-258 http://lod.squirrel.link/data/limes/Limes_collection
-259 http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb
-260 Kastell Wallsee
-261 http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862
-262 Kastell Arelape
-263 http://lod.squirrel.link/data/limes/noricum/58660c1d-c211-4cf7-90d6-b53a5957addc
-264 Burgus St. Lorenz
-265 http://lod.squirrel.link/data/limes/noricum/32371ca3-a871-475e-8d85-49ca8c26da3d
-266 Lauriacum
-267 http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d_geom
-268 Burgus Au-Rotte Hof Geometry
-269 http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5
-270 Wachturm Maria Ponsee Süd
-271 http://lod.squirrel.link/data/limes/noricum/26f3beb0-0cb4-42a8-849d-38455b2d1b79
-272 Burgus Passau-Haibach
-273 http://lod.squirrel.link/data/limes/noricum/4043d889-d9be-47b7-b9d3-afede593d67a
-274 Wachturm Sarling
-275 http://lod.squirrel.link/data/limes/Point_collection
-276 http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom
-277 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.033333 48.316667)
-278 Kastell Eferding Geometry
-279 http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f_geom
-280 Legionslager Albing Geometry
+61 Kleinkastell Sankt Marienkirchen
+62 http://lod.squirrel.link/data/limes/Watchtower_collection
+63 http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries
+64 http://www.opengis.net/ont/geosparql#GeometryCollection
+65 http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b_geom
+66 http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4_geom
+67 http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1_geom
+68 http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb_geom
+69 http://lod.squirrel.link/data/limes/noricum/ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom
+70 http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f_geom
+71 http://lod.squirrel.link/data/limes/noricum/0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom
+72 http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom
+73 http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom
+74 http://lod.squirrel.link/data/limes/noricum/130bed48-35dd-45d9-9fc0-bc50fb465c60_geom
+75 http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b_geom
+76 http://lod.squirrel.link/data/limes/noricum/203478fb-4a78-48c7-bd75-97b667f6e707_geom
+77 http://lod.squirrel.link/data/limes/noricum/26f3beb0-0cb4-42a8-849d-38455b2d1b79_geom
+78 http://lod.squirrel.link/data/limes/noricum/58660c1d-c211-4cf7-90d6-b53a5957addc_geom
+79 http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f_geom
+80 http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22_geom
+81 http://lod.squirrel.link/data/limes/noricum/8f964055-7a95-4e88-bcef-5bd3a5824de9_geom
+82 http://lod.squirrel.link/data/limes/noricum/8135cb6b-504d-4cae-9835-b9a7b0613163_geom
+83 Limes Noricum Geometries
+84 http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f
+85 http://onto.squirrel.link/ontology#LegionaryCamp
+86 Legionslager Albing
+87 http://lod.squirrel.link/data/limes/noricum/c75941f8-009d-4c4c-8505-0298a88a6fd4
+88 Burgus Hollenburg
+89 http://lod.squirrel.link/data/limes/noricum/4c745423-da08-4414-93b9-bf0df2382c76
+90 Burgus Sommerau
+91 http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4
+92 Kastell Favianis
+93 http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22_geom
+94 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.290556 48.303056)
+95 Kastell Lentia Geometry
+96 http://lod.squirrel.link/data/limes/noricum/32371ca3-a871-475e-8d85-49ca8c26da3d
+97 Lauriacum
+98 http://lod.squirrel.link/data/limes/FeatureCollection_collection
+99 http://lod.squirrel.link/data/limes/Burgus_collection
+100 http://lod.squirrel.link/data/limes/noricum/4043d889-d9be-47b7-b9d3-afede593d67a_geom
+101 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.116667 48.2)
+102 Wachturm Sarling Geometry
+103 http://lod.squirrel.link/data/limes/noricum/1d31fa5a-61cc-42df-b958-a5e9d83555a3
+104 Wachturm Maria Ponsee West
+105 http://lod.squirrel.link/data/limes/noricum/7e23ed9a-8efc-48ec-a294-a7cc9b8285dc_geom
+106 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.423611 48.38)
+107 Militärziegelei Sankt Marienkirchen Geometry
+108 http://lod.squirrel.link/data/limes/noricum/d0ef2a62-6c85-44ce-a995-65ab6d5a5f43_geom
+109 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.462222 48.569722)
+110 Kastell Boiotro Geometry
+111 http://lod.squirrel.link/data/limes/noricum/88218e4a-aa6a-421c-84ea-a646790b80cb
+112 Wachturm Kobling-Rossgraben
+113 http://lod.squirrel.link/data/limes/noricum/ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom
+114 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.190556 48.323889)
+115 Wachturm Freinberg Geometry
+116 http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b_geom
+117 Burgus Wallsee-Nordhang Geometry
+118 http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f
+119 Burgus Neumarkt
+120 http://lod.squirrel.link/data/limes/noricum/0a1032df-bf53-47e7-9da6-e56c2b97caa8
+121 Burgus Hirschleitengraben
+122 http://lod.squirrel.link/data/limes/noricum/58660c1d-c211-4cf7-90d6-b53a5957addc
+123 Burgus St. Lorenz
+124 http://lod.squirrel.link/data/limes/noricum/78b044f5-8a10-47ed-acf0-74658affbf22
+125 Kastell Lentia
+126 http://lod.squirrel.link/data/limes/noricum/4043d889-d9be-47b7-b9d3-afede593d67a
+127 Wachturm Sarling
+128 http://lod.squirrel.link/data/limes/Point_collection
+129 http://lod.squirrel.link/data/limes/noricum/51607531-4767-41c1-94ca-86d68572c7c2_geom
+130 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.428333 48.378611)
+131 Kleinkastell Sankt Marienkirchen Geometry
+132 http://lod.squirrel.link/data/limes/noricum/80943cf4-f263-44f2-bd49-2a2c405b3be6
+133 Kleinkastell Schlögen
+134 http://lod.squirrel.link/data/limes/MilitaryCamp_collection
+135 http://lod.squirrel.link/data/limes/noricum/c2b75037-aed0-49b4-9e1c-39944efa5cb4_geom
+136 Wachturm Säusenstein Geometry
+137 http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579
+138 Kastell Eferding
+139 http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066_geom
+140 Kastell Zwentendorf Geometry
+141 http://lod.squirrel.link/data/limes/noricum/203478fb-4a78-48c7-bd75-97b667f6e707_geom
+142 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.773667 48.471506)
+143 Kleinkastell Eberranna Geometry
+144 http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b_geom
+145 Kastell Melk Geometry
+146 http://lod.squirrel.link/data/limes/noricum/2471711a-fb59-436f-ade5-b61e4fd67732_geom
+147 Wachturm Kobling See Geometry
+148 http://lod.squirrel.link/data/limes/noricum/cfcfa4b0-501f-4563-8157-3c76054014a4_geom
+149 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.577639 48.39375)
+150 Kastell Favianis Geometry
+151 http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f_geom
+152 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.066667 48.166667)
+153 Burgus Neumarkt Geometry
+154 http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5_geom
+155 Wachturm Maria Ponsee Süd Geometry
+156 http://lod.squirrel.link/data/limes/noricum/8135cb6b-504d-4cae-9835-b9a7b0613163
+157 Burgus Ybbs
+158 http://lod.squirrel.link/data/limes/noricum/130bed48-35dd-45d9-9fc0-bc50fb465c60_geom
+159 Burgus Melk-Spielberg Geometry
+160 http://lod.squirrel.link/data/limes/noricum/26f3beb0-0cb4-42a8-849d-38455b2d1b79
+161 Burgus Passau-Haibach
+162 http://lod.squirrel.link/data/limes/LegionaryCamp_collection
+163 http://lod.squirrel.link/data/limes/noricum/c2b75037-aed0-49b4-9e1c-39944efa5cb4
+164 Wachturm Säusenstein
+165 http://lod.squirrel.link/data/limes/noricum/8135cb6b-504d-4cae-9835-b9a7b0613163_geom
+166 Burgus Ybbs Geometry
+167 http://lod.squirrel.link/data/limes/noricum/ec211670-f0d2-4c53-b8a5-3b8830b0aaa1_geom
+168 Burgus Rossatz Geometry
+169 http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7_geom
+170 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.798056 48.095556)
+171 Locus Felicis Geometry
+172 http://lod.squirrel.link/data/limes/noricum/0e8a5ba3-887e-4540-92c3-d35fef2bd579_geom
+173 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (14.033333 48.316667)
+174 Kastell Eferding Geometry
+175 http://lod.squirrel.link/data/limes/noricum/203478fb-4a78-48c7-bd75-97b667f6e707
+176 Kleinkastell Eberranna
+177 http://lod.squirrel.link/data/limes/Class_collection
+178 http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b
+179 Burgus Wallsee-Nordhang
+180 http://lod.squirrel.link/data/limes/noricum/13572025-f4dc-4503-8aad-72050202752b
+181 Kastell Melk
+182 http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f_geom
+183 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.733056 48.333333)
+184 Legionslager Albing Geometry
+185 http://lod.squirrel.link/data/limes/noricum/71192446-c179-4a45-9214-44ef9a3a996b
+186 Burgus Bacharnsdorf
+187 http://lod.squirrel.link/data/limes/noricum/ec211670-f0d2-4c53-b8a5-3b8830b0aaa1
+188 Burgus Rossatz
+189 http://lod.squirrel.link/data/limes/noricum/c589a7d3-f71c-4051-ac8b-c701902d3610
+190 http://lod.squirrel.link/data/limes/noricum/c589a7d3-f71c-4051-ac8b-c701902d3610_geom
+191 Wachturm/Straßenstation Maria Gugging
+192 http://lod.squirrel.link/data/limes/GeometryCollection_collection
+193 http://lod.squirrel.link/data/limes/noricum/8f964055-7a95-4e88-bcef-5bd3a5824de9
+194 Kastell Cannabiaca
+195 http://lod.squirrel.link/data/limes/noricum/b3e7d110-127b-45a7-9195-5e8a694e4862_geom
+196 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.2 48.2)
+197 Kastell Arelape Geometry
+198 http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb
+199 Kastell Wallsee
+200 http://lod.squirrel.link/data/limes/noricum/0a1032df-bf53-47e7-9da6-e56c2b97caa8_geom
+201 Burgus Hirschleitengraben Geometry
+202 http://lod.squirrel.link/data/limes/noricum/130bed48-35dd-45d9-9fc0-bc50fb465c60
+203 Burgus Melk-Spielberg
+204 http://lod.squirrel.link/data/limes/noricum/c589a7d3-f71c-4051-ac8b-c701902d3610_geom
+205 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.249167 48.3125)
+206 Wachturm/Straßenstation Maria Gugging Geometry
+207 http://lod.squirrel.link/data/limes/noricum/d8bcb543-3948-43fd-937b-2782138b9deb_geom
+208 Kastell Wallsee Geometry
+209 http://lod.squirrel.link/data/limes/noricum/8f964055-7a95-4e88-bcef-5bd3a5824de9_geom
+210 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.177083 48.328972)
+211 Kastell Cannabiaca Geometry
+212 http://lod.squirrel.link/data/limes/noricum/2bf44917-dd67-4ec8-9240-513476cdb60c_geom
+213 Kastell Augustianis Geometry
+214 http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1_geom
+215 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (16.052083 48.331056)
+216 Kastell Comagena Geometry
+217 http://lod.squirrel.link/data/limes/noricum/58660c1d-c211-4cf7-90d6-b53a5957addc_geom
+218 Burgus St. Lorenz Geometry
+219 http://lod.squirrel.link/data/limes/noricum/ed6779f9-6afd-4f34-b7ff-0a6e731d4846
+220 Wachturm Freinberg 
+221 http://lod.squirrel.link/data/limes/noricum/d151609e-cb90-4faf-a74b-54d2f52e01a1
+222 Kastell Comagena
+223 http://lod.squirrel.link/data/limes/Limes_collection
+224 http://lod.squirrel.link/data/limes/noricum/7e23ed9a-8efc-48ec-a294-a7cc9b8285dc
+225 Militärziegelei Sankt Marienkirchen
+226 http://lod.squirrel.link/data/limes/noricum/48f27058-f4ea-41f3-8319-888f59ffdd2d_geom
+227 Burgus Au-Rotte Hof Geometry
+228 http://lod.squirrel.link/data/limes/noricum/5028c3bd-efbb-43b3-a8f6-a30ab9844d1b
+229 Burgus Aggsbach-Dorf/Blashauskapelle
+230 http://lod.squirrel.link/data/limes/noricum/26f3beb0-0cb4-42a8-849d-38455b2d1b79_geom
+231 <http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.498611 48.574444)
+232 Burgus Passau-Haibach Geometry
+233 http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures
+234 http://www.opengis.net/ont/geosparql#FeatureCollection
+235 http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066
+236 Limes Noricum Features
+237 http://lod.squirrel.link/data/limes/noricum/0f5c8dda-88a9-48ad-bf8f-e72f216a4066
+238 Kastell Zwentendorf
 #
-1 2 type
-1 3 hasGeometry
-1 4 label
-5 6 type
-5 7 member
-5 8 member
-5 9 member
-5 10 member
-5 11 member
-5 12 member
-5 13 member
-5 14 member
-5 15 member
-5 16 member
-5 17 member
-5 18 member
-5 19 member
-5 20 member
-5 21 member
-5 22 member
-5 23 member
-5 24 member
-5 25 member
-5 26 member
-5 27 member
-5 28 member
-5 29 member
-5 30 member
-5 31 member
-5 32 member
-5 33 member
-5 34 member
-5 35 member
-5 36 member
-5 37 member
-5 1 member
-5 38 member
-5 39 member
-5 40 member
-5 41 member
-5 42 member
-5 43 member
-5 44 member
-5 45 member
-5 46 label
-47 48 type
-47 49 hasGeometry
-47 50 label
-51 52 type
-51 53 asWKT
-51 54 label
-55 56 type
-55 57 hasGeometry
-55 58 label
-60 52 type
-60 61 asWKT
-60 62 label
-64 65 type
-64 66 hasGeometry
-64 67 label
-68 69 type
-68 70 hasGeometry
-68 71 label
-72 52 type
-72 73 asWKT
-72 74 label
-75 52 type
-75 76 asWKT
-75 77 label
-78 52 type
-78 79 asWKT
-78 80 label
-81 69 type
-81 72 hasGeometry
-81 82 label
-83 52 type
-83 84 asWKT
-83 85 label
-86 52 type
-86 87 asWKT
-86 88 label
-89 56 type
-89 86 hasGeometry
+0 1 type
+0 2 hasGeometry
+0 3 label
+4 5 type
+4 6 asWKT
+4 7 label
+8 9 type
+8 10 hasGeometry
+8 11 label
+12 5 type
+12 13 asWKT
+12 14 label
+15 1 type
+15 16 hasGeometry
+15 17 label
+18 5 type
+18 19 asWKT
+18 20 label
+21 22 type
+21 23 hasGeometry
+21 24 label
+25 9 type
+25 26 hasGeometry
+25 27 label
+28 29 type
+28 22 subClassOf
+28 30 label
+31 5 type
+31 32 asWKT
+31 33 label
+34 5 type
+34 35 asWKT
+34 36 label
+37 5 type
+37 38 asWKT
+37 39 label
+40 1 type
+40 41 hasGeometry
+40 42 label
+43 1 type
+43 44 hasGeometry
+43 45 label
+46 47 type
+46 48 hasGeometry
+46 49 label
+51 5 type
+51 13 asWKT
+51 52 label
+53 5 type
+53 54 asWKT
+53 55 label
+56 5 type
+56 57 asWKT
+56 58 label
+59 28 type
+59 60 hasGeometry
+59 61 label
+63 64 type
+63 65 member
+63 2 member
+63 4 member
+63 66 member
+63 44 member
+63 67 member
+63 68 member
+63 69 member
+63 70 member
+63 71 member
+63 72 member
+63 73 member
+63 74 member
+63 75 member
+63 41 member
+63 23 member
+63 76 member
+63 77 member
+63 53 member
+63 56 member
+63 48 member
+63 34 member
+63 60 member
+63 78 member
+63 79 member
+63 31 member
+63 80 member
+63 81 member
+63 12 member
+63 82 member
+63 18 member
+63 83 label
+84 85 type
+84 79 hasGeometry
+84 86 label
+87 47 type
+87 4 hasGeometry
+87 88 label
+89 47 type
+89 56 hasGeometry
 89 90 label
-91 65 type
-91 60 hasGeometry
+91 1 type
+91 66 hasGeometry
 91 92 label
-93 52 type
-93 87 asWKT
-93 94 label
-95 52 type
-95 79 asWKT
-95 96 label
-97 56 type
-97 98 hasGeometry
-97 99 label
-100 101 type
-100 102 hasGeometry
-100 103 label
-104 105 type
-104 98 member
-104 106 member
-104 107 member
-104 70 member
-104 75 member
-104 108 member
-104 109 member
-104 93 member
-104 110 member
-104 111 member
-104 112 member
-104 113 member
-104 114 member
-104 115 member
-104 116 member
-104 117 member
-104 118 member
-104 83 member
-104 119 member
-104 120 member
-104 121 member
-104 122 member
-104 60 member
-104 123 member
-104 3 member
-104 86 member
-104 124 member
-104 72 member
-104 66 member
-104 125 member
-104 126 member
-104 127 label
-128 52 type
-128 129 asWKT
-128 130 label
-131 48 type
-131 132 hasGeometry
-131 133 label
-134 65 type
-134 118 hasGeometry
-134 135 label
-136 48 type
-136 137 hasGeometry
-136 138 label
-139 52 type
-139 140 asWKT
-139 141 label
-142 69 type
-142 116 hasGeometry
-142 143 label
-145 52 type
-145 146 asWKT
-145 147 label
-148 52 type
+93 5 type
+93 94 asWKT
+93 95 label
+96 22 type
+96 53 hasGeometry
+96 97 label
+100 5 type
+100 101 asWKT
+100 102 label
+103 9 type
+103 37 hasGeometry
+103 104 label
+105 5 type
+105 106 asWKT
+105 107 label
+108 5 type
+108 109 asWKT
+108 110 label
+111 9 type
+111 51 hasGeometry
+111 112 label
+113 5 type
+113 114 asWKT
+113 115 label
+116 5 type
+116 57 asWKT
+116 117 label
+118 47 type
+118 70 hasGeometry
+118 119 label
+120 47 type
+120 71 hasGeometry
+120 121 label
+122 47 type
+122 78 hasGeometry
+122 123 label
+124 1 type
+124 93 hasGeometry
+124 125 label
+126 9 type
+126 100 hasGeometry
+126 127 label
+129 5 type
+129 130 asWKT
+129 131 label
+132 28 type
+132 12 hasGeometry
+132 133 label
+135 5 type
+135 101 asWKT
+135 136 label
+137 1 type
+137 72 hasGeometry
+137 138 label
+139 5 type
+139 38 asWKT
+139 140 label
+141 5 type
+141 142 asWKT
+141 143 label
+144 5 type
+144 35 asWKT
+144 145 label
+146 5 type
+146 13 asWKT
+146 147 label
+148 5 type
 148 149 asWKT
 148 150 label
-151 56 type
-151 125 hasGeometry
-151 152 label
-153 52 type
-153 154 asWKT
-153 155 label
-156 52 type
-156 157 asWKT
-156 158 label
-159 52 type
-159 160 asWKT
-159 161 label
-162 56 type
-162 110 hasGeometry
-162 163 label
-164 69 type
-164 112 hasGeometry
-164 165 label
-166 52 type
-166 140 asWKT
-166 167 label
-168 56 type
-168 121 hasGeometry
-168 169 label
-171 48 type
-171 51 hasGeometry
-171 172 label
-173 52 type
-173 174 asWKT
-173 175 label
-176 56 type
-176 114 hasGeometry
-176 177 label
-178 52 type
-178 179 asWKT
-178 180 label
-181 52 type
-181 182 asWKT
-181 183 label
-184 185 type
-184 101 subClassOf
-184 186 label
-187 52 type
-187 188 asWKT
-187 189 label
-190 69 type
-190 173 hasGeometry
-190 191 label
-192 52 type
-192 193 asWKT
-192 194 label
-195 52 type
-195 53 asWKT
-195 196 label
-197 52 type
-197 87 asWKT
-197 198 label
-199 56 type
-199 122 hasGeometry
-199 200 label
-202 69 type
-202 113 hasGeometry
+151 5 type
+151 152 asWKT
+151 153 label
+154 5 type
+154 38 asWKT
+154 155 label
+156 47 type
+156 82 hasGeometry
+156 157 label
+158 5 type
+158 35 asWKT
+158 159 label
+160 47 type
+160 77 hasGeometry
+160 161 label
+163 9 type
+163 135 hasGeometry
+163 164 label
+165 5 type
+165 152 asWKT
+165 166 label
+167 5 type
+167 32 asWKT
+167 168 label
+169 5 type
+169 170 asWKT
+169 171 label
+172 5 type
+172 173 asWKT
+172 174 label
+175 28 type
+175 141 hasGeometry
+175 176 label
+178 47 type
+178 116 hasGeometry
+178 179 label
+180 1 type
+180 144 hasGeometry
+180 181 label
+182 5 type
+182 183 asWKT
+182 184 label
+185 47 type
+185 31 hasGeometry
+185 186 label
+187 47 type
+187 167 hasGeometry
+187 188 label
+189 9 type
+189 190 hasGeometry
+189 191 label
+193 1 type
+193 81 hasGeometry
+193 194 label
+195 5 type
+195 196 asWKT
+195 197 label
+198 1 type
+198 68 hasGeometry
+198 199 label
+200 5 type
+200 114 asWKT
+200 201 label
+202 47 type
+202 158 hasGeometry
 202 203 label
-204 48 type
-204 166 hasGeometry
-204 205 label
-206 52 type
-206 174 asWKT
-206 207 label
-208 52 type
-208 209 asWKT
-208 210 label
-212 56 type
-212 128 hasGeometry
+204 5 type
+204 205 asWKT
+204 206 label
+207 5 type
+207 57 asWKT
+207 208 label
+209 5 type
+209 210 asWKT
+209 211 label
+212 5 type
+212 183 asWKT
 212 213 label
-214 52 type
+214 5 type
 214 215 asWKT
 214 216 label
-217 52 type
-217 218 asWKT
-217 219 label
-220 56 type
-220 145 hasGeometry
-220 221 label
-222 48 type
-222 223 hasGeometry
-222 224 label
-225 52 type
-225 140 asWKT
-225 226 label
-227 69 type
-227 208 hasGeometry
-227 228 label
-229 69 type
-229 181 hasGeometry
-229 230 label
-231 52 type
-231 79 asWKT
-231 232 label
-233 52 type
-233 174 asWKT
-233 234 label
-235 52 type
-235 146 asWKT
-235 236 label
-238 69 type
-238 217 hasGeometry
-238 239 label
-240 52 type
-240 241 asWKT
-240 242 label
-243 101 type
-243 240 hasGeometry
-243 244 label
-245 52 type
-245 154 asWKT
-245 246 label
-247 69 type
-247 75 hasGeometry
-247 248 label
-249 52 type
-249 250 asWKT
-249 251 label
-252 52 type
-252 146 asWKT
-252 253 label
-254 56 type
-254 214 hasGeometry
-254 255 label
-256 52 type
-256 129 asWKT
-256 257 label
-259 69 type
-259 252 hasGeometry
-259 260 label
-261 69 type
-261 156 hasGeometry
-261 262 label
-263 56 type
-263 197 hasGeometry
-263 264 label
-265 101 type
-265 192 hasGeometry
-265 266 label
-267 52 type
-267 146 asWKT
-267 268 label
-269 48 type
-269 78 hasGeometry
-269 270 label
-271 56 type
-271 83 hasGeometry
-271 272 label
-273 48 type
-273 195 hasGeometry
-273 274 label
-276 52 type
-276 277 asWKT
-276 278 label
-279 52 type
-279 149 asWKT
-279 280 label
+217 5 type
+217 32 asWKT
+217 218 label
+219 9 type
+219 113 hasGeometry
+219 220 label
+221 1 type
+221 214 hasGeometry
+221 222 label
+224 22 type
+224 105 hasGeometry
+224 225 label
+226 5 type
+226 57 asWKT
+226 227 label
+228 47 type
+228 34 hasGeometry
+228 229 label
+230 5 type
+230 231 asWKT
+230 232 label
+233 234 type
+233 178 member
+233 0 member
+233 163 member
+233 189 member
+233 87 member
+233 25 member
+233 91 member
+233 43 member
+233 221 member
+233 198 member
+233 187 member
+233 118 member
+233 219 member
+233 120 member
+233 137 member
+233 235 member
+233 103 member
+233 202 member
+233 180 member
+233 40 member
+233 21 member
+233 175 member
+233 8 member
+233 160 member
+233 96 member
+233 89 member
+233 126 member
+233 46 member
+233 228 member
+233 59 member
+233 122 member
+233 84 member
+233 224 member
+233 185 member
+233 124 member
+233 193 member
+233 132 member
+233 156 member
+233 111 member
+233 15 member
+233 236 label
+237 1 type
+237 139 hasGeometry
+237 238 label
