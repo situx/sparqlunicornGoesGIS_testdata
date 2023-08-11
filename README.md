@@ -9,7 +9,7 @@ This data may be loaded in the plugin dialog and queried for its contents.
 Included in this repository is a showcase for the standalone [SPARQLing Unicorn Ontology Documentation Script](https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc).
          
 The script is used in a Github Action, as an external workflow to generate HTML documentation for the two TTL files in this repository. 
- 
+  
 ```
 uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
