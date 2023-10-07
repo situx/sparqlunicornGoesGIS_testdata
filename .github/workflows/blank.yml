@@ -29,7 +29,7 @@ jobs:
         ckan: true
         metadatatable: true
         offlinecompat: true
-        exports: cypher graphml nt n3 tgf json ttl
+        exports: cypher graphml nt n3 tlp tgf json ttl
         createcollections: true
         createnonNSPages: true
         createVOWL: true
