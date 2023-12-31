@@ -1,7 +1,9 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+<http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Săpata de Jos II" ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom> ;
     rdfs:comment "nan" .

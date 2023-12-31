@@ -1,7 +1,9 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5_geom> a <http://www.opengis.net/ont/sf#Point> ;
+<http://lod.squirrel.link/data/limes/noricum/cb7b6f3a-395f-48b6-a6e3-247e6c5a2ff5_geom> a <http://www.opengis.net/ont/sf#Point>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Wachturm Maria Ponsee Süd Geometry" ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (15.913889 48.3425)"^^geo:wktLiteral .
 

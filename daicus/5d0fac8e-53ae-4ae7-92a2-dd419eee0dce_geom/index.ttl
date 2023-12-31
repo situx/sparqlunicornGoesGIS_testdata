@@ -1,7 +1,9 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom> a <http://www.opengis.net/ont/sf#Point> ;
+<http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom> a <http://www.opengis.net/ont/sf#Point>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Hoghiz Geometry" ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.300011 45.983367)"^^geo:wktLiteral .
 

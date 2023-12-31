@@ -1,7 +1,9 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356> a <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+<http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Stolniceni" ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom> ;
     rdfs:comment "Kohortenkastell" .

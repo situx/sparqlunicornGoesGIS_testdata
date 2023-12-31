@@ -1,7 +1,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://lod.squirrel.link/data/limes/Class_collection> a skos:Collection ;
+<http://lod.squirrel.link/data/limes/Class_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Class Instances Collection" ;
     rdfs:member <http://lod.squirrel.link/data/limes/noricum/Kleinkastell> .
 

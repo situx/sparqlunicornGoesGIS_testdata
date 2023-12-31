@@ -1,7 +1,9 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom> a <http://www.opengis.net/ont/sf#Point> ;
+<http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom> a <http://www.opengis.net/ont/sf#Point>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Râșnov Geometry" ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.441581 45.618708)"^^geo:wktLiteral .
 
