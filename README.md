@@ -26,7 +26,7 @@ uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
         offlinecompat: false
         exports: graphml json ttl
         iiif: true
-        ckan: true
+        ckan: false
         metadatatable: false
         preferredlang: en
         license: CC-BY-SA 4.0
