@@ -26,7 +26,7 @@ jobs:
         prefixns: http://lod.squirrel.link/data/limes/
         prefixnsshort: limes
         indexpages: true
-        ckan: true
+        ckan: false
         metadatatable: true
         offlinecompat: true
         exports: cypher graphml nt n3 tlp tgf json ttl
