@@ -53,7 +53,7 @@
     ns1:propertyClasses 0,
         3 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-03-05T13:30:49"^^xsd:dateTime ;
+    dcterms:modified "2024-03-05T19:27:35"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,

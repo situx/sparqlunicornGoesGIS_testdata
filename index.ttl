@@ -1,13 +1,41 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://lod.squirrel.link/data/limes/FeatureCollection_collection> a skos:Collection,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "FeatureCollection Instances Collection" ;
+    rdfs:label "FeatureCollection Instances Collection"@en ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:member <http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures>,
         <http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures> .
 
@@ -16,7 +44,8 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "GeometryCollection Instances Collection" ;
+    rdfs:label "GeometryCollection Instances Collection"@en ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:member <http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries>,
         <http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries> .
 
@@ -25,7 +54,8 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "LegionaryCamp Instances Collection" ;
+    rdfs:label "LegionaryCamp Instances Collection"@en ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:member <http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d>,
         <http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068>,
         <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459>,
@@ -39,7 +69,8 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "MilitaryCamp Instances Collection" ;
+    rdfs:label "MilitaryCamp Instances Collection"@en ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:member <http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199>,
         <http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c>,
         <http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc>,
@@ -156,7 +187,8 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Point Instances Collection" ;
+    rdfs:label "Point Instances Collection"@en ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:member <http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom>,
         <http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom>,
         <http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom>,
@@ -302,11 +334,74 @@
         <http://lod.squirrel.link/data/limes/noricum/ed3e59f2-e683-4800-9e27-92d82cbc867f_geom>,
         <http://lod.squirrel.link/data/limes/noricum/ed6779f9-6afd-4f34-b7ff-0a6e731d4846_geom> .
 
+<http://lod.squirrel.link/data/limes/limes_dataset_archaeoinformatics.link_ontology_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: limes_dataset - "@en ;
+    void:linkPredicate rdf:type,
+        rdfs:subClassOf ;
+    void:objectsTarget <http://archaeoinformatics.link/ontology#> ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 1,
+        3,
+        104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_www.opengis.net_ont_geosparql_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: limes_dataset - The GeoSPARQL Ontology (gsp:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 5,
+        9 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_www.opengis.net_ont_sf_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: limes_dataset - Simple Features Vocabulary (sf:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/sf#> ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 40,
+        104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_www.w3.org_2002_07_owl_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: limes_dataset - Web Ontology Language 2 Vocabulary (owl:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget owl: ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 1,
+        2 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: limes_dataset - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 2,
+        3 .
+
 <http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Orăştioara de Sus" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom> ;
     rdfs:comment "nan" .
 
@@ -315,6 +410,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Orșova (Dierna)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom> ;
     rdfs:comment "nan" .
 
@@ -323,6 +419,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Momoteşti (Rusidava)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/06eb8de4-750e-4ed9-ad04-9bf16d61c975_geom> ;
     rdfs:comment "nan" .
 
@@ -331,6 +428,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Rucăr" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom> ;
     rdfs:comment "nan" .
 
@@ -339,6 +437,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Săpata de Jos II" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom> ;
     rdfs:comment "nan" .
 
@@ -347,6 +446,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Urluieni I" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom> ;
     rdfs:comment "nan" .
 
@@ -355,6 +455,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Pinoasa" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/10b043a5-bb2b-48af-a168-84046185d6f7_geom> ;
     rdfs:comment "nan" .
 
@@ -363,6 +464,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Romita" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -371,6 +473,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Mofleni (Pelendava)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/19360a61-a15a-4d56-a100-f3be57e93ff1_geom> ;
     rdfs:comment "nan" .
 
@@ -379,6 +482,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Râul Vadului" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom> ;
     rdfs:comment "nan" .
 
@@ -387,6 +491,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastelle von Porolissum" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom> ;
     rdfs:comment "Auxiliarkastelle" .
 
@@ -395,6 +500,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Tia Mare" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/22bf9a4e-a715-43f7-9fd0-4a60b8b77288_geom> ;
     rdfs:comment "nan" .
 
@@ -403,6 +509,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Războieni" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom> ;
     rdfs:comment "nan" .
 
@@ -411,6 +518,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sânpaul" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom> ;
     rdfs:comment "nan" .
 
@@ -419,6 +527,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Mehadia (Praetorium)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom> ;
     rdfs:comment "nan" .
 
@@ -427,6 +536,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Orheiul Bistriţei" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/3f7e0b8c-1a5f-423f-85da-536d87bbdcc8_geom> ;
     rdfs:comment "nan" .
 
@@ -435,6 +545,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Grebenac" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/42d9c007-47e1-4b2a-ab2c-c381f93cac96_geom> ;
     rdfs:comment "Auxiliarkastell" .
 
@@ -443,6 +554,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Plesa" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom> ;
     rdfs:comment "nan" .
 
@@ -451,6 +563,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Zăvoi (Acmonia ?)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom> ;
     rdfs:comment "nan" .
 
@@ -459,6 +572,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Legionslager Potaissa" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom> ;
     rdfs:comment "Legionslager" .
 
@@ -467,6 +581,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sarmizegetusa (Ulpia Traiana)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068_geom> ;
     rdfs:comment "nan" .
 
@@ -475,6 +590,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sânnicolau Mare" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom> ;
     rdfs:comment "Kohortenkastell (?)" .
 
@@ -483,6 +599,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Vârtop" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom> ;
     rdfs:comment "nan" .
 
@@ -491,6 +608,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Szeged" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5e33b468-4135-46b4-babc-99f5c423f966_geom> ;
     rdfs:comment "Kohortenkastell (?)" .
 
@@ -499,6 +617,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Purcăreni" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/707cb61a-d04e-4c7b-a620-6587db82f116_geom> ;
     rdfs:comment "nan" .
 
@@ -507,6 +626,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Roșiorii de Vede" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7a5a0685-4a85-48f0-a5ac-7b3b56efa3dc_geom> ;
     rdfs:comment "nan" .
 
@@ -515,6 +635,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Stolniceni" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7cadca30-bfd9-4628-9916-c20eecafa356_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -523,6 +644,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Vršac" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7dd1742c-a3a5-4494-b148-1d435d754d5d_geom> ;
     rdfs:comment "Vexillationskastell /  Kohortenkastell /  Alenkastell" .
 
@@ -531,6 +653,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Perisani" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/80ce787b-1ab0-42e7-b03c-c641d3767774_geom> ;
     rdfs:comment "nan" .
 
@@ -539,6 +662,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Vețel" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/87009579-c2cc-4c7a-9b02-901bf75a0ee6_geom> ;
     rdfs:comment "Legionslager" .
 
@@ -547,6 +671,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Voineşti" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/8f823c04-d42b-49ec-879d-2c446d575885_geom> ;
     rdfs:comment "nan" .
 
@@ -555,6 +680,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Titeşti" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom> ;
     rdfs:comment "nan" .
 
@@ -563,6 +689,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Surducul Mare" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom> ;
     rdfs:comment "nan" .
 
@@ -571,6 +698,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Tihău" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -579,6 +707,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Racoviţa (Praetorium II)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom> ;
     rdfs:comment "nan" .
 
@@ -587,6 +716,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Rădăcineşti" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom> ;
     rdfs:comment "nan" .
 
@@ -595,6 +725,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Râșnov " ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9d1c0c0d-98f5-4728-86ee-4288dde6d0fa_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -603,6 +734,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Putineiu" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom> ;
     rdfs:comment "nan" .
 
@@ -611,6 +743,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Limes Daicus Features" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:member <http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc>,
         <http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea>,
         <http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0>,
@@ -666,6 +799,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Limes Daicus Geometries" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:member <http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom>,
         <http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom>,
         <http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom>,
@@ -721,6 +855,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Săpata de Jos I" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom> ;
     rdfs:comment "nan" .
 
@@ -729,6 +864,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sămbotin (Castra Traiana)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom> ;
     rdfs:comment "nan" .
 
@@ -737,6 +873,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Olteni" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -745,6 +882,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Slăveni" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom> ;
     rdfs:comment "nan" .
 
@@ -753,6 +891,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Romanasi (Largiana)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -761,6 +900,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sighisoara" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/bd14e9f3-dd38-4329-a655-60b00fd8d5b7_geom> ;
     rdfs:comment "nan" .
 
@@ -769,6 +909,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Odorheiul Secuiesc" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom> ;
     rdfs:comment "nan" .
 
@@ -777,6 +918,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sarateni" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f_geom> ;
     rdfs:comment "nan" .
 
@@ -785,6 +927,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Teregova (Ad Pannonios)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/c8ecf3da-c535-41df-b06e-298cd8542633_geom> ;
     rdfs:comment "nan" .
 
@@ -793,6 +936,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Valea Urluii" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/e2573931-d743-40c3-a6b7-08ffeb244daa_geom> ;
     rdfs:comment "nan" .
 
@@ -801,6 +945,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Răcarii de Jos" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/ec646e12-636f-4c8c-96c2-0f46833adf1c_geom> ;
     rdfs:comment "Auxiliarkastell" .
 
@@ -809,6 +954,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sutoru" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/f42bb013-afeb-4044-9886-ece53cc813d4_geom> ;
     rdfs:comment "Auxiliarkastell" .
 
@@ -817,6 +963,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Reşca (Romula/Malva)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b_geom> ;
     rdfs:comment "nan" .
 
@@ -825,6 +972,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Urluieni II" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom> ;
     rdfs:comment "nan" .
 
@@ -833,6 +981,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Vărădia" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -841,6 +990,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Legionslager Alba Julia" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom> ;
     rdfs:comment "Legionslager" .
 
@@ -849,14 +999,84 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Tibiscum" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom> ;
     rdfs:comment "Legionslager" .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_asWKT> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: asWKT"@en ;
+    void:property geo:asWKT ;
+    void:triples 40,
+        104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_comment> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: comment"@en ;
+    void:property rdfs:comment ;
+    void:triples 104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_hasGeometry> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: hasGeometry"@en ;
+    void:property geo:hasGeometry ;
+    void:triples 40,
+        104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_label> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 89,
+        213 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_member> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: member"@en ;
+    void:property rdfs:member ;
+    void:triples 71,
+        98 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_subClassOf> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: subClassOf"@en ;
+    void:property rdfs:subClassOf ;
+    void:triples 7,
+        11 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_type> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 102,
+        226 .
 
 <http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom> a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Orăştioara de Sus Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.166667 45.733333)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/01189de6-024d-4022-96ff-eec7e4efee0c_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -864,6 +1084,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Orșova (Dierna) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.4076 44.7382)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -871,6 +1092,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cigmău " ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom> ;
     rdfs:comment "Auxiliarkastell" .
 
@@ -879,6 +1101,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Momoteşti (Rusidava) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.27 44.650306)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -886,6 +1109,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Copăceni (Praetorium I)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom> ;
     rdfs:comment "nan" .
 
@@ -894,6 +1118,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Lişteava" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom> ;
     rdfs:comment "nan" .
 
@@ -902,6 +1127,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Rucăr Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.178583 45.398444)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/0e91c0e7-3991-4a45-89ed-382f7c74731a_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -909,6 +1135,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Săpata de Jos II Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763694 44.707917)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/0f25c729-a3c7-4cb4-b063-ff72c0124b4f_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -916,6 +1143,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Urluieni I Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761417 44.485833)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -923,6 +1151,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Căşeiu (Samum)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom> ;
     rdfs:comment "nan" .
 
@@ -931,6 +1160,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Pinoasa Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.098056 44.9075)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/120e3991-1f39-4359-b810-37bb24aff05c_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -938,6 +1168,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Romita Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.172444 47.106944)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -945,6 +1176,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Comalău" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom> ;
     rdfs:comment "nan" .
 
@@ -953,6 +1185,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Mofleni (Pelendava) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571889 44.514111)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/1b4b9c1f-cb64-4c02-976d-61c2147b0705_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -960,6 +1193,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Râul Vadului Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.272806 45.523639)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/1c936059-6af8-4f03-8e18-cc61f529c5f3_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -967,6 +1201,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastelle von Porolissum Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.157319 47.179167)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -974,6 +1209,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Abrud (Alburnus Maior)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom> ;
     rdfs:comment "nan" .
 
@@ -982,6 +1218,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Islaz-Razovica" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom> ;
     rdfs:comment "nan" .
 
@@ -990,6 +1227,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Tia Mare Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.651389 43.866389)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/2c2fb600-f249-469e-a025-1961edf5132d_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -997,6 +1235,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Războieni Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.868333 46.417222)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/322e89c0-f571-4be4-a08c-84b35efb69e5_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1004,6 +1243,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sânpaul Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.379472 46.194833)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/340738ca-7444-4896-a0fd-cd9e6806eb30_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1011,6 +1251,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Mehadia (Praetorium) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.3522 44.9229)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1018,6 +1259,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Gresia" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom> ;
     rdfs:comment "nan" .
 
@@ -1026,6 +1268,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Brețcu " ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -1034,6 +1277,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Bulci" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom> ;
     rdfs:comment "Kohortenkastell (?)" .
 
@@ -1042,6 +1286,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Brâncoveneşti" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom> ;
     rdfs:comment "nan" .
 
@@ -1050,6 +1295,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Orheiul Bistriţei Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.592319 47.096014)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1057,6 +1303,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Jiblea" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom> ;
     rdfs:comment "nan" .
 
@@ -1065,6 +1312,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Grebenac Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.232794 44.897786)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/46e40ed7-3b02-4bb3-ba5c-8dcb5f55b990_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1072,6 +1320,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Plesa Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.37 45.18)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/47a7d25e-6315-4256-b257-c2dfaea5e42f_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1079,6 +1328,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Zăvoi (Acmonia ?) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.410833 45.525278)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1086,6 +1336,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Legionslager Potaissa Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.772733 46.570536)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1093,6 +1344,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Flămănda (Poiana)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom> ;
     rdfs:comment "nan" .
 
@@ -1101,6 +1353,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell IIoneștii Govorii (Pons Aluti)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom> ;
     rdfs:comment "nan" .
 
@@ -1109,6 +1362,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Gilău" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom> ;
     rdfs:comment "Auxiliarkastell" .
 
@@ -1117,6 +1371,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Castranova" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom> ;
     rdfs:comment "nan" .
 
@@ -1125,6 +1380,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sarmizegetusa (Ulpia Traiana) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.786822 45.51665)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/59eaf728-6bdb-4f30-a9e7-abec5dbbaa5f_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1132,6 +1388,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sânnicolau Mare Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.629444 46.072222)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/5a43030f-b985-4444-8cf9-3e4a0b132d79_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1139,6 +1396,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Vârtop Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.372222 45.1825)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1146,6 +1404,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Căineni (Pons Vetus ?)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom> ;
     rdfs:comment "nan" .
 
@@ -1154,6 +1413,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Hoghiz" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom> ;
     rdfs:comment "Auxiliarkastell" .
 
@@ -1162,6 +1422,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Szeged Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.145953 46.253697)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1169,6 +1430,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Câmpulung Muscel I" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom> ;
     rdfs:comment "nan" .
 
@@ -1177,6 +1439,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Gherla" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom> ;
     rdfs:comment "Alenkastell" .
 
@@ -1185,6 +1448,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Fâlfani" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom> ;
     rdfs:comment "nan" .
 
@@ -1193,6 +1457,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Bologa (Resculum)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom> ;
     rdfs:comment "nan" .
 
@@ -1201,6 +1466,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Băneasa I" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom> ;
     rdfs:comment "nan" .
 
@@ -1209,6 +1475,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Purcăreni Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8945 44.958083)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1216,6 +1483,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Feldioara" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -1224,6 +1492,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Livezile" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom> ;
     rdfs:comment "nan" .
 
@@ -1232,6 +1501,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Roșiorii de Vede Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.947028 44.074472)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1239,6 +1509,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Călugăreni" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -1247,6 +1518,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Islaz-Verdea" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom> ;
     rdfs:comment "nan" .
 
@@ -1255,6 +1527,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Băneasa II" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom> ;
     rdfs:comment "nan" .
 
@@ -1263,6 +1536,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Stolniceni Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360675 45.105944)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1270,6 +1544,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Boiţa (Caput Stenarum) " ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom> ;
     rdfs:comment "nan" .
 
@@ -1278,6 +1553,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Vršac Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.300194 45.122669)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459> a <http://archaeoinformatics.link/ontology#LegionaryCamp>,
@@ -1285,6 +1561,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Berzovia " ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom> ;
     rdfs:comment "Legionslager" .
 
@@ -1293,6 +1570,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Perisani Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 45.370833)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1300,6 +1578,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Dupljaja" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923_geom> ;
     rdfs:comment "Auxiliarkastell" .
 
@@ -1308,6 +1587,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cenad" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom> ;
     rdfs:comment "Kohortenkastell (?)" .
 
@@ -1316,6 +1596,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Vețel Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.814906 45.914594)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1323,6 +1604,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Câmpulung Muscel II" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom> ;
     rdfs:comment "nan" .
 
@@ -1331,6 +1613,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Voineşti Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.076083 45.297833)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/8fa245f8-ffe5-4e74-b259-410c7be91afd_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1338,6 +1621,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Titeşti Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.394444 45.409722)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/918ef494-4408-4a91-8ee0-61f6087ffee7_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1345,6 +1629,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Surducul Mare Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.587219 45.265)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/986efe66-cf8a-4b64-a488-ad95d0f2dd79_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1352,6 +1637,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Tihău Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.327689 47.227733)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/9a084d40-bf5c-42fa-8aa7-8c678524c631_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1359,6 +1645,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Racoviţa (Praetorium II) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.757222 43.733056)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1366,6 +1653,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Rădăcineşti Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.441944 45.281528)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1373,6 +1661,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Bivolari (Arutela)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom> ;
     rdfs:comment "nan" .
 
@@ -1381,6 +1670,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Bumbeşti" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom> ;
     rdfs:comment "nan" .
 
@@ -1389,6 +1679,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cristeşti" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom> ;
     rdfs:comment "nan" .
 
@@ -1397,6 +1688,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Râșnov Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.441581 45.618708)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/9f76d5fd-4ee3-4985-9fb6-c22bfdf43436_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1404,6 +1696,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Putineiu Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.965361 43.897806)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1411,6 +1704,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Săpata de Jos I Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.763556 44.707333)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1418,6 +1712,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cătunele" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom> ;
     rdfs:comment "nan" .
 
@@ -1426,6 +1721,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Inlăceni" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -1434,6 +1730,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sămbotin (Castra Traiana) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.373611 45.173611)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/b0524f84-a9d2-45fa-9f69-d8164ad73440_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1441,6 +1738,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Olteni Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.849619 45.970939)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/b0cccdd1-2478-40bc-add2-a0e1bad88feb_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1448,6 +1746,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Slăveni Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.528969 44.081789)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/b5cf0c45-ec51-4710-a03a-75e7dc30a7a3_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1455,6 +1754,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Romanasi (Largiana) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.181678 47.113403)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1462,6 +1762,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Buciumi" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom> ;
     rdfs:comment "Kohortenkastell" .
 
@@ -1470,6 +1771,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sighisoara Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.752103 46.239431)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/bf339c52-9ac1-4b87-94ab-2dc33bc7d3e4_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1477,6 +1779,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Odorheiul Secuiesc Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.3002 46.3131)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/c3451d14-c4ee-42be-b918-af9735167f5f_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1484,6 +1787,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sarateni Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.008889 46.562222)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1491,6 +1795,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Albota" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom> ;
     rdfs:comment "nan" .
 
@@ -1499,6 +1804,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Teregova (Ad Pannonios) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.306831 45.168611)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1506,6 +1812,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Enoşeşti (Acidava)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom> ;
     rdfs:comment "nan" .
 
@@ -1514,6 +1821,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Banatska Palanka" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom> ;
     rdfs:comment "Kohortenkastell / Alenkastell" .
 
@@ -1522,6 +1830,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Ilişua (Arcobara)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom> ;
     rdfs:comment "nan" .
 
@@ -1530,6 +1839,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Ghioca" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom> ;
     rdfs:comment "nan" .
 
@@ -1538,6 +1848,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Valea Urluii Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.937389 44.061333)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1545,6 +1856,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cincsor" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom> ;
     rdfs:comment "nan" .
 
@@ -1553,6 +1865,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Căciulătești" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom> ;
     rdfs:comment "nan" .
 
@@ -1561,6 +1874,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Aizis" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom> ;
     rdfs:comment "nan" .
 
@@ -1569,6 +1883,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Răcarii de Jos Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.571847 44.514)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
@@ -1576,6 +1891,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Aradul Nou" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom> ;
     rdfs:comment "Kohortenkastell (?)" .
 
@@ -1584,6 +1900,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Borosneu Mare" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom> ;
     rdfs:comment "nan" .
 
@@ -1592,6 +1909,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Sutoru Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.251667 46.986086)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/f81e10af-8e41-447d-b601-dcba5311199b_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1599,6 +1917,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Reşca (Romula/Malva) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.400833 44.166667)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/f8305d66-9429-43c0-b6e3-73721df9986b_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1606,6 +1925,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Urluieni II Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762111 44.484583)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/fb3dfa9f-ac48-4ced-a8dc-2b635594cfdd_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1613,6 +1933,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Vărădia Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.551161 45.079397)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/fddcce1d-ea5f-4dc2-a2d1-740ca41fa97e_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1620,6 +1941,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Legionslager Alba Julia Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.572314 46.066694)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/ffd99607-0513-4fa5-8073-c80bddbfab84_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1627,6 +1949,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Tibiscum Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.1895 45.4663)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/0203af0b-bc52-4f9f-b490-b2bc3fe431fc_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1634,6 +1957,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cigmău Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.164364 45.897053)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/096a9a4c-020f-4ce0-a4a6-993d50d08fea_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1641,6 +1965,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Copăceni (Praetorium I) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.309861 45.395903)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/0ab5e10e-4fb0-4854-835b-389043840ee0_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1648,6 +1973,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Lişteava Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.92 43.834167)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/0fe1d8dd-b425-4d55-ae80-2cd8d5d61ace_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1655,6 +1981,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Căşeiu (Samum) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.837639 47.186222)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/1795d125-e071-4153-b07e-e147bb19ad65_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1662,6 +1989,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Comalău Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.900222 45.844172)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/1d8f65a8-c30b-40f1-9676-2e1145691ac3_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1669,6 +1997,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Abrud (Alburnus Maior) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.068611 46.272222)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/1e218e82-f264-4241-a8e0-5efd9a1ec8a4_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1676,6 +2005,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Islaz-Razovica Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.870833 43.751667)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/34d0d768-2d4d-42b3-82ae-e29bad5c1eed_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1683,6 +2013,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Gresia Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.917722 44.172583)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/3680e065-f377-4f4d-a9d6-84523dcb1727_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1690,6 +2021,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Brețcu Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.312836 46.050994)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/3af3a2c4-8038-482d-9fa9-a0e90584ef6d_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1697,6 +2029,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Bulci Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.112283 46.006539)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/3b51185a-d7ca-4c22-b85d-a021b3727c4d_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1704,6 +2037,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Brâncoveneşti Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.766042 46.861514)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/4198c975-e14a-4fb3-9b2e-7be9e145ecac_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1711,6 +2045,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Jiblea Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.360556 45.231944)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/4dbfae9e-f0f7-4dab-94ca-9bca2cec83aa_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1718,6 +2053,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Flămănda (Poiana) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.983333 43.7345)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/4df4edbc-facd-42bd-b05e-076f94ae693b_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1725,6 +2061,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell IIoneștii Govorii (Pons Aluti) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.236111 44.883333)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/4e013c45-7445-4ea6-8356-2c9cc9e7ac6e_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1732,6 +2069,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Gilău Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.391764 46.754058)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/50320dbe-929c-40e3-aebd-f8f257d6472a_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1739,6 +2077,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Castranova Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.016667 44.116667)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/5b90b8d5-ba6e-4789-94d2-db823824acbf_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1746,6 +2085,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Căineni (Pons Vetus ?) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.308611 45.495)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/5d0fac8e-53ae-4ae7-92a2-dd419eee0dce_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1753,6 +2093,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Hoghiz Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.300011 45.983367)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/5e6a65c9-32dd-4581-b6ab-a95afdc4d061_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1760,6 +2101,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Câmpulung Muscel I Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012472 45.22075)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/5ea0f057-026f-4556-97f5-3e0e3a9471c3_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1767,6 +2109,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Gherla Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.899911 47.019833)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1774,6 +2117,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Fâlfani Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.785111 44.603278)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/6689fc0e-01ff-4dbc-b3ed-49e35a3d397a_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1781,6 +2125,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Bologa (Resculum) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.884611 46.885694)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/6c5d4f2f-8a7b-4ad5-8672-f4ecc7e80ff0_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1788,6 +2133,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Băneasa I Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.96525 43.937806)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/70d51242-571e-43ce-bd01-3bffca8cb4be_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1795,6 +2141,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Feldioara Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.591561 45.816419)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7422f9df-da23-450f-8eac-db2d8dfca42e_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1802,6 +2149,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Livezile Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.57075 47.186869)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7aa137c0-3763-4bd3-a1ec-bd8a88b3d786_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1809,6 +2157,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Călugăreni Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.877311 46.628978)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7b05b48b-cd48-4c66-916e-6ea581179843_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1816,6 +2165,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Islaz-Verdea Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.762222 43.710278)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7c3bf06c-8f79-457e-b56f-77da98c7a69b_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1823,6 +2173,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Băneasa II Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.961889 43.935889)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7cb289bf-4a31-467d-9c9d-4271a8dc55c9_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1830,6 +2181,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Boiţa (Caput Stenarum) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.266011 45.635769)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1837,6 +2189,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Berzovia Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.629394 45.426539)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/815f5c63-8478-4aac-bafb-11eaafa9a923_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1844,6 +2197,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Dupljaja Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.275078 44.927103)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/86dae60a-c827-480d-bb38-04a480b9ea01_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1851,6 +2205,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cenad Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (20.585819 46.138106)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/8c5f1f84-f11a-48f0-8e9a-c629c7d346e2_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1858,6 +2213,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Câmpulung Muscel II Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.012694 45.221)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1865,6 +2221,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Bivolari (Arutela) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.312389 45.309667)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/9b62118c-9936-42f2-a6e7-49f649c937f2_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1872,6 +2229,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Bumbeşti Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.4 45.166667)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1879,6 +2237,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cristeşti Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.476111 46.510556)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/aadec8db-70f9-4c40-833a-2a7c39c631d2_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1886,6 +2245,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cătunele Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (22.924444 44.838889)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/ae458e0d-85d0-4756-b265-db4db5bb7fe2_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1893,6 +2253,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Inlăceni Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.121806 46.431319)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/b6e369cd-722a-4a1c-a984-538bb26f3777_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1900,6 +2261,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Buciumi Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.044569 47.048264)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/c3a471a8-ab67-4e9c-b127-1eff017b0cb4_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1907,6 +2269,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Albota Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.8375 44.771389)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/cba75304-f136-465d-90fb-56dff3acc018_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1914,6 +2277,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Enoşeşti (Acidava) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.30325 44.374806)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/d2adbbd5-f4a7-471d-a817-b28e37bcbfb1_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1921,6 +2285,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Banatska Palanka Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.331111 44.845)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/d92ef45f-91c4-442e-b279-61f17fbccb7c_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1928,6 +2293,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Ilişua (Arcobara) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.095361 47.210528)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/e0423dfe-4fdf-4bf6-8453-97d7bee4d031_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1935,6 +2301,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Ghioca Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.761056 44.307778)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/e3899f66-1234-4a44-b16e-2ead1e0bf696_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1942,6 +2309,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Cincsor Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.866611 45.842519)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/e69e6cb2-cded-446c-b159-daec78476f43_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1949,6 +2317,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Căciulătești Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (23.949167 43.938056)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/e811fe5a-92d2-43a0-a572-51bc5942e242_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1956,6 +2325,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Aizis Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.847883 45.486656)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/ed79872f-dcb1-48d0-a008-5a3c65432a67_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1963,6 +2333,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Aradul Nou Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (21.315097 46.146819)"^^geo:wktLiteral .
 
 <http://lod.squirrel.link/data/limes/daicus/f35f2d3f-8925-4139-9e9b-cf07ee5aaecb_geom> a <http://www.opengis.net/ont/sf#Point>,
@@ -1970,5 +2341,126 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kastell Borosneu Mare Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (26.016986 45.843861)"^^geo:wktLiteral .
+
+<http://lod.squirrel.link/data/limes/limes_dataset> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "limes_dataset"@en ;
+    ns1:averageLiteralLength 31,
+        38 ;
+    ns1:averageObjectIRILength 63,
+        64 ;
+    ns1:averagePropertyIRILength 44 ;
+    ns1:averageSubjectIRILength 78,
+        80 ;
+    ns1:datatypes 1 ;
+    ns1:distinctBlankNodes 1 ;
+    ns1:distinctIRIReferences 332,
+        731 ;
+    ns1:distinctLiterals 118,
+        328 ;
+    ns1:distinctRDFNodes 451,
+        1060 ;
+    ns1:languages 1 ;
+    ns1:propertyClasses 0,
+        3 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-03-05T19:27:35"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "limes_dataset"@en ;
+    vann:preferredNamespacePrefix "limes"^^xsd:string ;
+    vann:preferredNamespaceUri "http://lod.squirrel.link/data/limes/"^^xsd:anyURI ;
+    void:classPartition <http://lod.squirrel.link/data/limes/limes_dataset_Burgus>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Collection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Feature>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_FeatureCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Geometry>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_GeometryCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Kleinkastell>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_LegionaryCamp>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Limes>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_MilitaryCamp>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Point>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Watchtower> ;
+    void:classes 10,
+        14 ;
+    void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl> ;
+    void:distinctObjects 213,
+        493 ;
+    void:distinctSubjects 112,
+        231 ;
+    void:entities 95,
+        217 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 7 ;
+    void:propertyPartition <http://lod.squirrel.link/data/limes/limes_dataset_asWKT>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_comment>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_domain>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_hasGeometry>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_label>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_member>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_subClassOf>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_type> ;
+    void:triples 552,
+        1293 ;
+    void:uriSpace "http://lod.squirrel.link/data/limes/"^^xsd:string ;
+    void:vocabulary ns1:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://lod.squirrel.link/data/limes/limes_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
+    foaf:homepage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
+    foaf:page <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.html> .
+
+[] a owl:Ontology,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
 
