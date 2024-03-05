@@ -1,10 +1,12 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Orăştioara de Sus" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom> ;
     rdfs:comment "nan" .
 

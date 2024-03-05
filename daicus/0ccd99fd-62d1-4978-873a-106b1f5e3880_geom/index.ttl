@@ -1,9 +1,11 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/daicus/0ccd99fd-62d1-4978-873a-106b1f5e3880_geom> a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Rucăr Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (25.178583 45.398444)"^^geo:wktLiteral .
 

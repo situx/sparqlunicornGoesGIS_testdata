@@ -1,9 +1,11 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/daicus/9a118e00-be2c-4c2d-a9f9-8cb86170e3d1_geom> a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Rădăcineşti Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.441944 45.281528)"^^geo:wktLiteral .
 

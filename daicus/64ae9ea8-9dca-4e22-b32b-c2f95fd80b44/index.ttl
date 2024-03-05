@@ -1,10 +1,12 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Fâlfani" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/64ae9ea8-9dca-4e22-b32b-c2f95fd80b44_geom> ;
     rdfs:comment "nan" .
 

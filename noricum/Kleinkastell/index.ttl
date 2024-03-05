@@ -1,9 +1,11 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/noricum/Kleinkastell> a owl:Class,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kleinkastell" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:subClassOf <http://archaeoinformatics.link/ontology#Limes> .
 

@@ -1,10 +1,12 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Bivolari (Arutela)" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9ac48ee9-00b6-46ab-a597-b6aa5f2d784a_geom> ;
     rdfs:comment "nan" .
 

@@ -1,10 +1,12 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/LegionaryCamp_collection> a geo:FeatureCollection,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "LegionaryCamp Instances Collection" ;
+    rdfs:label "LegionaryCamp Instances Collection"@en ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     rdfs:member <http://lod.squirrel.link/data/limes/daicus/497eff64-e309-4704-b5f0-3e2872ff379d>,
         <http://lod.squirrel.link/data/limes/daicus/5709a2bb-8d86-44af-b582-19151b918068>,
         <http://lod.squirrel.link/data/limes/daicus/7e6b0abd-392e-48da-a973-52db57e43459>,

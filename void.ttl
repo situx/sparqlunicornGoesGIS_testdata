@@ -1,0 +1,585 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://lod.squirrel.link/data/limes/adms_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/brick_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/csvw_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/dc_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/dcam_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/dcat_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/dcmitype_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/dcterms_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/doap_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/foaf_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/geo_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    voaf:occurrences 10 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_archaeoinformatics.link_ontology_> a void:Linkset ;
+    rdfs:label "Linkset: limes_dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://archaeoinformatics.link/ontology#> ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_www.opengis.net_ont_geosparql_> a void:Linkset ;
+    rdfs:label "Linkset: limes_dataset - The GeoSPARQL Ontology (gsp:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 5 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_www.opengis.net_ont_sf_> a void:Linkset ;
+    rdfs:label "Linkset: limes_dataset - Simple Features Vocabulary (sf:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/sf#> ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_www.w3.org_2002_07_owl_> a void:Linkset ;
+    rdfs:label "Linkset: limes_dataset - Web Ontology Language 2 Vocabulary (owl:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget owl: ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 1 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: limes_dataset - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    void:triples 2 .
+
+<http://lod.squirrel.link/data/limes/odrl_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/org_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/owl_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    voaf:occurrences 2 .
+
+<http://lod.squirrel.link/data/limes/prof_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/prov_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/qb_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/rdf_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/rdfs_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/schema_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/sh_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/skos_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
+    voaf:occurrences 4 .
+
+<http://lod.squirrel.link/data/limes/sosa_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/ssn_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/time_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/vann_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/vext_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/voaf_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/void_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/wgs_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/xml_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://lod.squirrel.link/data/limes/xsd_limes_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in limes_dataset" ;
+    voaf:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<https://github.com/sparqlunicorn/sparqlunicornGoesGIS_testdata> a adms:AssetRepository ;
+    rdfs:label "Repository for limes_dataset"@en ;
+    dcat:accessURL "https://github.com/sparqlunicorn/sparqlunicornGoesGIS_testdata"^^xsd:anyURI ;
+    dcat:dataset <http://lod.squirrel.link/data/limes/limes_dataset> .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_limes_dataset_occ .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
+    void:class skos:Collection ;
+    void:entities 2 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_Feature> a void:Dataset ;
+    rdfs:label "Class Partition: Feature"@en ;
+    void:class geo:Feature .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_FeatureCollection> a void:Dataset ;
+    rdfs:label "Class Partition: FeatureCollection"@en ;
+    void:class geo:FeatureCollection ;
+    void:entities 3 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_Geometry> a void:Dataset ;
+    rdfs:label "Class Partition: Geometry"@en ;
+    void:class geo:Geometry .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_GeometryCollection> a void:Dataset ;
+    rdfs:label "Class Partition: GeometryCollection"@en ;
+    void:class geo:GeometryCollection ;
+    void:entities 2 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_LegionaryCamp> a void:Dataset ;
+    rdfs:label "Class Partition: LegionaryCamp"@en ;
+    void:class <http://archaeoinformatics.link/ontology#LegionaryCamp> ;
+    void:entities 6 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_MilitaryCamp> a void:Dataset ;
+    rdfs:label "Class Partition: MilitaryCamp"@en ;
+    void:class <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
+    void:entities 98 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_Point> a void:Dataset ;
+    rdfs:label "Class Partition: Point"@en ;
+    void:class <http://www.opengis.net/ont/sf#Point> ;
+    void:entities 104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObject"@en ;
+    void:class geo:SpatialObject .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
+    void:class geo:SpatialObjectCollection .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_asWKT> a void:Dataset ;
+    rdfs:label "Property Partition: asWKT"@en ;
+    void:property geo:asWKT ;
+    void:triples 104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_comment> a void:Dataset ;
+    rdfs:label "Property Partition: comment"@en ;
+    void:property rdfs:comment ;
+    void:triples 104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "limes_dataset TTL Distribution"@en ;
+    dcat:downloadURL "https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_hasGeometry> a void:Dataset ;
+    rdfs:label "Property Partition: hasGeometry"@en ;
+    void:property geo:hasGeometry ;
+    void:triples 104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 213 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_member> a void:Dataset ;
+    rdfs:label "Property Partition: member"@en ;
+    void:property rdfs:member ;
+    void:triples 98 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_subClassOf> a void:Dataset ;
+    rdfs:label "Property Partition: subClassOf"@en ;
+    void:property rdfs:subClassOf ;
+    void:triples 7 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 226 .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_limes_dataset_occ .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_limes_dataset_occ .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_limes_dataset_occ .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_limes_dataset_occ .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_limes_dataset_occ .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_limes_dataset_occ .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_limes_dataset_occ .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_limes_dataset_occ .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_limes_dataset_occ .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_limes_dataset_occ .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_limes_dataset_occ .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_limes_dataset_occ .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_limes_dataset_occ .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_limes_dataset_occ .
+
+adms: a voaf:Vocabulary ;
+    rdfs:label "adms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "adms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/adms#"^^xsd:anyURI ;
+    voaf:usageInDataset adms:_limes_dataset_occ .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_limes_dataset_occ .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_limes_dataset_occ .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_limes_dataset_occ .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_limes_dataset_occ .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_limes_dataset_occ .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_limes_dataset_occ .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_limes_dataset_occ .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_limes_dataset_occ .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_limes_dataset_occ .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_limes_dataset_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_limes_dataset_occ .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_limes_dataset_occ .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_limes_dataset_occ .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_limes_dataset_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_limes_dataset_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_limes_dataset_occ .
+
+<http://lod.squirrel.link/data/limes/limes_dataset> a void:Dataset,
+        adms:Asset ;
+    rdfs:label "limes_dataset"@en ;
+    vext:averageLiteralLength 31 ;
+    vext:averageObjectIRILength 63 ;
+    vext:averagePropertyIRILength 44 ;
+    vext:averageSubjectIRILength 80 ;
+    vext:datatypes 1 ;
+    vext:distinctBlankNodes 1 ;
+    vext:distinctIRIReferences 731 ;
+    vext:distinctLiterals 328 ;
+    vext:distinctRDFNodes 1060 ;
+    vext:languages 1 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-03-05T13:30:49"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "limes_dataset"@en ;
+    vann:preferredNamespacePrefix "limes"^^xsd:string ;
+    vann:preferredNamespaceUri "http://lod.squirrel.link/data/limes/"^^xsd:anyURI ;
+    void:classPartition <http://lod.squirrel.link/data/limes/limes_dataset_Collection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Feature>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_FeatureCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Geometry>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_GeometryCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_LegionaryCamp>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_MilitaryCamp>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Point>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection> ;
+    void:classes 10 ;
+    void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl> ;
+    void:distinctObjects 493 ;
+    void:distinctSubjects 231 ;
+    void:entities 217 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 7 ;
+    void:propertyPartition <http://lod.squirrel.link/data/limes/limes_dataset_asWKT>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_comment>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_hasGeometry>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_label>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_member>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_subClassOf>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_type> ;
+    void:triples 1293 ;
+    void:uriSpace "http://lod.squirrel.link/data/limes/"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        adms:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://lod.squirrel.link/data/limes/limes_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
+    foaf:homepage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
+    foaf:page <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.html> .
+

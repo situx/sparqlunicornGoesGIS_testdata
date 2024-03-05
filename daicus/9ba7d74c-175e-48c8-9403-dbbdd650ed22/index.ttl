@@ -1,10 +1,12 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22> a <http://archaeoinformatics.link/ontology#MilitaryCamp>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Cristeşti" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:hasGeometry <http://lod.squirrel.link/data/limes/daicus/9ba7d74c-175e-48c8-9403-dbbdd650ed22_geom> ;
     rdfs:comment "nan" .
 

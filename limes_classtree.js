@@ -45,21 +45,21 @@ var tree={
       {
         "id": "http://lod.squirrel.link/data/limes/daicus/LimesDaicusFeatures",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "instance",
+        "type": "featurecollection",
         "text": "Limes Daicus Features (LimesDaicusFeatures)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/MilitaryCamp_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "instance",
+        "type": "featurecollection",
         "text": "MilitaryCamp Instances Collection (MilitaryCamp_collection)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/LegionaryCamp_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "instance",
+        "type": "featurecollection",
         "text": "LegionaryCamp Instances Collection (LegionaryCamp_collection)",
         "data": {}
       },
@@ -67,9 +67,14 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "FeatureCollection (geo:FeatureCollection) [8]",
+        "text": "FeatureCollection (gsp:FeatureCollection) [10]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 3,
               "http://www.w3.org/2002/07/owl#Class": 1
@@ -84,26 +89,26 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 115
+        "instancecount": 116
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "SpatialObjectCollection (geo:SpatialObjectCollection)",
+        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/daicus/LimesDaicusGeometries",
         "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
-        "type": "instance",
+        "type": "geocollection",
         "text": "Limes Daicus Geometries (LimesDaicusGeometries)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/Point_collection",
         "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
-        "type": "instance",
+        "type": "geocollection",
         "text": "Point Instances Collection (Point_collection)",
         "data": {}
       },
@@ -111,31 +116,31 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "GeometryCollection (geo:GeometryCollection) [3]",
+        "text": "GeometryCollection (gsp:GeometryCollection) [4]",
         "data": {
           "to": {
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+            "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://www.w3.org/ns/ldp#Resource": 1,
+              "https://www.iana.org/assignments/media-types/text/turtle#Resource": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 3,
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 49,
-              "http://www.opengis.net/ont/sf#Point": 49
+              "instancecount": 144,
+              "http://www.opengis.net/ont/sf#Point": 104
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1,
-              "http://www.w3.org/ns/ldp#Resource": 1,
-              "https://www.iana.org/assignments/media-types/text/turtle#Resource": 1
-            }
-          }
+          "from": {}
         },
-        "instancecount": 52
+        "instancecount": 150
       },
       {
         "id": "http://lod.squirrel.link/data/limes/daicus/a6ec226a-3c2a-444a-9221-839201e1135f",
@@ -827,9 +832,16 @@ var tree={
         "id": "http://archaeoinformatics.link/ontology#MilitaryCamp",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "geoclass",
-        "text": "MilitaryCamp [98]",
+        "text": "MilitaryCamp (MilitaryCamp) [98]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://www.w3.org/ns/ldp#Resource": 1,
+              "https://www.iana.org/assignments/media-types/text/turtle#Resource": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -848,19 +860,19 @@ var tree={
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 2,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1,
               "http://www.w3.org/ns/ldp#Resource": 1,
               "https://www.iana.org/assignments/media-types/text/turtle#Resource": 1
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "type": "class",
-        "text": "Feature (geo:Feature)",
+        "text": "Feature (gsp:Feature)",
         "data": {}
       },
       {
@@ -1595,9 +1607,16 @@ var tree={
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
         "type": "geoclass",
-        "text": "Point [144]",
+        "text": "Point (sf:Point) [144]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://www.w3.org/ns/ldp#Resource": 1,
+              "https://www.iana.org/assignments/media-types/text/turtle#Resource": 1
+            },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 1
             },
@@ -1612,23 +1631,23 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "http://archaeoinformatics.link/ontology#MilitaryCamp": 1
+              "http://archaeoinformatics.link/ontology#LegionaryCamp": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#GeometryCollection": 2,
+              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1,
               "http://www.w3.org/ns/ldp#Resource": 1,
               "https://www.iana.org/assignments/media-types/text/turtle#Resource": 1
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Geometry",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "type": "class",
-        "text": "Geometry (geo:Geometry)",
+        "text": "Geometry (gsp:Geometry)",
         "data": {}
       },
       {
@@ -1677,9 +1696,16 @@ var tree={
         "id": "http://archaeoinformatics.link/ontology#LegionaryCamp",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "geoclass",
-        "text": "LegionaryCamp [6]",
+        "text": "LegionaryCamp (LegionaryCamp) [6]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://www.w3.org/ns/ldp#Resource": 1,
+              "https://www.iana.org/assignments/media-types/text/turtle#Resource": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -1704,7 +1730,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://lod.squirrel.link/data/limes/FeatureCollection_collection",
@@ -1724,9 +1750,16 @@ var tree={
         "id": "http://www.w3.org/2004/02/skos/core#Collection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "Collection (skos:Collection) [3]",
+        "text": "Collection (skos:Collection) [5]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://www.w3.org/ns/ldp#Resource": 1,
+              "https://www.iana.org/assignments/media-types/text/turtle#Resource": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 3
             },
@@ -1735,60 +1768,81 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 2,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
             }
           },
           "from": {}
         },
-        "instancecount": 7
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "parent": "#",
         "type": "class",
-        "text": "SpatialObject (geo:SpatialObject)",
+        "text": "SpatialObject (gsp:SpatialObject)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/noricum/LimesNoricumFeatures",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "instance",
+        "type": "featurecollection",
         "text": "Limes Noricum Features (LimesNoricumFeatures)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/Burgus_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "instance",
+        "type": "featurecollection",
         "text": "Burgus Instances Collection (Burgus_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/MilitaryCamp_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "MilitaryCamp Instances Collection (MilitaryCamp_collection)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/Watchtower_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "instance",
+        "type": "featurecollection",
         "text": "Watchtower Instances Collection (Watchtower_collection)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/Limes_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "instance",
+        "type": "featurecollection",
         "text": "Limes Instances Collection (Limes_collection)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/Kleinkastell_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "instance",
+        "type": "featurecollection",
         "text": "Kleinkastell Instances Collection (Kleinkastell_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/LegionaryCamp_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "LegionaryCamp Instances Collection (LegionaryCamp_collection)",
         "data": {}
       },
       {
         "id": "http://lod.squirrel.link/data/limes/noricum/LimesNoricumGeometries",
         "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
-        "type": "instance",
+        "type": "geocollection",
         "text": "Limes Noricum Geometries (LimesNoricumGeometries)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/Point_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "type": "geocollection",
+        "text": "Point Instances Collection (Point_collection)",
         "data": {}
       },
       {
@@ -1886,9 +1940,14 @@ var tree={
         "id": "http://onto.squirrel.link/ontology#Burgus",
         "parent": "http://archaeoinformatics.link/ontology#Limes",
         "type": "geoclass",
-        "text": "Burgus [13]",
+        "text": "Burgus (Burgus) [13]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -1908,7 +1967,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/nonns_Limes.html",
@@ -1917,6 +1976,11 @@ var tree={
         "text": "Limes (Limes)",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -1936,7 +2000,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/noricum/a41296e5-fca2-4ce3-843e-a17871a5d85b_geom",
@@ -2306,9 +2370,14 @@ var tree={
         "id": "http://onto.squirrel.link/ontology#MilitaryCamp",
         "parent": "http://archaeoinformatics.link/ontology#Limes",
         "type": "geoclass",
-        "text": "MilitaryCamp [12]",
+        "text": "MilitaryCamp (MilitaryCamp) [12]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -2328,7 +2397,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/noricum/c2b75037-aed0-49b4-9e1c-39944efa5cb4",
@@ -2390,9 +2459,14 @@ var tree={
         "id": "http://onto.squirrel.link/ontology#Watchtower",
         "parent": "http://archaeoinformatics.link/ontology#Limes",
         "type": "geoclass",
-        "text": "Watchtower [8]",
+        "text": "Watchtower (Watchtower) [8]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -2412,7 +2486,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/noricum/2e2c9ca5-61d1-459e-a151-fad5d81dd1b7",
@@ -2460,9 +2534,14 @@ var tree={
         "id": "http://lod.squirrel.link/data/limes/noricum/Kleinkastell",
         "parent": "http://archaeoinformatics.link/ontology#Limes",
         "type": "geoclass",
-        "text": "Kleinkastell [3]",
+        "text": "Kleinkastell (Kleinkastell) [3]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -2482,7 +2561,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/noricum/64755b3a-9ff6-4c12-b9fb-778e3bde5b1f",
@@ -2495,9 +2574,14 @@ var tree={
         "id": "http://onto.squirrel.link/ontology#LegionaryCamp",
         "parent": "http://archaeoinformatics.link/ontology#Limes",
         "type": "geoclass",
-        "text": "LegionaryCamp [1]",
+        "text": "LegionaryCamp (LegionaryCamp) [1]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -2517,7 +2601,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://lod.squirrel.link/data/limes/Class_collection",
@@ -2525,7 +2609,60 @@ var tree={
         "type": "instance",
         "text": "Class Instances Collection (Class_collection)",
         "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/FeatureCollection_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "FeatureCollection Instances Collection (FeatureCollection_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.squirrel.link/data/limes/GeometryCollection_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "GeometryCollection Instances Collection (GeometryCollection_collection)",
+        "data": {}
       }
     ]
+  },
+  "@context": {
+    "@version": 1.1,
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ct": "http://purl.org/vocab/classtree#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "icon": "foaf:image",
+    "id": "@id",
+    "parent": "rdfs:subClassOf",
+    "halfgeoclass": "ct:HalfGeoClass",
+    "geoclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:GeoClass"
+    },
+    "collectionclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:CollectionClass"
+    },
+    "featurecollectionclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:FeatureCollectionClass"
+    },
+    "class": "owl:Class",
+    "instance": "owl:NamedIndividual",
+    "geoinstance": {
+      "@type": "ct:Icontype",
+      "@id": "ct:GeoNamedIndividual"
+    },
+    "text": "rdfs:label",
+    "type": "ct:icontype",
+    "types": "ct:icontypes",
+    "core": {
+      "@type": "ct:TreeConfig",
+      "@id": "@nest"
+    },
+    "data": {
+      "@id": "ct:treeitem",
+      "@type": "ct:TreeItem"
+    }
   }
 }

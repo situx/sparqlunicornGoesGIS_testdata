@@ -1,0 +1,143 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://lod.squirrel.link/data/limes/limes_dataset> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "limes_dataset"@en ;
+    ns1:averageLiteralLength 31,
+        38 ;
+    ns1:averageObjectIRILength 63,
+        64 ;
+    ns1:averagePropertyIRILength 44 ;
+    ns1:averageSubjectIRILength 78,
+        80 ;
+    ns1:datatypes 1 ;
+    ns1:distinctBlankNodes 1 ;
+    ns1:distinctIRIReferences 332,
+        731 ;
+    ns1:distinctLiterals 118,
+        328 ;
+    ns1:distinctRDFNodes 451,
+        1060 ;
+    ns1:languages 1 ;
+    ns1:propertyClasses 0,
+        3 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-03-05T13:30:49"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "limes_dataset"@en ;
+    vann:preferredNamespacePrefix "limes"^^xsd:string ;
+    vann:preferredNamespaceUri "http://lod.squirrel.link/data/limes/"^^xsd:anyURI ;
+    void:classPartition <http://lod.squirrel.link/data/limes/limes_dataset_Burgus>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Collection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Feature>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_FeatureCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Geometry>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_GeometryCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Kleinkastell>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_LegionaryCamp>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Limes>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_MilitaryCamp>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Point>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Watchtower> ;
+    void:classes 10,
+        14 ;
+    void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl> ;
+    void:distinctObjects 213,
+        493 ;
+    void:distinctSubjects 112,
+        231 ;
+    void:entities 95,
+        217 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 7 ;
+    void:propertyPartition <http://lod.squirrel.link/data/limes/limes_dataset_asWKT>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_comment>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_domain>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_hasGeometry>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_label>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_member>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_subClassOf>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_type> ;
+    void:triples 552,
+        1293 ;
+    void:uriSpace "http://lod.squirrel.link/data/limes/"^^xsd:string ;
+    void:vocabulary ns1:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://lod.squirrel.link/data/limes/limes_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
+    foaf:homepage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
+    foaf:page <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.html> .
+

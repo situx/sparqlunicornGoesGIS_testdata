@@ -1,9 +1,11 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://lod.squirrel.link/data/limes/daicus/af909713-68f5-4b6d-89d5-03f7fc7fd5c1_geom> a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kastell Sămbotin (Castra Traiana) Geometry" ;
+    void:inDataset <http://lod.squirrel.link/data/limes/limes_dataset> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (24.373611 45.173611)"^^geo:wktLiteral .
 
