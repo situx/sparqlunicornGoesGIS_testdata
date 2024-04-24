@@ -28,7 +28,7 @@ jobs:
         indexpages: true
         ckan: false
         metadatatable: true
-        offlinecompat: true
+        offlinecompat: false
         exports: cypher graphml nt n3 tlp tgf json ttl
         createcollections: true
         createnonNSPages: true
