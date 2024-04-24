@@ -1034,13 +1034,12 @@ function fitCameraToSelection(camera, controls, selection, fitOffset = 1.2) {
 
   controls.maxDistance = distance * 10;
   controls.target.copy(center);
-
-  camera.near = distance / 100;
-  camera.far = distance * 100;
-  camera.updateProjectionMatrix();
-
-  camera.position.copy(controls.target).sub(direction);
-
+  if(typeof(camera)!=="undefined" && camera!=null){
+	  camera.near = distance / 100;
+	  camera.far = distance * 100;
+	  camera.updateProjectionMatrix();
+	  camera.position.copy(controls.target).sub(direction);
+  }
   controls.update();
 }
 
@@ -1074,7 +1073,10 @@ function initThreeJS(domelement,verts,meshurls) {
     renderer.setSize( width, height);
     document.getElementById(domelement).appendChild( renderer.domElement );
     bbox=null
-    if(meshurls.length>0){
+    //camera = new THREE.PerspectiveCamera(90,window.innerWidth / window.innerHeight, 0.1, 150 );
+    camera = new THREE.PerspectiveCamera(90,width / height, 0.1, 2000 );
+    controls = new THREE.OrbitControls( camera, renderer.domElement ); 
+   if(meshurls.length>0){
         if(meshurls[0].includes(".ply")){
             var loader = new THREE.PLYLoader();
             loader.load(meshurls[0], function(object){
@@ -1088,7 +1090,7 @@ function initThreeJS(domelement,verts,meshurls) {
                 objects.add(mesh);
                 scene.add(objects);
                 addRotationControls(object,geometryF,objects)
-                if(objects.children.length>0){
+                if(objects.children.length>0 && typeof(camera)!=="undefined" && camera!=null){
                     camera.lookAt( objects.children[0].position );
                 }
                 fitCameraToSelection(camera, controls, objects.children)
@@ -1101,10 +1103,10 @@ function initThreeJS(domelement,verts,meshurls) {
             objects.add(nexus_obj)
             scene.add(objects);
             addRotationControls(nexus_obj,geometryF,objects)
-            if(objects.children.length>0){
+            /*if(objects.children.length>0 && typeof(camera)!=="undefined" && camera!=null){
                 camera.lookAt( objects.children[0].position );
             }
-            fitCameraToSelection(camera, controls, objects.children)
+            fitCameraToSelection(camera, controls, objects.children)*/
         }else if(meshurls[0].includes(".gltf")){
             var loader = new THREE.GLTFLoader();
             loader.load(meshurls[0], function ( gltf )
@@ -1115,15 +1117,14 @@ function initThreeJS(domelement,verts,meshurls) {
                 objects.add(box)
                 scene.add(objects);
                 addRotationControls(box,geometryF,objects)
-                if(objects.children.length>0){
+                if(objects.children.length>0 && typeof(camera)!=="undefined" && camera!=null){
                     camera.lookAt( objects.children[0].position );
                 }
                 fitCameraToSelection(camera, controls, objects.children)
             });
         }
     }
-    //camera = new THREE.PerspectiveCamera(90,window.innerWidth / window.innerHeight, 0.1, 150 );
-    camera = new THREE.PerspectiveCamera(90,width / height, 0.1, 2000 );
+
     scene.add(new THREE.AmbientLight(0x222222));
     var light = new THREE.DirectionalLight(0xffffff, 1);
     light.position.set(20, 20, 0);
@@ -1136,7 +1137,7 @@ function initThreeJS(domelement,verts,meshurls) {
     console.log("Depth: "+(maxz-minz))
     scene.add( annotations );
 	centervec=new THREE.Vector3()
-    controls = new THREE.OrbitControls( camera, renderer.domElement );
+
     //controls.target.set( centervec.x,centervec.y,centervec.z );
     controls.target.set( 0,0,0 );
     camera.position.x= 0

@@ -53,7 +53,7 @@
     ns1:propertyClasses 0,
         3 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-03-05T19:27:35"^^xsd:dateTime ;
+    dcterms:modified "2024-04-24T12:00:34"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -78,7 +78,7 @@
         <http://lod.squirrel.link/data/limes/limes_dataset_Watchtower> ;
     void:classes 10,
         14 ;
-    void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl> ;
+    void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//index.ttl> ;
     void:distinctObjects 213,
         493 ;
     void:distinctSubjects 112,
@@ -137,7 +137,7 @@
         "Person"@en,
         "Q121810372"@en,
         "Time"@en ;
-    dcat:landingPage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
-    foaf:homepage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
-    foaf:page <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.html> .
+    dcat:landingPage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/> ;
+    foaf:homepage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/> ;
+    foaf:page <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//index.html> .
 

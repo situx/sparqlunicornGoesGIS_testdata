@@ -272,7 +272,7 @@ vext: a voaf:Vocabulary ;
 
 <http://lod.squirrel.link/data/limes/limes_dataset_dist_ttl> a adms:AssetDistribution ;
     rdfs:label "limes_dataset TTL Distribution"@en ;
-    dcat:downloadURL "https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl"^^xsd:anyURI ;
+    dcat:downloadURL "https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//index.ttl"^^xsd:anyURI ;
     dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
 
 <http://lod.squirrel.link/data/limes/limes_dataset_hasGeometry> a void:Dataset ;
@@ -505,7 +505,7 @@ skos: a voaf:Vocabulary ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-03-05T19:27:35"^^xsd:dateTime ;
+    dcterms:modified "2024-04-24T12:00:34"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -525,7 +525,7 @@ skos: a voaf:Vocabulary ;
         <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject>,
         <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection> ;
     void:classes 10 ;
-    void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl> ;
+    void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//index.ttl> ;
     void:distinctObjects 493 ;
     void:distinctSubjects 231 ;
     void:entities 217 ;
@@ -579,7 +579,7 @@ skos: a voaf:Vocabulary ;
         "Person"@en,
         "Q121810372"@en,
         "Time"@en ;
-    dcat:landingPage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
-    foaf:homepage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata> ;
-    foaf:page <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.html> .
+    dcat:landingPage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/> ;
+    foaf:homepage <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/> ;
+    foaf:page <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//index.html> .
 
