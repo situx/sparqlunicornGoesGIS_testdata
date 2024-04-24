@@ -1120,11 +1120,11 @@ var vowlresult={
  "propertyAttribute": [
   {
    "id": 0,
-   "iri": "nf871786962d842dd813a0254952becffb1",
-   "baseIRI": "nf871786962d842dd813a0254952becffb",
+   "iri": "nee83d6790cf54b158b52d0b30328a62db1",
+   "baseIRI": "nee83d6790cf54b158b52d0b30328a62db",
    "instances": 0,
    "label": {
-    "IRI-based": "nf871786962d842dd813a0254952becffb1"
+    "IRI-based": "nee83d6790cf54b158b52d0b30328a62db1"
    },
    "annotations": {},
    "range": [],

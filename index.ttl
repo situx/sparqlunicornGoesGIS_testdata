@@ -1038,8 +1038,8 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 89,
-        213 .
+    void:triples 99,
+        218 .
 
 <http://lod.squirrel.link/data/limes/limes_dataset_member> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1048,8 +1048,8 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: member"@en ;
     void:property rdfs:member ;
-    void:triples 71,
-        98 .
+    void:triples 154,
+        308 .
 
 <http://lod.squirrel.link/data/limes/limes_dataset_subClassOf> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1058,8 +1058,8 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: subClassOf"@en ;
     void:property rdfs:subClassOf ;
-    void:triples 7,
-        11 .
+    void:triples 8,
+        12 .
 
 <http://lod.squirrel.link/data/limes/limes_dataset_type> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1068,8 +1068,8 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 102,
-        226 .
+    void:triples 112,
+        231 .
 
 <http://lod.squirrel.link/data/limes/daicus/000d5176-6b9e-4065-a44f-d7b8f75b1199_geom> a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2351,26 +2351,24 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "limes_dataset"@en ;
-    ns1:averageLiteralLength 31,
-        38 ;
-    ns1:averageObjectIRILength 63,
-        64 ;
+    ns1:averageLiteralLength 0 ;
+    ns1:averageObjectIRILength 53,
+        57 ;
     ns1:averagePropertyIRILength 44 ;
     ns1:averageSubjectIRILength 78,
         80 ;
-    ns1:datatypes 1 ;
+    ns1:datatypes 0 ;
     ns1:distinctBlankNodes 1 ;
-    ns1:distinctIRIReferences 332,
-        731 ;
-    ns1:distinctLiterals 118,
-        328 ;
-    ns1:distinctRDFNodes 451,
-        1060 ;
-    ns1:languages 1 ;
+    ns1:distinctIRIReferences 345,
+        794 ;
+    ns1:distinctLiterals 0 ;
+    ns1:distinctRDFNodes 346,
+        795 ;
+    ns1:languages 0 ;
     ns1:propertyClasses 0,
         3 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-04-24T12:00:34"^^xsd:dateTime ;
+    dcterms:modified "2024-04-24T12:03:59"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -2381,23 +2379,19 @@
     vann:preferredNamespaceUri "http://lod.squirrel.link/data/limes/"^^xsd:anyURI ;
     void:classPartition <http://lod.squirrel.link/data/limes/limes_dataset_Burgus>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Collection>,
-        <http://lod.squirrel.link/data/limes/limes_dataset_Feature>,
         <http://lod.squirrel.link/data/limes/limes_dataset_FeatureCollection>,
-        <http://lod.squirrel.link/data/limes/limes_dataset_Geometry>,
         <http://lod.squirrel.link/data/limes/limes_dataset_GeometryCollection>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Kleinkastell>,
         <http://lod.squirrel.link/data/limes/limes_dataset_LegionaryCamp>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Limes>,
         <http://lod.squirrel.link/data/limes/limes_dataset_MilitaryCamp>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Point>,
-        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject>,
-        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Watchtower> ;
-    void:classes 10,
-        14 ;
+    void:classes 6,
+        10 ;
     void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//index.ttl> ;
-    void:distinctObjects 213,
-        493 ;
+    void:distinctObjects 226,
+        556 ;
     void:distinctSubjects 112,
         231 ;
     void:entities 95,
