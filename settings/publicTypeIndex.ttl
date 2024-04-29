@@ -1,12 +1,40 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.w3.org/ns/solid/terms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://purl.org/vocommons/voaf#DatasetOccurrence> a owl:Class .
+
+<http://purl.org/vocommons/voaf#Vocabulary> a owl:Class .
+
+void:Dataset a owl:Class .
+
+void:Linkset a owl:Class .
+
+rdfs:Datatype a owl:Class .
+
+owl:AnnotationProperty a owl:Class .
+
+owl:DatatypeProperty a owl:Class .
+
+owl:ObjectProperty a owl:Class .
+
+owl:Ontology a owl:Class .
+
+<http://www.w3.org/ns/adms#Asset> a owl:Class .
+
+<http://www.w3.org/ns/adms#AssetDistribution> a owl:Class .
+
+<http://www.w3.org/ns/adms#AssetRepository> a owl:Class .
+
+<http://www.w3.org/ns/ldp#Resource> a owl:Class .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
         ns1:ListedDocument,
-        ns1:TypeIndex ;
-    rdfs:label "Public Type Index"@en ;
+        ns1:TypeIndex,
+        "Public Type Index"@en ;
     rdfs:comment "This Document contains a list of links to other Documents, along with the type of data that is to be included in those Documents"@en ;
     rdfs:member <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#000d5176-6b9e-4065-a44f-d7b8f75b1199>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#000d5176-6b9e-4065-a44f-d7b8f75b1199_geom>,
@@ -214,8 +242,10 @@
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Burgus_collection>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Class_collection>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Collection>,
+        <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Feature>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#FeatureCollection>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#FeatureCollection_collection>,
+        <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Geometry>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#GeometryCollection>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#GeometryCollection_collection>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Kleinkastell>,
@@ -231,6 +261,8 @@
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#MilitaryCamp_collection>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Point>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Point_collection>,
+        <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#SpatialObject>,
+        <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#SpatialObjectCollection>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Watchtower>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Watchtower_collection>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#a41296e5-fca2-4ce3-843e-a17871a5d85b>,
@@ -320,6 +352,8 @@
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#ffd99607-0513-4fa5-8073-c80bddbfab84>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#ffd99607-0513-4fa5-8073-c80bddbfab84_geom>,
         <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#nonns_Limes.html> .
+
+<https://www.iana.org/assignments/media-types/text/turtle#Resource> a owl:Class .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#000d5176-6b9e-4065-a44f-d7b8f75b1199> ns1:forClass <http://archaeoinformatics.link/ontology#MilitaryCamp> ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//000d5176-6b9e-4065-a44f-d7b8f75b1199> .
@@ -927,7 +961,7 @@
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//9f8f4e96-12d9-449b-b9ab-6e6080e34c9f_geom> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Burgus> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Burgus> ns1:forClass <http://archaeoinformatics.link/ontology#Limes> ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Burgus> .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Burgus_collection> ns1:forClass geo:FeatureCollection ;
@@ -939,25 +973,32 @@
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Collection> ns1:forClass <#> ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Collection> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#FeatureCollection> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Feature> ns1:forClass geo:SpatialObject ;
+    ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Feature> .
+
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#FeatureCollection> ns1:forClass geo:SpatialObjectCollection ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//FeatureCollection> .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#FeatureCollection_collection> ns1:forClass skos:Collection ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//FeatureCollection_collection> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Geometry> ns1:forClass geo:SpatialObject ;
+    ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Geometry> .
+
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass geo:SpatialObjectCollection ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//GeometryCollection> .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#GeometryCollection_collection> ns1:forClass skos:Collection ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//GeometryCollection_collection> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Kleinkastell> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Kleinkastell> ns1:forClass <http://archaeoinformatics.link/ontology#Limes> ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Kleinkastell> .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Kleinkastell_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Kleinkastell_collection> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#LegionaryCamp> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#LegionaryCamp> ns1:forClass <http://archaeoinformatics.link/ontology#Limes>,
+        geo:Feature ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//LegionaryCamp> .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#LegionaryCamp_collection> ns1:forClass geo:FeatureCollection ;
@@ -978,19 +1019,26 @@
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Limes_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Limes_collection> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#MilitaryCamp> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#MilitaryCamp> ns1:forClass <http://archaeoinformatics.link/ontology#Limes>,
+        geo:Feature ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//MilitaryCamp> .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#MilitaryCamp_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//MilitaryCamp_collection> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Point> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Point> ns1:forClass geo:Geometry ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Point> .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Point_collection> ns1:forClass geo:GeometryCollection ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Point_collection> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Watchtower> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#SpatialObject> ns1:forClass <#> ;
+    ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//SpatialObject> .
+
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#SpatialObjectCollection> ns1:forClass skos:Collection ;
+    ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//SpatialObjectCollection> .
+
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Watchtower> ns1:forClass <http://archaeoinformatics.link/ontology#Limes> ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//Watchtower> .
 
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#Watchtower_collection> ns1:forClass geo:FeatureCollection ;
@@ -1254,6 +1302,36 @@
 <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#ffd99607-0513-4fa5-8073-c80bddbfab84_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//ffd99607-0513-4fa5-8073-c80bddbfab84_geom> .
 
-<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#nonns_Limes.html> ns1:forClass <#> ;
+<https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//settings/publicTypeIndex.ttl#nonns_Limes.html> ns1:forClass geo:Feature ;
     ns1:instance <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//nonns_Limes.html> .
+
+geo:Geometry a owl:Class ;
+    rdfs:subClassOf geo:SpatialObject .
+
+geo:GeometryCollection a owl:Class ;
+    rdfs:subClassOf geo:SpatialObjectCollection .
+
+geo:SpatialObject a owl:Class .
+
+geo:SpatialObjectCollection a owl:Class ;
+    rdfs:subClassOf skos:Collection .
+
+geo:Feature a owl:Class ;
+    rdfs:subClassOf geo:SpatialObject .
+
+skos:Collection a owl:Class .
+
+<http://archaeoinformatics.link/ontology#LegionaryCamp> a owl:Class ;
+    rdfs:subClassOf geo:Feature .
+
+geo:FeatureCollection a owl:Class ;
+    rdfs:subClassOf geo:SpatialObjectCollection .
+
+owl:Class a owl:Class .
+
+<http://archaeoinformatics.link/ontology#MilitaryCamp> a owl:Class ;
+    rdfs:subClassOf geo:Feature .
+
+<http://www.opengis.net/ont/sf#Point> a owl:Class ;
+    rdfs:subClassOf geo:Geometry .
 

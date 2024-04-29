@@ -51,7 +51,7 @@
     ns1:propertyClasses 0,
         3 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-04-24T12:07:41"^^xsd:dateTime ;
+    dcterms:modified "2024-04-29T13:52:43"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -62,16 +62,20 @@
     vann:preferredNamespaceUri "http://lod.squirrel.link/data/limes/"^^xsd:anyURI ;
     void:classPartition <http://lod.squirrel.link/data/limes/limes_dataset_Burgus>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Collection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Feature>,
         <http://lod.squirrel.link/data/limes/limes_dataset_FeatureCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Geometry>,
         <http://lod.squirrel.link/data/limes/limes_dataset_GeometryCollection>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Kleinkastell>,
         <http://lod.squirrel.link/data/limes/limes_dataset_LegionaryCamp>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Limes>,
         <http://lod.squirrel.link/data/limes/limes_dataset_MilitaryCamp>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Point>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection>,
         <http://lod.squirrel.link/data/limes/limes_dataset_Watchtower> ;
-    void:classes 6,
-        10 ;
+    void:classes 10,
+        14 ;
     void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//index.ttl> ;
     void:distinctObjects 226,
         556 ;

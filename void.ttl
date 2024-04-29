@@ -219,10 +219,18 @@ vext: a voaf:Vocabulary ;
     void:class skos:Collection ;
     void:entities 2 .
 
+<http://lod.squirrel.link/data/limes/limes_dataset_Feature> a void:Dataset ;
+    rdfs:label "Class Partition: Feature"@en ;
+    void:class geo:Feature .
+
 <http://lod.squirrel.link/data/limes/limes_dataset_FeatureCollection> a void:Dataset ;
     rdfs:label "Class Partition: FeatureCollection"@en ;
     void:class geo:FeatureCollection ;
     void:entities 3 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_Geometry> a void:Dataset ;
+    rdfs:label "Class Partition: Geometry"@en ;
+    void:class geo:Geometry .
 
 <http://lod.squirrel.link/data/limes/limes_dataset_GeometryCollection> a void:Dataset ;
     rdfs:label "Class Partition: GeometryCollection"@en ;
@@ -243,6 +251,14 @@ vext: a voaf:Vocabulary ;
     rdfs:label "Class Partition: Point"@en ;
     void:class <http://www.opengis.net/ont/sf#Point> ;
     void:entities 104 .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObject"@en ;
+    void:class geo:SpatialObject .
+
+<http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
+    void:class geo:SpatialObjectCollection .
 
 <http://lod.squirrel.link/data/limes/limes_dataset_asWKT> a void:Dataset ;
     rdfs:label "Property Partition: asWKT"@en ;
@@ -489,7 +505,7 @@ skos: a voaf:Vocabulary ;
     vext:languages 0 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-04-24T12:07:41"^^xsd:dateTime ;
+    dcterms:modified "2024-04-29T13:52:43"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -499,12 +515,16 @@ skos: a voaf:Vocabulary ;
     vann:preferredNamespacePrefix "limes"^^xsd:string ;
     vann:preferredNamespaceUri "http://lod.squirrel.link/data/limes/"^^xsd:anyURI ;
     void:classPartition <http://lod.squirrel.link/data/limes/limes_dataset_Collection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Feature>,
         <http://lod.squirrel.link/data/limes/limes_dataset_FeatureCollection>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_Geometry>,
         <http://lod.squirrel.link/data/limes/limes_dataset_GeometryCollection>,
         <http://lod.squirrel.link/data/limes/limes_dataset_LegionaryCamp>,
         <http://lod.squirrel.link/data/limes/limes_dataset_MilitaryCamp>,
-        <http://lod.squirrel.link/data/limes/limes_dataset_Point> ;
-    void:classes 6 ;
+        <http://lod.squirrel.link/data/limes/limes_dataset_Point>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObject>,
+        <http://lod.squirrel.link/data/limes/limes_dataset_SpatialObjectCollection> ;
+    void:classes 10 ;
     void:dataDump <https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata//index.ttl> ;
     void:distinctObjects 556 ;
     void:distinctSubjects 231 ;
