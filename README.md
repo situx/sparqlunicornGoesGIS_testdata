@@ -1,7 +1,7 @@
 # SPARQLing Unicorn QGIS Plugin Testdata
       
 This repository contains sample data for the SPARQLing Unicorn QGIS plugin.
-                                           
+                                            
 This data may be loaded in the plugin dialog and queried for its contents.   
                                                                      
 ## SPARQLing Unicorn QGIS Plugin Ontology Documentation: Github Action  
@@ -13,7 +13,7 @@ The script is used in a Github Action, as an external workflow to generate HTML 
 ```
 uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
-        version: v016
+        version: v017
         rdffilepath: LimesNoricum_result.ttl LimesDaicus_result.ttl
         docpath: docs
         prefixns: http://lod.squirrel.link/data/limes/
